@@ -1,0 +1,559 @@
+/**
+ * Frontend style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ *
+ * Contents:
+ *  1. Globals
+ *  2. My Account Bookings
+ *  3. Booking Form Widget
+ *  4. Fields and Utils
+ *  5. Cart & Checkout
+ *  6. Integrations
+ */
+
+/* ==========================================
+ *  1. Globals
+ * ==========================================
+ */
+.yith-wcbk-clearfix:before,
+.yith-wcbk-clearfix:after {
+	content : "";
+	display : table;
+}
+
+.yith-wcbk-clearfix:after {
+	clear : both;
+}
+
+.yith-wcbk-clearfix {
+	zoom : 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* ==========================================
+ *  2. My Account Bookings
+ * ==========================================
+ */
+.woocommerce table.my_account_bookings {
+	font-size : .85em;
+}
+
+.woocommerce table.booking_details .yith-wcbk-service-list {
+	list-style : none;
+}
+
+/* ==========================================
+ *  3. Booking Form Widget
+ * ==========================================
+ */
+.yith_wcbk_booking_product_form_widget {
+	border        : 1px solid var(--yith-wcbk-border-color);
+	background    : #fff;
+	padding       : 20px;
+	margin-bottom : 20px;
+}
+
+.yith_wcbk_widget_booking_form_close {
+	display       : none;
+	cursor        : pointer;
+	margin-bottom : 15px;
+}
+
+.yith_wcbk_widget_booking_form_head {
+	padding-bottom : 10px;
+	border-bottom  : 1px solid var(--yith-wcbk-border-color);
+}
+
+.yith_wcbk_booking_product_form_widget .woocommerce-product-rating {
+	font-size : 12px;
+	margin    : 0 !important;
+}
+
+.yith_wcbk_booking_product_form_widget div.product p.price,
+.yith_wcbk_booking_product_form_widget div.product span.price {
+	margin      : 0 0 5px 0;
+	color       : #484848;
+	font-size   : 25px;
+	font-weight : 800;
+}
+
+.yith_wcbk_booking_product_form_widget .yith-booking-meta {
+	border : none;
+}
+
+.yith_wcbk_booking_product_form_widget form.cart {
+	margin  : 0 !important;
+	padding : 0 !important;
+}
+
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button,
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:disabled,
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:disabled:hover,
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:hover {
+	border         : none;
+	border-radius  : 7px;
+	margin         : 0;
+	display        : block;
+	width          : 100%;
+	padding        : 15px 8px;
+	font-size      : 18px;
+	text-transform : none;
+	background     : var(--yith-wcbk-primary);
+	color          : var(--yith-wcbk-primary-contrast);
+}
+
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:hover {
+	background : var(--yith-wcbk-primary-light);
+	color      : var(--yith-wcbk-primary-contrast);
+	opacity    : 1;
+}
+
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:disabled,
+.yith_wcbk_booking_product_form_widget button.button.alt.yith-wcbk-add-to-cart-button:disabled:hover {
+	opacity : .4;
+}
+
+.yith_wcbk_booking_product_form_widget .yith_wcbk_widget_booking_form_mouse_trap {
+	display : none;
+}
+
+.yith_wcbk_widget_booking_form_overlay {
+	display    : none;
+	position   : fixed;
+	top        : 0;
+	left       : 0;
+	width      : 100%;
+	height     : 100%;
+	background : rgba(255, 255, 255, 0.8);
+	z-index    : 999998;
+}
+
+@media (max-width : 56.875em) {
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed {
+		position     : fixed;
+		left         : 0;
+		bottom       : 0;
+		width        : 100%;
+		height       : 86px;
+		margin       : 0 !important;
+		border-width : 1px 0 0 0;
+		z-index      : 999999;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .yith_wcbk_widget_booking_form_mouse_trap {
+		display  : block;
+		position : absolute;
+		top      : 0;
+		left     : 0;
+		width    : 100%;
+		height   : 100%;
+		cursor   : pointer;
+		z-index  : 10;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .yith-wcbk-booking-form {
+		display : none;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .product {
+		display : table;
+		width   : 100%;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .yith_wcbk_widget_booking_form_head {
+		display        : table-cell;
+		border         : none;
+		padding-bottom : 0;
+		vertical-align : middle;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .yith_wcbk_widget_booking_form_summary {
+		display        : table-cell;
+		vertical-align : middle;
+		text-align     : right;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) div.product p.price {
+		font-size     : 18px;
+		margin-bottom : 3px;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .woocommerce-product-rating {
+		margin    : 0 !important;
+		font-size : 10px;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) .woocommerce-review-link {
+		display : none;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed:not(.yith_wcbk_booking_product_form_widget__opened) button.button.alt.yith-wcbk-add-to-cart-button {
+		display : inline-block;
+		padding : 12px 30px;
+		width   : auto;
+		float   : right;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed.yith_wcbk_booking_product_form_widget__opened {
+		bottom        : 50%;
+		left          : 50%;
+		height        : auto;
+		max-width     : 420px;
+		max-height    : 100%;
+		border-width  : 0;
+		transform     : translateX(-50%) translateY(50%);
+		box-shadow    : 0 2px 10px -2px rgba(0, 0, 0, .12), 0 4px 30px 0 rgba(0, 0, 0, .21);
+		border-radius : 8px;
+		overflow-y    : auto;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed.yith_wcbk_booking_product_form_widget__opened .yith_wcbk_widget_booking_form_close {
+		display : block;
+	}
+}
+
+@media (max-width : 44.375em) {
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed {
+		box-shadow    : none;
+		transition    : height 0.3s ease-in-out;
+		transform     : none;
+		border-radius : 0;
+	}
+
+	.yith_wcbk_booking_product_form_widget.yith_wcbk_booking_product_form_widget--mobile-fixed.yith_wcbk_booking_product_form_widget__opened {
+		height        : 100%;
+		border        : 0;
+		bottom        : 0;
+		left          : 0;
+		transform     : none;
+		max-width     : 100%;
+		border-radius : 0;
+	}
+
+	.yith_wcbk_widget_booking_form_overlay {
+		opacity : 0;
+	}
+}
+
+/* ==========================================
+ *  4. Fields and Utils
+ * ==========================================
+ */
+
+.yith-wcbk-confirm-cancel-button {
+	background : #bc000f !important;
+	color      : #fff !important;
+}
+
+.yith-wcbk-confirm-button-done {
+	background    : #d8d8d8;
+	width         : 23px;
+	height        : 23px;
+	top           : -10px;
+	right         : -10px;
+	position      : absolute;
+	padding       : 3px;
+	color         : #515151;
+	border-radius : 50%;
+	font-size     : 13px;
+	border        : 2px solid #fff;
+	box-sizing    : border-box;
+}
+
+/* Google Maps */
+.yith-wcbk-google-maps-places-autocomplete {
+	background : #fff !important;
+}
+
+/* Checkboxes */
+.yith-wcbk-checkbox {
+	display     : inline-flex;
+	align-items : center;
+	font-weight : 400;
+	cursor      : pointer;
+}
+
+.yith-wcbk-checkbox input {
+	display : none;
+}
+
+.yith-wcbk-checkbox span.yith-wcbk-checkbox__checkbox {
+	width        : 18px;
+	height       : 18px;
+	display      : block;
+	background   : #ffffff;
+	border       : 1px solid #d1d1d1;
+	position     : relative;
+	margin-right : 5px;
+}
+
+.yith-wcbk-checkbox span.yith-wcbk-checkbox__checkbox:after {
+	content           : '';
+	width             : 11px;
+	height            : 7px;
+	position          : absolute;
+	top               : 3px;
+	left              : 3px;
+	border            : 2px solid var(--yith-wcbk-primary);
+	border-top        : none;
+	border-right      : none;
+	background        : transparent;
+	opacity           : 0;
+	-webkit-transform : rotate(-45deg);
+	transform         : rotate(-45deg);
+}
+
+.yith-wcbk-checkbox input:checked + span.yith-wcbk-checkbox__checkbox:after {
+	opacity : 1;
+}
+
+.yith-wcbk-checkbox:hover span.yith-wcbk-checkbox__checkbox:after {
+	opacity : 0.4;
+}
+
+/* Help Tip */
+.yith-wcbk-help-tip {
+	color          : #333;
+	vertical-align : middle;
+}
+
+.yith-wcbk-help-tip:hover {
+	color : var(--yith-wcbk-primary);
+}
+
+/* Shortcode Services */
+.yith-wcbk-shortcode-services {
+	margin : 15px 0;
+}
+
+/* BlockUI */
+.product-type-booking .blockUI.blockOverlay::before,
+.yith_wcbk_booking_product_form_widget .blockUI.blockOverlay::before,
+.yith-wcbk-shortcode-booking-form .blockUI.blockOverlay::before,
+.yith-wcbk-popup .blockUI.blockOverlay::before {
+	display : none;
+}
+
+.yith-wcbk-block-ui-element {
+	top       : 50% !important;
+	left      : 50% !important;
+	transform : translateX(-50%) translateY(-50%) !important;
+}
+
+/* ==========================================
+ *  5. Cart & Checkout
+ * ==========================================
+ */
+.yith-wcbk-booking-of {
+	font-weight : 600;
+}
+
+.woocommerce .cart-item--booking td.product-name .variation .variation-Totals {
+	display : block;
+	float   : none;
+}
+
+/* ==========================================
+ *  Services selector
+ * ==========================================
+ */
+
+.yith-wcbk-services-selector {
+	position    : relative;
+	user-select : none;
+}
+
+.yith-wcbk-services-selector__toggle-handler {
+	position        : relative;
+	min-height      : 42px;
+	background      : #fff;
+	border          : 1px solid var(--yith-wcbk-border-color);
+	padding         : 7px 37px 7px 7px;
+	border-radius   : 0;
+	cursor          : pointer;
+	display         : flex;
+	flex-direction  : column;
+	align-items     : flex-start;
+	justify-content : center;
+}
+
+.yith-wcbk-services-selector__toggle-handler:after {
+	content     : '\e900';
+	font-family : yith-icon;
+	font-size   : 15px;
+	font-weight : 800;
+	color       : inherit;
+	opacity     : .7;
+	position    : absolute;
+	right       : 10px;
+	transition  : all 0.3s ease-in-out;
+}
+
+.yith-wcbk-services-selector--opened .yith-wcbk-services-selector__toggle-handler {
+	border-radius : 2px 2px 0 0;
+	border-color  : var(--yith-wcbk-border-color-focus);
+	box-shadow    : var(--yith-wcbk-shadow-focus);
+}
+
+.yith-wcbk-services-selector--opened .yith-wcbk-services-selector__toggle-handler:after {
+	transform : rotateZ(180deg);
+	color     : var(--yith-wcbk-border-color-focus);
+}
+
+.yith-wcbk-services-selector__content {
+	display       : none;
+	position      : absolute;
+	width         : 100%;
+	background    : #fff;
+	border        : 1px solid var(--yith-wcbk-border-color);
+	border-radius : 0;
+	z-index       : 9999;
+	min-width     : 300px;
+	right         : 0;
+	box-shadow    : 0 2px 13px 0 rgba(0, 0, 0, .24), 0 3px 3px -2px rgba(0, 0, 0, .12);
+}
+
+.yith-wcbk-services-selector--opened .yith-wcbk-services-selector__content {
+	display : block;
+	z-index : 9999;
+}
+
+.yith-wcbk-services-selector--opened--below .yith-wcbk-services-selector__content {
+	margin-top : 6px;
+}
+
+.yith-wcbk-services-selector--opened--above .yith-wcbk-services-selector__content {
+	bottom        : 100%;
+	margin-bottom : 6px;
+}
+
+.yith-wcbk-services-selector__services {
+	display        : flex;
+	flex-direction : column;
+	padding        : 20px;
+	max-height     : 200px;
+	overflow-y     : auto;
+	gap            : 4px;
+}
+
+.yith-wcbk-services-selector__label {
+	padding-left : 8px;
+	position     : absolute;
+}
+
+.yith-wcbk-services-selector__label__fake {
+	width : 100%;
+}
+
+.yith-wcbk-services-selector__label--placeholder {
+	opacity : .8;
+}
+
+
+.yith-wcbk-services-selector__label--selected {
+	white-space   : nowrap;
+	overflow      : hidden;
+	text-overflow : ellipsis;
+}
+
+.yith-wcbk-services-selector__label--selected .item {
+	font-size : .8em;
+}
+
+.yith-wcbk-services-selector__label--selected .item:not(:last-child):after {
+	content : ',';
+}
+
+.yith-wcbk-services-selector__content__footer {
+	padding    : 15px 20px;
+	text-align : right;
+	background : #f1f1f1;
+}
+
+.yith-wcbk-services-selector__close {
+	display       : inline-block;
+	padding       : 5px 17px;
+	background    : var(--yith-wcbk-primary);
+	border-radius : 5px;
+	color         : var(--yith-wcbk-primary-contrast);
+	font-weight   : 600;
+	cursor        : pointer;
+}
+
+.yith-wcbk-services-selector__close:hover {
+	background : var(--yith-wcbk-primary-light);
+	color      : var(--yith-wcbk-primary-contrast);
+}
+
+
+/* ==========================================
+ *  5. Integrations
+ * ==========================================
+ */
+
+/**
+ *  YITH WooCommerce Deposits and Down Payments
+ *  hide deposit form when the widget is closed
+*/
+@media (max-width : 56.875em) {
+	.yith_wcbk_booking_product_form_widget:not(.yith_wcbk_booking_product_form_widget__opened) #yith-wcdp-add-deposit-to-cart {
+		display : none;
+	}
+}
+
+/**
+ * YITH Proteo theme
+ */
+
+.theme-yith-proteo .shop_table.booking_details tr > th,
+.theme-yith-proteo .shop_table.booking_person_types_details tr > th,
+.theme-yith-proteo .shop_table.booking_details tr > td,
+.theme-yith-proteo .shop_table.booking_person_types_details tr > td {
+	border : none;
+}
+
+.theme-yith-proteo .shop_table.booking_details tbody > tr:first-child > th,
+.theme-yith-proteo .shop_table.booking_person_types_details tbody > tr:first-child > th,
+.theme-yith-proteo .shop_table.booking_details tbody > tr:first-child > td,
+.theme-yith-proteo .shop_table.booking_person_types_details tbody > tr:first-child > td {
+	border-top : 1px solid #ccc;
+}
+
+.theme-yith-proteo .shop_table.booking_details tr > th,
+.theme-yith-proteo .shop_table.booking_person_types_details tr > th {
+	text-align     : left;
+	vertical-align : middle;
+	max-width      : 200px;
+	box-sizing     : border-box;
+}
+
+.theme-yith-proteo #ui-datepicker-div.yith-wcbk-datepicker .ui-datepicker-calendar tbody td a {
+	background  : transparent;
+	color       : #555;
+	border      : none;
+	font-size   : inherit;
+	font-weight : 600;
+}
+
+.theme-yith-proteo #ui-datepicker-div.yith-wcbk-datepicker .ui-datepicker-calendar tbody td.ui-state-disabled {
+	opacity : .35;
+}
+
+.theme-yith-proteo #ui-datepicker-div.yith-wcbk-datepicker .ui-datepicker-calendar tbody td:not(.ui-state-disabled):hover a.ui-state-default,
+.theme-yith-proteo .yith-wcbk-date-picker--inline .ui-datepicker td:not(.ui-state-disabled):hover a.ui-state-default {
+	color      : var(--yith-wcbk-primary-contrast);
+	background : var(--yith-wcbk-primary-light);
+}
+
+.theme-yith-proteo #ui-datepicker-div.yith-wcbk-datepicker .ui-datepicker-calendar tbody td.ui-datepicker-current-day a.ui-state-default,
+.theme-yith-proteo .yith-wcbk-date-picker--inline .ui-datepicker td.ui-datepicker-current-day a.ui-state-default {
+	color      : var(--yith-wcbk-primary-contrast);
+	background : var(--yith-wcbk-primary);
+}
+
+@media (max-width : 56.875em) {
+	.theme-yith-proteo section.widget.yith_wcbk_booking_product_form_widget {
+		position : fixed;
+	}
+}

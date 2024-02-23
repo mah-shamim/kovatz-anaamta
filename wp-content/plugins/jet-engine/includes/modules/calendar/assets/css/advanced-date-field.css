@@ -1,0 +1,180 @@
+.jet-engine-advanced-date-field__switch {
+	position: relative;
+	display: inline-block;
+	width: 54px;
+	height: 20px;
+}
+
+input.jet-engine-advanced-date-field__switch-input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.jet-engine-advanced-date-field__switch-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #eceeef;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 10px;
+}
+
+.jet-engine-advanced-date-field__switch-slider:before {
+	position: absolute;
+	content: "";
+	background-color: white;
+	width: 18px;
+	height: 18px;
+	margin: 1px;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+	box-sizing: border-box;
+	z-index: 3;
+}
+
+.jet-engine-advanced-date-field__switch-input:checked + .jet-engine-advanced-date-field__switch-slider {
+	background-color: #49c66a;
+}
+
+.jet-engine-advanced-date-field__switch-input:checked + .jet-engine-advanced-date-field__switch-slider:before {
+	transform: translateX(34px);
+}
+
+.jet-engine-advanced-date-field__date {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	padding: 0 0 10px;
+	min-height: 38px;
+	box-sizing: border-box;
+}
+
+.jet-engine-advanced-date-field__date-warp {
+	flex: 1 1 auto;
+}
+
+.jet-engine-advanced-date-field__date > span {
+	flex: 0 0 auto;
+}
+
+.jet-engine-advanced-date-field__is-recurring {
+	display: flex;
+	gap: 20px;
+	padding: 0 0 10px;
+	min-height: 38px;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.jet-engine-advanced-date-field__switch-wrap {
+	padding: 4px 0 0 0;
+}
+
+.jet-engine-advanced-date-field__label {
+	min-width: 80px;
+	padding: 4px 0 0 0;
+}
+
+.jet-engine-advanced-date-field__recurring-row {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 0 0 15px;
+}
+
+.jet-engine-advanced-date-field__recurring-content {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	flex: 1 0 auto;
+}
+
+.jet-engine-advanced-date-field--tiny .jet-engine-advanced-date-field__recurring-row {
+	flex-direction: column;
+	gap: 5px;
+	align-items: stretch;
+}
+
+.jet-engine-advanced-date-field--tiny .jet-engine-advanced-date-field__recurring-content {
+	gap: 5px;
+	flex: 0 0 100%;
+}
+
+.jet-engine-advanced-date-field--tiny .jet-engine-advanced-date-field__recurring-content select.cx-ui-select,
+.jet-engine-advanced-date-field--tiny .jet-engine-advanced-date-field__recurring-content input.cx-ui-text {
+	min-width: 75px;
+	width: 75px;
+}
+
+.jet-engine-advanced-date-field__weekdays {
+	display: flex;
+	flex: 0 0 100%;
+	overflow: hidden;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+}
+
+.jet-engine-advanced-date-field--tiny .label-weekdays {
+	display: none;
+}
+
+.jet-engine-advanced-date-field__weekdays label {
+	flex: 0 0 14.285%;
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	border-left: 1px solid #dcdcdc;
+	padding: 5px;
+}
+
+.jet-engine-advanced-date-field__weekdays label:first-child {
+	border-left: none;
+}
+
+.jet-engine-advanced-date-field__weekdays label input {
+	position: absolute;
+	opacity: 0;
+}
+
+.jet-engine-advanced-date-field__weekday-label {
+	position:relative;
+	z-index: 2;
+}
+
+.jet-engine-advanced-date-field__weekdays label input:checked ~ .jet-engine-advanced-date-field__weekday-marker {
+	position:absolute;
+	z-index: 1;
+	left:0;
+	right:0;
+	top: 0;
+	bottom:0;
+	background: #eceeef;
+}
+
+.jet-engine-advanced-date-field__monthly {
+	flex: 1 1 auto;
+}
+
+.jet-engine-advanced-date-field__monthly-row {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.jet-engine-advanced-date-field__monthly-row + .jet-engine-advanced-date-field__monthly-row {
+	padding: 15px 0 0 0;
+}
+
+.jet-engine-advanced-date-field__monthly-row label {
+	flex: 0 0 80px;
+}
+

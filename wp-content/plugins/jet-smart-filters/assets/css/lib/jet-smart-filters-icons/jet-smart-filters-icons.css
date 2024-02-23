@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'JetSmartFilters-widgets';
+	src:  url('fonts/JetSmartFilters-widgets.eot?tv75rt');
+	src:  url('fonts/JetSmartFilters-widgets.eot?tv75rt#iefix') format('embedded-opentype'),
+	url('fonts/JetSmartFilters-widgets.ttf?tv75rt') format('truetype'),
+	url('fonts/JetSmartFilters-widgets.woff?tv75rt') format('woff'),
+	url('fonts/JetSmartFilters-widgets.svg?tv75rt#JetSmartFilters-widgets') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class*="jet-smart-filters-icon-"],
+.jet-engine-icon-user-geolocation {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'JetSmartFilters-widgets' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jet-smart-filters-icon-checkboxes-filter:before {
+	content: "\e900";
+}
+.jet-smart-filters-icon-active-filters:before {
+	content: "\e901";
+}
+.jet-smart-filters-icon-alphabet-filter:before {
+	content: "\e903";
+}
+.jet-smart-filters-icon-apply-filter:before {
+	content: "\e904";
+}
+.jet-smart-filters-icon-check-range-filter:before {
+	content: "\e905";
+}
+.jet-smart-filters-icon-date-period-filter:before {
+	content: "\e906";
+}
+.jet-smart-filters-icon-date-range-filter:before {
+	content: "\e907";
+}
+.jet-smart-filters-icon-pagination:before {
+	content: "\e908";
+}
+.jet-smart-filters-icon-radio-filter:before {
+	content: "\e909";
+}
+.jet-smart-filters-icon-range-filter:before {
+	content: "\e90a";
+}
+.jet-smart-filters-icon-rating-filter:before {
+	content: "\e90b";
+}
+.jet-smart-filters-icon-remove-filter:before {
+	content: "\e90c";
+}
+.jet-smart-filters-icon-search-filter:before {
+	content: "\e90d";
+}
+.jet-smart-filters-icon-select-filter:before {
+	content: "\e90e";
+}
+.jet-smart-filters-icon-sorting-filter:before {
+	content: "\e90f";
+}
+.jet-smart-filters-icon-color-image-filter:before {
+	content: "\e911";
+}
+
+.category-jetengine .bricks-add-element .element-icon {
+	font-size: 26px;
+}

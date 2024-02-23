@@ -1,0 +1,686 @@
+/*
+Theme Name: Wen Travel Blog
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * 2.0 - Typography
+ */
+
+code,
+.mce-content-body code,
+kbd,
+.mce-content-body kbd {
+	color: #333;
+}
+
+
+/**
+ * 3.0 - Elements
+ */
+
+
+caption,
+.wp-block-calendar tbody td, 
+.wp-block-calendar th,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    border-style: solid;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+
+/**
+ * 5.0 - Forms
+ */
+
+
+select {
+	border: 1px solid #e6e6e6;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+/**
+ * 8.0 - Posts and pages
+ */
+
+.page-links a {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+/**
+ * 	11.0 -  Galleries
+ */
+
+.gallery-caption {
+	color: #fff;
+	background: linear-gradient(0deg,rgba(0,0,0,.7) 0,rgba(0,0,0,.3) 60%,transparent);
+}
+
+/**
+ * 12.0 - Audio Player
+ */
+
+
+.mejs-container {
+    background: #fff;
+}
+
+.mejs-embed,
+.mejs-embed body {
+    background: #fff;
+}
+
+.mejs-controls:not([style*="display: none"]) {
+    background: rgba(255, 0, 0, .7);
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .35));
+    background: linear-gradient(transparent, rgba(0, 0, 0, .35));
+}
+
+.mejs-time {
+    color: #333;
+}
+
+.mejs-time-total {
+    background: hsla(0, 0%, 100%, .3);
+}
+
+.mejs-time-buffering {
+    -webkit-animation: b 2s linear infinite;
+    animation: b 2s linear infinite;
+    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+    background: linear-gradient(-45deg, hsla(0, 0%, 100%, .4) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .4) 0, hsla(0, 0%, 100%, .4) 75%, transparent 0, transparent);
+}
+
+.mejs-time-loaded {
+    background: hsla(0, 0%, 100%, .3);
+}
+
+.mejs-time-current,
+.mejs-time-handle-content {
+    background : #01e0af;
+}
+
+.mejs-time-hovered {
+    background: hsla(0, 0%, 100%, .5);
+}
+
+.mejs-time-hovered.negative {
+    background: rgba(0, 0, 0, .2);
+}
+
+.mejs-time-float {
+    background: #eee;
+    border: 1px solid #333;
+    color: #111;
+}
+
+.mejs-time-float-corner {
+    border: 5px solid #eee;
+    border-color: #eee transparent transparent;
+    border-radius: 0;
+}
+
+.mejs-broadcast {
+    color: #fff;
+}
+
+.mejs-volume-button>.mejs-volume-slider {
+    background: rgba(50, 50, 50, .7);
+    border-radius: 0;
+}
+
+.mejs-volume-button:hover {
+    border-radius: 0 0 4px 4px;
+}
+
+.mejs-volume-total {
+    background: hsla(0, 0%, 100%, .5);
+}
+
+.mejs-volume-current,
+.mejs-volume-handle {
+    background: hsla(0, 0%, 100%, .9);
+}
+
+.mejs-volume-handle {
+    border-radius: 1px;
+}
+
+.mejs-horizontal-volume-total {
+    background: rgba(50, 50, 50, .8);
+}
+
+.mejs-horizontal-volume-current,
+.mejs-horizontal-volume-total {
+    border-radius: 2px;
+}
+
+.mejs-horizontal-volume-current {
+    background: hsla(0, 0%, 100%, .8);
+}
+
+.mejs-captions-button>.mejs-captions-selector,
+.mejs-chapters-button>.mejs-chapters-selector {
+    background: rgba(50, 50, 50, .7);
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.mejs-captions-selector-list-item,
+.mejs-chapters-selector-list-item {
+    color: #fff;
+}
+
+.mejs-captions-selector-list-item:hover,
+.mejs-chapters-selector-list-item:hover {
+    background-color: #c8c8c8 !important;
+    background-color: rgba(19, 6, 6, 0.4) !important;
+}
+
+.mejs-captions-selected,
+.mejs-chapters-selected {
+    color: #21f8f8;
+}
+
+.mejs-captions-layer {
+    color: #fff;
+}
+
+.mejs-captions-layer a {
+    color: #fff;
+}
+
+.mejs-captions-text,
+.mejs-captions-text * {
+    background: hsla(0, 0%, 8%, .5);
+}
+
+.mejs-cannotplay,
+.mejs-cannotplay a {
+    color: #fff;
+}
+
+.mejs-container,
+.mejs-container .mejs-controls,
+.mejs-embed,
+.mejs-embed body {
+    background: #222;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #fff;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #0073aa;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-controls .mejs-time-rail .mejs-time-total {
+    background: rgba(255, 255, 255, .33);
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    border-radius: 0;
+}
+
+.media-embed-details .setting .remove-setting,
+.media-embed-details .setting p {
+    color: #a00;
+}
+
+.media-embed-details .setting a:hover {
+    color: #ffbb4a;
+}
+
+.wp-playlist {
+    border: 1px solid #ccc;
+}
+
+.wp-playlist-light {
+    background: #fff;
+    color: #000;
+}
+
+.wp-playlist-dark {
+    color: #fff;
+    background: #232323;
+}
+
+.wp-playlist-item .wp-playlist-caption {
+    color: #000;
+}
+
+.wp-playlist-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.wp-playlist-dark .wp-playlist-caption {
+    color: #ddd;
+}
+
+.wp-playlist-playing {
+    background: #f7f7f7;
+}
+
+.wp-playlist-light .wp-playlist-playing {
+    background: #fff;
+    color: #000;
+}
+
+.wp-playlist-dark .wp-playlist-playing {
+    background: #000;
+    color: #fff;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-top-color: #ddd;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    background-color: #fff;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+    background-color: #01e0af;
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background: #fff
+}
+
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: #01e0af;
+}
+
+.mejs-container button {
+    color: #03065d;
+}
+
+.wp-playlist-dark .mejs-container button {
+	color: #fff;
+}
+.wp-video-shortcode.mejs-container .mejs-controls {
+    background: #222;
+}
+
+body .wp-playlist .wp-playlist-current-item img {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+body .wp-playlist-dark .wp-playlist-item {
+    border-color: #313131;
+}
+
+body  .wp-playlist.wp-playlist-dark .wp-playlist-caption {
+    color: #ddd;
+}
+
+body .wp-playlist-tracks .wp-playlist-item:hover a, 
+body .wp-playlist-tracks .wp-playlist-item:focus a,
+body .wp-playlist-tracks .wp-playlist-item:hover .wp-playlist-item-title, 
+body .wp-playlist-tracks .wp-playlist-item:focus .wp-playlist-item-title {
+	color: #b0c5c0;
+}
+
+
+/**
+ * 15.0 - Colors
+ */
+
+/* Body Background Color */ 
+
+/* Secondary Background Color */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+body .wp-playlist {
+	background-color: #fff;
+}
+
+/* Secondary Background Color */
+.wp-block-calendar thead,
+pre,
+select,
+body .wp-playlist-item:hover, 
+body .wp-playlist-item:focus,
+.mejs-container,
+.wp-audio-shortcode.mejs-container .mejs-controls,
+	.wp-playlist {
+	background-color: #f6f6f6;
+}
+
+hr {
+    background-color: #333;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-color: #222;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+textarea,
+blockquote,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.wp-playlist-light .wp-playlist {
+	color: #333;
+}
+
+/* Headline Text Color */
+h1, h2, h3, h4, h5, h6,
+.drop-cap::first-letter,
+.page-links > .page-links-title {
+	color: #111111;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	border-color: #ffffff;
+}
+
+.more-link,
+.button,
+.wp-block-button__link {
+	background-color: #b99470;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.more-link:hover,
+.more-link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+	background-color: #333;
+	color: #fff;
+	-webkit-box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+    transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+}
+
+/* Link Color */
+a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+::marker,
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+body .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-item:focus .wp-playlist-caption,
+.mejs-container button,
+.mejs-container .mejs-controls .mejs-time {
+	color: #fa6742;
+}
+
+/* Link Hover Color */
+a:focus,
+a:hover,
+.mejs-container button:hover,
+.mejs-container button:focus {
+	color: #b99470;
+    text-decoration: none;
+}
+
+.wen-travel-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current,
+.wen-travel-mejs-container.mejs-container .mejs-controls .mejs-volume-button .mejs-volume-current,
+.wen-travel-mejs-container.mejs-container .mejs-controls .mejs-volume-button .mejs-volume-handle,
+.wen-travel-mejs-container.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background-color: #f9a926;
+}
+
+/* Secondary Link Color */
+body .wp-playlist,
+cite,
+.wp-block-pullquote .wp-block-pullquote__citation,
+body .wp-playlist .wp-playlist-caption{
+	color: #999;
+}
+
+/* Border Color */
+select,
+fieldset,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+	border-color: #ebebeb;
+}
+
+/* Button Text Color */
+mark,
+ins,
+.page-links a,
+.page-links a:hover,
+.page-links a:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	color: #fff;
+}
+/* Button Background Color */
+.page-links a,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+	background-color: #b99470;
+}
+
+/* Button Hover Background Color */
+.page-links a:hover,
+.page-links a:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background-color: #333;
+}
+
+/* Playlist Dark */
+body .wp-playlist.wp-playlist-dark,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+	background-color: #000;
+}
+
+.wp-playlist-dark .mejs-container,
+.wp-playlist-dark .wp-playlist-current-item,
+.wp-playlist-dark .mejs-container .mejs-controls,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+	background-color: #222;
+}
+
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing,
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+	color: #fff;
+}
+
+.wp-playlist-dark .mejs-container .mejs-controls .mejs-time {
+	color: #fff;
+}
+
+body .wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-meta,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing,
+.wp-playlist-item-meta.wp-playlist-item-title,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption {
+	color: #fff;
+} 
+
+body .wp-playlist {
+    background-color: #fff;
+}
+
+ body .wp-playlist-item:nth-child(2n) {
+	background-color: #131218;
+}
+
+ body .wp-playlist-item:nth-child(2n+1) {
+ 	background-color: #000;
+ }
+
+  body .wp-playlist-item:hover,
+  body .wp-playlist-item:focus {
+  	background-color: #333;
+  	color: #fff;
+  }
+
+body .wp-playlist-item:hover, 
+body .wp-playlist-item:focus, 
+body .wp-playlist-item:nth-child(2n+1):hover, 
+body .wp-playlist-item:nth-child(2n+1):focus {
+	background-color: #222;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float,
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	background-color: #333;
+}
+
+body .mejs-time, 
+.wen-travel-mejs-container.mejs-container .mejs-controls .mejs-time,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button,
+body .wp-playlist-current-item .wp-playlist-item-meta,
+body .wp-playlist .wp-playlist-playing,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption {
+    color: #03065d;
+}
+
+
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:hover,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:focus,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:hover,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:focus,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:hover,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:focus,
+.wp-playlist-tracks .wp-playlist-item:hover,
+.wp-playlist-tracks .wp-playlist-item:focus {
+	color: #01e0af;
+}
+
+.wp-block-calendar table th {
+	background-color: transparent;
+}
+
+ins {
+	background-color: #333;
+	color: #fff;
+}

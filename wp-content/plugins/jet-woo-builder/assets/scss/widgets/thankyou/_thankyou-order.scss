@@ -1,0 +1,21 @@
+.woocommerce .elementor-jet-thankyou-order {
+	ul.woocommerce-order-overview {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		&:before, &:after {
+			content: none;
+		}
+
+		li {
+			float: none;
+
+			strong {
+				display: block;
+			}
+		}
+	}
+}

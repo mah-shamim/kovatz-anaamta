@@ -1,0 +1,29 @@
+.woocommerce .elementor-jet-cart-totals {
+	.cart_totals  {
+		h2 {
+			display: var( --cart-totals-heading-display, block );
+		}
+
+		.shop_table {
+			border-collapse: collapse;
+			margin: 0;
+
+			@media screen and (max-width: 768px) {
+				border: none;
+
+				tr:not(:first-child) td {
+					border-top: none !important;
+				}
+			}
+		}
+
+		.wc-proceed-to-checkout {
+			margin-top: 1em;
+			padding: 0;
+
+			.checkout-button {
+				display: inline-block;
+			}
+		}
+	}
+}

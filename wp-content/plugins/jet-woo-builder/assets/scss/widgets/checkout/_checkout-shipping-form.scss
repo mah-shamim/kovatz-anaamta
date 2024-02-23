@@ -1,0 +1,37 @@
+.woocommerce .elementor-jet-checkout-shipping-form {
+	#ship-to-different-address {
+		#ship-to-different-address-checkbox,
+		span {
+			float: none;
+		}
+
+		label {
+			color: inherit;
+			font-size: inherit;
+			font-weight: inherit;
+		}
+	}
+
+	.form-row {
+		margin: 0;
+		padding: 0;
+
+		label {
+			display: block;
+		}
+
+		.select2 {
+			text-align: start;
+		}
+
+		&-first,
+		&-last {
+			.jet-woo-builder-forms-mobile-approach-yes & {
+				@media screen and (max-width: 767px) {
+					float: none;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

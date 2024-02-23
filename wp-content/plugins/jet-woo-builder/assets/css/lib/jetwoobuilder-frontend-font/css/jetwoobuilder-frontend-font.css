@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'jetwoobuilder-frontend-font';
+  src:  url('../fonts/jetwoobuilder-frontend-font.eot?p4gf2');
+  src:  url('../fonts/jetwoobuilder-frontend-font.eot?p4gf2#iefix') format('embedded-opentype'),
+    url('../fonts/jetwoobuilder-frontend-font.ttf?p4gf2') format('truetype'),
+    url('../fonts/jetwoobuilder-frontend-font.woff?p4gf2') format('woff'),
+    url('../fonts/jetwoobuilder-frontend-font.svg?p4gf2#jetwoobuilder-frontend-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jetwoo-front-icon-"], [class*=" jetwoo-front-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jetwoobuilder-frontend-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jetwoo-front-icon-added:before {
+  content: "\e900";
+}
+.jetwoo-front-icon-added-1:before {
+  content: "\e901";
+}
+.jetwoo-front-icon-added-2:before {
+  content: "\e902";
+}
+.jetwoo-front-icon-added-3:before {
+  content: "\e903";
+}
+.jetwoo-front-icon-added-4:before {
+  content: "\e905";
+}
+.jetwoo-front-icon-added-5:before {
+  content: "\e906";
+}
+.jetwoo-front-icon-added-6:before {
+  content: "\e907";
+}
+.jetwoo-front-icon-added-7:before {
+  content: "\e908";
+}
+.jetwoo-front-icon-bag:before {
+  content: "\e909";
+}
+.jetwoo-front-icon-bag-1:before {
+  content: "\e90a";
+}
+.jetwoo-front-icon-bag-2:before {
+  content: "\e90b";
+}
+.jetwoo-front-icon-bag-3:before {
+  content: "\e90c";
+}
+.jetwoo-front-icon-bag-4:before {
+  content: "\e90d";
+}
+.jetwoo-front-icon-bag-5:before {
+  content: "\e90e";
+}
+.jetwoo-front-icon-bag-6:before {
+  content: "\e90f";
+}
+.jetwoo-front-icon-bag-7:before {
+  content: "\e910";
+}
+.jetwoo-front-icon-bag-8:before {
+  content: "\e911";
+}
+.jetwoo-front-icon-bag-9:before {
+  content: "\e912";
+}
+.jetwoo-front-icon-bag-10:before {
+  content: "\e913";
+}
+.jetwoo-front-icon-bag-11:before {
+  content: "\e914";
+}
+.jetwoo-front-icon-bag-12:before {
+  content: "\e915";
+}
+.jetwoo-front-icon-basket:before {
+  content: "\e916";
+}
+.jetwoo-front-icon-basket-1:before {
+  content: "\e917";
+}
+.jetwoo-front-icon-basket-2:before {
+  content: "\e918";
+}
+.jetwoo-front-icon-basket-3:before {
+  content: "\e919";
+}
+.jetwoo-front-icon-basket-4:before {
+  content: "\e91a";
+}
+.jetwoo-front-icon-basket-5:before {
+  content: "\e91b";
+}
+.jetwoo-front-icon-basket-6:before {
+  content: "\e91c";
+}
+.jetwoo-front-icon-basket-8:before {
+  content: "\e91d";
+}
+.jetwoo-front-icon-compare:before {
+  content: "\e91e";
+}
+.jetwoo-front-icon-compare-1:before {
+  content: "\e91f";
+}
+.jetwoo-front-icon-compare-2:before {
+  content: "\e920";
+}
+.jetwoo-front-icon-compare-3:before {
+  content: "\e921";
+}
+.jetwoo-front-icon-compare-4:before {
+  content: "\e922";
+}
+.jetwoo-front-icon-compare-5:before {
+  content: "\e923";
+}
+.jetwoo-front-icon-loading:before {
+  content: "\e924";
+}
+.jetwoo-front-icon-loading-1:before {
+  content: "\e925";
+}
+.jetwoo-front-icon-loading-2:before {
+  content: "\e926";
+}
+.jetwoo-front-icon-loading-3:before {
+  content: "\e927";
+}
+.jetwoo-front-icon-loading-4:before {
+  content: "\e928";
+}
+.jetwoo-front-icon-loading-5:before {
+  content: "\e929";
+}
+.jetwoo-front-icon-loading-6:before {
+  content: "\e92a";
+}
+.jetwoo-front-icon-loading-7:before {
+  content: "\e92b";
+}
+.jetwoo-front-icon-options:before {
+  content: "\e92c";
+}
+.jetwoo-front-icon-options-1:before {
+  content: "\e92d";
+}
+.jetwoo-front-icon-options-2:before {
+  content: "\e92e";
+}
+.jetwoo-front-icon-options-3:before {
+  content: "\e92f";
+}
+.jetwoo-front-icon-options-4:before {
+  content: "\e930";
+}
+.jetwoo-front-icon-options-5:before {
+  content: "\e931";
+}
+.jetwoo-front-icon-options-6:before {
+  content: "\e932";
+}
+.jetwoo-front-icon-quickview:before {
+  content: "\e933";
+}
+.jetwoo-front-icon-quickview-1:before {
+  content: "\e934";
+}
+.jetwoo-front-icon-quickview-2:before {
+  content: "\e935";
+}
+.jetwoo-front-icon-quickview-3:before {
+  content: "\e936";
+}
+.jetwoo-front-icon-quickview-4:before {
+  content: "\e937";
+}
+.jetwoo-front-icon-rating-1:before {
+  content: "\e938";
+}
+.jetwoo-front-icon-rating-2:before {
+  content: "\e939";
+}
+.jetwoo-front-icon-rating-3:before {
+  content: "\e93a";
+}
+.jetwoo-front-icon-rating-4:before {
+  content: "\e93b";
+}
+.jetwoo-front-icon-rating-5:before {
+  content: "\e93c";
+}
+.jetwoo-front-icon-rating-6:before {
+  content: "\e93d";
+}
+.jetwoo-front-icon-rating-7:before {
+  content: "\e93e";
+}
+.jetwoo-front-icon-rating-8:before {
+  content: "\e93f";
+}
+.jetwoo-front-icon-rating-9:before {
+  content: "\e940";
+}
+.jetwoo-front-icon-rating-10:before {
+  content: "\e941";
+}
+.jetwoo-front-icon-rating-11:before {
+  content: "\e942";
+}
+.jetwoo-front-icon-rating-12:before {
+  content: "\e943";
+}
+.jetwoo-front-icon-rating-13:before {
+  content: "\e944";
+}
+.jetwoo-front-icon-rating-14:before {
+  content: "\e945";
+}
+.jetwoo-front-icon-wishlist:before {
+  content: "\e946";
+}
+.jetwoo-front-icon-wishlist-1:before {
+  content: "\e947";
+}
+.jetwoo-front-icon-wishlist-2:before {
+  content: "\e948";
+}
+.jetwoo-front-icon-wishlist-3:before {
+  content: "\e949";
+}

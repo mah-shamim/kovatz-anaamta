@@ -1,0 +1,965 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Latvian
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-06 16:07:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: lv\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/stats.php:11
+msgid "Akismet detailed stats"
+msgstr "Akismet detalizēta statistika"
+
+#: views/stats.php:6
+msgid "Back to settings"
+msgstr "Atgriezties pie iestatījumiem"
+
+#: views/config.php:270
+msgid "Subscription type"
+msgstr "Abonementa veids"
+
+#: views/config.php:234
+msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
+msgstr "Lai palīdzētu jūsu vietnei nodrošināt pārredzamību saskaņā ar tādiem konfidencialitātes likumiem kā GDPR, Akismet var parādīt paziņojumu lietotājiem zem komentāru veidlapām."
+
+#: views/config.php:156
+msgid "Spam filtering"
+msgstr "Mēstuļu filtrēšana"
+
+#: views/config.php:96 views/enter.php:9
+msgid "API key"
+msgstr "API atslēga"
+
+#: views/config.php:44
+msgid "Akismet stats"
+msgstr "Akismet statistika"
+
+#: views/config.php:75
+msgid "Akismet is active and ready to stop spam. Your site&#8217;s spam statistics will be displayed here."
+msgstr "Akismet ir aktīvs un gatavs apturēt surogātpastu. Šeit tiks parādīta jūsu vietnes surogātpasta statistika."
+
+#: views/notice.php:51
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "WP-Cron ir atspējots, izmantojot konstanti DISABLE_WP_CRON. Atkārtota komentāru pārbaude var nedarboties pareizi."
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:700
+msgid "%1$s - %2$s"
+msgstr "%1$s–%2$s"
+
+#: views/get.php:17
+msgid "(opens in a new tab)"
+msgstr "(atveras jaunā cilnē)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:321
+msgid "Upgrade to %s"
+msgstr "Jaunināt uz %s"
+
+#: views/notice.php:316
+msgid "Upgrade your subscription level"
+msgstr "Jauniniet savu abonementa līmeni"
+
+#: views/notice.php:276 views/notice.php:284 views/notice.php:292
+#: views/notice.php:301
+msgid "Learn more about usage limits."
+msgstr "Uzziniet vairāk par lietošanas ierobežojumiem."
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:268
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "Kopš %1$s jūsu konts ir veicis %2$s API izsaukumu, salīdzinot ar jūsu plāna ierobežojumu %3$s."
+
+#: views/notice.php:298
+msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Jūsu Akismet lietojums trīs mēnešus pēc kārtas pārsniedz jūsu plāna ierobežojumu. Mēs esam ierobežojuši jūsu kontu atlikušajā mēneša daļā. Jauniniet savu plānu, lai Akismet varētu turpināt surogātpasta bloķēšanu."
+
+#: views/notice.php:289
+msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Jūsu Akismet lietojuma apjoms tuvojas plāna limitam jau trešo mēnesi pēc kārtas. Pēc limita sasniegšanas mēs ierobežosim jūsu kontu. Jauniniet savu plānu, lai Akismet varētu turpināt surogātpasta bloķēšanu."
+
+#: views/notice.php:281
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "Jūsu Akismet lietojums divus mēnešus pēc kārtas pārsniedz jūsu plāna ierobežojumu. Nākamajā mēnesī mēs ierobežosim jūsu kontu, kad sasniegsiet ierobežojumu. Lūdzu, apsveriet sava plāna jaunināšanu."
+
+#: views/notice.php:255
+msgid "Your account has been restricted"
+msgstr "Jūsu konts ir ierobežots"
+
+#: views/notice.php:251
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "Jūsu Akismet konta lietojums tuvojas jūsu plāna ierobežojumam"
+
+#: views/notice.php:248
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "Jūsu Akismet konta lietojums pārsniedz jūsu plāna ierobežojumu"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:211
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Lūdzu, ievadiet jaunu atslēgu vai <a href=\"%s\" target=\"_blank\"> sazinieties ar Akismet atbalsta dienestu </a>."
+
+#: views/notice.php:205
+msgid "Your API key is no longer valid."
+msgstr "Jūsu API atslēga vairs nav derīga."
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:429
+msgid "Checking for Spam (%1$s%)"
+msgstr "Pārbauda par mēstules (%1$s%)"
+
+#: class.akismet-admin.php:716
+msgid "No comment history."
+msgstr "Nav komentāru vēstures."
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "Akismets nespēja pārbaudīt šo komentāru."
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Akismet nevarēja pārbaudīt šo komentāru, bet vēlāk to mēģinās automātiski atkārtot."
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:628
+msgid "Comment was caught by %s."
+msgstr "Komentāru uztvēra %s."
+
+#: class.akismet.php:724
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "Akismet nav konfigurēts. Lūdzu, ievadiet API atslēgu."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Ievadiet savu API atslēgu"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Izveidojiet citu kontu"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Lai iespējotu mēstuļu filtrēšanu šajā vietnē, izveidojiet savu Akismet kontu."
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Akismet nevarēja atkārtoti pārbaudīt, vai jūsu komentāros nav surogātpasta."
+
+#: class.akismet-admin.php:450
+msgid "You don&#8217;t have permission to do that."
+msgstr "Jums nav atļaujas to darīt."
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "Statistikas atbildi nevarēja atšifrēt."
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Pašlaik nevar iegūt statistiku. Lūdzu mēģiniet vēlreiz."
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "Lai ielādētu statistiku, jāiestata API atslēga."
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "Nerādīt konfidencialitātes paziņojumu."
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "Zem komentāru veidlapām parādiet paziņojumu par konfidencialitāti."
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "Akismet konfidencialitātes paziņojums"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Privātums"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "Šajā vietnē surogātpasta samazināšanai tiek izmantots Akismet. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Uzziniet, kā tiek apstrādāti jūsu komentāru dati</a>."
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "Komentārs izmests."
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "Šīs vietnes API atslēga ir kodēta, un to nevar izdzēst."
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "Norādītā vērtība nav derīga un reģistrēta API atslēga."
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "Šīs vietnes API atslēga ir kodēta, un to nevar mainīt, izmantojot API."
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Laika periods, par kuru jāizgūst statistika. Iespējas: 60 dienas, 6 mēneši, visas"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Ja tā ir taisnība, komentāru saraksta lapā blakus katram komentāru autoram parādiet apstiprināto komentāru skaitu."
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Ja tā ir taisnība, Akismet automātiski atmetīs sliktāko surogātpastu, nevis ievietos to surogātpasta mapē."
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "12 rakstzīmju Akismet API atslēga. Pieejams vietnē akismet.com/get/"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Jūsu vietne nevar izveidot savienojumu ar Akismet serveriem."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Akismet API atslēga ir definēta šīs vietnes failā %s."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Manuāla konfigurēšana"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Šajā lapā jūs varat jaunināt savus Akismet iestatījumus un skatīt surogātpasta statistiku."
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Sazinieties ar API atslēgu"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Jūs esat izveidojis savienojumu kā %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Sazinieties ar Jetpack"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Izmantojiet savu Jetpack savienojumu, lai iestatītu Akismet."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "No vietnes izslēdziet surogātpastu"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Vai vēlaties <a href=\"%s\">pārbaudīt gaidošos komentārus</a>?"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Izveidojiet savu Akismet kontu"
+
+#: views/config.php:36
+msgid "Detailed stats"
+msgstr "Detalizēta statistika"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Statistika"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Miljoniem cilvēku lietots Akismet, iespējams, ir labākais veids, kā <strong> pasargāt savu emuāru no surogātpasta </strong>. Tas nodrošina jūsu vietnes aizsardzību pat miega laikā. Lai sāktu, vienkārši dodieties uz <a href=\"admin.php?page=akismet-key-config\"> lapu Akismet iestatījumi </a>, lai iestatītu API atslēgu."
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Miljoniem cilvēku lietots Akismet, iespējams, ir labākais veids, kā <strong> pasargāt savu emuāru no surogātpasta </strong>. Jūsu vietne ir pilnībā konfigurēta un aizsargāta pat tad, kad jūs guļat."
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s komentāru tika notverti kā mēstule."
+msgstr[1] "%s komentārs tika notverts kā mēstule."
+msgstr[2] "%s komentāri tika notverti kā mēstules."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Neviens komentārs netika uztverts kā surogātpasts."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismets pārbaudīja %s komentārus."
+msgstr[1] "Akismets pārbaudīja %s komentāru."
+msgstr[2] "Akismets pārbaudīja %s komentārus."
+
+#: class.akismet-admin.php:1157
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "Pārbaudāmo komentāru nebija. Akismet pārbaudīs tikai tos komentārus, kas gaida moderāciju."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Komentāri netika atrasti."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d komentāru nevarēja pārbaudīt."
+msgstr[1] "%d komentārus nevarēja pārbaudīt."
+msgstr[2] "%d komentāru nevarēja pārbaudīt."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d komentārs ievietots mēstuļu mapē."
+msgstr[1] "%d komentāri ievietoti mēstuļu mapē."
+msgstr[2] "%d komentāru ievietots mēstuļu mapē."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Apstrādāts %d komentārs."
+msgstr[1] "Apstrādāti %d komentāri."
+msgstr[2] "Apstrādāti %d komentāru."
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "#%d komentāru nevarēja pārbaudīt."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Neizdevās izveidot savienojumu ar Akismet."
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "#%d komentārs nav mēstule."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "#%d komentārs ir mēstule."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s aplami pozitīvs"
+msgstr[1] "%s aplami pozitīvi"
+msgstr[2] "%s aplami pozitīvu"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s nepamanīta mēstule"
+msgstr[1] "%s nepamanītas mēstules"
+msgstr[2] "%s nepamanītu mēstuļu"
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Jums nav Akismet plāna."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Jūsu Akismet abonements ir aizturēt."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Jūsu Akismet plāns tika atcelts."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Mēs nevaram izpildīt jūsu maksājumu. Lūdzu, <a href=\"%s\" target=\"_blank\">jauniniet jūsu maksājuma detaļas</a>."
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Lūdzu, atjauniniet informāciju maksājuma veikšanai."
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Gandrīz gatavs</strong> - aktivizējiet Akismet un sakiet ardievas nevēlamiem komentāriem"
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet jums aiztaupīja %d minūti!"
+msgstr[1] "Akismet jums aiztaupīja %d minūtes!"
+msgstr[2] "Akismet jums aiztaupīja %d minūtes!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet jums aiztaupīja %d stundu!"
+msgstr[1] "Akismet jums aiztaupīja %d stundas!"
+msgstr[2] "Akismet jums aiztaupīja %d stundas!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet jums aiztaupīja %d dienu!"
+msgstr[1] "Akismet jums aiztaupīja %d dienas!"
+msgstr[2] "Akismet jums aiztaupīja %d dienas!"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet nepieļaus nevēlamu komentāru nonākšanu vietnē, lai jūs varētu pievērsties svarīgākām lietām."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Nevarēja izveidot savienojumu ar akismet.com. Lūdzu, ieskatieties <a href=\"%s\" target=\"_blank\">mūsu rokasgrāmatā par ugunsmūriem</a> un pārbaudiet servera konfigurāciju."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "Nevarēja pārbaudīt ievadīto API atslēgu."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Lūdzu, <a href=\"%s\" target=\"_blank\">sazinieties ar mūsu atbalsta komandu</a> lai noskaidrotu jebkuru jautājumu."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Kopš 2012. gada Akismet izmanto abonēšanas plānus visiem kontiem (arī bezmaksas). Jūsu kontam nav piešķirts plāns, tāpēc mēs būsim pateicīgi, ja jūs <a href=\"%s\" target=\"_blank\">ieiesiet savā kontā</a> un izvēlieties kādu."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Visas sistēmas funkcionē."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Iespējots."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Ar iepriekšējo SSL pieprasījumu Akismet radās problēma un to īslaicīgi deaktivizēja. Tas drīz atsāks darboties, izmantojot SSL pieprasījumus."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Īslaicīgi atspējots."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Jūsu web serveri nevar izveidot SSL pieprasījumus. Sazinieties ar vietnes uzturētāju un lūdziet pievienot SSL pieprasījumu atbalstu."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Atspējots."
+
+#: views/config.php:110
+msgid "SSL status"
+msgstr "SSL statuss"
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Ir ticis uzrādīts, ka šis komentārs nav nevēlams."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Ir ticis uzrādīts, ka šis komentārs ir nevēlams."
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "API atslēgu ievadiet manuāli"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Sazinies ar Akismet atbalsta dienestu"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Neraizējieties! Sazināties ar mums un mēs to nokārtosim."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Jūsu abonements %s ir apturēts"
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Jūsu abonements %s ir atcelts"
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Ievadītā atslēga nav derīga. Lūdzu, pārbaudiet to vēlreiz."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Ir problēma ar šo API atslēgu."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Jūs varat palīdzēt mums cīnīties ar nevēlamajiem komentāriem, par simbolisku summu <a href=\"%s\" target=\"_blank\"> izvēloties maksas abonementu</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Lūdzu, sazinies ar <a href=\"%s\" target=\"_blank\">Akismet atbalstu</a>, lai iegūtu palīdzību."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Lūdzu, apmeklējiet savu <a href=\"%s\" target=\"_blank\"> Akismet konta lapu</a> lai atkārtoti aktivizētu jūsu abonementu."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Ugunsmūris, iespējams, bloķē Akismet savienojumu ar tā API. Lūdzu, sazinieties ar savu resursdatora uzturētāju un apskatiet <a href=\"%s\" target=\"_blank\">mūsu ceļvedi par ugunsmūriem</a>."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Jūsu vietnes uzturētājs vai servera administrators ir atspējojis PHP <code>gethostbynamel</code> funkciju. <strong>Akismet nevar pareizi darboties līdz brīdim, kad tas tiks labots.</strong> Lūdzu, sazinieties ar vietnes uzturētāju vai ugunsmūra administratoru un nododiet viņiem <a href=\"%s\" target=\"_blank\"> šo informāciju par Akismet spraudņa prasībām</a>."
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "Tīkla funkcijas ir atspējotas."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Plašāku informāciju skatīt: %s"
+
+#. translators: The placeholder is an error code returned by Akismet.
+#: views/notice.php:57
+msgid "Akismet error code: %s"
+msgstr "Akismet kļūdas kods: %s"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Akismet vēl jāpārbauda daži komentāri. Tie ir īslaicīgi aizturēti pārbaudei un tiks automātiski atkārtoti pārbaudīti vēlāk."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "Akismet ir atradis problēmu."
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Mainīt"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Uzlabot"
+
+#: views/config.php:295
+msgid "Next billing date"
+msgstr "Nākamais norēķinu datums"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Aktīvs"
+
+#: views/config.php:286
+msgid "No subscription found"
+msgstr "Abonements nav atrasts."
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Trūkst"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Apturēt"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Atcelt"
+
+#: views/config.php:251
+msgid "Save changes"
+msgstr "Saglabāt izmaiņas"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Atvienot šo kontu"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Piezīme:"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Vienmēr ievietot nepiedienīgos komentārus pārskatīšanai mēstuļu mapē."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Klusi atbrīvoties no sliktākajiem un uzmācīgākajiem komentāriem tā, lai tie nekad nebūtu redzami."
+
+#: views/config.php:148
+msgid "Show the number of approved comments beside each comment author."
+msgstr "Parādīt apstiprināto komentāru skaitu līdzās katra komentāra autoram."
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Precizitāte"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "Visu laiku"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Mēstule bloķēta"
+msgstr[1] "Mēstules bloķētas"
+msgstr[2] "Mēstules bloķētas"
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Pēdējie seši mēneši"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Lūdzu, <a href=\"%1$s\">atjauniniet WordPress</a> uz jaunāko versiju, vai <a href=\"%2$s\">pārejiet uz spraudņa Akismet 2.4 versiju</a>."
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "Akismet nepieciešams WordPress %s vai jaunāks."
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet izdzēsa šo komentāru automātiskas pārbaudes laikā."
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet atrada šo komentāru kā nevēlamu atkārtotas pārbaudes laikā."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s uzrāda, ka šis komentārs nav nevēlams."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s uzrāda, ka šis komentārs ir nevēlams."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s mainīt komentāra statuss uz %2$s."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet nespēja pārbaudīt šo komentāru (atbilde: %s) bet automātiski atkārtos pārbaudi vēlāk."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Akismet nodzēsa šo komentāru."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "Komentāra statuss ir mainīts uz %s"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet notvēra šo komentāru kā nevēlamu."
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong>Akismet</strong> ir atradis <strong> class=\"count\">%1$s mēstuli</strong>"
+msgstr[1] "<strong>Akismet</strong> ir atradis <strong> class=\"count\">%1$s mēstules</strong>"
+msgstr[2] "<strong>Akismet</strong> ir atradis <strong> class=\"count\">%1$s mēstules</strong>"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Vārds:"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Mēstules bloķētas"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Parādīt cik mēstuļu komentāru Akismet ir atradis"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Akismet logdaļa"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Attīrīšana no nevēlamiem komentāriem prasa laiku."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Lūdzu, pārbaudiet <a href=\"%s\">Akismet konfigurāciju</a> un ja problēmas atkārtojas, sazinieties ar savas vietnes uzturētāju."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "pirms %s"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s apstiprināts"
+msgstr[1] "%s apstiprināti"
+msgstr[2] "%s apstiprināti"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Vēsture"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Skatīt komentāru vēsturi"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "%s attīrīja no nevēlamiem komentāriem"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "%s atzīmēja kā mēstuli"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Attīrīja Akismet&#8217"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet atzīmēja kā nevēlamu komentāru"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Gaida nevēlamu komentāru pārbaudi"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet nespēja atkārtoti pārbaudīt šo komentāru (atbilde: %s)."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Pēc atkārtotas Akismet pārbaudes, šis komentārs uzrādīts kā mēstule."
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Pēc atkārtotas Akismet pārbaudes, šis komentārs uzrādīts kā nevēlams."
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Pārbaudīt nevēlamus komentārus"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Pašlaik <a href='%s'>mēstuļu rindā</a> nav komentāru."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Pašlaik mēstuļu rindā ir<a href=\"%2$s\">%1$s komentārs</a>."
+msgstr[1] "Pašlaik mēstuļu rindā ir<a href=\"%2$s\">%1$s komentāri</a>."
+msgstr[2] "Pašlaik mēstuļu rindā ir<a href=\"%2$s\">%1$s komentāru</a>."
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> bloķē nevēlamu komentāru nonākšanas jūsu emuārā."
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> jau ir aizsargājis jūsu vietni no %2$s mēstuļu komentāra."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> jau ir aizsargājis jūsu vietni no %2$s mēstuļu komentāriem."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> jau ir aizsargājis jūsu vietni no %2$s mēstuļu komentāriem."
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> ir aizsargājis jūsu vietni no <a href=\"%2$s\">%3$s mēstuļu komentāra</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> ir aizsargājis jūsu vietni no <a href=\"%2$s\">%3$s mēstuļu komentāriem</a>."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> ir aizsargājis jūsu vietni no <a href=\"%2$s\">%3$s mēstuļu komentāriem</a>."
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Mēstules"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Šmaucamies, ko?"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Akismet atbalsts (EN)"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Akismet - bieži uzdotie jautājumi (EN)"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Plašāku informāciju skatīt:"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "abonementa statuss var būt aktīvs, atcelts vai apturēts."
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Statuss"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Akismet abonementa plāns."
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Abonementa veids"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Konts"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "izvēle starp automātisku nepiedienīgo komentāru dzēšanu vai to ievietošanu mēstuļu mapē, pārskatīšanai."
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Stingrība"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "komentāru saraksta lapā, līdzās katra komentāra autoram parāda apstiprināto komentāru skaitu."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Komentāri"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "šeit ievadiet vai izņemiet Akismet API atslēgu."
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "API atslēga"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr " "
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Šajā lapā jums ir iespēja apskatīt vietnē filtrēto komentāru statistiku."
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Akismet statistika"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Kilkšķiniet pogu Lietot šo atslēgu."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Iekopējiet API atslēgu teksta laukā."
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Ja jums jau ir API atslēga"
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Ievadiet API atslēgu"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Reģistrēties un izveidojiet kontu %s, lai saņemtu API atslēgu."
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Jums jāievada API atslēga, lai aktivizētu Akismet servisu savā vietnē."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Iepazīstieties, Akismet"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Šajā lapā jūs varat iestatīt Akismet spraudni."
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Akismet iestatīšana"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Pārskats"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Atkārtoti pievieno..."
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(atsaukt)"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL noņemts"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Noņem..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Noņemt šo URL"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Komentāru vēsture"

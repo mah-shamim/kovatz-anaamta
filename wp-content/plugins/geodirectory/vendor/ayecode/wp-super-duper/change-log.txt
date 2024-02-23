@@ -1,0 +1,198 @@
+= 1.1.34 - 2024-02-15 =
+* Post Author support added in Block Visibility - ADDED
+
+= 1.1.33 - 2024-01-25 =
+* Escape new line characters from option label - FIXED
+
+= 1.1.32 - 2023-12-14 =
+* Update textdomain - CHANGED
+* Escape placeholder t o prevent JS error - FIXED
+* Site editor sidebar navigation auto closed - FIXED
+
+= 1.1.31 =
+* Detect Bricks builder preview - ADDED
+
+= 1.1.30 =
+* element_require condition is not working with checkbox - FIXED
+
+= 1.1.29 =
+* Show device type name with title for multi-device option setting - CHANGED
+* element_require condition is not working with checkbox - FIXED
+
+= 1.1.28 =
+* Shortcode button added twice in the page content editor - FIXED
+
+= 1.1.27 =
+* Tablet padding option values are not working properly - FIXED
+
+= 1.1.26 =
+* Attempt auto recovery block on non edit template mode - CHANGED
+
+= 1.1.25 =
+* Undefined array key "title" thrown for some blocks when using Avada - FIXED
+
+= 1.1.24 =
+* Gallery block shows image when requested image size don't exists - FIXED
+* Gallery block shows JS error when image title contains multiple single quote - FIXED
+
+= 1.1.23 =
+* Type missing ; causing error - FIXED
+
+= 1.1.22 =
+* Avada converts checkbox to select dropdown don't saves empty value - CHANGED
+* Check preview for Kallyas theme Zion builder editor - ADDED
+* PHP notice of argument must be of type array, null given - FIXED
+
+= 1.1.21 =
+* New line character in translation results in JS error - FIXED
+* Background Gradient picker broken after WP update - FIXED
+
+= 1.1.20 =
+* WP installs less than 5.9 can throw fatal error for render_block filter - FIXED
+
+= 1.1.19 =
+* Block Visibility feature added - ADDED
+
+= 1.1.18 =
+* Added helper function for float inputs - ADDED
+
+= 1.1.17 =
+* Block tab groups mismatch causes JS error - FIXED
+
+= 1.1.16 =
+* Better block auto-recovery - ADDED
+* Functions added to support BS5 changes and new features - ADDED
+
+= 1.1.15 =
+* Prevent duplicate CPT sort options API requests - FIXED
+
+= 1.1.14 =
+* Helper functions for BS5 added - ADDED
+* Will try to auto-recover blocks in editor - ADDED
+* Single apostrophe will break block input settings - FIXED
+
+= 1.1.11 =
+* Functions added to build CSS for some hover args - ADDED
+* Template parts auto recover blocks not working - FIXED
+* Multiple taxonomies API requests can cause a loop - FIXED
+
+= 1.1.10 =
+* styleid argument now auto added to class list - ADDED
+
+= 1.1.9 =
+* Device type switcher not working on multiline items - FIXED
+* Spacing option increased from 5 to 12 - ADDED
+* MultiSelect inputs now show a clear button - ADDED
+
+= 1.1.8 =
+* prevent JS error that breaks the GD block - FIXED
+* bug with justify content between helper function - FIXED
+
+= 1.1.5 =
+* Customize > Widgets section don't show advanced settings toggle button - FIXED
+* Flex positioning helper functions - ADDED
+
+= 1.1.4 =
+* Hover animations helper functions - ADDED
+* Flex layout helper classes - ADDED
+* Constant added for version number SUPER_DUPER_VER - ADDED
+
+= 1.1.3 =
+* Preview mode can now be changed from block setting icon - ADDED
+* text_color_custom now implemented for inline custom colors - ADDED
+
+= 1.1.2 =
+* BlockStrap theme color pickers will now add custom colors from FSE - ADDED
+
+= 1.1.1 =
+* props.id deprecated and replaced with props.clientId, this could cause issues with wrong content displayed - FIXED
+* We will now attempt to auto-recover all blocks - ADDED
+* Nested blocks support -  ADDED
+* New input types supported for blocks 'image' and 'images' - ADDED
+* Many helper functions added for input arguments - ADDED
+* Font Awesome icons for block icons updated to  5.15.4 - UPDATED
+
+= 1.0.30 =
+* Block icon not loading when WordPress installed on sub-directory - FIXED
+
+= 1.0.29 =
+* Shortcode button not working in editor on Divi theme builder - FIXED
+
+= 1.0.28 =
+* Some extra escaping block parameters - CHANGED
+* Block editor multi-select dropdown style issue - FIXED
+* If tinyMCE is undefined the inserter can fail - FIXED
+* block_show_advanced() sometimes has no arguments - FIXED
+
+= 1.0.27 =
+* Category settings loads only 10 categories on CPT change - FIXED
+* Hook added to filter class & attributes for Elementor widget output - ADDED
+* Functions file added for individual function calls - ADDED
+
+= 1.0.26 =
+* Error on setting array option value in block editor - FIXED
+
+= 1.0.25 =
+* PHP Warning if default field value not set - FIXED
+
+= 1.0.24 =
+* WP 5.7 Gutenberg widgets screen has JS error which breaks page saving - FIXED
+* WP 5.7 Gutenberg widgets screen legacy widgets have no `show advanced` button - FIXED
+
+= 1.0.23 =
+* Rows argument now available to group arguments to the one row - ADDED
+
+= 1.0.22 =
+* Sometimes arguments are not set early enough when building block JS - FIXED
+
+= 1.0.21 =
+* Block Category can now update on post_type change - FIXED
+* Non static method 'argument_values' should not be called statically - FIXED
+
+= 1.0.20 =
+* On change content don't compare the actual content, only attributes - CHANGED
+* Call AUI init JS function if defined on each block edit - ADDED
+* is_preview() now included block preview - CHANGED
+* Empty block previews can show broken class input - FIXED
+* color input for block now uses colorPicker - CHANGED
+
+= 1.0.19 =
+* Put non grouped block settings in to a "settings" group - CHANGED
+
+= 1.0.18 =
+* Conflicts with fusion builder elements - FIXED
+* Oxygen builder preview detection - ADDED
+* Elementor editor widget section types have no styling - FIXED
+
+= 1.0.17 =
+* Title & description in block editor shows escaped special characters - FIXED
+* Widget advanced settings button line-height too tall - FIXED
+
+= 1.0.16 =
+* wp.editor is deprecated, updated to wp.blockEditor - CHANGED
+* textarea field type now supported - ADDED
+* `html` special field name added that will allow HTML by making it an enclosing shortcode - ADDED
+* `no_wrap` special field name added that will prevent the wrapping div being added - ADDED
+
+
+
+// old style change log
+@since 1.0.3 is_block_content_call() method added.
+ * @since 1.0.3 Placeholder text will be shown for widget that return no block content.
+ * @since 1.0.4 is_elementor_widget_output() method added.
+ * @since 1.0.4 is_elementor_preview() method added.
+ * @since 1.0.5 Block checkbox options are set as true by default even when set as false - FIXED
+ * @since 1.0.6 Some refactoring for page builders - CHANGED
+ * @since 1.0.7 Some refactoring for page builders - CHANGED
+ * @since 1.0.8 Some refactoring for page builders ( cornerstone builder now supported ) - CHANGED
+ * @since 1.0.9 Numbers saving as strings and not numbers which can cause block render issues on refresh - FIXED
+ * @since 1.0.10 Some refactoring for page builders ( Avia builder for Enfold theme now supported ) - CHANGED
+ * @since 1.0.11 Some refactoring for page builders - CHANGED
+ * @since 1.0.12 A checkbox default value can make a argument true even when unchecked - FIXED
+ * @since 1.0.13 Block values can break JS if contains a comma - FIXED
+ * @since 1.0.14 Use of additional css class in block editor breaks the block html - FIXED
+ * @since 1.0.15 Fix conflicts with GeneratePress sections - FIXED
+ * @since 1.0.15 `group` setting option added to be able to group settings - ADDED
+ * @since 1.0.15 `block-supports` options array now supported - ADDED
+ * @since 1.0.15 `block-icon` now supports Font Awesome class - ADDED
+ * @since 1.0.15 Fusion builder (Avada) elements automatically created - ADDED

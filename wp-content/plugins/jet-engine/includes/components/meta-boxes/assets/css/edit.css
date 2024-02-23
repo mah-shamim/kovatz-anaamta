@@ -1,0 +1,56 @@
+.cx-vui-component--meta-condition .cx-vui-component__control {
+	display: flex;
+	gap: 10px;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+.cx-vui-component--meta-condition .cx-vui-component__control > *:first-child {
+	flex: 1 1 auto;
+}
+
+.jet-engine-mb-condition-controls {
+	display: flex;
+	flex-direction: column;
+}
+
+.jet-engine-mb-condition-controls .cx-vui-button--size-mini {
+	padding: 6px 0 7px 5px;
+}
+
+.jet-engine-mb-condition-controls .cx-vui-component,
+.jet-engine-mb-condition-controls + .cx-vui-component {
+	border-top: 1px solid #ececec;
+}
+
+.jet-engine-mb-condition-controls > * {
+	flex: 0 0 100%;
+}
+
+.cx-vui-panel .cx-vui-component--terms-conditions .cx-vui-component {
+	padding: 0;
+	border: none;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+.cx-vui-panel .cx-vui-component--terms-conditions .cx-vui-component .cx-vui-component__meta {
+	max-width: 29%;
+	flex: 0 0 29%;
+	padding: 0 0 6px;
+}
+
+.cx-vui-panel .cx-vui-component--terms-conditions .cx-vui-component .cx-vui-component__control {
+	padding: 0;
+	max-width: 100%;
+	flex: 0 0 100%;
+}
+
+.cx-vui-panel .cx-vui-component--terms-conditions .cx-vui-f-select__selected-not-empty {
+	margin: 0 0 5px;
+}
+
+.cx-vui-panel .cx-vui-component--terms-conditions .cx-vui-f-select__selected-option {
+	padding: 2px 5px 2px 2px;
+	font-size: 12px;
+}

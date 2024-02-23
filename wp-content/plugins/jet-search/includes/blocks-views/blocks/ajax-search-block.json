@@ -1,0 +1,252 @@
+{
+	"name": "jet-search/ajax-search",
+	"title": "Ajax Search",
+	"category": "widgets",
+	"keywords": [
+		"jet search",
+		"search",
+		"ajax search"
+	],
+	"attributes": {
+		"search_placeholder_text": {
+			"type": "string",
+			"default": "Search ..."
+		},
+		"selected_search_field_icon": {
+			"type": "object",
+			"default": {}
+		},
+		"show_search_submit": {
+			"type": "boolean",
+			"default": true
+		},
+		"search_submit_label": {
+			"type": "string",
+			"default": ""
+		},
+		"selected_search_submit_icon": {
+			"type": "object",
+			"default": {
+				"src": "\u003csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022\u003e\u003cpath d=\u0022M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z\u0022/\u003e\u003c/svg\u003e"
+			}
+		},
+		"show_search_category_list": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_taxonomy": {
+			"type": "string",
+			"default": "category"
+		},
+		"search_category_select_placeholder": {
+			"type": "string",
+			"default": "All Categories"
+		},
+		"search_form_responsive_on_mobile": {
+			"type": "boolean",
+			"default": false
+		},
+		"symbols_for_start_searching": {
+			"type": "number",
+			"default": 2
+		},
+		"search_by_empty_value": {
+			"type": "boolean",
+			"default": false
+		},
+		"current_query": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_source_list": {
+			"type": "array",
+			"default": []
+		},
+		"search_source": {
+			"type": "array",
+			"default": []
+		},
+		"include_terms_ids_list": {
+			"type": "array",
+			"default": []
+		},
+		"include_terms_ids": {
+			"type": "array",
+			"default": []
+		},
+		"exclude_terms_ids_list": {
+			"type": "array",
+			"default": []
+		},
+		"exclude_terms_ids": {
+			"type": "array",
+			"default": []
+		},
+		"exclude_posts_ids_list": {
+			"type": "array",
+			"default": []
+		},
+		"exclude_posts_ids": {
+			"type": "array",
+			"default": []
+		},
+		"custom_fields_source": {
+			"type": "string",
+			"default": ""
+		},
+		"sentence": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_in_taxonomy": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_in_taxonomy_source_list": {
+			"type": "array",
+			"default": []
+		},
+		"search_in_taxonomy_source": {
+			"type": "array",
+			"default": []
+		},
+		"results_order_by": {
+			"type": "string",
+			"default": ""
+		},
+		"results_order": {
+			"type": "string",
+			"default": "asc"
+		},
+		"limit_query": {
+			"type": "number",
+			"default": 5
+		},
+		"limit_query_in_result_area": {
+			"type": "number",
+			"default": 25
+		},
+		"results_area_width_by": {
+			"type": "string",
+			"default": "form"
+		},
+		"results_area_custom_width": {
+			"type": "number"
+		},
+		"results_area_custom_position": {
+			"type": "string",
+			"default": ""
+		},
+		"thumbnail_visible": {
+			"type": "boolean",
+			"default": true
+		},
+		"thumbnail_placeholder": {
+			"type": "object",
+			"default": {
+				"id": "",
+				"url": ""
+			}
+		},
+		"post_content_source": {
+			"type": "string",
+			"default": "content"
+		},
+		"post_content_custom_field_key": {
+			"type": "string",
+			"default": ""
+		},
+		"post_content_length": {
+			"type": "number",
+			"default": 30
+		},
+		"highlight_searched_text": {
+			"type": "boolean",
+			"default": false
+		},
+		"show_product_price": {
+			"type": "boolean",
+			"default": false
+		},
+		"show_product_rating": {
+			"type": "boolean",
+			"default": false
+		},
+		"show_results_counter": {
+			"type": "boolean",
+			"default": true
+		},
+		"results_counter_text": {
+			"type": "string",
+			"default": "Results"
+		},
+		"show_full_results": {
+			"type": "boolean",
+			"default": true
+		},
+		"full_results_btn_text": {
+			"type": "string",
+			"default": "See all results"
+		},
+		"show_result_new_tab": {
+			"type": "boolean",
+			"default": false
+		},
+		"bullet_pagination": {
+			"type": "string",
+			"default": ""
+		},
+		"number_pagination": {
+			"type": "string",
+			"default": ""
+		},
+		"navigation_arrows": {
+			"type": "string",
+			"default": "in_header"
+		},
+		"navigation_arrows_type": {
+			"type": "string",
+			"default": "angle"
+		},
+		"show_title_related_meta": {
+			"type": "boolean",
+			"default": false
+		},
+		"meta_title_related_position": {
+			"type": "string",
+			"default": "before"
+		},
+		"title_related_meta": {
+			"type": "array",
+			"default": []
+		},
+		"show_content_related_meta": {
+			"type": "boolean",
+			"default": false
+		},
+		"meta_content_related_position": {
+			"type": "string",
+			"default": "before"
+		},
+		"content_related_meta": {
+			"type": "array",
+			"default": []
+		},
+		"negative_search": {
+			"type": "string",
+			"default": "Sorry, but nothing matched your search terms."
+		},
+		"server_error": {
+			"type": "string",
+			"default": "Sorry, but we cannot handle your search query now. Please, try again later!"
+		},
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"editorScript": "jet-search-block",
+	"editorStyle": "jet-search",
+	"style": "jet-search",
+	"script": "jet-search"
+}

@@ -1,0 +1,4167 @@
+# Copyright (C) 2022 WC Vendors Marketplace
+# This file is distributed under the same license as the WC Vendors Marketplace package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors Marketplace\n"
+"Report-Msgid-Bugs-To: https://www.wcvendors.com\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: WC Vendors <translate@wcvendors.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s WooCommerce download URL link.
+#: class-wc-vendors.php:48
+msgid ""
+"WC Vendors Marketplace requires WooCommerce to run. You can download %s here."
+msgstr ""
+"WC Vendors Marketplace vereist WooCommerce om te worden uitgevoerd. U kunt "
+"%s hier downloaden."
+
+#: class-wc-vendors.php:126
+msgid "WC Vendors Marketplace"
+msgstr "WC Vendors Marketplace"
+
+#: class-wc-vendors.php:161
+msgid ""
+"<b>WC Vendors Marketplace is inactive</b>. WC Vendors Marketplace requires a "
+"minimum of WooCommerce 3.0.0 to operate."
+msgstr ""
+"<b>WC Vendors Marketplace is inactief</b>. WC Vendors Marketplace vereist "
+"minimaal WooCommerce 3.0.0 om te werken."
+
+#: class-wc-vendors.php:340
+msgid "Are you sure you want mark all commissions paid?"
+msgstr "Weet u zeker dat u alle betaalde commissies wilt markeren?"
+
+#: class-wc-vendors.php:341
+msgid "Are you sure delete this commission?"
+msgstr "Weet je zeker dat je deze commissie verwijdert?"
+
+#: class-wc-vendors.php:342
+msgid "Are you sure delete these commissions?"
+msgstr "Weet u zeker dat u deze commissies verwijdert?"
+
+#: class-wc-vendors.php:452
+msgid ""
+"WC Vendors 2.0 is a major update. This is not compatible with any of our "
+"existing extensions. You should test this update on a staging server before "
+"updating. Backup your site and update your theme and extensions, and <a href="
+"\"%s\">review update details here</a> before upgrading."
+msgstr ""
+"WC Vendors 2.0 is een grote update. Dit is niet compatibel met een van onze "
+"bestaande extensies. U moet deze update testen op een testserver voordat u "
+"de update uitvoert. Maak een back-up van uw site en werk uw thema en "
+"extensies bij en <a href=\"%s\">bekijk hier de updatedetails</a> voordat u "
+"een upgrade uitvoert."
+
+#: class-wc-vendors.php:467
+msgid ""
+"WC Vendors Pro 1.5.0 is required to run WC Vendors 2.0.0. Your current "
+"version %s will be deactivated. Please upgrade to the latest version."
+msgstr ""
+"WC Vendors Pro 1.5.0 is vereist om WC Vendors 2.0.0 uit te voeren. Uw "
+"huidige versie %s wordt gedeactiveerd. Voer een upgrade uit naar de nieuwste "
+"versie."
+
+#: classes/class-commission.php:61, classes/admin/class-admin-reports.php:373,
+#: classes/admin/class-wcv-commissions-page.php:394,
+#: classes/admin/class-wcv-commissions-page.php:699
+msgid "Due"
+msgstr "Verschuldigd"
+
+#: classes/class-commission.php:62, classes/admin/class-admin-reports.php:374,
+#: classes/admin/class-wcv-commissions-page.php:395,
+#: classes/admin/class-wcv-commissions-page.php:700
+msgid "Paid"
+msgstr "Betaald"
+
+#: classes/class-commission.php:63, classes/admin/class-admin-reports.php:375,
+#: classes/admin/class-wcv-commissions-page.php:397,
+#: classes/admin/class-wcv-commissions-page.php:701
+msgid "Reversed"
+msgstr "Teruggedraaid"
+
+#: classes/class-cron.php:91
+msgid "Payment total: %s"
+msgstr "Betalingsbedrag: %s"
+
+#: classes/class-install.php:161, classes/admin/class-wcv-admin-setup.php:101
+msgid "Pending %s"
+msgstr "In afwachting %s"
+
+#. translators: The name used to refer to a vendor.
+#. translators: %s - The name used to refer to a vendor.
+#: classes/class-install.php:175, classes/admin/class-admin-reports.php:207,
+#: classes/admin/class-admin-reports.php:388,
+#: classes/admin/class-product-meta.php:364,
+#: classes/admin/class-product-meta.php:414,
+#: classes/admin/class-setup-wizard.php:352,
+#: classes/admin/class-wcv-admin-setup.php:96,
+#: classes/admin/class-wcv-admin-setup.php:313,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:50,
+#: classes/admin/class-wcv-commissions-page.php:203,
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:43,
+#: classes/admin/settings/class-wcv-settings-display.php:229,
+#: classes/admin/settings/class-wcv-settings-display.php:113,
+#: classes/admin/settings/class-wcv-settings-display.php:121
+msgid "%s"
+msgstr "%s"
+
+#: classes/class-install.php:259
+msgctxt "Page slug"
+msgid "vendor_dashboard"
+msgstr "verkoper_dashboard"
+
+#: classes/class-install.php:261
+msgctxt "Page title"
+msgid "%s Dashboard"
+msgstr "%s Dashboard"
+
+#: classes/class-install.php:267
+msgctxt "Page slug"
+msgid "vendors"
+msgstr "Verkoper"
+
+#: classes/class-install.php:269
+msgctxt "Page title"
+msgid "%s"
+msgstr "%s"
+
+#: classes/class-install.php:277
+msgctxt "Page slug"
+msgid "shop_settings"
+msgstr "winkel_instellingen"
+
+#: classes/class-install.php:278
+msgctxt "Page title"
+msgid "Shop Settings"
+msgstr "Winkel instellingen"
+
+#: classes/class-install.php:283
+msgctxt "Page slug"
+msgid "product_orders"
+msgstr "product_orders"
+
+#: classes/class-install.php:284
+msgctxt "Page title"
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: classes/class-install.php:493
+msgid "View WC Vendors settings"
+msgstr "Instellingen voor WC-leveranciers weergeven"
+
+#: classes/class-install.php:493, classes/admin/class-admin-menus.php:145,
+#: templates/dashboard/settings/settings.php:17
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/class-install.php:511
+msgid "View WC Vendors documentation"
+msgstr "Bekijk de documentatie van WC Vendors"
+
+#: classes/class-install.php:511
+msgid "Docs"
+msgstr "Documentatie"
+
+#: classes/class-install.php:512
+msgid "Visit community forums"
+msgstr "Bezoek communityforums"
+
+#: classes/class-install.php:512
+msgid "Free support"
+msgstr "Gratis support"
+
+#: classes/class-install.php:513
+msgid "Buy premium customer support"
+msgstr "Koop premium klantenondersteuning"
+
+#: classes/class-install.php:513
+msgid "Premium support"
+msgstr "Premium Ondersteuning"
+
+#: classes/class-install.php:514, classes/admin/class-wcv-admin-help.php:119
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar de Pro-versie"
+
+#: classes/class-install.php:549
+msgid "Vendor is enabled"
+msgstr "Leverancier is ingeschakeld"
+
+#: classes/class-install.php:550
+msgid "Vendor is verified"
+msgstr "Leverancier is geverifieerd"
+
+#: classes/class-install.php:551
+msgid "Vendor is trusted"
+msgstr "Leverancier wordt vertrouwd"
+
+#: classes/class-install.php:552
+msgid "Manage Products"
+msgstr "Beheer producten"
+
+#: classes/class-install.php:553
+msgid "Manage orders"
+msgstr "Bestellingen beheren"
+
+#: classes/class-install.php:554
+msgid "Manage coupons"
+msgstr "Coupons beheren"
+
+#: classes/class-install.php:555
+msgid "Manage ratings"
+msgstr "Beoordelingen beheren"
+
+#: classes/class-install.php:556
+msgid "Manage Store Settings"
+msgstr "Winkelinstellingen beheren"
+
+#: classes/class-install.php:557
+msgid "Manage Store Shipping"
+msgstr "Verzending in winkel beheren"
+
+#: classes/class-install.php:558
+msgid "View Store"
+msgstr "Bekijk winkel"
+
+#: classes/class-install.php:561
+msgid "View sales overview"
+msgstr "Verkoopoverzicht bekijken"
+
+#: classes/class-install.php:562
+msgid "View sales report chart"
+msgstr "Verkooprapportgrafiek weergeven"
+
+#: classes/class-install.php:563
+msgid "View vendor notices"
+msgstr "Leverancierskennisgevingen weergeven"
+
+#: classes/class-install.php:564
+msgid "View order report"
+msgstr "Bestelling rapport weergeven"
+
+#: classes/class-install.php:565
+msgid "View order overview"
+msgstr "Bekijk besteloverzicht"
+
+#: classes/class-install.php:566
+msgid "View ratings report"
+msgstr "Beoordelingsrapport bekijken"
+
+#: classes/class-install.php:567
+msgid "View product status report"
+msgstr "Productstatusrapport weergeven"
+
+#: classes/class-install.php:570
+msgid "Add product"
+msgstr "Product toevoegen"
+
+#: classes/class-install.php:571
+msgid "Edit product"
+msgstr "Product aanpassen"
+
+#: classes/class-install.php:572
+msgid "Edit published product"
+msgstr "Gepubliceerd product bewerken"
+
+#: classes/class-install.php:573
+msgid "Publish product directly without approval"
+msgstr "Publiceer het product rechtstreeks zonder goedkeuring"
+
+#: classes/class-install.php:574
+msgid "Delete product"
+msgstr "Product verwijderen"
+
+#: classes/class-install.php:575
+msgid "Duplicate product"
+msgstr "Product dupliceren"
+
+#: classes/class-install.php:576
+msgid "Featured product"
+msgstr "Uitgelicht product"
+
+#: classes/class-install.php:577
+msgid "View product"
+msgstr "Bekijk product"
+
+#: classes/class-install.php:578
+msgid "Import product"
+msgstr "Product importeren"
+
+#: classes/class-install.php:579
+msgid "Export product"
+msgstr "Export product"
+
+#: classes/class-install.php:582
+msgid "View order"
+msgstr "Bestelling bekijken"
+
+#: classes/class-install.php:583
+msgid "Add order notes"
+msgstr "Bestelnotities toevoegen"
+
+#: classes/class-install.php:584
+msgid "View order notes"
+msgstr "Bestelnotities bekijken"
+
+#: classes/class-install.php:585, templates/orders/csv-export.php:22
+msgid "Export orders"
+msgstr "Export orders"
+
+#: classes/class-install.php:586
+msgid "Manage order status"
+msgstr "Orderstatus beheren"
+
+#: classes/class-install.php:587
+msgid "View customer name"
+msgstr "Klantnaam bekijken"
+
+#: classes/class-install.php:588
+msgid "View customer phone number"
+msgstr "Telefoonnummer van klant bekijken"
+
+#: classes/class-install.php:589, classes/class-install.php:592
+msgid "View customer shipping name"
+msgstr "Verzendnaam van klant bekijken"
+
+#: classes/class-install.php:590
+msgid "View customer shipping address fields"
+msgstr "Verzendadresvelden van klanten bekijken"
+
+#: classes/class-install.php:591
+msgid "View customer billing address fields"
+msgstr "Velden met factuuradressen van klanten weergeven"
+
+#: classes/class-install.php:595
+msgid "Add coupon"
+msgstr "Kortingscode toevoegen"
+
+#: classes/class-install.php:596
+msgid "Edit coupon"
+msgstr "Kortingscode bewerken"
+
+#: classes/class-install.php:597
+msgid "Delete coupon"
+msgstr "Kortingscode verwijderen"
+
+#: classes/class-install.php:600
+msgid "View overview report"
+msgstr "Overzichtsrapport weergeven"
+
+#: classes/class-install.php:601
+msgid "View daily sales report"
+msgstr "Dagelijks verkooprapport bekijken"
+
+#: classes/class-install.php:602
+msgid "View top selling report"
+msgstr "Top verkoop rapport bekijken"
+
+#: classes/class-install.php:603
+msgid "View top earning report"
+msgstr "Top inkomsten verslag bekijken"
+
+#: classes/class-install.php:604
+msgid "View statement report"
+msgstr "Overzichtsrapport bekijken"
+
+#: classes/class-install.php:607, classes/class-install.php:610,
+#: classes/class-install.php:611
+msgid "View order menu"
+msgstr "Menu bestellingen bekijken"
+
+#: classes/class-install.php:608
+msgid "View dashboard menu"
+msgstr "Dashboardmenu weergeven"
+
+#: classes/class-install.php:609
+msgid "View product menu"
+msgstr "Bekijk productmenu"
+
+#: classes/class-install.php:612
+msgid "View ratings menu"
+msgstr "Bekijk het menu Beoordelingen"
+
+#: classes/class-install.php:613
+msgid "View store settings menu"
+msgstr "Menu winkelinstellingen bekijken"
+
+#: classes/class-vendor-post-types.php:37
+msgid "%s Orders"
+msgstr "%s Bestellingen"
+
+#: classes/class-vendors.php:619
+msgid "%1$s Order &ndash; %2$s"
+msgstr "%1$s Orde – %2$s"
+
+#: classes/class-vendors.php:619
+msgctxt "Order date parsed by strftime"
+msgid "%1$b %2$d, %Y @ %I:%M %p"
+msgstr "%1$b %2$d, %Y @ %I:%M %p"
+
+#. translators: %s is vendor string
+#: classes/admin/class-admin-media.php:28
+msgid "Assign %s"
+msgstr "%s toewijzen"
+
+#: classes/admin/class-admin-media.php:113,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:220,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:223
+msgid "None"
+msgstr "Geen"
+
+#: classes/admin/class-admin-menus.php:52,
+#: classes/admin/class-admin-menus.php:53,
+#: classes/admin/class-admin-reports.php:40,
+#: classes/admin/class-wcv-admin-setup.php:278,
+#: classes/admin/views/html-vendor-meta.php:1
+msgid "WC Vendors"
+msgstr "WC Vendors"
+
+#: classes/admin/class-admin-menus.php:69
+msgid "WC Vendors Extensions"
+msgstr "WC Vendors Extensies"
+
+#: classes/admin/class-admin-menus.php:70
+msgid "Extensions"
+msgstr "Extensies"
+
+#: classes/admin/class-admin-menus.php:94
+msgid "Upgrade To WC Vendors Pro Today"
+msgstr "Upgrade vandaag nog naar WC Vendors Pro"
+
+#: classes/admin/class-admin-menus.php:95
+msgid "Go PRO"
+msgstr "Go PRO"
+
+#: classes/admin/class-admin-menus.php:122,
+#: classes/admin/class-admin-menus.php:123
+msgid "Commissions"
+msgstr "Commissies"
+
+#: classes/admin/class-admin-menus.php:144
+msgid "WC Vendors Settings"
+msgstr "Wc-leveranciersinstellingen"
+
+#: classes/admin/class-admin-reports.php:43
+msgid "Overview"
+msgstr "Overzicht"
+
+#: classes/admin/class-admin-reports.php:49
+msgid "Commission By %s"
+msgstr "Commissie per %s"
+
+#: classes/admin/class-admin-reports.php:55
+msgid "Commission By Product"
+msgstr "Commissie per product"
+
+#: classes/admin/class-admin-reports.php:61
+msgid "Commission Totals"
+msgstr "Commissie totalen"
+
+#: classes/admin/class-admin-reports.php:62
+msgid ""
+"Commission totals for all vendors includes shipping and taxes. By default no "
+"date range is used and all due commissions are returned. Use the date range "
+"to filter."
+msgstr ""
+"Commissie totalen voor alle verkopers is inclusief verzending en "
+"belastingen. Standaard wordt er geen datum bereik gebruikt en alle "
+"verschuldigde commissies worden teruggestort. Gebruik de datum filter."
+
+#: classes/admin/class-admin-reports.php:123,
+#: classes/admin/class-admin-reports.php:284,
+#: classes/admin/class-admin-reports.php:363,
+#: classes/admin/class-wcv-commissions-page.php:349,
+#: templates/dashboard/date-picker.php:19
+msgid "From:"
+msgstr "Van:"
+
+#: classes/admin/class-admin-reports.php:127,
+#: classes/admin/class-admin-reports.php:286,
+#: classes/admin/class-admin-reports.php:367,
+#: classes/admin/class-wcv-commissions-page.php:364,
+#: templates/dashboard/date-picker.php:23
+msgid "To:"
+msgstr "Aan:"
+
+#: classes/admin/class-admin-reports.php:131,
+#: classes/admin/class-admin-reports.php:319,
+#: classes/admin/class-admin-reports.php:378,
+#: templates/dashboard/date-picker.php:28
+msgid "Show"
+msgstr "Toon"
+
+#: classes/admin/class-admin-reports.php:137
+msgid "Total Paid In Range"
+msgstr "Totaal betaald in bereik"
+
+#: classes/admin/class-admin-reports.php:145,
+#: classes/admin/class-admin-reports.php:160,
+#: classes/admin/class-admin-reports.php:175
+msgid "n/a"
+msgstr "n/a"
+
+#: classes/admin/class-admin-reports.php:152
+msgid "Total Due In Range"
+msgstr "Totaal verschuldigd in bereik"
+
+#: classes/admin/class-admin-reports.php:167
+msgid "Total Reversed In Range"
+msgstr "Totaal gereserveerd in bereik"
+
+#: classes/admin/class-admin-reports.php:185
+msgid "Recent Commission"
+msgstr "Recente commissie"
+
+#: classes/admin/class-admin-reports.php:251
+msgid "No commission yet"
+msgstr "Nog geen commissie"
+
+#: classes/admin/class-admin-reports.php:205,
+#: templates/dashboard/orders.php:52, classes/front/orders/class-orders.php:211
+msgid "Order"
+msgstr "Bestelling"
+
+#: classes/admin/class-admin-reports.php:206,
+#: classes/admin/class-admin-reports.php:639,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:51,
+#: classes/admin/class-wcv-commissions-page.php:204,
+#: templates/dashboard/reports.php:36,
+#: templates/emails/notify-vendor-shipped.php:30,
+#: templates/emails/vendor-new-order.php:35,
+#: templates/emails/vendor-order-details.php:38,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:219,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:222
+msgid "Product"
+msgstr "Product"
+
+#: classes/admin/class-admin-reports.php:208,
+#: classes/admin/class-admin-reports.php:581,
+#: classes/admin/class-admin-reports.php:710,
+#: classes/admin/class-vendor-admin-dashboard.php:381,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:56,
+#: classes/admin/class-wcv-commissions-page.php:209,
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:44,
+#: templates/dashboard/orders.php:56
+msgid "Total"
+msgstr "Totaal"
+
+#: classes/admin/class-admin-reports.php:209
+msgid "Date &amp; Time"
+msgstr "Datum & tijd"
+
+#: classes/admin/class-admin-reports.php:210,
+#: classes/admin/class-admin-reports.php:391,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:58,
+#: classes/admin/class-wcv-commissions-page.php:210
+msgid "Status"
+msgstr "Status"
+
+#: classes/admin/class-admin-reports.php:234,
+#: templates/emails/vendor-order-addresses.php:32
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/admin/class-admin-reports.php:241
+msgid "D j M Y \a\t h:ia"
+msgstr "D j M Y h:ia"
+
+#: classes/admin/class-admin-reports.php:285
+msgid "yyy-mm-dd"
+msgstr "jjjj-mm-dd"
+
+#: classes/admin/class-admin-reports.php:287
+msgid "yyyy-mm-dd"
+msgstr "dd-mm-yyyy"
+
+#: classes/admin/class-admin-reports.php:293
+msgid "Type in a product name to start searching..."
+msgstr "Type een product naam in om te beginnen met zoeken"
+
+#: classes/admin/class-admin-reports.php:389,
+#: classes/admin/class-admin-reports.php:521
+msgid "Tax Total"
+msgstr "Totale belasting"
+
+#: classes/admin/class-admin-reports.php:390,
+#: classes/admin/class-admin-reports.php:522
+msgid "Shipping Total"
+msgstr "Totale verzending"
+
+#: classes/admin/class-admin-reports.php:392,
+#: classes/admin/class-admin-reports.php:520
+msgid "Commission Total"
+msgstr "Totale commissie"
+
+#: classes/admin/class-admin-reports.php:413
+msgid "No commissions found."
+msgstr "Geen commissie gevonden."
+
+#: classes/admin/class-admin-reports.php:597
+msgid "No commissions found"
+msgstr "Geen commissies gevonden"
+
+#: classes/admin/class-admin-reports.php:519
+msgid "Month / Date"
+msgstr "Maand / Datum"
+
+#: classes/admin/class-admin-reports.php:523,
+#: classes/admin/class-admin-reports.php:643
+msgid "Total Reversed"
+msgstr "Totaal gereserveerd in bereik"
+
+#: classes/admin/class-admin-reports.php:524,
+#: classes/admin/class-admin-reports.php:644
+msgid "Total Paid"
+msgstr "Totaal Voldaan"
+
+#: classes/admin/class-admin-reports.php:525,
+#: classes/admin/class-admin-reports.php:645
+msgid "Total Due"
+msgstr "Totaal"
+
+#: classes/admin/class-admin-reports.php:728
+msgid "No commission data found"
+msgstr "Geen commissiegegevens gevonden"
+
+#: classes/admin/class-admin-reports.php:638,
+#: classes/admin/class-vendor-admin-dashboard.php:383,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:59,
+#: classes/admin/class-wcv-commissions-page.php:212,
+#: templates/dashboard/orders.php:57, classes/front/orders/class-orders.php:219
+msgid "Date"
+msgstr "Datum"
+
+#: classes/admin/class-admin-reports.php:640
+msgid "Total Commission"
+msgstr "Totale commissie"
+
+#: classes/admin/class-admin-reports.php:641
+msgid "Total Tax"
+msgstr "Totaal BTW"
+
+#: classes/admin/class-admin-reports.php:642
+msgid "Total Shipping"
+msgstr "Totaal Reiskosten"
+
+#: classes/admin/class-admin-users.php:82
+msgid "You are not allowed to submit products. <a href=\"%s\">Go Back</a>"
+msgstr "U mag geen producten toevoegen. <a href=\"%s\">Ga Terug</a>"
+
+#: classes/admin/class-admin-users.php:472
+msgid "%s Store"
+msgstr "%s winkel"
+
+#: classes/admin/class-admin-users.php:524
+msgid "Set primary role to %s "
+msgstr "Primaire rol instellen op %s "
+
+#: classes/admin/class-product-meta.php:182
+msgid "Search  %s"
+msgstr "Zoek %s"
+
+#: classes/admin/class-product-meta.php:253,
+#: classes/admin/class-product-meta.php:371,
+#: classes/admin/class-product-meta.php:421
+msgid "Assign media to %s"
+msgstr "Media toewijzen aan %"
+
+#: classes/admin/class-product-meta.php:298,
+#: classes/admin/class-product-meta.php:316,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:53,
+#: classes/admin/class-wcv-commissions-page.php:206,
+#: templates/dashboard/reports.php:38,
+#: templates/emails/vendor-order-details.php:43,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:218,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:221,
+#: classes/admin/settings/class-wcv-settings-commission.php:32,
+#: classes/admin/views/html-admin-commission-page.php:23,
+#: classes/admin/views/setup/general.php:81
+msgid "Commission"
+msgstr "Commissie"
+
+#: classes/admin/class-product-meta.php:325,
+#: classes/admin/views/html-vendor-meta.php:110
+msgid "Leave blank for default"
+msgstr "Laat leeg voor standaard"
+
+#: classes/admin/class-product-meta.php:344
+msgid "%s Store "
+msgstr "%s winkel "
+
+#: classes/admin/class-product-meta.php:408
+msgid "— No change —"
+msgstr "— Geen verandering —"
+
+#: classes/admin/class-setup-wizard.php:81
+msgid "Start"
+msgstr "Start"
+
+#: classes/admin/class-setup-wizard.php:86,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:32
+msgid "Capabilities"
+msgstr "Mogelijkheden"
+
+#: classes/admin/class-setup-wizard.php:91,
+#: classes/admin/settings/class-wcv-settings-display.php:196,
+#: classes/admin/views/setup/pages.php:19
+msgid "Pages"
+msgstr "Pagina's"
+
+#: classes/admin/class-setup-wizard.php:96
+msgid "Ready!"
+msgstr "Klaar!"
+
+#: classes/admin/class-setup-wizard.php:117
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Geen matches gevonden"
+
+#: classes/admin/class-setup-wizard.php:118
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Laden mislukt"
+
+#: classes/admin/class-setup-wizard.php:119
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Voer 1 of meer tekens in"
+
+#: classes/admin/class-setup-wizard.php:120
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Voer %qty% of meer tekens in"
+
+#: classes/admin/class-setup-wizard.php:121
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Verwijder 1 teken"
+
+#: classes/admin/class-setup-wizard.php:122
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Verwijder %qty% tekens"
+
+#: classes/admin/class-setup-wizard.php:123
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "U mag slechts 1 artikel selecteren"
+
+#: classes/admin/class-setup-wizard.php:124
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Je kan slechts %qty% items selecteren"
+
+#: classes/admin/class-setup-wizard.php:125
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Meer resultaten aan het laden&hellip;"
+
+#: classes/admin/class-setup-wizard.php:126
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Bezig met zoeken&hellip;"
+
+#. translators: %1$s: link to videos, %2$s: link to docs
+#: classes/admin/class-setup-wizard.php:413
+msgid ""
+"Don't forget to check our <a href=\"%1$s\" target=\"_blank\">documentation</"
+"a> to learn more about setting up WC Vendors and if you need help, be sure "
+"to visit our <a href=\"%2$s\" target=\"_blank\">free support forums</a>."
+msgstr ""
+"Vergeet niet om onze <a href=\"%1$s\" target=\"_blank\">documentatie</a> te "
+"raadplegen voor meer informatie over het instellen van WC Vendors en als u "
+"hulp nodig hebt, moet u onze <a href=\"%2$s\" target=\"_blank\">gratis "
+"ondersteuningsforums</a> bezoeken."
+
+#: classes/admin/class-vendor-admin-dashboard.php:25,
+#: classes/admin/class-vendor-admin-dashboard.php:26,
+#: classes/admin/settings/class-wcv-settings-display.php:211
+msgid "Shop Settings"
+msgstr "Winkel instellingen"
+
+#: classes/admin/class-vendor-admin-dashboard.php:35,
+#: classes/admin/class-vendor-admin-dashboard.php:36,
+#: classes/admin/class-vendor-admin-dashboard.php:235,
+#: templates/dashboard/orders.php:40,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:47,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:294,
+#: classes/admin/settings/class-wcv-settings-display.php:220,
+#: classes/admin/views/setup/capabilities.php:70
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: classes/admin/class-vendor-admin-dashboard.php:94,
+#: classes/front/dashboard/class-vendor-dashboard.php:138
+msgid "Your PayPal address is not a valid email address."
+msgstr "Je PayPal e-mailadres is geen geldig e-mailadres."
+
+#: classes/admin/class-vendor-admin-dashboard.php:111,
+#: classes/front/dashboard/class-vendor-dashboard.php:154
+msgid "That shop name is already taken. Your shop name must be unique."
+msgstr "Die winkelnaam is al in gebruik. Je winkelnaam dient uniek te zijn."
+
+#: classes/admin/class-vendor-admin-dashboard.php:167,
+#: classes/front/dashboard/class-vendor-dashboard.php:206
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen!"
+
+#: classes/admin/class-vendor-admin-dashboard.php:301
+msgid "order"
+msgstr "bestelling"
+
+#: classes/admin/class-vendor-admin-dashboard.php:302
+msgid "orders"
+msgstr "bestellingen"
+
+#: classes/admin/class-vendor-admin-dashboard.php:378,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:48,
+#: classes/admin/class-wcv-commissions-page.php:201
+msgid "Order ID"
+msgstr "Bestelnummer"
+
+#: classes/admin/class-vendor-admin-dashboard.php:379
+msgid "Customer"
+msgstr "Klant"
+
+#: classes/admin/class-vendor-admin-dashboard.php:380,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:46,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:258,
+#: classes/admin/views/setup/capabilities.php:19
+msgid "Products"
+msgstr "Producten"
+
+#: classes/admin/class-vendor-admin-dashboard.php:384,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:57,
+#: classes/admin/class-wcv-commissions-page.php:211,
+#: templates/dashboard/orders.php:130
+msgid "Shipped"
+msgstr "Verzonden"
+
+#: classes/admin/class-vendor-admin-dashboard.php:422,
+#: classes/admin/class-wcv-admin-orders.php:76,
+#: classes/admin/class-wcv-admin-orders.php:88,
+#: classes/includes/wcv-vendor-functions.php:95,
+#: templates/dashboard/orders.php:123
+msgid "Mark shipped"
+msgstr "Markeer als verzonden"
+
+#: classes/admin/class-vendor-admin-dashboard.php:449
+msgid "Orders marked shipped."
+msgstr "Orders gemarkeerd als verzonden"
+
+#: classes/admin/class-vendor-admin-dashboard.php:610,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:187,
+#: classes/admin/class-wcv-commissions-page.php:122
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/admin/class-vendor-admin-dashboard.php:610,
+#: classes/admin/class-wcv-commissions-csv-exporter.php:187,
+#: classes/admin/class-wcv-commissions-page.php:122
+msgid "No"
+msgstr "Nee"
+
+#: classes/admin/class-vendor-applicants.php:80
+msgid "%s has been <b>denied</b>."
+msgstr "Verkoper is <b>geweigerd </b>."
+
+#: classes/admin/class-vendor-applicants.php:91
+msgid "%s has been <b>approved</b>."
+msgstr "%s is <b>geaccepteerd</a>"
+
+#: classes/admin/class-vendor-applicants.php:105
+msgid "Pending Vendors"
+msgstr "Afwachtende verkopers"
+
+#: classes/admin/class-wcv-admin-help.php:50
+msgid "Help &amp; Support"
+msgstr "Help &amp; ondersteuning"
+
+#: classes/admin/class-wcv-admin-help.php:52
+msgid "Welcome to WC Vendors Help &amp; Support"
+msgstr "Welkom bij WC Vendors Help &amp; Support"
+
+#. translators: %s: Documentation URL
+#: classes/admin/class-wcv-admin-help.php:55
+msgid ""
+"Should you need any help with using or extending WC Vendors, <a href=\"%s"
+"\">please read our documentation</a>. You will find all kinds of resources "
+"including code snippets, guides and much more."
+msgstr ""
+"Mocht u hulp nodig hebben bij het gebruik of de uitbreiding van WC Vendors, "
+"<a href=\"%s\">lees dan onze documentatie</a>. Je vindt er allerlei bronnen, "
+"waaronder codefragmenten, handleidingen en nog veel meer."
+
+#. translators: %s: Forum URL
+#: classes/admin/class-wcv-admin-help.php:60
+msgid ""
+"Do you have a question about WC Vendors? For assistance please see our <a "
+"href=\"%1$s\">community forum</a>. If you need help with premium extensions "
+"sold by WC Vendors, please <a href=\"%2$s\">submit a ticket</a>."
+msgstr ""
+"Heeft u een vraag over WC Vendors? Voor hulp kunt u terecht op ons <a href="
+"\"%1$s\">community forum</a>. Als u hulp nodig hebt met premium extensies "
+"die worden verkocht door WC Vendors, <a href=\"%2$s\">dient u een ticket in</"
+"a>."
+
+#: classes/admin/class-wcv-admin-help.php:64
+msgid ""
+"Before asking for help we recommend checking the system status page to "
+"identify any problems with your configuration. <strong>Anything showing red "
+"should be fixed before contacting us.</strong>"
+msgstr ""
+"Voordat u om hulp vraagt, raden we u aan de systeemstatuspagina te "
+"controleren om eventuele problemen met uw configuratie te identificeren. "
+"<strong>Alles wat rood is, moet worden opgelost voordat u contact met ons "
+"opneemt.</strong>"
+
+#: classes/admin/class-wcv-admin-help.php:65
+msgid ""
+"Please follow our <a href=\"%s\">debuggin guide</a> to ensure that you have "
+"narrowed down the issue. "
+msgstr ""
+"Volg onze <a href=\"%s\">debuggin gids</a> om ervoor te zorgen dat u het "
+"probleem hebt verkleind. "
+
+#: classes/admin/class-wcv-admin-help.php:66,
+#: classes/admin/class-wcv-admin-help.php:88
+msgid "System status"
+msgstr "Systeemstatus"
+
+#: classes/admin/class-wcv-admin-help.php:66
+msgid "Community forum"
+msgstr "Community forum"
+
+#: classes/admin/class-wcv-admin-help.php:66
+msgid "WC Vendors Premium Support"
+msgstr "WC Vendors Premium Ondersteuning"
+
+#: classes/admin/class-wcv-admin-help.php:73,
+#: classes/admin/class-wcv-admin-help.php:75
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: classes/admin/class-wcv-admin-help.php:76
+msgid ""
+"If you are new to WC Vendors then we highly recommend that you go through "
+"our <a href=\"%s\">getting started guides</a>."
+msgstr ""
+"Als u nieuw bent bij WC Vendors, raden we u ten zeerste aan om onze <a href="
+"\"%s\">handleidingen voor aan de slag te doorlopen</a>."
+
+#: classes/admin/class-wcv-admin-help.php:83,
+#: classes/admin/class-wcv-admin-help.php:85
+msgid "Found a bug?"
+msgstr "Een bug gevonden?"
+
+#. translators: 1: GitHub issues URL 2: System status report URL
+#: classes/admin/class-wcv-admin-help.php:87
+msgid ""
+"If you think you have found a bug in WC Vendors you can create a ticket via "
+"<a href=\"%1$s\">Github issues</a>. To help us solve your issue, please be "
+"as descriptive as possible and include your <a href=\"%2$s\">system status "
+"report</a>."
+msgstr ""
+"Als je denkt dat je een bug hebt gevonden in WC Vendors, kun je een ticket "
+"maken via <a href=\"%1$s\">Github-problemen</a>. Om ons te helpen uw "
+"probleem op te lossen, moet u zo beschrijvend mogelijk zijn en uw <a href="
+"\"%2$s\">systeemstatusrapport opnemen</a>."
+
+#: classes/admin/class-wcv-admin-help.php:88
+msgid "Report a bug"
+msgstr "Rapporteer een bug"
+
+#: classes/admin/class-wcv-admin-help.php:96,
+#: classes/admin/class-wcv-admin-help.php:98,
+#: classes/admin/class-wcv-admin-help.php:100
+msgid "Setup wizard"
+msgstr "Installatie-wizard"
+
+#: classes/admin/class-wcv-admin-help.php:99
+msgid ""
+"If you need to access the setup wizard again, please click on the button "
+"below."
+msgstr ""
+"Als u de installatiewizard opnieuw wilt gebruiken, klik dan op de knop "
+"hieronder."
+
+#: classes/admin/class-wcv-admin-help.php:108
+msgid "Update"
+msgstr "Bijwerken"
+
+#: classes/admin/class-wcv-admin-help.php:110
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: classes/admin/class-wcv-admin-help.php:111
+msgid ""
+"If you need to manually run the updates, please click on the button below."
+msgstr ""
+"Als u de updates handmatig wilt uitvoeren, klikt u op de onderstaande knop."
+
+#: classes/admin/class-wcv-admin-help.php:112
+msgid "Run the updater"
+msgstr "Voer de updater uit"
+
+#: classes/admin/class-wcv-admin-help.php:118
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: classes/admin/class-wcv-admin-help.php:120
+msgid "Buy extensions"
+msgstr "Koop extensies"
+
+#: classes/admin/class-wcv-admin-help.php:121
+msgid "About WC Vendors"
+msgstr "Over WC Vendors"
+
+#: classes/admin/class-wcv-admin-help.php:122
+msgid "WC Vendors on WordPress.org"
+msgstr "WC-leveranciers op WordPress.org"
+
+#: classes/admin/class-wcv-admin-help.php:123
+msgid "WC Vendors Github"
+msgstr "WC Leveranciers Github"
+
+#: classes/admin/class-wcv-admin-import-export.php:71
+msgid "Vendor ID"
+msgstr "Vendor ID"
+
+#: classes/admin/class-wcv-admin-notices.php:131,
+#: classes/admin/class-wcv-admin-settings.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer opnieuw."
+
+#: classes/admin/class-wcv-admin-notices.php:135
+msgid "Cheatin&#8217; huh?"
+msgstr "Wat ben jij aan het proberen?"
+
+#: classes/admin/class-wcv-admin-orders.php:59
+msgid "Mark Shipped"
+msgstr "Markeer als verzonden"
+
+#: classes/admin/class-wcv-admin-orders.php:201
+msgid "Order #%1$d marked shipped for all %2$s."
+msgstr "Bestelling #%1$d gemarkeerd als verzonden voor alle %2$s."
+
+#: classes/admin/class-wcv-admin-orders.php:207
+msgid "Orders marked shipped for all %s."
+msgstr "Bestellingen gemarkeerd verzonden voor alle %s."
+
+#: classes/admin/class-wcv-admin-orders.php:214
+msgid "Order marked shipped for %s."
+msgstr "Bestelling gemarkeerd verzonden voor %s."
+
+#: classes/admin/class-wcv-admin-settings.php:77
+msgid "Your settings have been saved."
+msgstr "Je instellingen zijn opgeslagen."
+
+#: classes/admin/class-wcv-admin-settings.php:98
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "﻿De wijzigingen zullen verloren gaan als u deze pagina verlaat."
+
+#: classes/admin/class-wcv-admin-settings.php:466,
+#: classes/admin/class-wcv-admin-settings.php:498,
+#: classes/includes/class-functions.php:64
+msgid "Select a page&hellip;"
+msgstr "Selecteer een pagina&hellip;"
+
+#: classes/admin/class-wcv-admin-settings.php:524
+msgid "Choose a country&hellip;"
+msgstr "Kies een land&hellip;"
+
+#: classes/admin/class-wcv-admin-settings.php:524,
+#: classes/admin/class-wcv-admin-settings.php:553
+msgid "Country"
+msgstr "Land"
+
+#: classes/admin/class-wcv-admin-settings.php:553
+msgid "Choose countries&hellip;"
+msgstr "Kies landen&hellip;"
+
+#: classes/admin/class-wcv-admin-settings.php:562
+msgid "Select all"
+msgstr "Selecteer alles"
+
+#: classes/admin/class-wcv-admin-settings.php:562
+msgid "Select none"
+msgstr "Niets selecteren"
+
+#: classes/admin/class-wcv-admin-settings.php:582
+msgid "Update %s"
+msgstr "%s bijwerken"
+
+#: classes/admin/class-wcv-admin-settings.php:582,
+#: classes/admin/class-wcv-admin-settings.php:582
+msgid "Add %s"
+msgstr "Voeg %s toe"
+
+#: classes/admin/class-wcv-admin-settings.php:582
+msgid "Upload an image for the %s"
+msgstr "Upload een afbeelding voor %s"
+
+#: classes/admin/class-wcv-admin-setup.php:42
+msgid "Reset WC Vendors roles "
+msgstr "Rollen van WC Vendors resetten "
+
+#: classes/admin/class-wcv-admin-setup.php:43
+msgid "Reset WC Vendor Roles"
+msgstr "WC-leveranciersrollen opnieuw instellen"
+
+#: classes/admin/class-wcv-admin-setup.php:44
+msgid ""
+"This will reset the wcvendors roles ( vendor & pending_vendor ), back to the "
+"default capabilities."
+msgstr ""
+"Hiermee worden de wcvendors-rollen (vendor & pending_vendor) teruggezet naar "
+"de standaardmogelijkheden."
+
+#: classes/admin/class-wcv-admin-setup.php:49
+msgid "Reset WC Vendors "
+msgstr "WC Vendors resetten "
+
+#: classes/admin/class-wcv-admin-setup.php:50
+msgid "Reset WC Vendors Settings"
+msgstr "Reset WC Vendors instellingen"
+
+#: classes/admin/class-wcv-admin-setup.php:51
+msgid ""
+"This will reset wcvendors back to defaults. This DELETES ALL YOUR Settings."
+msgstr ""
+"Hiermee worden wcvendors teruggezet naar de standaardwaarden. Hiermee WORDEN "
+"AL UW instellingen VERWIJDERD."
+
+#: classes/admin/class-wcv-admin-setup.php:56,
+#: classes/admin/class-wcv-admin-setup.php:57
+msgid "Remove orphaned sub orders"
+msgstr "Zwevende suborders verwijderen"
+
+#: classes/admin/class-wcv-admin-setup.php:58
+msgid "This will remove all orphaned sub orders "
+msgstr "Hiermee worden alle verweesde suborders verwijderd "
+
+#: classes/admin/class-wcv-admin-setup.php:112
+msgid "WC Vendor roles successfully reset."
+msgstr "WC Vendor-rollen zijn opnieuw ingesteld."
+
+#: classes/admin/class-wcv-admin-setup.php:126
+msgid "WC Vendors was successfully reset. All settings have been reset."
+msgstr "WC Vendors is met succes gereset. Alle instellingen zijn gereset."
+
+#: classes/admin/class-wcv-admin-setup.php:155
+msgid "Orphaned sub orders have been removed."
+msgstr "Verweesde suborders zijn verwijderd."
+
+#: classes/admin/class-wcv-admin-setup.php:232
+msgid "All commissions marked as paid."
+msgstr "Alle commissies gemarkeerd als betaald."
+
+#. translators: 1: WooCommerce 2:: five stars
+#: classes/admin/class-wcv-admin-setup.php:277
+msgid ""
+"If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+"Als u %1$s leuk vindt, geef ons dan een %2$s waardering. Alvast hartelijk "
+"bedankt!"
+
+#: classes/admin/class-wcv-admin-setup.php:279
+msgid "Thanks :)"
+msgstr "Bedankt :)"
+
+#: classes/admin/class-wcv-admin-setup.php:331
+msgid "%s Notifications"
+msgstr "%s Notificaties"
+
+#: classes/admin/class-wcv-admin-setup.php:332
+msgid "Enable %s low stock notifications"
+msgstr "Geef %s een  email melding"
+
+#: classes/admin/class-wcv-admin-setup.php:341
+msgid "Enable %s out of stock notifications"
+msgstr "Geef %s een  email meldin"
+
+#: classes/admin/class-wcv-admin-setup.php:350
+msgid "Enable %s backorder stock notifications"
+msgstr "Schakel %s  deze email notificatie in"
+
+#: classes/admin/class-wcv-commissions-csv-exporter.php:52
+msgid "QTY"
+msgstr "AANTAL"
+
+#: classes/admin/class-wcv-commissions-csv-exporter.php:54,
+#: classes/admin/class-wcv-commissions-page.php:207,
+#: templates/dashboard/orders.php:54, templates/orders/orders.php:148,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:107
+msgid "Shipping"
+msgstr "Verzending"
+
+#: classes/admin/class-wcv-commissions-csv-exporter.php:55,
+#: classes/admin/class-wcv-commissions-page.php:208
+msgid "Tax"
+msgstr "Belasting"
+
+#: classes/admin/class-wcv-commissions-page.php:205,
+#: templates/dashboard/reports.php:37,
+#: templates/emails/notify-vendor-shipped.php:31,
+#: templates/emails/vendor-new-order.php:36,
+#: templates/emails/vendor-order-details.php:40,
+#: classes/front/orders/class-export-csv.php:17
+msgid "Quantity"
+msgstr "Aantal"
+
+#: classes/admin/class-wcv-commissions-page.php:260
+msgid "Mark paid"
+msgstr "Markeer als betaald"
+
+#: classes/admin/class-wcv-commissions-page.php:261
+msgid "Mark due"
+msgstr "Markeer als verschuldigd"
+
+#: classes/admin/class-wcv-commissions-page.php:262
+msgid "Mark reversed"
+msgstr "Markeer als teruggedraaid"
+
+#: classes/admin/class-wcv-commissions-page.php:263
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: classes/admin/class-wcv-commissions-page.php:309
+msgid "Filter"
+msgstr "Filter"
+
+#: classes/admin/class-wcv-commissions-page.php:318
+msgid "Clear"
+msgstr "Wissen"
+
+#: classes/admin/class-wcv-commissions-page.php:320
+msgid "Export to CSV"
+msgstr "Exporteer naar CSV"
+
+#: classes/admin/class-wcv-commissions-page.php:321
+msgid "Export Totals to CSV"
+msgstr "Totalen exporteren naar CSV"
+
+#: classes/admin/class-wcv-commissions-page.php:322
+msgid "Mark all paid"
+msgstr "Alles betaald markeren"
+
+#: classes/admin/class-wcv-commissions-page.php:393
+msgid "Show all Statuses"
+msgstr "Alle statussen tonen"
+
+#. translators: Filter by terms
+#: classes/admin/class-wcv-commissions-page.php:414
+msgid "Filter by %s"
+msgstr "Filter op %s"
+
+#: classes/admin/class-wcv-commissions-page.php:447
+msgid "Commission marked paid."
+msgstr "Commissie gemarkeerd als betaald"
+
+#: classes/admin/class-wcv-commissions-page.php:455
+msgid "Commission marked due."
+msgstr "Commissie gemarkeerd als verschuldigd."
+
+#: classes/admin/class-wcv-commissions-page.php:463
+msgid "Commission marked reversed."
+msgstr "Commissie gemarkeerd als tereggedraaid"
+
+#: classes/admin/class-wcv-commissions-page.php:469
+msgid "Commission(s) deleted."
+msgstr "Commissie(s) geschrapt."
+
+#: classes/admin/class-wcv-commissions-page.php:698
+msgid "All"
+msgstr "Alle"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:45,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:183,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:217
+msgid "PayPal Email"
+msgstr "PayPal Email"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:46,
+#: classes/admin/views/html-vendor-meta.php:54,
+#: classes/admin/views/html-vendor-settings-page.php:37
+msgid "Bank Account Name"
+msgstr "Naam Rekeninghouder"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:47,
+#: classes/admin/views/html-vendor-meta.php:62,
+#: classes/admin/views/html-vendor-settings-page.php:49
+msgid "Bank Account Number"
+msgstr "Bankrekeningnummer"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:48,
+#: classes/admin/views/html-vendor-meta.php:70,
+#: classes/admin/views/html-vendor-settings-page.php:61,
+#: templates/dashboard/settings/settings.php:59
+msgid "Bank Name"
+msgstr "Naam bank"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:49,
+#: classes/admin/views/html-vendor-meta.php:77,
+#: classes/admin/views/html-vendor-settings-page.php:73,
+#: templates/dashboard/settings/settings.php:67
+msgid "Routing Number"
+msgstr "Routing Nummer"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:50,
+#: classes/admin/views/html-vendor-meta.php:85,
+#: classes/admin/views/html-vendor-settings-page.php:85,
+#: templates/dashboard/settings/settings.php:72
+msgid "IBAN"
+msgstr "IBAN"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:51,
+#: classes/admin/views/html-vendor-meta.php:92,
+#: classes/admin/views/html-vendor-settings-page.php:97
+msgid "BIC/SWIFT"
+msgstr "BIC/SWIFT"
+
+#: classes/admin/class-wcv-commissions-sum-csv-exporter.php:52
+msgid "Commission Status"
+msgstr "Status van de commissie"
+
+#: classes/includes/class-functions.php:39
+msgid "Vendor"
+msgstr "Verkoper"
+
+#: classes/includes/class-functions.php:40
+msgid "Vendors"
+msgstr "Leveranciers"
+
+#: classes/includes/wcv-template-functions.php:120
+msgid "Commission subtotal:"
+msgstr "Commissie Subtotaal:"
+
+#: classes/includes/wcv-template-functions.php:133
+msgid "Product subtotal:"
+msgstr "Product subtotaal:"
+
+#: classes/includes/wcv-template-functions.php:141
+msgid "Shipping:"
+msgstr "Verzending:"
+
+#: classes/includes/wcv-template-functions.php:149
+msgid "Tax:"
+msgstr "BTW:"
+
+#: classes/includes/wcv-template-functions.php:157
+msgid "Payment method:"
+msgstr "Betaalmethode:"
+
+#: classes/includes/wcv-template-functions.php:166
+msgid "Commission total:"
+msgstr "Jouw opbrengsten:"
+
+#: classes/includes/wcv-template-functions.php:178
+msgid "Product total:"
+msgstr "Totaal product:"
+
+#: classes/includes/wcv-update-functions.php:110
+msgid ""
+"WC Vendors legacy emails are enabled. Please migrate your email templates to "
+"the new system. <a href=\"%s\">Click here to view your email settings.</a>"
+msgstr ""
+"Wc-leveranciers oude e-mails zijn ingeschakeld. Migreer uw e-mailsjablonen "
+"naar het nieuwe systeem. <a href=\"%s\">Klik hier om uw e-mailinstellingen "
+"te bekijken.</a>"
+
+#: classes/includes/wcv-vendor-functions.php:41,
+#: classes/front/dashboard/class-vendor-dashboard.php:81
+msgid "%s has marked as shipped. "
+msgstr "%s heeft als verzonden / uitgevoerd gemarkeerd"
+
+#: classes/includes/wcv-vendor-functions.php:88
+msgid "Vendors shipped"
+msgstr "Verkopers verzonden"
+
+#: templates/dashboard/denied.php:25
+msgid "Your account is not setup as a %s."
+msgstr "Uw account is niet ingesteld als een %s."
+
+#: templates/dashboard/denied.php:35
+msgid "Apply to become a %s? "
+msgstr "Vraag een %s account aan "
+
+#: templates/dashboard/denied.php:57
+msgid "I have read and accepted the <a href=\"%s\">terms and conditions</a>"
+msgstr ""
+"Ik heb de <a href=\"%s\">algemene verkoopvoorwaarden</a> gelezen en ik "
+"accepteer deze"
+
+#: templates/dashboard/denied.php:79
+msgid "Submit"
+msgstr "Indienen"
+
+#: templates/dashboard/denied.php:21
+msgid ""
+"Your account has not yet been approved to become a %s.  When it is, you will "
+"receive an email telling you that your account is approved!"
+msgstr ""
+"Uw account is nog niet goedgekeurd om een %s te worden.  Wanneer dat het "
+"geval is, ontvang je een e-mail waarin staat dat je account is goedgekeurd!"
+
+#: templates/dashboard/links.php:28,
+#: classes/front/dashboard/class-vendor-dashboard.php:365
+msgid "View Your Store"
+msgstr "Bekijk je winkel"
+
+#: templates/dashboard/links.php:29,
+#: classes/admin/settings/class-wcv-settings-display.php:254,
+#: classes/front/dashboard/class-vendor-dashboard.php:369
+msgid "Store Settings"
+msgstr "Winkel instellingen"
+
+#: templates/dashboard/links.php:33,
+#: classes/front/dashboard/class-vendor-dashboard.php:378
+msgid "Add New Product"
+msgstr "Voeg nieuw product toe"
+
+#: templates/dashboard/links.php:35,
+#: classes/front/dashboard/class-vendor-dashboard.php:383
+msgid "Edit Products"
+msgstr "Bewerkt producten"
+
+#: templates/dashboard/orders.php:23, templates/dashboard/orders.php:26
+msgid "Hide items"
+msgstr "Verberg items"
+
+#: templates/dashboard/orders.php:24, templates/dashboard/orders.php:117
+msgid "View items"
+msgstr "Bekijk items"
+
+#: templates/dashboard/orders.php:58
+msgid "Links"
+msgstr "Links"
+
+#: templates/dashboard/orders.php:218
+msgid "You have no orders during this period."
+msgstr "Je hebt geen orders gehad in deze periode."
+
+#: templates/dashboard/orders.php:138
+msgid "Tracking"
+msgstr "Tracking"
+
+#: templates/dashboard/reports.php:18
+msgid "Sales Report"
+msgstr "Verkooprapporten"
+
+#: templates/dashboard/reports.php:39
+msgid "Rate"
+msgstr "Tarief"
+
+#: templates/dashboard/reports.php:104
+msgid "You haven't made any sales yet."
+msgstr "Je hebt nog niks verkocht."
+
+#: templates/dashboard/reports.php:94
+msgid "You have no sales during this period."
+msgstr "Je hebt geen verkopen rond deze periode."
+
+#: templates/dashboard/reports.php:70
+msgid "Show Orders"
+msgstr "Toon orders"
+
+#: templates/dashboard/reports.php:79
+msgid "Totals"
+msgstr "Totalen"
+
+#: templates/emails/admin-notify-application.php:18,
+#: templates/emails/application-status.php:9,
+#: templates/emails/plain/admin-notify-application.php:18,
+#: templates/emails/plain/vendor-notify-application.php:18
+msgid "Hi there. This is a notification about a %1$s application on %2$s."
+msgstr "Hallo daar. Dit is een melding over een %1$s toepassing op %2$s."
+
+#: templates/emails/admin-notify-application.php:20
+msgid "The application is currently: %s"
+msgstr "De aanvraag is momenteel: %s"
+
+#: templates/emails/admin-notify-application.php:21,
+#: templates/emails/admin-notify-approved.php:20,
+#: templates/emails/application-status.php:13,
+#: templates/emails/vendor-notify-denied.php:23,
+#: templates/emails/plain/admin-notify-application.php:19,
+#: templates/emails/plain/vendor-notify-application.php:20
+msgid "Applicant username: %s"
+msgstr "Gebruikersnaam aanvrager: %s"
+
+#: templates/emails/admin-notify-application.php:25
+msgid ""
+"You can approve or deny the application at the following link <a href=\"%1$s"
+"\">%1$s</a>"
+msgstr ""
+"U kunt de aanvraag goedkeuren of weigeren via de volgende link <a href=\"%1$s"
+"\">%1$s</a>"
+
+#: templates/emails/admin-notify-approved.php:18,
+#: templates/emails/plain/admin-notify-approved.php:18
+msgid ""
+"Hi there. You or another admin has approved a user to be a %1$s on %2$s."
+msgstr ""
+"Hoi. U of een andere beheerder heeft een gebruiker goedgekeurd als %1$s op "
+"%2$s."
+
+#: templates/emails/admin-notify-approved.php:19,
+#: templates/emails/application-status.php:12,
+#: templates/emails/plain/admin-notify-approved.php:19
+msgid "Application status: %s"
+msgstr "Aanvraag status: %s"
+
+#: templates/emails/admin-notify-product.php:18,
+#: templates/emails/plain/admin-notify-product.php:20
+msgid "This is a notification about a new product on %s."
+msgstr "Hallo dit is een notificatie voor een nieuw product in %s."
+
+#: templates/emails/admin-notify-product.php:21,
+#: templates/emails/new-product.php:12,
+#: templates/emails/plain/admin-notify-product.php:22
+msgid "Product title: %s"
+msgstr "Product titel: %s"
+
+#: templates/emails/admin-notify-product.php:22,
+#: templates/emails/new-product.php:13,
+#: templates/emails/plain/admin-notify-product.php:23
+msgid "Submitted by: %s"
+msgstr "Ingediend door: %s"
+
+#: templates/emails/admin-notify-product.php:23
+msgid "Edit product: <a href=\"%1$s\">%1$s</a>"
+msgstr "Product bewerken: <a href=\"%1$s\">%1$s</a>"
+
+#: templates/emails/admin-notify-shipped.php:19
+msgid "%1$s has marked  order #%2$s as shipped."
+msgstr "%1$s heeft de volgorde gemarkeerd #%2$s als verzonden."
+
+#: templates/emails/customer-notify-shipped.php:22
+msgid ""
+"%1$s has marked your order #%2$s as shipped. The items that are shipped are "
+"as follows"
+msgstr ""
+"%1$s heeft uw bestelling gemarkeerd #%2$s zoals verzonden. De items die "
+"worden verzonden zijn als volgt"
+
+#: templates/emails/new-product.php:9
+msgid "Hi there. This is a notification about a new product on %s."
+msgstr "Hallo dit is een notificatie voor een nieuw product in %s."
+
+#: templates/emails/new-product.php:14,
+#: templates/emails/plain/admin-notify-product.php:24
+msgid "Edit product: %s"
+msgstr "Wijzig product: %s"
+
+#: templates/emails/notify-vendor-shipped.php:19
+msgid ""
+"A %s has marked part of your order as shipped. The items that are shipped "
+"are as follows:"
+msgstr ""
+"%s heeft je order gemarkeerd als deels verzonden. De volgende items zijn "
+"verzonden:"
+
+#: templates/emails/notify-vendor-shipped.php:23,
+#: templates/emails/vendor-new-order.php:28
+msgid "Order: %s"
+msgstr "Bestelling: %s"
+
+#: templates/emails/notify-vendor-shipped.php:32,
+#: templates/emails/vendor-new-order.php:37,
+#: templates/emails/vendor-order-details.php:47
+msgid "Price"
+msgstr "Prijs"
+
+#: templates/emails/notify-vendor-shipped.php:82,
+#: templates/emails/vendor-new-order.php:91
+msgid "Customer details"
+msgstr "Klant details"
+
+#: templates/emails/notify-vendor-shipped.php:85,
+#: templates/emails/vendor-new-order.php:94
+msgid "Email:"
+msgstr "E-mail:"
+
+#: templates/emails/notify-vendor-shipped.php:88,
+#: templates/emails/vendor-new-order.php:97
+msgid "Tel:"
+msgstr "Tel:"
+
+#: templates/emails/vendor-new-order.php:24
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr "Je hebt een order ontvangen van %s. De order is als volgt:"
+
+#: templates/emails/vendor-notify-application.php:22,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:66
+msgid "Hi there. This is a notification about your %1$s application on %2$s."
+msgstr "Hallo daar. Dit is een melding over jou %1$s application on %2$s."
+
+#: templates/emails/vendor-notify-application.php:23
+msgid "Your application is currently: %s"
+msgstr "Uw aanvraag is momenteel: %s"
+
+#: templates/emails/vendor-notify-application.php:24,
+#: templates/emails/vendor-notify-approved.php:23
+msgid "Your username: %s"
+msgstr "Uw gebruikersnaam: %s"
+
+#: templates/emails/vendor-notify-cancelled-order.php:22
+msgid "Your order has been cancelled. The order is as follows:"
+msgstr "Uw bestelling is geannuleerd. De volgorde is als volgt:"
+
+#: templates/emails/vendor-notify-order.php:21
+msgid "You have received an order. The order is as follows:"
+msgstr "Je hebt een bestelling ontvangen. De volgorde is als volgt:"
+
+#: templates/emails/vendor-order-addresses.php:25,
+#: templates/emails/plain/vendor-order-addresses.php:21
+msgid "Billing address"
+msgstr "Factuuradres"
+
+#: templates/emails/vendor-order-addresses.php:51,
+#: templates/emails/plain/vendor-order-addresses.php:45
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#. translators: %s: Order ID.
+#: templates/emails/vendor-order-details.php:28
+msgid "Order #%s"
+msgstr "Bestelling #%s"
+
+#: templates/emails/vendor-order-details.php:102,
+#: templates/emails/plain/vendor-order-details.php:54
+msgid "Note:"
+msgstr "Notitie:"
+
+#: templates/emails/vendor-order-items.php:31
+msgid "Product image"
+msgstr "Productafbeelding"
+
+#: templates/orders/orders.php:113
+msgid "Comments (%s)"
+msgstr "Opmerkingen (%s)"
+
+#: templates/orders/table-body.php:36
+msgid "Quantity: %d"
+msgstr "Aantal: %d"
+
+#: classes/admin/emails/class-emails.php:78
+msgid "denied"
+msgstr "geweigerd"
+
+#: classes/admin/emails/class-emails.php:76,
+#: classes/admin/emails/class-emails.php:259
+msgid "approved"
+msgstr "goedgekeurd"
+
+#: classes/admin/emails/class-emails.php:74,
+#: classes/admin/emails/class-emails.php:255
+msgid "pending"
+msgstr "Afwachtend"
+
+#: classes/admin/emails/class-emails.php:203
+msgid "Resend %s new order notification"
+msgstr "%s melding van een nieuwe bestelling opnieuw verzenden"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:27
+msgid "%s Application - deprecated"
+msgstr "%s Applicatie - afgeschaft"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:28
+msgid ""
+"%s application will either be approved, denied, or pending. <strong>This "
+"email has been deprecated.</strong>"
+msgstr ""
+"% s aanvraag wordt goedgekeurd, geweigerd of is in behandeling. <strong>Deze "
+"e-mail is verouderd.</strong>"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:30
+msgid "Application {status}"
+msgstr "Aanvraag {status}"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:31
+msgid "[{blogname}] Your %s application has been {status}"
+msgstr "[{blogname}] je %s Je verkoper aanvraag is {status}"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:129,
+#: classes/admin/emails/class-wc-notify-admin.php:139,
+#: classes/admin/emails/class-wc-notify-shipped.php:170,
+#: classes/admin/emails/class-wc-notify-vendor.php:298,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:141,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:146,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:156,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:144,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:151,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:139,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:148,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:187,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:159,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:190,
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:62
+msgid "Enable/Disable"
+msgstr "Inschakelen/uitschakelen"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:131,
+#: classes/admin/emails/class-wc-notify-admin.php:141,
+#: classes/admin/emails/class-wc-notify-shipped.php:172,
+#: classes/admin/emails/class-wc-notify-vendor.php:300,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:143,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:148,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:158,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:146,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:153,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:141,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:150,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:189,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:161,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:192
+msgid "Enable this email notification"
+msgstr "Schakel deze email notificatie in"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:137,
+#: classes/admin/emails/class-wc-notify-admin.php:147
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Voer ontvangers (mer komma gescheiden) in voor deze email. standaard "
+"naar<code>%s</code>."
+
+#: classes/admin/emails/class-wc-approve-vendor.php:142,
+#: classes/admin/emails/class-wc-notify-admin.php:152,
+#: classes/admin/emails/class-wc-notify-shipped.php:176,
+#: classes/admin/emails/class-wc-notify-vendor.php:304,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:155,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:160,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:170,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:158,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:157,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:145,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:154,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:193,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:165,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:196
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:144,
+#: classes/admin/emails/class-wc-notify-admin.php:154,
+#: classes/admin/emails/class-wc-notify-shipped.php:178,
+#: classes/admin/emails/class-wc-notify-vendor.php:306
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Dit is het onderwerp van de email, laat leeg voor standaard: <code>%s</code>."
+
+#: classes/admin/emails/class-wc-approve-vendor.php:149,
+#: classes/admin/emails/class-wc-notify-admin.php:159,
+#: classes/admin/emails/class-wc-notify-shipped.php:183,
+#: classes/admin/emails/class-wc-notify-vendor.php:311
+msgid "Email Heading"
+msgstr "Email Hoofd"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:151,
+#: classes/admin/emails/class-wc-notify-admin.php:161,
+#: classes/admin/emails/class-wc-notify-shipped.php:185,
+#: classes/admin/emails/class-wc-notify-vendor.php:313
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Hiermee verander je de email header. Laat leeg voor standaard: <code>%s</"
+"code>."
+
+#: classes/admin/emails/class-wc-approve-vendor.php:156,
+#: classes/admin/emails/class-wc-notify-admin.php:166,
+#: classes/admin/emails/class-wc-notify-shipped.php:190,
+#: classes/admin/emails/class-wc-notify-vendor.php:324,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:185,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:190,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:188,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:176,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:175,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:163,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:181,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:225,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:200,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:234
+msgid "Email type"
+msgstr "E-mail type"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:158,
+#: classes/admin/emails/class-wc-notify-admin.php:168,
+#: classes/admin/emails/class-wc-notify-shipped.php:192,
+#: classes/admin/emails/class-wc-notify-vendor.php:326,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:187,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:192,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:190,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:178,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:177,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:165,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:183,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:227,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:202,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:236
+msgid "Choose which format of email to send."
+msgstr "In welk formaat wil je je email versturen?"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:162,
+#: classes/admin/emails/class-wc-notify-admin.php:172,
+#: classes/admin/emails/class-wc-notify-shipped.php:196,
+#: classes/admin/emails/class-wc-notify-vendor.php:330
+msgid "Plain text"
+msgstr "Platte text"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:163,
+#: classes/admin/emails/class-wc-notify-admin.php:173,
+#: classes/admin/emails/class-wc-notify-shipped.php:197,
+#: classes/admin/emails/class-wc-notify-vendor.php:331
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/admin/emails/class-wc-approve-vendor.php:164,
+#: classes/admin/emails/class-wc-notify-admin.php:174,
+#: classes/admin/emails/class-wc-notify-shipped.php:198,
+#: classes/admin/emails/class-wc-notify-vendor.php:332
+msgid "Multipart"
+msgstr "Multipart"
+
+#: classes/admin/emails/class-wc-notify-admin.php:27
+msgid "New %s Product - deprecated"
+msgstr "Nieuw %s product - verouderd"
+
+#: classes/admin/emails/class-wc-notify-admin.php:28
+msgid ""
+"New order emails are sent when a new product is submitted by a %s. "
+"<strong>This email has been depreciated.</strong>"
+msgstr ""
+"E-mails met nieuwe bestellingen worden verzonden wanneer een nieuw product "
+"wordt ingediend door een %s. <strong>Deze e-mail is afgeschreven.</strong>"
+
+#: classes/admin/emails/class-wc-notify-admin.php:30
+msgid "New product submitted: {product_name}"
+msgstr "Nieuw product ingediend: {product_name}"
+
+#: classes/admin/emails/class-wc-notify-admin.php:31
+msgid "[{blogname}] New product submitted by {vendor_name} - {product_name}"
+msgstr ""
+"[{blogname}] Nieuw product ingediend door {vendor_name} - {product_name}"
+
+#: classes/admin/emails/class-wc-notify-shipped.php:27
+msgid "%s has shipped - deprecated"
+msgstr "%s Bestelling verzonden - verouderd"
+
+#: classes/admin/emails/class-wc-notify-shipped.php:28
+msgid ""
+"An email is sent when a %s has marked one of their orders as shipped. "
+"<strong>This email has been deprecated.</strong>"
+msgstr ""
+"Er wordt een e-mail verzonden wanneer een %s van zijn bestellingen als "
+"verzonden is gemarkeerd. <strong>Deze e-mail is afgeschaft.</strong>"
+
+#: classes/admin/emails/class-wc-notify-shipped.php:30
+msgid "Your order has been shipped"
+msgstr "Je order is verzonden"
+
+#: classes/admin/emails/class-wc-notify-shipped.php:31
+msgid ""
+"[{blogname}] Your order has been shipped ({order_number}) - {order_date}"
+msgstr "[{blogname}] Je order is verzonden ({order_number}) - {order_date}"
+
+#: classes/admin/emails/class-wc-notify-shipped.php:115
+msgid "Subtotal:"
+msgstr "Subtotaal:"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:26
+msgid "Notify vendors - deprecated"
+msgstr "Herinner verkopers - verouderd"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:27
+msgid ""
+"New order emails are sent when an order is received/paid by a customer. "
+"<strong>This email has been deprecated.</strong>"
+msgstr ""
+"Nieuwe order e-mails worden verzonden wanneer een bestelling is ontvangen / "
+"betaald door een klant. <strong>Deze e-mail is afgeschaft.</strong>"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:29
+msgid "New customer order"
+msgstr "Nieuwe order van klant"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:30
+msgid "[{blogname}] New customer order ({order_number}) - {order_date}"
+msgstr "[{blogname}] Nieuwe order ({order_number}) - {order_date}"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:124
+msgid "Commission Subtotal:"
+msgstr "Commissie Subtotaal:"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:134
+msgid "Tax Subtotal:"
+msgstr "Belasting Subtotaal:"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:145
+msgid "Shipping Subtotal:"
+msgstr "Verzending Subtotaal:"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:318
+msgid "Product Totals"
+msgstr "Product Totalen"
+
+#: classes/admin/emails/class-wc-notify-vendor.php:320
+msgid ""
+"Show the commission due/paid as the product totals instead of the product "
+"prices."
+msgstr ""
+"Toon de commissie verschuldigd/betaald in plaats van de product prijzen."
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:27
+msgid "Admin notify %s application"
+msgstr "Beheerder op de hoogte stellen %s toepassing"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:28
+msgid ""
+"Notification is sent to chosen recipient(s) when a user applies to be a %s"
+msgstr ""
+"Er wordt een melding verzonden naar de gekozen ontvanger(s) wanneer een "
+"gebruiker een %s rol aanvraagt"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:51
+msgid "[{site_title}] {user_name} has applied to be a %s"
+msgstr "[{site_title}] {user_name} heeft een %s rol aangevraagd"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:61,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:61
+msgid "%s application received"
+msgstr "%s Je aanvraag is ingediend"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:147,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:152,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:162,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:150
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:149,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:154,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:164,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:152
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Vul ontvangers in voor deze mail (komma gescheiden). Standaard naar %s."
+
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#: classes/admin/emails/class-wcv-admin-notify-application.php:159,
+#: classes/admin/emails/class-wcv-admin-notify-application.php:168,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:164,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:173,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:174,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:183,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:162,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:171,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:161,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:170,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:149,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:158,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:158,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:176,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:197,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:206,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:169,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:178,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:195,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:200,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:209
+msgid "Available placeholders: %s"
+msgstr "Beschikbare placeholders: %s"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:164,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:169,
+#: classes/admin/emails/class-wcv-admin-notify-product.php:179,
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:167,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:166,
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:154,
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:172,
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:202,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:191,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:205
+msgid "Email heading"
+msgstr "E-mail kop"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:173,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:178
+msgid "Notification"
+msgstr "Melding"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:175,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:180
+msgid "Choose when to be notified of an application."
+msgstr "Kies wanneer u op de hoogte wilt worden gesteld van een toepassing."
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:179,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:184
+msgid "All Applications"
+msgstr "Alle Sollicitaties"
+
+#: classes/admin/emails/class-wcv-admin-notify-application.php:180,
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:185
+msgid "Pending Applications"
+msgstr "Lopende aanvragen"
+
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:32
+msgid "Admin notify %s approved"
+msgstr "Admin notify %s Goedgekeurd"
+
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:33
+msgid ""
+"Notification is sent to chosen recipient(s) when admin approves a user to be "
+"a %s"
+msgstr ""
+"Er wordt een melding verzonden naar de gekozen ontvanger(s) wanneer de "
+"beheerder een gebruiker goedkeurt als %s"
+
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:56
+msgid "[{site_title}] {user_name} has been approved to be a %s"
+msgstr "[{site_title}] {user_name} Je verkoper aanvraag is %s"
+
+#: classes/admin/emails/class-wcv-admin-notify-approved.php:66
+msgid "%s application approved"
+msgstr "%s Je aanvraag is ingediend"
+
+#: classes/admin/emails/class-wcv-admin-notify-product.php:28
+msgid "Admin new %s product"
+msgstr "Beheren nieuw %s product"
+
+#: classes/admin/emails/class-wcv-admin-notify-product.php:29
+msgid ""
+"Notification is sent to chosen recipient(s) when a %s submits a product for "
+"approval."
+msgstr ""
+"Er wordt een melding verzonden naar de gekozen ontvanger(s) wanneer een %s "
+"een product ter goedkeuring indient."
+
+#: classes/admin/emails/class-wcv-admin-notify-product.php:58
+msgid ""
+"[{site_title}] New %s product submitted by {vendor_name} - {product_name}"
+msgstr ""
+"[{site_title}] Nieuw %s product ingediend door {vendor_name} - {product_name}"
+
+#: classes/admin/emails/class-wcv-admin-notify-product.php:69
+msgid "New %s product submitted: {product_name}"
+msgstr "Nieuw %s product ingediend: {product_name}"
+
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:28
+msgid "Admin notify %s shipped"
+msgstr "Beheerder op de hoogte stellen %s verzonden"
+
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:29
+msgid ""
+"Notification is sent to chosen recipient(s) when a %s marks an order shipped."
+msgstr ""
+"Er wordt een melding verzonden naar de gekozen ontvanger(s) wanneer een %s "
+"een verzonden bestelling markeert."
+
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:54,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:53
+msgid "[{site_title}] %s has marked shipped ({order_number}) - {order_date}"
+msgstr ""
+"[{site_title}] %s heeft verzonden gemarkeerd ({order_number}) - {order_date}"
+
+#: classes/admin/emails/class-wcv-admin-notify-shipped.php:65,
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:64
+msgid "%s has shipped"
+msgstr "%s Bestelling verzonden / Excursie uitgevoerd"
+
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:29
+msgid "Customer %s shipped"
+msgstr "Klant %s verzonden"
+
+#: classes/admin/emails/class-wcv-customer-notify-shipped.php:30
+msgid ""
+"Email is sent to the customer when a %s marks an order received/paid by a "
+"customer."
+msgstr ""
+"Nieuwe bestelling emails worden verzonden wanneer %s als ontvangen/betaald "
+"door een klant worden gemarkeerd."
+
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:28
+msgid "%s notify application"
+msgstr "%s melding aanvraag"
+
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:29
+msgid "Notification is sent to the %s that their application has been received"
+msgstr ""
+"Er wordt een melding verzonden naar de %s dat hun aanvraag is ontvangen"
+
+#: classes/admin/emails/class-wcv-vendor-notify-application.php:50
+msgid "[{site_title}] Your %s application has been received"
+msgstr "[{site_title}] Uw %s aanvraag is ontvangen"
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:28
+msgid "%s notify approved"
+msgstr "%s melding goedgekeurd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:29
+msgid "Notification is sent to the %s that their application has been approved"
+msgstr ""
+"Er wordt een kennisgeving verzonden naar de %s dat hun aanvraag is "
+"goedgekeurd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:50
+msgid "[{site_title}] Your %s application has been approved"
+msgstr "[{site_title}] Uw %s aanvraag is goedgekeurd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:61
+msgid "%s Application Approved"
+msgstr "%s goedgekeurd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:72
+msgid "Your application to become a %s has been approved."
+msgstr "Uw aanvraag om %s te worden is goedgekeurd."
+
+#: classes/admin/emails/class-wcv-vendor-notify-approved.php:163,
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:174
+msgid "Content"
+msgstr "Inhoud"
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:28
+msgid "%s notify cancelled order"
+msgstr "%s melding geannuleerde bestelling"
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:29
+msgid "Notification is sent to %s when an order is cancelled."
+msgstr ""
+"Er wordt een melding naar %s verzonden wanneer een bestelling wordt "
+"geannuleerd."
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:55
+msgid "[{site_title}] Order Cancelled ({order_number}) - {order_date}"
+msgstr "[{site_title}] Bestelling geannuleerd ({order_number}) - {order_date}"
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:66
+msgid "Order Cancelled"
+msgstr "Bestelling geannuleerd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:211,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:214
+msgid "Totals Display"
+msgstr "Totalen Display"
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:213,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:216
+msgid ""
+"Choose how to display the product totals. Including commission or without or "
+"no totals at all."
+msgstr ""
+"Kies hoe u de producttotalen wilt weergeven. Inclusief commissie of zonder "
+"of helemaal geen totalen."
+
+#: classes/admin/emails/class-wcv-vendor-notify-cancelled-order.php:217,
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:220
+msgid "Both"
+msgstr "Beide"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:28
+msgid "%s notify denied"
+msgstr "%s kennisgeving geweigerd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:29
+msgid "Notification is sent to the %s that their application has been denied"
+msgstr ""
+"Er wordt een kennisgeving naar de %s gestuurd dat hun aanvraag is afgewezen"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:50
+msgid "[{site_title}] Your %s application has been denied"
+msgstr "[{site_title}] Uw %s aanvraag is geweigerd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:61
+msgid "%s Application Denied"
+msgstr "%s aanvraag geweigerd"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:72
+msgid "Your application to become a %s has been denied."
+msgstr "Uw aanvraag om %s te worden is geweigerd."
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:83
+msgid "We are not taking any new applications at this time."
+msgstr "We nemen op dit moment geen nieuwe aanvragen aan."
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:183
+msgid "Reason"
+msgstr "Reden"
+
+#: classes/admin/emails/class-wcv-vendor-notify-denied.php:186
+msgid "Provide a reason for denying the %s application"
+msgstr "Geef een reden op voor het weigeren van de %s aanvraag"
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:28
+msgid "%s notify order"
+msgstr "%s bestelling melden"
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:29
+msgid "Notification is sent to %s when an order is paid."
+msgstr ""
+"Er wordt een melding naar %s verzonden wanneer een bestelling is betaald."
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:59
+msgid "[{site_title}] New Customer Order ({order_number}) - {order_date}"
+msgstr "[{site_title}] Nieuwe klant order ({order_number}) - {order_date}"
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:70
+msgid "New Customer Order"
+msgstr "Nieuwe klant bestelling"
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:228
+msgid "Payment method"
+msgstr "Betaalmethode"
+
+#: classes/admin/emails/class-wcv-vendor-notify-order.php:230
+msgid "Include the payment method in the email"
+msgstr "Neem de betaalmethode op in de e-mail"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:28,
+#: classes/admin/settings/class-wcv-settings-advanced.php:41,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:111,
+#: classes/admin/settings/class-wcv-settings-display.php:47
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:66
+msgid "Plugin Uninstall Options"
+msgstr "Opties voor het verwijderen van plug-ins"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:68
+msgid ""
+"These options are effective when uninstalling the plugin. If \"Delete All "
+"Data\" is checked all this plugin's data will be removed, uncheck it to "
+"choose what to delete when uninstalling the plugin."
+msgstr ""
+"Deze opties zijn effectief bij het verwijderen van de plug-in. Als \"Alle "
+"gegevens verwijderen\" is aangevinkt, worden alle gegevens van deze plug-in "
+"verwijderd, schakel deze uit om te kiezen wat u wilt verwijderen bij het "
+"verwijderen van de plug-in."
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:72
+msgid "Delete All Data"
+msgstr "Wis alle gegevens"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:73
+msgid "Delete all WC Vendors data when deactivating the plugin."
+msgstr "Verwijder alle WC Vendors-gegevens bij het deactiveren van de plug-in."
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:79
+msgid "Delete Custom Table"
+msgstr "Aangepaste tabel verwijderen"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:80
+msgid ""
+"Delete all data included in the custom tables. This will delete all "
+"commissions"
+msgstr ""
+"Verwijder alle gegevens in de aangepaste tabellen. Hiermee worden alle "
+"commissies verwijderd"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:86
+msgid "Delete Settings Options"
+msgstr "Instellingenopties verwijderen"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:87
+msgid "Delete all plugin options when uninstalling the plugin."
+msgstr "Verwijder alle plug-inopties bij het verwijderen van de plug-in."
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:93
+msgid "Delete WC Vendors pages"
+msgstr "WC Vendors-pagina's verwijderen"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:94
+msgid "Delete all pages created by WC Vendors."
+msgstr "Verwijder alle pagina's die door WC Vendors zijn gemaakt."
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:100
+msgid "Remove Custom Roles"
+msgstr "Aangepaste rollen verwijderen"
+
+#: classes/admin/settings/class-wcv-settings-advanced.php:101
+msgid "Remove custom roles registered by WC Vendors."
+msgstr "Verwijder aangepaste rollen die zijn geregistreerd door WC Vendors."
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:45,
+#: classes/admin/settings/class-wcv-settings-capabilities.php:105,
+#: classes/admin/settings/class-wcv-settings-commission.php:45,
+#: classes/admin/settings/class-wcv-settings-display.php:45,
+#: classes/admin/settings/class-wcv-settings-general.php:32,
+#: classes/admin/settings/class-wcv-settings-general.php:45,
+#: classes/admin/settings/class-wcv-settings-payments.php:50,
+#: classes/admin/views/setup/general.php:19
+msgid "General"
+msgstr "Algemeen"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:245
+msgid "Permissions"
+msgstr "Rechten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:247
+msgid "Enable or disable functionality for your %s"
+msgstr "Functionaliteit voor uw %s in- of uitschakelen"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:264
+msgid "Submit Products"
+msgstr "Bewerk producten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:265,
+#: classes/admin/views/setup/capabilities.php:25
+msgid "Allow %s to add/edit products"
+msgstr "%s toestaan producten toe te voegen/te bewerken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:272
+msgid "Edit Live Products"
+msgstr "Bewerk live producten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:273,
+#: classes/admin/views/setup/capabilities.php:38
+msgid "Allow %s to edit published (live) products"
+msgstr "Sta %s toe om gepubliceerde (live) producten te bewerken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:280
+msgid "Publish Approval"
+msgstr "Goedkeuring publiceren"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:281
+msgid ""
+"Allow %s to publish products directly to the marketplace without requiring "
+"approval."
+msgstr ""
+"Sta %s toe om producten rechtstreeks op de markt te publiceren zonder "
+"goedkeuring te vereisen."
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:300
+msgid "View Orders"
+msgstr "Bestellingen bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:301,
+#: classes/admin/views/setup/capabilities.php:76
+msgid "Allow %s to view orders"
+msgstr "Sta %s toe om bestellingen te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:308
+msgid "Export Orders"
+msgstr "Orders exporteren"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:309,
+#: classes/admin/views/setup/capabilities.php:89
+msgid "Allow %s to export their orders to a CSV file"
+msgstr "Sta %s toe hun bestellingen naar een CSV-bestand te exporteren"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:316
+msgid "Front End Sales Reports"
+msgstr "Verkooprapporten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:317
+msgid ""
+"Allow %1$s to view sales table on the frontend on the %2$s dashboard page."
+msgstr ""
+"Sta %1$s toe om de verkooptabel op de frontend op de dashboardpagina van "
+"%2$s te bekijken."
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:163
+msgid "Configure what order information a %s can view from an order"
+msgstr "Configureren welke ordergegevens een %s kan bekijken vanuit een order"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:168
+msgid "View Order Notes"
+msgstr "Bestelnotities bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:169,
+#: classes/admin/views/setup/capabilities.php:102
+msgid "Allow %s to view order notes"
+msgstr "Sta %s toe om bestelnotities te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:176
+msgid "Add Order Notes"
+msgstr "Bestelnotities toevoegen"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:177,
+#: classes/admin/views/setup/capabilities.php:115
+msgid "Allow %s to add order notes."
+msgstr "Sta %s toe om bestelnotities toe te voegen."
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:184
+msgid "Customer Name"
+msgstr "Klantnaam"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:185
+msgid "Allow %s to view customer name fields"
+msgstr "Toestaan dat %s klantnaamvelden bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:192
+msgid "Customer Shipping Name"
+msgstr "Verzendnaam klant"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:193
+msgid "Allow %s to view customer shipping name fields"
+msgstr "Toestaan dat %s verzendnaamvelden van klanten bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:200
+msgid "Customer Billing Address"
+msgstr "Factuuradres klant"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:201
+msgid "Allow %s to view customer billing address fields"
+msgstr "Sta %s toe om de factuuradresvelden van klanten te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:208
+msgid "Customer Shipping Address"
+msgstr "Klant verzendadres"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:209
+msgid "Allow %s to view the customer shipping fields"
+msgstr "Sta %s toe om de verzendvelden van de klant te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:216
+msgid "Customer Email"
+msgstr "Klant e-mailadres"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:217
+msgid "Allow %s to view the customer email address"
+msgstr "Sta %s toe om het e-mailadres van de klant te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:224
+msgid "Customer Phone"
+msgstr "Klant telefoonnummer"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:225
+msgid "Allow %s to view the customer phone number"
+msgstr "Sta %s toe om het telefoonnummer van de klant te bekijken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:66
+msgid "Add / Edit Product"
+msgstr "Wijzig product"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:68
+msgid ""
+"Configure what product information to hide from the %s when creating or "
+"editing a product"
+msgstr ""
+"Configureren welke productinformatie moet worden verborgen voor de %s bij "
+"het maken of bewerken van een product"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:73
+msgid "Product Types"
+msgstr "Product Soorten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:74
+msgid "This controls what product types are hidden from the %s"
+msgstr "Hiermee bepaalt u welke producttypen voor de %s"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:84
+msgid "Product Type Options"
+msgstr "Opties voor producttype"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:85
+msgid "This controls what product type options are hidden from the %s"
+msgstr ""
+"Hiermee bepaalt u welke opties voor producttypen worden verborgen voor de %s"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:91
+msgid "Virtual"
+msgstr "Virtueel"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:92
+msgid "Downloadable"
+msgstr "Downloadbaar"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:98
+msgid "Product Data Tabs"
+msgstr "Tabbladen productgegevens"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:99
+msgid "This controls what product data tabs will be hidden from the %s"
+msgstr ""
+"Dit bepaalt welke tabbladen met productgegevens worden verborgen voor de %s"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:106
+msgid "Inventory"
+msgstr "Voorraad"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:108
+msgid "Linked Products"
+msgstr "Gerelateerde producten"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:109
+msgid "Attributes"
+msgstr "Eigenschappen"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:110
+msgid "Variations"
+msgstr "Variaties"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:117
+msgid "Featured Product"
+msgstr "Uitgelicht product"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:118
+msgid "Allow %s to use the featured product option"
+msgstr "Sta %s toe om de aanbevolen productoptie te gebruiken"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:125
+msgid "Duplicate Product"
+msgstr "Dupliceer product"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:126
+msgid "Allow %s to duplicate products"
+msgstr "Toestaan dat %s producten dupliceren"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:133
+msgid "SKU"
+msgstr "SKU"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:134
+msgid "Hide sku field from %s"
+msgstr "Sku-veld verbergen voor %s"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:141
+msgid "Taxes"
+msgstr "Belastingen"
+
+#: classes/admin/settings/class-wcv-settings-capabilities.php:142
+msgid "Hide tax fields from %s"
+msgstr "Belastingvelden verbergen voor %s"
+
+#: classes/admin/settings/class-wcv-settings-commission.php:67
+msgid "These are the commission settings for your marketplace"
+msgstr "Dit zijn de instellingen van de commissie voor uw marktplaats"
+
+#: classes/admin/settings/class-wcv-settings-commission.php:71
+msgid "%s Commission %%"
+msgstr "%s Provisie %%"
+
+#: classes/admin/settings/class-wcv-settings-commission.php:72
+msgid "The global commission rate for your %s"
+msgstr "Het wereldwijde provisiepercentage voor uw %s"
+
+#: classes/admin/settings/class-wcv-settings-display.php:32
+msgid "Display"
+msgstr "Weergave"
+
+#: classes/admin/settings/class-wcv-settings-display.php:46
+msgid "Labels"
+msgstr "Labels"
+
+#: classes/admin/settings/class-wcv-settings-display.php:198
+msgid "These pages used on the front end by %s."
+msgstr "Deze pagina's worden aan de voorkant gebruikt door %s."
+
+#: classes/admin/settings/class-wcv-settings-display.php:202
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: classes/admin/settings/class-wcv-settings-display.php:208
+msgid ""
+"<br />This sets the page used to display the front end %s dashboard. This "
+"page should contain the following shortcode. <code>[wcv_vendor_dashboard]</"
+"code>"
+msgstr ""
+"<br />Hiermee wordt de pagina ingesteld die wordt gebruikt om het front-"
+"enddashboard weer te %s geven. Deze pagina moet de volgende shortcode "
+"bevatten. <code>[wcv_vendor_dashboard]</code>"
+
+#: classes/admin/settings/class-wcv-settings-display.php:217
+msgid ""
+"<br />This sets the page used to display the %s shop settings page. This "
+"page should contain the following shortcode. <code>[wcv_shop_settings]</code>"
+msgstr ""
+"<br />Hiermee wordt de pagina ingesteld die wordt gebruikt om de %s pagina "
+"met winkelinstellingen weer te geven. Deze pagina moet de volgende shortcode "
+"bevatten. <code>[wcv_shop_settings]</code>"
+
+#: classes/admin/settings/class-wcv-settings-display.php:226
+msgid ""
+"<br />This sets the page used to display the %s orders page. This page "
+"should contain the following shortcode. <code>[wcv_orders]</code>"
+msgstr ""
+"<br />Hiermee wordt de pagina ingesteld die wordt gebruikt om de %s "
+"bestelpagina weer te geven. Deze pagina moet de volgende shortcode bevatten. "
+"<code>[wcv_orders]</code>"
+
+#: classes/admin/settings/class-wcv-settings-display.php:235
+msgid ""
+"<br />This sets the page used to display a paginated list of all %1$s "
+"stores. Your %1$s stores will be available at <code>%2$s/page-slug/store-"
+"name/</code><br />This page should contain the following shortcode. "
+"<code>[wcv_vendorslist]</code>"
+msgstr ""
+"<br />Hiermee wordt de pagina ingesteld die wordt gebruikt om een "
+"gepagineerde lijst met alle %1$s winkels weer te geven. Uw %1$s winkels zijn "
+"beschikbaar op <code><2></2>/page-slug/store-name/</code><br />Deze pagina "
+"moet de volgende shortcode bevatten. <code>[wcv_vendorslist]</code>"
+
+#: classes/admin/settings/class-wcv-settings-display.php:238
+msgid "Terms and Conditions"
+msgstr "Algemene voorwaarden"
+
+#: classes/admin/settings/class-wcv-settings-display.php:244
+msgid ""
+"<br />This sets the page used to display the terms and conditions when a %s "
+"signs up."
+msgstr ""
+"<br />Hiermee wordt de pagina ingesteld die wordt gebruikt om de algemene "
+"voorwaarden weer te geven wanneer een %s zich aanmeldt."
+
+#: classes/admin/settings/class-wcv-settings-display.php:256
+msgid "These are the settings for the individual %s stores."
+msgstr "Dit zijn de instellingen voor de afzonderlijke %s winkels."
+
+#: classes/admin/settings/class-wcv-settings-display.php:261
+msgid "%s Store URL"
+msgstr "URL van %s Store"
+
+#: classes/admin/settings/class-wcv-settings-display.php:262
+msgid ""
+"If you enter \"vendors\" your %1$s store will be %1$s/vendors/store-name/"
+msgstr ""
+"Als u \"leveranciers\" invoert, wordt uw %1$s winkel %1$s / leveranciers / "
+"winkelnaam /"
+
+#: classes/admin/settings/class-wcv-settings-display.php:269
+msgid "Shop Header"
+msgstr "Shop Header"
+
+#: classes/admin/settings/class-wcv-settings-display.php:270
+msgid "Enable %s shop headers"
+msgstr "Kopteksten van %s winkel inschakelen"
+
+#: classes/admin/settings/class-wcv-settings-display.php:271
+msgid "This enables the %s shop header template."
+msgstr "Hiermee kan de %s winkelkopsjabloon worden weergegeven."
+
+#: classes/admin/settings/class-wcv-settings-display.php:287,
+#: classes/admin/views/html-vendor-settings-page.php:161,
+#: templates/dashboard/settings/shop-description.php:18
+msgid "Shop Description"
+msgstr "Winkelbeschrijving"
+
+#: classes/admin/settings/class-wcv-settings-display.php:288
+msgid "Enable %s shop description"
+msgstr "Winkelbeschrijving inschakelen %s"
+
+#: classes/admin/settings/class-wcv-settings-display.php:289
+msgid "This enables the %1$s shop description on the %1$s store page."
+msgstr "Hierdoor kan de %1$s winkelbeschrijving op de %1$s winkelpagina."
+
+#: classes/admin/settings/class-wcv-settings-display.php:296
+msgid "Shop HTML"
+msgstr "HTML kopen"
+
+#: classes/admin/settings/class-wcv-settings-display.php:297
+msgid "Allow HTML in %s shop description"
+msgstr "HTML toestaan in %s winkelbeschrijving"
+
+#: classes/admin/settings/class-wcv-settings-display.php:298
+msgid ""
+"This will enable the WYSIWYG editor and for the %1$s shop description. You "
+"can enable or disable this per %1$s by editing the %1$s user account."
+msgstr ""
+"Hierdoor kan de WYSIWYG-editor en voor de %1$s winkelbeschrijving. U kunt "
+"dit per %1$s in- of uitschakelen door het %1$s gebruikersaccount te bewerken."
+
+#: classes/admin/settings/class-wcv-settings-display.php:305
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#: classes/admin/settings/class-wcv-settings-display.php:307
+msgid ""
+"Select what will be used to display the %s name throughout the marketplace."
+msgstr ""
+"Selecteer wat er wordt gebruikt om de %s naam op de hele marktplaats weer te "
+"geven."
+
+#: classes/admin/settings/class-wcv-settings-display.php:312
+msgid "Display name"
+msgstr "Weergavenaam"
+
+#: classes/admin/settings/class-wcv-settings-display.php:313,
+#: classes/admin/views/html-vendor-meta.php:27
+msgid "Shop name"
+msgstr "Winkelnaam"
+
+#: classes/admin/settings/class-wcv-settings-display.php:314
+msgid "%s Username"
+msgstr "%s gebruikersnaam"
+
+#: classes/admin/settings/class-wcv-settings-display.php:315
+msgid "%s Email"
+msgstr "%s E-mail"
+
+#: classes/admin/settings/class-wcv-settings-display.php:104
+msgid "Labels are shown on the front end, in orders or emails."
+msgstr "Labels worden weergegeven aan de voorkant, in bestellingen of e-mails."
+
+#: classes/admin/settings/class-wcv-settings-display.php:109
+msgid "%s singluar term"
+msgstr "%s singluar term"
+
+#: classes/admin/settings/class-wcv-settings-display.php:110
+msgid "Change all references to vendor to this term"
+msgstr "Wijzig alle verwijzingen naar leverancier in deze term"
+
+#: classes/admin/settings/class-wcv-settings-display.php:117
+msgid "%s plural term"
+msgstr "%s meervoud"
+
+#: classes/admin/settings/class-wcv-settings-display.php:118
+msgid "Change all references to vendors to this term"
+msgstr "Alle verwijzingen naar leveranciers naar deze term wijzigen"
+
+#: classes/admin/settings/class-wcv-settings-display.php:125,
+#: classes/admin/settings/class-wcv-settings-display.php:146
+msgid "Sold By"
+msgstr "Verkocht door"
+
+#: classes/admin/settings/class-wcv-settings-display.php:126
+msgid "Enable sold by labels"
+msgstr "Verkoop per label inschakelen"
+
+#: classes/admin/settings/class-wcv-settings-display.php:127
+msgid ""
+"This enables the sold by labels used to show which %s shop the product "
+"belongs to"
+msgstr ""
+"Hierdoor kunnen de gebruikte labels worden verkocht om aan te geven tot "
+"welke %s winkel het product behoort"
+
+#: classes/admin/settings/class-wcv-settings-display.php:134
+msgid "Sold By Separator"
+msgstr "Verkocht door Separator"
+
+#: classes/admin/settings/class-wcv-settings-display.php:135
+msgid "The sold by separator"
+msgstr "De verkochte door separator"
+
+#: classes/admin/settings/class-wcv-settings-display.php:138
+msgid ":"
+msgstr ":"
+
+#: classes/admin/settings/class-wcv-settings-display.php:142
+msgid "Sold By Label"
+msgstr "Verkocht op label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:143
+msgid "The sold by label"
+msgstr "Het verkocht door label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:150
+msgid "Become A %s"
+msgstr "Wordt een %s"
+
+#: classes/admin/settings/class-wcv-settings-display.php:151
+msgid "Show the \"Become a %s\" link on WooCommerce my-account page"
+msgstr "Toon de link 'Word een %s' op de WooCommerce my-account pagina"
+
+#: classes/admin/settings/class-wcv-settings-display.php:158
+msgid "Become A %s Label"
+msgstr "Word een %s label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:159
+msgid "The become a %s label"
+msgstr "Het wordt een %s label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:162
+msgid "Become a"
+msgstr "Wordt een %s"
+
+#: classes/admin/settings/class-wcv-settings-display.php:166
+msgid "%s Store Info"
+msgstr "%s Winkel info"
+
+#: classes/admin/settings/class-wcv-settings-display.php:167
+msgid "Enable %s store info tab on the single product page"
+msgstr ""
+"Schakel %s tabblad winkelinformatie in op de afzonderlijke productpagina"
+
+#: classes/admin/settings/class-wcv-settings-display.php:174
+msgid "%s Store Info Label"
+msgstr "%s Store Info Label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:175
+msgid "The %s store info label"
+msgstr "Het %s winkel info label"
+
+#: classes/admin/settings/class-wcv-settings-display.php:178
+msgid "Store Info"
+msgstr "Winkel info"
+
+#: classes/admin/settings/class-wcv-settings-display.php:68
+msgid "Advanced options provide extra display options"
+msgstr "Geavanceerde opties bieden extra weergaveopties"
+
+#: classes/admin/settings/class-wcv-settings-display.php:72
+msgid "Product Page Stylesheet"
+msgstr "Stylesheet van productpagina"
+
+#: classes/admin/settings/class-wcv-settings-display.php:73
+msgid ""
+"You can add CSS in this textarea, which will be loaded on the WooCommerce "
+"product edit page for %s in the WordPress admin."
+msgstr ""
+"U kunt CSS toevoegen in dit textarea, dat wordt geladen op de WooCommerce-"
+"productbewerkingspagina voor %s in de WordPress-beheerder."
+
+#: classes/admin/settings/class-wcv-settings-display.php:74
+msgid "This will output custom CSS on the product edit page "
+msgstr "Hiermee wordt aangepaste CSS uitgevoerd op de productbewerkingspagina "
+
+#: classes/admin/settings/class-wcv-settings-display.php:81
+msgid "Use WooCommerce Registration"
+msgstr "WooCommerce-registratie gebruiken"
+
+#: classes/admin/settings/class-wcv-settings-display.php:85
+msgid ""
+"This will redirect the WordPress registration to WooCommerce my-account page "
+"for registration."
+msgstr ""
+"Dit zal de WordPress-registratie omleiden naar de WooCommerce my-account-"
+"pagina voor registratie."
+
+#: classes/admin/settings/class-wcv-settings-general.php:67
+msgid "Marketplace Options"
+msgstr "Marketplace-opties"
+
+#: classes/admin/settings/class-wcv-settings-general.php:69
+msgid "These are the general settings for your marketplace"
+msgstr "Dit zijn de algemene instellingen voor uw marktplaats"
+
+#: classes/admin/settings/class-wcv-settings-general.php:73
+msgid "%s Registration"
+msgstr "%s registratie"
+
+#: classes/admin/settings/class-wcv-settings-general.php:74,
+#: classes/admin/views/setup/general.php:25
+msgid "Allow users to apply to become a %s"
+msgstr "Gebruikers toestaan een aanvraag in te dienen om %s te worden"
+
+#: classes/admin/settings/class-wcv-settings-general.php:80
+msgid "Terms & Conditions Checkbox"
+msgstr "Algemene voorwaarden Checkbox"
+
+#: classes/admin/settings/class-wcv-settings-general.php:81
+msgid ""
+"Make the terms and conditions checkbox always visible even if become a %s is "
+"not checked"
+msgstr ""
+"Het selectievakje algemene voorwaarden altijd zichtbaar maken, zelfs als %s "
+"niet is aangevinkt"
+
+#: classes/admin/settings/class-wcv-settings-general.php:87
+msgid "%s Approval"
+msgstr "%s Goedkeuring"
+
+#: classes/admin/settings/class-wcv-settings-general.php:88
+msgid "Manually approve all %s applications"
+msgstr "Alle %s toepassingen handmatig goedkeuren"
+
+#: classes/admin/settings/class-wcv-settings-general.php:95
+msgid "%s Taxes"
+msgstr "%s belastingen"
+
+#: classes/admin/settings/class-wcv-settings-general.php:96
+msgid "Give any taxes to the %s"
+msgstr "Geef eventuele belastingen aan de %s"
+
+#: classes/admin/settings/class-wcv-settings-general.php:102
+msgid "%s Shipping"
+msgstr "%s versturen"
+
+#: classes/admin/settings/class-wcv-settings-general.php:103
+msgid "Give any shipping to the %s"
+msgstr "Geef eventuele verzending aan de %s"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:34
+msgid "Payments"
+msgstr "Betalingen"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:55
+msgid "PayPal Adaptive Payments"
+msgstr "PayPal Adaptive Payments"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:137
+msgid ""
+"<strong>Payments controls how your %s commission is paid out. These settings "
+"only function if you are using a supported gateway.</strong> "
+msgstr ""
+"<strong>Betalingen bepalen hoe uw %s commissie wordt uitbetaald. Deze "
+"instellingen werken alleen als u een ondersteunde gateway gebruikt.</strong> "
+
+#: classes/admin/settings/class-wcv-settings-payments.php:77
+msgid ""
+"<h3>PayPal Adaptive Payments - Please Note: PayPal Adaptive Payments has "
+"been deprecated by PayPal as of September 2017. These options are for "
+"existing users only. This will be completely removed in a future version.</"
+"h3>"
+msgstr ""
+"<h3>PayPal Adaptieve betalingen - Let op: PayPal Adaptieve betalingen is met "
+"ingang van september 2017 door PayPal afgeschaft. Deze opties zijn alleen "
+"voor bestaande gebruikers. Dit zal in een toekomstige versie volledig worden "
+"verwijderd.</h3>"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:84
+msgid "Total Commission due: %s"
+msgstr "Totale verschuldigde commissie: %s"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:89
+msgid "Instant Pay"
+msgstr "Meteen Te Betalen"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:90
+msgid "Enable instantpay"
+msgstr "Instantpay inschakelen"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:91
+msgid ""
+"Instantly pay %1$s their commission when an order is made, and if a %1$s has "
+"a valid PayPal email added on their Shop Settings page."
+msgstr ""
+"Betaal direct %1$s de commissie wanneer een bestelling wordt geplaatst, en "
+"of a %1$s heeft een geldig PayPal-e-mailadres toegevoegd aan de pagina "
+"Winkelinstellingen."
+
+#: classes/admin/settings/class-wcv-settings-payments.php:98
+msgid "Payment schedule"
+msgstr "Betalingsschema"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:99
+msgid "Note: Schedule will only work if instant pay is unchecked"
+msgstr "Note: Schema zal slechts werken als direct betalen uitgeschakeld is"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:103
+msgid "Daily"
+msgstr "Dagelijks"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:104
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:105
+msgid "Biweekly"
+msgstr "Tweewekelijks"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:106
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:107
+msgid "Manual"
+msgstr "Handmatig"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:108
+msgid "Now"
+msgstr "Nu"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:113
+msgid "Email notification"
+msgstr "E-mail melding"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:114
+msgid "Enable notify the admin"
+msgstr "De beheerder op de hoogte stellen inschakelen"
+
+#: classes/admin/settings/class-wcv-settings-payments.php:115
+msgid ""
+"Send the marketplace admin an email each time a payment has been made via "
+"the payment schedule options above"
+msgstr ""
+"Stuur de marktplaatsbeheerder een e-mail telkens wanneer een betaling is "
+"gedaan via de bovenstaande opties voor betalingsschema's"
+
+#: classes/admin/views/html-admin-page-extensions.php:15
+msgid "Expand your marketplace and take it to the next level."
+msgstr "Breid uw marktplaats uit en til deze naar een hoger niveau."
+
+#: classes/admin/views/html-admin-page-extensions.php:21
+msgid "WC Vendors Stripe Connect"
+msgstr "WC Leveranciers Stripe Connect"
+
+#: classes/admin/views/html-admin-page-extensions.php:22
+msgid ""
+"Take credit card payments and pay your vendors their commissions instantly "
+"when the customer purchases. No need to manually pay your vendors."
+msgstr ""
+"Neem creditcardbetalingen en betaal uw leveranciers hun commissies "
+"onmiddellijk wanneer de klant koopt. U hoeft uw leveranciers niet handmatig "
+"te betalen."
+
+#: classes/admin/views/html-admin-page-extensions.php:23,
+#: classes/admin/views/html-admin-page-extensions.php:30,
+#: classes/admin/views/html-admin-page-extensions.php:40,
+#: classes/admin/views/html-admin-page-extensions.php:48
+msgid "From $89"
+msgstr "Vanaf $89"
+
+#: classes/admin/views/html-admin-page-extensions.php:28
+msgid "WC Vendors Membership"
+msgstr "WC Vendors Lidmaatschap"
+
+#: classes/admin/views/html-admin-page-extensions.php:29
+msgid ""
+"Earn guaranteed income from your vendors with this easy to use extension. "
+"Want to charge your vendors to list products on your marketplace? "
+msgstr ""
+"Verdien gegarandeerd inkomen van uw leveranciers met deze eenvoudig te "
+"gebruiken extensie. Wilt u uw leveranciers kosten in rekening brengen om "
+"producten op uw marktplaats te vermelden? "
+
+#: classes/admin/views/html-admin-page-extensions.php:37
+msgid "WC Vendors WooCommerce Bookings<"
+msgstr "WC Leveranciers WooCommerce Boekingen <"
+
+#: classes/admin/views/html-admin-page-extensions.php:38,
+#: classes/admin/views/html-admin-page-extensions.php:46
+msgid "From $89.00"
+msgstr "Vanaf $89.00"
+
+#: classes/admin/views/html-admin-page-extensions.php:39
+msgid ""
+"Allow vendors to create bookings. Integrate WooCommerce bookings into the WC "
+"Vendors Pro Dashboard."
+msgstr ""
+"Sta leveranciers toe om boekingen te maken. Integreer WooCommerce-boekingen "
+"in het WC Vendors Pro Dashboard."
+
+#: classes/admin/views/html-admin-page-extensions.php:45
+msgid "WC Vendors WooCommerce Subscriptions<"
+msgstr "WC-leveranciers WooCommerce-abonnementen <"
+
+#: classes/admin/views/html-admin-page-extensions.php:47
+msgid ""
+"Allow vendors to create subscriptions. Integrates WooCommerce subscriptions "
+"into the WC Vendors Pro Dashboard."
+msgstr ""
+"Sta leveranciers toe om abonnementen te maken. Integreert WooCommerce-"
+"abonnementen in het WC Vendors Pro Dashboard."
+
+#: classes/admin/views/html-admin-page-extensions.php:55
+msgid "WooCommerce Simple Auctions"
+msgstr "WooCommerce Eenvoudige Veilingen"
+
+#: classes/admin/views/html-admin-page-extensions.php:56
+msgid ""
+"Allow vendors to create auctions. Integreate WooCommerce Simple Auctions "
+"into the WC Vendors Pro dashboard."
+msgstr ""
+"Sta leveranciers toe om veilingen te maken. Integreer WooCommerce Simple "
+"Auctions in het WC Vendors Pro-dashboard."
+
+#: classes/admin/views/html-admin-page-extensions.php:57
+msgid "From $49"
+msgstr "Vanaf $49"
+
+#: classes/admin/views/html-admin-page-extensions.php:62
+msgid "Compatible 3rd party plugins"
+msgstr "Compatibele 3rd party plugins"
+
+#: classes/admin/views/html-admin-page-extensions.php:63
+msgid ""
+"You can find a selection of compatible plugins with WC Vendors Marketplace "
+"and or WC Vendors Pro. <br /><br />They cover a range of areas including "
+"vendor payment gateways, shipping, service, support and chat, social media "
+"and currency/credit systems."
+msgstr ""
+"U kunt een selectie van compatibele plug-ins vinden met WC Vendors "
+"Marketplace en of WC Vendors Pro. <br /><br />Ze bestrijken een reeks "
+"gebieden, waaronder betalingsgateways van leveranciers, verzending, service, "
+"ondersteuning en chat, sociale media en valuta- / kredietsystemen."
+
+#: classes/admin/views/html-admin-page-extensions.php:64
+msgid "View compatible plugins"
+msgstr "Bekijk compatibele plug-ins"
+
+#: classes/admin/views/html-admin-page-extensions.php:71
+msgid ""
+"Our list of premium extensions for WC Vendors can be found on our website. "
+"<a href=\"%s\">Click here to view our extensions list.</a>"
+msgstr ""
+"Onze lijst met premium extensies voor WC Vendors is te vinden op onze "
+"website. <a href=\"%s\">Klik hier om onze lijst met extensies te bekijken.</"
+"a>"
+
+#: classes/admin/views/html-admin-page-go-pro.php:16
+msgid "Upgrade to WC Vendors Pro!"
+msgstr "Upgrade naar WC Vendors Pro!"
+
+#: classes/admin/views/html-admin-page-go-pro.php:17
+msgid ""
+"Empower your vendors to take control of their stores. Reduce your management "
+"workload and focus on the tasks that matter. "
+msgstr ""
+"Stel uw leveranciers in staat om de controle over hun winkels over te nemen. "
+"Verminder uw beheertaak en concentreer u op de taken die ertoe doen. "
+
+#: classes/admin/views/html-admin-page-go-pro.php:22
+msgid "Take your marketplace to the next level."
+msgstr "Til uw marktplaats naar een hoger niveau."
+
+#: classes/admin/views/html-admin-page-go-pro.php:23
+msgid "Packed full of features"
+msgstr "Boordevol functies"
+
+#: classes/admin/views/html-admin-page-go-pro.php:30
+msgid "Complete Frontend Experience"
+msgstr "Complete Frontend-ervaring"
+
+#: classes/admin/views/html-admin-page-go-pro.php:31
+msgid ""
+"Our vendor dashboard provides vendors with an integrated frontend experience "
+"that blends seamlessly with your theme. Allow vendors to take control of "
+"their stores while you can focus on building the marketplace."
+msgstr ""
+"Ons leveranciersdashboard biedt leveranciers een geïntegreerde frontend-"
+"ervaring die naadloos aansluit op uw thema. Laat leveranciers de controle "
+"over hun winkels overnemen, terwijl u zich kunt concentreren op het bouwen "
+"van de markt."
+
+#: classes/admin/views/html-admin-page-go-pro.php:39
+msgid "Customize With Ease"
+msgstr "Aanpassen met gemak"
+
+#: classes/admin/views/html-admin-page-go-pro.php:40
+msgid ""
+"Easy settings based configuration. No need for coding. As well as extensive "
+"options available for building integrations."
+msgstr ""
+"Eenvoudige configuratie op basis van instellingen. Coderen is niet nodig. "
+"Evenals uitgebreide opties beschikbaar voor het bouwen van integraties."
+
+#: classes/admin/views/html-admin-page-go-pro.php:48
+msgid "Best in Class Support"
+msgstr "Best-in-class ondersteuning"
+
+#: classes/admin/views/html-admin-page-go-pro.php:49
+msgid ""
+"Our premium support is fast and efficient, don't wait days for a support "
+"response."
+msgstr ""
+"Onze premium ondersteuning is snel en efficiënt, wacht geen dagen op een "
+"ondersteuningsreactie."
+
+#: classes/admin/views/html-admin-page-go-pro.php:59
+msgid "Complete Shipping Solution"
+msgstr "Complete verzendoplossing"
+
+#: classes/admin/views/html-admin-page-go-pro.php:60
+msgid ""
+"WC Vendors has the most comprehensive shipping system of any marketplace "
+"plugin. Let vendors manage their shipping. Flat rate or table rate shipping "
+"is available. Don’t let shipping stop your marketplace from succeeding!"
+msgstr ""
+"WC Vendors heeft het meest uitgebreide verzendsysteem van elke "
+"marktplaatsplug-in. Laat leveranciers hun verzending beheren. Verzending met "
+"een vast tarief of tafeltarief is beschikbaar. Laat verzending uw "
+"marktplaats niet tegenhouden om te slagen!"
+
+#: classes/admin/views/html-admin-page-go-pro.php:68
+msgid "Over 100+ Payment Gateways Supported"
+msgstr "Meer dan 100+ betalingsgateways ondersteund"
+
+#: classes/admin/views/html-admin-page-go-pro.php:69
+msgid ""
+"Use the payment gateway for your region to make sure your customers can pay "
+"seamlessly. Any payment gateway written for WooCommerce can be used."
+msgstr ""
+"Gebruik de betalingsgateway voor uw regio om ervoor te zorgen dat uw klanten "
+"naadloos kunnen betalen. Elke betalingsgateway die voor WooCommerce is "
+"geschreven, kan worden gebruikt."
+
+#: classes/admin/views/html-admin-page-go-pro.php:77
+msgid "Multiple Commission options"
+msgstr "Meerdere opties van de Commissie"
+
+#: classes/admin/views/html-admin-page-go-pro.php:78
+msgid ""
+"Chose from percentage, percentage + fee, fixed, fixed + fee, product "
+"category and tier rates based on total sales or product prices."
+msgstr ""
+"Kies uit percentage, percentage + vergoeding, vaste, vaste + vergoeding, "
+"productcategorie en tier-tarieven op basis van totale verkopen of "
+"productprijzen."
+
+#: classes/admin/views/html-admin-page-go-pro.php:97
+msgid "What's included in WC Vendors Pro?"
+msgstr "Wat is inbegrepen in WC Vendors Pro?"
+
+#: classes/admin/views/html-admin-page-go-pro.php:101
+msgid "Features"
+msgstr "Kenmerken"
+
+#: classes/admin/views/html-admin-page-go-pro.php:102
+msgid "WC Vendors Marketplace<br />FREE"
+msgstr "WC Verkopers Marktplaats<br />VRIJ"
+
+#: classes/admin/views/html-admin-page-go-pro.php:103
+msgid "WC Vendors Pro <br />From $199/year"
+msgstr "WC Leveranciers Pro <br />Vanaf $199/jaar"
+
+#: classes/admin/views/html-admin-page-go-pro.php:106
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: classes/admin/views/html-admin-page-go-pro.php:111
+msgid "Product Management"
+msgstr "Product Management"
+
+#: classes/admin/views/html-admin-page-go-pro.php:112
+msgid "WordPress Admin"
+msgstr "Wordpress admin"
+
+#: classes/admin/views/html-admin-page-go-pro.php:113
+msgid "Full Featured Frontend Dashboard"
+msgstr "Volledig uitgerust Frontend Dashboard"
+
+#: classes/admin/views/html-admin-page-go-pro.php:116
+msgid "Order Management"
+msgstr "Bestellingsbeheer"
+
+#: classes/admin/views/html-admin-page-go-pro.php:121
+msgid "Coupon Management"
+msgstr "Couponbeheer"
+
+#: classes/admin/views/html-admin-page-go-pro.php:126
+msgid "Shipping Management"
+msgstr "Verzendbeheer"
+
+#: classes/admin/views/html-admin-page-go-pro.php:131
+msgid "Shipping Tracking & Packing Slips<"
+msgstr "Tracking & Pakbonnen voor verzending <"
+
+#: classes/admin/views/html-admin-page-go-pro.php:136
+msgid "Multiple Commission Types"
+msgstr "Meerdere Commissie Types"
+
+#: classes/admin/views/html-admin-page-go-pro.php:141
+msgid "Store SEO"
+msgstr "Winkel SEO"
+
+#: classes/admin/views/html-admin-page-go-pro.php:146
+msgid "Store Ratings"
+msgstr "Winkelbeoordelingen"
+
+#: classes/admin/views/html-admin-page-go-pro.php:151
+msgid "Store Vacation"
+msgstr "Winkel Vakantie"
+
+#: classes/admin/views/html-admin-page-go-pro.php:156
+msgid "Vendor Store Widgets"
+msgstr "Widgets voor leverancierswinkels"
+
+#: classes/admin/views/html-admin-page-go-pro.php:161
+msgid "Vendor Verification"
+msgstr "Verificatie van de verkoper"
+
+#: classes/admin/views/html-admin-page-go-pro.php:166
+msgid "Trusted Vendor"
+msgstr "Vertrouwde leverancier"
+
+#: classes/admin/views/html-admin-page-go-pro.php:171
+msgid "Bookable Products"
+msgstr "Alle producten die gereserveerd kunnen worden:"
+
+#: classes/admin/views/html-admin-page-go-pro.php:173,
+#: classes/admin/views/html-admin-page-go-pro.php:178,
+#: classes/admin/views/html-admin-page-go-pro.php:183
+msgid "Paid Add-on"
+msgstr "Betaalde add-on"
+
+#: classes/admin/views/html-admin-page-go-pro.php:176
+msgid "Auction Products"
+msgstr "Veiling producten"
+
+#: classes/admin/views/html-admin-page-go-pro.php:181
+msgid "Subscription Products"
+msgstr "Abonnement producten"
+
+#: classes/admin/views/html-admin-page-go-pro.php:203
+msgid "What people are saying"
+msgstr "Wat mensen zeggen"
+
+#: classes/admin/views/html-admin-page-go-pro.php:212
+msgid ""
+"Highly recommend for new marketplace websites! Their support is outstanding."
+msgstr ""
+"Zeer aan te bevelen voor nieuwe marktplaatswebsites! Hun steun is uitstekend."
+
+#: classes/admin/views/html-admin-page-go-pro.php:215
+msgid "bcgearexchange"
+msgstr "bcgearexchange |"
+
+#: classes/admin/views/html-admin-page-go-pro.php:221
+msgid ""
+"Great experience so far. Excellent support from Jamie – very helpful and to "
+"the point. Thank you!"
+msgstr ""
+"Geweldige ervaring tot nu toe. Uitstekende ondersteuning van Jamie - zeer "
+"behulpzaam en to the point. Bedankt!"
+
+#: classes/admin/views/html-admin-page-go-pro.php:224
+msgid "sugarcactus"
+msgstr "sugarcactus |"
+
+#: classes/admin/views/html-admin-page-go-pro.php:230
+msgid ""
+"WC Vendors Pro support staff have been FANTASTIC!! I have been so pleasantly "
+"surprised by the response times & valuable assistance. It’s wonderful that "
+"WC Vendors believes in providing exceptional customer service. Well done to "
+"WC Vendors & their support team, please keep up the great work :)!"
+msgstr ""
+"WC Vendors Pro ondersteunend personeel is FANTASTISCH geweest! ! Ik ben zo "
+"aangenaam verrast door de responstijden en waardevolle hulp. Het is geweldig "
+"dat WC Vendors gelooft in het bieden van uitzonderlijke klantenservice. Goed "
+"gedaan aan WC Vendors en hun ondersteuningsteam, ga alsjeblieft door met het "
+"geweldige werk :)!"
+
+#: classes/admin/views/html-admin-page-go-pro.php:233
+msgid "Locate Australian"
+msgstr "Zoek Australisch"
+
+#: classes/admin/views/html-admin-page-go-pro.php:239
+msgid ""
+"Great support! Jamie was fantastic. He helped us resolve our issue and even "
+"put together a script to help resolve the issue quickly! Thanks WC Vendors "
+"team!"
+msgstr ""
+"Geweldige ondersteuning! Jamie was fantastisch. Hij hielp ons ons probleem "
+"op te lossen en stelde zelfs een script samen om het probleem snel op te "
+"lossen! Bedankt WC Vendors team!"
+
+#: classes/admin/views/html-admin-page-go-pro.php:242
+msgid "Cody Slingerland"
+msgstr "Cody Slingerland"
+
+#: classes/admin/views/html-admin-page-go-pro.php:264
+msgid "Are you ready?"
+msgstr "Ben je er klaar voor?"
+
+#: classes/admin/views/html-admin-page-go-pro.php:265
+msgid ""
+"WC Vendors Pro will take your marketplace to the next level all while saving "
+"you time and money. "
+msgstr ""
+"WC Vendors Pro tilt uw marktplaats naar een hoger niveau en bespaart u tijd "
+"en geld. "
+
+#: classes/admin/views/html-admin-settings.php:43,
+#: classes/admin/views/html-admin-settings.php:43
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: classes/admin/views/html-vendor-meta.php:15
+msgid "Enable HTML for the shop description"
+msgstr "Activeer HTML in shop beschrijving"
+
+#: classes/admin/views/html-vendor-meta.php:40
+msgid "PayPal E-mail"
+msgstr "IBAN"
+
+#: classes/admin/views/html-vendor-meta.php:108
+msgid "Commission rate"
+msgstr "Commissie tarief"
+
+#: classes/admin/views/html-vendor-meta.php:124
+msgid "Give Tax"
+msgstr "Geef belasting"
+
+#: classes/admin/views/html-vendor-meta.php:129
+msgid "Tax override for %s"
+msgstr "Belastingoverschrijving voor %s"
+
+#: classes/admin/views/html-vendor-meta.php:141
+msgid "Give Shipping"
+msgstr "Geef verzendkosten"
+
+#: classes/admin/views/html-vendor-meta.php:146
+msgid "Shipping override for %s"
+msgstr "Verzendkosten overschrijven voor %s"
+
+#: classes/admin/views/html-vendor-meta.php:158,
+#: classes/admin/views/html-vendor-settings-page.php:130,
+#: templates/dashboard/settings/seller-info.php:20
+msgid "Seller info"
+msgstr "Verkoper info"
+
+#: classes/admin/views/html-vendor-meta.php:169
+msgid "Shop description"
+msgstr "Winkelbeschrijving"
+
+#: classes/admin/views/html-vendor-settings-page.php:13,
+#: templates/dashboard/settings/paypal-email-form.php:18
+msgid "PayPal Address"
+msgstr "IBAN/Rekeningnummer"
+
+#: classes/admin/views/html-vendor-settings-page.php:21
+msgid "Your PayPal address can be used to send you your commission."
+msgstr "Uw PayPal-adres kan worden gebruikt om u uw commissie te sturen."
+
+#: classes/admin/views/html-vendor-settings-page.php:113,
+#: templates/dashboard/settings/shop-name.php:18
+msgid "Shop Name"
+msgstr "Naam winkel"
+
+#: classes/admin/views/html-vendor-settings-page.php:120,
+#: templates/dashboard/settings/shop-name.php:19
+msgid "Your shop name is public and must be unique."
+msgstr "Je winkelnaam is openbaar en dient uniek te zijn."
+
+#: classes/admin/views/html-vendor-settings-page.php:149,
+#: templates/dashboard/settings/seller-info.php:21
+msgid "This is displayed on each of your products."
+msgstr "Dit wordt weergegeven bij elk van je producten."
+
+#: classes/admin/views/html-vendor-settings-page.php:180,
+#: templates/dashboard/settings/shop-description.php:19
+msgid "This is displayed on your <a href=\"%s\">shop page</a>."
+msgstr "Dit wordt weergegeven op je winkelpagina."
+
+#: classes/admin/views/html-vendor-settings-page.php:193
+msgid "Save Shop Settings"
+msgstr "Sla winkel instellingen op"
+
+#: classes/front/account/class-wc-account-links.php:57
+msgid "%s %s"
+msgstr "%s %s"
+
+#: classes/front/account/class-wc-account-links.php:103
+msgid "You are already an approved vendor, no need to apply"
+msgstr ""
+"U bent al een goedgekeurde leverancier, u hoeft geen aanvraag in te dienen"
+
+#: classes/front/dashboard/class-vendor-dashboard.php:78
+msgid "Order marked shipped."
+msgstr "Order gemarkeerd als verzonden."
+
+#: classes/front/dashboard/class-vendor-dashboard.php:111,
+#: classes/front/dashboard/class-vendor-dashboard.php:112
+msgid "Tracking number"
+msgstr "Tracking nummer"
+
+#: classes/front/dashboard/class-vendor-dashboard.php:114
+msgid "Success. Your tracking number has been updated."
+msgstr "Succes. Je tracking nummer is geüpdatet."
+
+#: classes/front/orders/class-export-csv.php:18
+msgid "Item Meta"
+msgstr "Item Meta"
+
+#: classes/front/orders/class-orders.php:59,
+#: classes/front/orders/class-orders.php:127
+msgid ""
+"You haven't selected a product's orders to view! Please go back to the %s "
+"Dashboard and click Show Orders on the product you'd like to view."
+msgstr ""
+"U heeft de bestellingen van een product niet geselecteerd om te bekijken! Ga "
+"terug naar het %s Dashboard en klik op Bestellingen weergeven bij het "
+"product dat u wilt bekijken."
+
+#: classes/front/orders/class-orders.php:82,
+#: classes/front/orders/class-orders.php:150
+msgid "No orders."
+msgstr "Geen orders."
+
+#: classes/front/orders/class-orders.php:212
+msgid "Product Title"
+msgstr "Product Titel"
+
+#: classes/front/orders/class-orders.php:213
+msgid "Full name"
+msgstr "Naam"
+
+#: classes/front/orders/class-orders.php:214
+msgid "Address"
+msgstr "Adres"
+
+#: classes/front/orders/class-orders.php:215
+msgid "City"
+msgstr "Stad"
+
+#: classes/front/orders/class-orders.php:216
+msgid "State"
+msgstr "Staat/provincie"
+
+#: classes/front/orders/class-orders.php:217
+msgid "Zip"
+msgstr "Zip"
+
+#: classes/front/orders/class-orders.php:218,
+#: classes/admin/views/setup/ready.php:32
+msgid "Email address"
+msgstr "Email adres"
+
+#: classes/front/orders/class-submit-comment.php:46
+msgid "You've left the comment field empty!"
+msgstr "Je het het opmerkingen veld leeg gelaten!"
+
+#: classes/front/orders/class-submit-comment.php:68
+msgid "Success. The customer has been notified of your comment."
+msgstr "Succes. Je opmerking is bekend gemaakt aan de klant."
+
+#: classes/front/signup/class-vendor-signup.php:83
+msgid "ERROR"
+msgstr "FOUT"
+
+#: classes/front/signup/class-vendor-signup.php:83,
+#: classes/front/signup/views/html-vendor-signup.php:57
+msgid "Please agree to the terms and conditions"
+msgstr "Ga akkoord met de algemene voorwaarden"
+
+#: classes/front/signup/class-vendor-signup.php:103
+msgid "Your application has been submitted."
+msgstr "Je aanvraag is ingediend."
+
+#: classes/front/signup/class-vendor-signup.php:101
+msgid "Application denied. You are an administrator."
+msgstr "Aanvraag geweigerd. Je bent een beheerder."
+
+#: classes/front/signup/class-vendor-signup.php:150,
+#: classes/front/signup/class-vendor-signup.php:192,
+#: classes/front/signup/class-vendor-signup.php:204
+msgid "You must accept the terms and conditions to become a vendor."
+msgstr ""
+"Je moet de algemene verkoopvoorwaarden accepteren om een verkoper te worden."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:47
+msgid "PayPal Adaptive Payments - deprecated do not use"
+msgstr "PayPal Adaptieve betalingen - afgeschaft niet gebruiken"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:123
+msgid ""
+"Something went wrong. Response from PayPal invalidated this order. Status: "
+"%s."
+msgstr ""
+"Er ging iets mis. De reactie van PayPal ontkracht deze bestelling. Status: "
+"%s."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:128
+msgid "IPN payment completed"
+msgstr "Betaling ontvangen"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:150
+msgid "Enable PayPal Adaptive Payments"
+msgstr "Schakel PayPal Adaptive Payments in"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:156
+msgid "Method Title"
+msgstr "Methode Titel"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:157,
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:70
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dit bepaalt de titel die de gebruiker ziet tijdens het betalen."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:158
+msgid "PayPal"
+msgstr "IBAN"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:163,
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:75
+msgid "Description"
+msgstr "Beschrijving"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:164
+msgid "This controls the description which the user sees during checkout."
+msgstr "Dit bepaalt de beschrijving die de gebruiker ziet bij het betalen."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:165
+msgid "Pay via PayPal!"
+msgstr "Betaal via PyPal!"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:176
+msgid "Live Credentials"
+msgstr "Live Credentials"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:178
+msgid ""
+"You must have an <a href=\"%s\">Application ID</a> to process live "
+"transactions. You do not need one for testing in Sandbox mode."
+msgstr ""
+"U moet een <a href=\"%s\">Applictation-ID</a> hebben om live transacties te "
+"verwerken. U heeft er geen nodig voor het testen in de sandbox-modus."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:184,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:218
+msgid "The email address main payments should go to."
+msgstr "Het e-mailadres waar de hoofdbetalingen naartoe moeten gaan."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:189,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:223
+msgid "API Username"
+msgstr "API gebruikersnaam"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:194,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:228
+msgid "API Password"
+msgstr "API Wachtwoord"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:199,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:233
+msgid "API Signature"
+msgstr "API Handtekening"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:204
+msgid "Application ID"
+msgstr "Applicatie-ID"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:206
+msgid "Only required when doing live transactions."
+msgstr "Alleen vereist bij het uitvoeren van live transacties."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:210
+msgid "Sandbox Credentials"
+msgstr "Sandbox Credentials"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:212
+msgid ""
+"You can signup for a sandbox developer account <a href=\"%s\">here</a>. You "
+"need a developer account if you want to enable Sandbox mode for testing."
+msgstr ""
+"U kunt <a href=\"%s\">hier</a> inschrijven voor een sandbox-developer-"
+"account. U hebt een developer-account nodig als u de sandbox-modus in wilt "
+"schakelen voor testen."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:244
+msgid "Misc. Settings"
+msgstr "Diverse instellingen"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:249
+msgid "Enable PayPal Sandbox mode"
+msgstr "PayPal Sandbox modus inschakelen"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:255
+msgid "Enable logging"
+msgstr "Logging inschakelen"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:273
+msgid ""
+"The PayPal Adaptive Payments gateway can instantly pay your vendors their "
+"due commission (if enabled). Also used to mass pay vendors on a schedule / "
+"manual method (if enabled)."
+msgstr ""
+"De PayPal Adaptive Payments gateway kan uw vendors hun verschuldigde "
+"commissie direct betalen (indien ingeschakeld). Ook gebruikt om de vendors "
+"in massa te bealen op een schema / handmatige methode (indien ingeschakeld)."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:274
+msgid ""
+"Please Note: PayPal has deprecated Adaptive Payments. This will soon cease "
+"to function."
+msgstr ""
+"Let op: PayPal heeft Adaptive Payments afgeschaft. Dit zal binnenkort "
+"ophouden te functioneren."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:285
+msgid "Gateway Disabled"
+msgstr "Betaalmethode uitgeschakeld"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:285
+msgid "%s does not support your store currency."
+msgstr "%s ondersteunt uw winkelvaluta niet."
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:394,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:510,
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:156
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:403,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:404
+msgid "Error ID: %s. %s"
+msgstr "Fout-id: %s. %s"
+
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:518,
+#: classes/gateways/PayPal_AdvPayments/paypal_ap.php:519
+msgid "Error ID: %d. %s"
+msgstr "Fout-id: %d. %s"
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:118
+msgid "No vendors found to pay. Maybe they haven't set a PayPal address?"
+msgstr ""
+"Geen verkopers gevonden om te betalen. Misschien hebben ze geen PayPal adres "
+"ingesteld?"
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:176
+msgid ""
+"All due commission has been paid for, but I could not clear it from their "
+"profiles due to an internal error. Commission will still be listed as due. "
+"Please manually mark the commission as paid from the Commissions page."
+msgstr ""
+"Alle verschuldigde commissie is betaald, maar ik kon het niet uit hun "
+"profielen verwijderen vanwege een interne fout. De Commissie zal nog steeds "
+"als verschuldigd worden vermeld. Markeer de commissie handmatig als betaald "
+"op de pagina Commissies."
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:170
+msgid "All due commission has been paid for. "
+msgstr "Alle verschuldigde provisie is betaald. "
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:210
+msgid "WooCommerce: Mass payments for vendors update"
+msgstr "WooCommerce: update voor massabetalingen voor leveranciers"
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:212
+msgid ""
+"Hello! A payment was just triggered to mass pay all vendors their due "
+"commission."
+msgstr ""
+"Hallo! Er werd net een betaling geactiveerd om alle leveranciers massaal hun "
+"verschuldigde commissie te betalen."
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:213
+msgid "Payment status: %s."
+msgstr "Betalingsstatus: %s."
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:214
+msgid "Payment message: %s."
+msgstr "Betalingsbericht: %s."
+
+#: classes/gateways/PayPal_Masspay/class-paypal-masspay.php:217
+msgid "Payment total: %s."
+msgstr "Betaling totaal: %s."
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:35,
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:71
+msgid "WC Vendors Test Gateway"
+msgstr "WC Vendors Test Gateway"
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:36
+msgid ""
+"This gateway will set orders to processing upon receipt allowing you to test "
+"transactions in your store.  Some WooCommerce included gateways have "
+"problems with this - you should use this gateway for all of your non-PayPal "
+"testing."
+msgstr ""
+"Deze betaalpoort stelt bestellingen in te verwerken bij ontvangst om u in "
+"staat te stellen transacties in uw winkel te testen. Sommige in WooCommerce "
+"opgenomen betalingsmogelijkheden hebben problemen met dit - u moet deze "
+"betaalpoort gebruiken voor al uw niet-PayPal-testen."
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:64
+msgid "Enable WC Vendors Test Gateway Payment"
+msgstr "Schakel WC Vendors Test Gateway betaling in"
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:68
+msgid "Title"
+msgstr "Titel"
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:77
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Omschrijving van de betaalmethode die de klant ziet bij het afrekenen."
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:78
+msgid ""
+"This is a test gateway -- not to be used on live sites for live "
+"transactions. <a href=\"http://www.wcvendors.com/\" target=\"top\">Click "
+"here to visit WCVendors.com</a>."
+msgstr ""
+"Dit is een test gateway-- moet niet worden gebruikt op live-sites voor live "
+"transacties. <a href=\"http://www.wcvendors.com/\" target=\"top\">Klik hier "
+"om WCVendors.com te bezoeken</a>."
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:82
+msgid "Instructions"
+msgstr "Instructies"
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:84
+msgid ""
+"Success!  Your test order is now marked as processing and any vendors will "
+"be sent an email as long as you have the Notify Vendors email enabled under "
+"WooCommerce--Settings--Emails."
+msgstr ""
+"Succesvol!  Uw testbestelling is nu gemarkeerd als in verwerking en "
+"eventuele vendors zal een e-mail worden verzonden, als u de kennisgeving "
+"Vendors e-mail hebt ingeschakeld onder  WooCommerce--instellingen--E-mails."
+
+#: classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:127
+msgid "Test gateway transation complete.  Order processing."
+msgstr "Test gateway-overdracht voltooid. Orderverwerking."
+
+#: templates/dashboard/settings/paypal-email-form.php:19
+msgid "Your PayPal address can be used to manually send you your commission."
+msgstr ""
+"Uw PayPal-adres kan worden gebruikt om u handmatig uw commissie te sturen."
+
+#: templates/dashboard/settings/settings.php:46
+msgid "Bank Details"
+msgstr "Bankgegevens"
+
+#: templates/dashboard/settings/settings.php:49
+msgid "Account Name"
+msgstr "Accountnaam"
+
+#: templates/dashboard/settings/settings.php:54
+msgid "Account Number"
+msgstr "Rekeningnummer"
+
+#: templates/dashboard/settings/settings.php:78
+msgid "BIC / Swift"
+msgstr "BIC / Swift"
+
+#: templates/dashboard/settings/settings.php:125
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/emails/plain/admin-notify-application.php:22
+msgid "You can approve or deny the application at the following link %s"
+msgstr "U kunt de aanvraag goedkeuren of weigeren via de volgende link %s"
+
+#: templates/emails/plain/admin-notify-approved.php:20
+msgid "Approved username: %s"
+msgstr "Goedgekeurde gebruikersnaam: %s"
+
+#: templates/emails/plain/vendor-notify-cancelled-order.php:19
+msgid "Your order has been cancelled."
+msgstr "Uw bestelling is geannuleerd."
+
+#: templates/emails/plain/vendor-notify-order.php:18
+msgid "You have received an order from %s."
+msgstr "Je hebt een bestelling ontvangen van %s."
+
+#. translators: %s: Order ID.
+#: templates/emails/plain/vendor-order-details.php:19
+msgid "Order number: %s"
+msgstr "Bestelnummer: %s"
+
+#: templates/orders/comments/add-new-comment.php:27
+msgid "Add comment"
+msgstr "Opmerking toevoegen"
+
+#: templates/orders/comments/existing-comments.php:25
+msgid "added %s ago"
+msgstr "%s geleden toegevoegd"
+
+#: templates/orders/customer-note/customer-note.php:20
+msgid "Customer note"
+msgstr "Klant notitie"
+
+#: templates/orders/customer-note/customer-note.php:24
+msgid "No customer note."
+msgstr "Geen klant notitie."
+
+#: templates/orders/shipping/shipping-form.php:23
+msgid "Provider:"
+msgstr "Pakketdienst:"
+
+#: templates/orders/shipping/shipping-form.php:25
+msgid "Custom Provider"
+msgstr "Verzonden via"
+
+#: templates/orders/shipping/shipping-form.php:51
+msgid "Provider Name:"
+msgstr "Verzenden via:"
+
+#: templates/orders/shipping/shipping-form.php:62
+msgid "Tracking number:"
+msgstr "Track & Trace:"
+
+#: templates/orders/shipping/shipping-form.php:72
+msgid "Tracking link:"
+msgstr "Tracking-link:"
+
+#: templates/orders/shipping/shipping-form.php:84
+msgid "Date shipped:"
+msgstr "Verzonden op:"
+
+#: templates/orders/shipping/shipping-form.php:93
+msgid "Preview:"
+msgstr "Voorbeeld:"
+
+#: templates/orders/shipping/shipping-form.php:93
+msgid "Click here to track your shipment"
+msgstr "Klik hier om je zending te volgen"
+
+#: templates/orders/shipping/shipping-form.php:102
+msgid "Update tracking number"
+msgstr "Tracking nummer updaten"
+
+#: templates/orders/shipping/shipping-form.php:104
+msgid "Mark as shipped"
+msgstr "Markeren als verzonden"
+
+#: classes/admin/views/notices/html-notice-custom.php:13,
+#: classes/admin/views/notices/html-notice-template-check.php:14,
+#: classes/admin/views/notices/html-notice-updated.php:13
+msgid "Dismiss"
+msgstr "Afwijzen"
+
+#: classes/admin/views/notices/html-notice-install.php:12
+msgid ""
+"<strong>Welcome to WC Vendors</strong> &#8211; You&lsquo;re almost ready to "
+"start your marketplace"
+msgstr ""
+"<strong>Welkom bij WC Vendors</strong> - U bent bijna klaar om uw "
+"marktplaats te starten"
+
+#: classes/admin/views/notices/html-notice-install.php:14
+msgid "Run the Setup Wizard"
+msgstr "Installatiewizard uitvoeren"
+
+#: classes/admin/views/notices/html-notice-install.php:16
+msgid "Skip setup"
+msgstr "Sla setup ov"
+
+#: classes/admin/views/notices/html-notice-template-check.php:16
+msgid ""
+"<strong>Your theme (%1$s) contains outdated copies of some WC Vendors "
+"template files.</strong> These files may need updating to ensure they are "
+"compatible with the current version of WC Vendors. You can see which files "
+"are affected from the <a href=\"%2$s\">system status page</a>. If in doubt, "
+"check with the author of the theme."
+msgstr ""
+"<strong>Uw thema (%1$s) bevat verouderde kopieën van sommige "
+"sjabloonbestanden van WC Vendors.</strong> Deze bestanden moeten mogelijk "
+"worden bijgewerkt om ervoor te zorgen dat ze compatibel zijn met de huidige "
+"versie van WC Vendors. U kunt zien welke bestanden worden beïnvloed op de <a "
+"href=\"%2$s\">systeemstatuspagina</a>. Neem bij twijfel contact op met de "
+"auteur van het thema."
+
+#: classes/admin/views/notices/html-notice-template-check.php:19
+msgid "Learn more about templates"
+msgstr "Meer informatie over templates"
+
+#: classes/admin/views/notices/html-notice-update.php:12
+msgid ""
+"<strong>WC Vendors Update Required.</strong> &#8211; We need to upgrade your "
+"configuration to the latest version."
+msgstr ""
+"<strong>WC Vendors Update vereist.</strong> - We moeten uw configuratie "
+"upgraden naar de nieuwste versie."
+
+#: classes/admin/views/notices/html-notice-update.php:15
+msgid "Run the update"
+msgstr "Voer de update uit"
+
+#: classes/admin/views/notices/html-notice-update.php:19
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Het wordt sterk aangeraden om eerst een database back-up te maken voordat je "
+"verder gaat. Weet je zeker dat je nu wilt bijwerken?"
+
+#: classes/admin/views/notices/html-notice-updated.php:14
+msgid ""
+"WC Vendors data update complete. Thank you for updating to the latest "
+"version!"
+msgstr ""
+"Wc-leveranciers gegevensupdate voltooid. Bedankt voor het updaten naar de "
+"nieuwste versie!"
+
+#: classes/admin/views/notices/html-notice-updating.php:12
+msgid "WC Vendors data update"
+msgstr "WC Vendors gegevens bijwerken"
+
+#: classes/admin/views/notices/html-notice-updating.php:13
+msgid "Your database is being updated in the background. "
+msgstr "Je database wordt op de achtergrond bijgewerkt. "
+
+#: classes/admin/views/notices/html-notice-updating.php:14
+msgid "Taking a while? Click here to run it now."
+msgstr "Duurt het te lang? Klik hier om gelijk uit te voeren."
+
+#: classes/admin/views/setup/capabilities.php:14
+msgid "Enable and disable capabilites of the %s"
+msgstr "Capabilites van de %s in- en uitschakelen"
+
+#: classes/admin/views/setup/capabilities.php:51
+msgid "Allow %s to publish products without requiring approval."
+msgstr "Sta %s toe om producten te publiceren zonder goedkeuring te vereisen."
+
+#: classes/admin/views/setup/capabilities.php:132,
+#: classes/admin/views/setup/capabilities.php:133,
+#: classes/admin/views/setup/general.php:99,
+#: classes/admin/views/setup/general.php:100,
+#: classes/admin/views/setup/pages.php:88,
+#: classes/admin/views/setup/pages.php:89
+msgid "Next"
+msgstr "Volgende"
+
+#: classes/admin/views/setup/footer.php:20
+msgid "Skip this step"
+msgstr "Sla deze stap over"
+
+#: classes/admin/views/setup/footer.php:17
+msgid "Return to your dashboard"
+msgstr "Terug naar uw dashboard"
+
+#: classes/admin/views/setup/footer.php:14
+msgid "Exit Wizard"
+msgstr "Wizard afsluiten"
+
+#: classes/admin/views/setup/general.php:14
+msgid ""
+"The following wizard will help you configure your marketplace and get your "
+"vendors onboard quickly."
+msgstr ""
+"De volgende wizard helpt u bij het configureren van uw marktplaats en het "
+"snel onboarden van uw leveranciers."
+
+#: classes/admin/views/setup/general.php:38
+msgid "Manually approve %s applications"
+msgstr "Handmatig %s toepassingen goedkeuren"
+
+#: classes/admin/views/setup/general.php:51
+msgid "Give any taxes to %s"
+msgstr "Geef eventuele belastingen aan %s"
+
+#: classes/admin/views/setup/general.php:65
+msgid "Give any shipping to %s"
+msgstr "Geef verzendkosten aan %s"
+
+#: classes/admin/views/setup/general.php:83
+msgid ""
+"Commissions are calculated per product. The commission rate can be set "
+"globally, at a vendor level or at a product level."
+msgstr ""
+"Commissies worden berekend per product. Het commissietarief kan wereldwijd "
+"worden ingesteld, op leveranciersniveau of op productniveau."
+
+#: classes/admin/views/setup/general.php:88
+msgid "Global Commission Rate %"
+msgstr "Globaal commissietarief %"
+
+#: classes/admin/views/setup/header.php:16
+msgid "WC Vendors &rsaquo; Setup Wizard"
+msgstr "WC Vendors Pro › Installatiewizard"
+
+#: classes/admin/views/setup/pages.php:14
+msgid "Select the pages for relevant frontend features for %s"
+msgstr "Selecteer de pagina's voor relevante frontendfuncties voor %s"
+
+#: classes/admin/views/setup/pages.php:25
+msgid "%s Dashboard"
+msgstr "%s Dashboard"
+
+#: classes/admin/views/setup/pages.php:34
+msgid ""
+"This page should contain the following shortcode. "
+"<code>[wcv_vendor_dashboard]</code>"
+msgstr ""
+"Deze pagina moet de volgende shortcode bevatten. "
+"<code>[wcv_vendor_dashboard]</code>"
+
+#: classes/admin/views/setup/pages.php:38
+msgid "%s Shop Settings"
+msgstr "%s Winkelinstellingen"
+
+#: classes/admin/views/setup/pages.php:45
+msgid ""
+"This page should contain the following shortcode. <code>[wcv_shop_settings]</"
+"code>"
+msgstr ""
+"Deze pagina moet de volgende shortcode bevatten. <code>[wcv_shop_settings]</"
+"code>"
+
+#: classes/admin/views/setup/pages.php:49
+msgid "Orders Page"
+msgstr "Bestelpagina"
+
+#: classes/admin/views/setup/pages.php:57
+msgid ""
+"This page should contain the following shortcode. <code>[wcv_orders]</code>"
+msgstr ""
+"Deze pagina moet de volgende shortcode bevatten. <code>[wcv_orders]</code>"
+
+#: classes/admin/views/setup/pages.php:61
+msgid "%s List Page"
+msgstr "%s lijstpagina"
+
+#: classes/admin/views/setup/pages.php:69
+msgid ""
+"This page should contain the following shortcode. <code>[wcv_vendorslist]</"
+"code>"
+msgstr ""
+"Deze pagina moet de volgende shortcode bevatten. <code>[wcv_vendorslist]</"
+"code>"
+
+#: classes/admin/views/setup/pages.php:73
+msgid "%s Terms Page"
+msgstr "%s Voorwaarden pagina"
+
+#: classes/admin/views/setup/pages.php:81
+msgid ""
+"This optional page allows you to define terms and conidtions %s need to "
+"agree to before applying to your marketplace. "
+msgstr ""
+"Op deze optionele pagina kunt u termen en voorwaarden definiëren waar %s mee "
+"moet instemmen voordat u zich op uw marktplaats kunt aanmelden. "
+
+#: classes/admin/views/setup/ready.php:12
+msgid "Your marketplace is ready!"
+msgstr "Uw marktplaats is klaar!"
+
+#: classes/admin/views/setup/ready.php:16
+msgid ""
+"Subscribe to our newsletter! Get product updates, marketplace tips, "
+"information and more."
+msgstr ""
+"Schrijf je in voor onze nieuwsbrief! Ontvang productupdates, "
+"marktplaatstips, informatie en meer."
+
+#: classes/admin/views/setup/ready.php:24
+msgid "First name"
+msgstr "Voornaam"
+
+#: classes/admin/views/setup/ready.php:38,
+#: classes/admin/views/setup/ready.php:42
+msgid "Subscribe me"
+msgstr "Schrijf me in"
+
+#: classes/admin/views/setup/ready.php:54
+msgid "Need Help?"
+msgstr "Hulp nodig?"
+
+#: classes/front/signup/views/html-vendor-signup.php:24
+msgid "Apply to %s %s? "
+msgstr "Vraag een %s %s account aan "
+
+#: classes/front/signup/views/html-vendor-signup.php:48
+msgid ""
+"I have read and accepted the <a target=\"top\" href=\"%s\">terms and "
+"conditions</a>."
+msgstr ""
+"Ik heb de <a target=\"top\" href=\"%s\">algemene verkoopvoorwaarden</a> "
+"gelezen en ik accepteer deze."
+
+#: classes/front/signup/views/html-vendor-signup.php:73
+msgid "\"You must accept the terms and conditions.\""
+msgstr ""
+"\"Je moet de algemene verkoopvoorwaarden accepteren om een verkoper te "
+"worden.\""

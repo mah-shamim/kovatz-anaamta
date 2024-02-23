@@ -1,0 +1,57 @@
+Log created: 2024-02-23 09:17:26
+Type: transfer
+[2024-02-23 09:17:26][notice]server info fcgi:Off max execution time: 300 wp version:6.4.3 php version:8.1.27 db version:10.11.6 php ini:safe_mode: memory_limit:2G memory_get_usage:6.05 MB memory_get_peak_usage:6.33 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-02-23 09:17:26][notice]Connect site success
+[2024-02-23 09:17:28][notice]start upload.
+[2024-02-23 09:17:28][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:0 B
+[2024-02-23 09:17:28][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:2097152
+[2024-02-23 09:17:28][notice]continue size:2097152 size1:25500936
+[2024-02-23 09:17:31][notice]start upload.
+[2024-02-23 09:17:31][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:2 MB
+[2024-02-23 09:17:31][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:4194304
+[2024-02-23 09:17:31][notice]continue size:4194304 size1:25500936
+[2024-02-23 09:17:33][notice]start upload.
+[2024-02-23 09:17:33][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:4 MB
+[2024-02-23 09:17:33][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:6291456
+[2024-02-23 09:17:33][notice]continue size:6291456 size1:25500936
+[2024-02-23 09:17:35][notice]start upload.
+[2024-02-23 09:17:35][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:6 MB
+[2024-02-23 09:17:35][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:8388608
+[2024-02-23 09:17:35][notice]continue size:8388608 size1:25500936
+[2024-02-23 09:17:38][notice]start upload.
+[2024-02-23 09:17:38][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:8 MB
+[2024-02-23 09:17:38][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:10485760
+[2024-02-23 09:17:38][notice]continue size:10485760 size1:25500936
+[2024-02-23 09:17:40][notice]start upload.
+[2024-02-23 09:17:40][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:10 MB
+[2024-02-23 09:17:40][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:12582912
+[2024-02-23 09:17:40][notice]continue size:12582912 size1:25500936
+[2024-02-23 09:17:43][notice]start upload.
+[2024-02-23 09:17:43][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:12 MB
+[2024-02-23 09:17:43][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:14680064
+[2024-02-23 09:17:43][notice]continue size:14680064 size1:25500936
+[2024-02-23 09:17:45][notice]start upload.
+[2024-02-23 09:17:45][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:14 MB
+[2024-02-23 09:17:45][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:16777216
+[2024-02-23 09:17:45][notice]continue size:16777216 size1:25500936
+[2024-02-23 09:17:47][notice]start upload.
+[2024-02-23 09:17:47][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:16 MB
+[2024-02-23 09:17:47][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:18874368
+[2024-02-23 09:17:47][notice]continue size:18874368 size1:25500936
+[2024-02-23 09:17:50][notice]start upload.
+[2024-02-23 09:17:50][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:18 MB
+[2024-02-23 09:17:50][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:20971520
+[2024-02-23 09:17:50][notice]continue size:20971520 size1:25500936
+[2024-02-23 09:17:52][notice]start upload.
+[2024-02-23 09:17:52][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:20 MB
+[2024-02-23 09:17:52][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:23068672
+[2024-02-23 09:17:52][notice]continue size:23068672 size1:25500936
+[2024-02-23 09:17:55][notice]start upload.
+[2024-02-23 09:17:55][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:22 MB
+[2024-02-23 09:17:55][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:25165824
+[2024-02-23 09:17:55][notice]continue size:25165824 size1:25500936
+[2024-02-23 09:17:56][notice]start upload.
+[2024-02-23 09:17:56][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip offset:24 MB
+[2024-02-23 09:17:56][notice]Write file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip success size:25500936
+[2024-02-23 09:17:56][notice]rename temp file:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid_temp-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip to new name:/home/anaamta/domains/anaamta.com/public_html/new/wp-content/wpvividbackups/rezaitsolution.com_booking_wpvivid-65d8626e2b8c5_2024-02-23-09-16_backup_all.zip
+[2024-02-23 09:17:57][notice]upload finished

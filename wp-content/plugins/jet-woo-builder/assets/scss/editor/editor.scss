@@ -1,0 +1,39 @@
+.jet-woo-builder-layout-control {
+	> .elementor-control-content {
+		> .elementor-control-field {
+			> .elementor-control-input-wrapper {
+				display: flex;
+				border-radius: 2px;
+				border: 1px solid #a4afb7;
+				overflow: hidden;
+
+				.elementor-choices {
+					display: flex;
+					height: auto;
+					flex-wrap: wrap;
+					align-items: stretch;
+					background: #fff;
+					margin-bottom: -1px;
+
+					.elementor-choices-label {
+						flex: 1 1 33.33333%;
+						width: 33.33333%;
+						border-right: 1px solid #a4afb7;
+						border-bottom: 1px solid #a4afb7;
+						padding: 7px 0;
+						font-size: 28px;
+						box-sizing: border-box;
+
+						&:nth-of-type( 3n ) {
+							border-right: none;
+						}
+					}
+
+					input:checked + .elementor-choices-label {
+						background: #a4afb7;
+					}
+				}
+			}
+		}
+	}
+}

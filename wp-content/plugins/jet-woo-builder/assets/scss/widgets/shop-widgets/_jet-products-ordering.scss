@@ -1,0 +1,60 @@
+.elementor-jet-woo-builder-products-ordering {
+	.woocommerce-ordering {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		float: none;
+		
+		&:before {
+			font-family: 'FontAwesome';
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			line-height: 1;
+			pointer-events: none;
+			z-index: 2;
+		}
+		
+		select {
+			width: 100%;
+			background-image: none !important;
+			-webkit-appearance:none;
+			-moz-appearance: none;
+		}
+	}
+}
+
+.woocommerce-ordering{
+	.ordering-select-icon-angle &::before{
+		content: '\f107';
+	}
+	
+	.ordering-select-icon-chevron &::before{
+		content: '\f078';
+	}
+	
+	.ordering-select-icon-angle-double &::before{
+		content: '\f103';
+	}
+	
+	.ordering-select-icon-arrow &::before{
+		content: '\f063';
+	}
+	
+	.ordering-select-icon-caret &::before{
+		content: '\f0d7';
+	}
+	
+	.ordering-select-icon-arrow-circle &::before{
+		content: '\f0ab';
+	}
+	
+	.ordering-select-icon-chevron-circle &::before{
+		content: '\f13a';
+	}
+	
+	.ordering-select-icon-caret-square &::before{
+		content: '\f150';
+	}
+}
+

@@ -1,0 +1,9 @@
+#adminmenu #toplevel_page_jet-dashboard a[href*="admin.php?page=jet-dashboard-license-page&subpage=license-manager"] {
+	color: #4aa5f5;
+}
+#adminmenu #toplevel_page_jet-dashboard a[href="admin.php?page=jet-dashboard-upsale-page"] {
+	color: #F5C546;
+}
+#adminmenu #toplevel_page_jet-dashboard a[href*="https://account.crocoblock.com/upgrade"] {
+	color: #F5C546;
+}

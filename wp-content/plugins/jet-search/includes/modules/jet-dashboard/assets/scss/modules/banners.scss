@@ -1,0 +1,391 @@
+.jet-dashboard-page {
+
+	&__banners {
+		display: flex;
+		justify-content: flex-start;
+		align-items: stretch;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	&__banner {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 20px;
+
+		border-radius: 4px;
+		color: #23282D;
+		overflow: hidden;
+		min-width: 300px;
+		position: relative;
+		background-size: cover;
+		background-position: 50% 50%;
+		box-shadow: 0px 2px 6px rgba(35, 40, 45, 0.07);
+
+		.banner-frame {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			border-radius: 4px;
+		}
+
+		.banner-inner {
+			height: 100%;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+
+		.banner-label {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 18px;
+			text-transform: uppercase;
+			margin-bottom: 38px;
+		}
+
+		.banner-title {
+			font-size: 20px;
+			line-height: 28px;
+			margin-bottom: 10px;
+		}
+
+		.banner-content {
+			font-size: 14px;
+			line-height: 18px;
+			margin-bottom: 20px;
+		}
+
+		.banner-buttons {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-end;
+			flex: 1 1 auto;
+
+			.cx-vui-button {
+				margin-right: 10px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		&.col-4-4 {
+			width: 100%;
+		}
+
+		&.col-4-3 {
+			width: 75%;
+		}
+
+		&.col-4-2 {
+			width: 50%;
+		}
+
+		&.col-4-1 {
+			width: 25%;
+		}
+
+		&.premade-preset {
+			.banner-inner {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: stretch;
+				padding: 20px 30px 30px 30px;
+			}
+		}
+
+		&.light-1-preset {
+			background-color: white;
+
+			.banner-label {
+				color: #BB97FF;
+			}
+			.banner-content {
+				color: #7B7E81;
+			}
+		}
+
+		&.light-2-preset {
+			background-image: url( '../images/banner-light-bg-1.png' );
+			background-color: #F6F9FE;
+			background-size: 100% 98px;
+			background-position: 50% 0;
+			background-repeat: no-repeat;
+
+			.banner-frame {
+				background-color: white;
+				margin: 10px;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-content {
+				color: #7B7E81;
+			}
+		}
+
+		&.light-3-preset {
+			background-color: white;
+
+			&:before {
+				display: block;
+				position: absolute;
+				width: 152px;
+				height: 152px;
+				top: -50px;
+				right: -30px;
+				background-color: #F6F9FE;
+				content:'';
+				border-radius: 50%;
+				z-index: 1;
+			}
+
+			&:after {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-image: url( '../images/youtube-icons.svg' );
+				background-size: 120px;
+				background-position: getValueByDirection( calc(100% - 5px) -20px, calc(0% - 5px) -20px );
+				background-repeat: no-repeat;
+				content:'';
+				z-index: 2;
+			}
+
+			.banner-inner {
+				position: relative;
+				z-index: 3;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-content {
+				color: #7B7E81;
+			}
+		}
+
+		&.light-4-preset {
+			background-color: white;
+
+			&:before {
+				display: block;
+				position: absolute;
+				width: 152px;
+				height: 152px;
+				top: -50px;
+				right: -30px;
+				background-color: #F6F9FE;
+				border-radius: 50%;
+				content:'';
+				z-index: 1;
+			}
+
+			&:after {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-image: url( '../images/elementor-wordpress-icon.svg' );
+				background-size: 120px;
+				background-position: getValueByDirection( calc(100% - 10px) -55px, calc(0% - 10px) -55px );
+				background-repeat: no-repeat;
+				content:'';
+				z-index: 2;
+			}
+
+			.banner-inner {
+				position: relative;
+				z-index: 3;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-content {
+				color: #7B7E81;
+			}
+		}
+
+		&.dark-1-preset {
+			background-color: #0F1419;
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-title {
+				color: white;
+			}
+			.banner-content {
+				color: white;
+			}
+
+			.cx-vui-button {
+				color: #4EFEC3;
+				box-shadow: inset 0 0 0 1px #4EFEC3;
+			}
+		}
+
+		&.dark-2-preset {
+			background-color: #0F1419;
+
+			&:before {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background: radial-gradient(120px 120px at 2.82% -9.25%, rgba(40,112,93,0.81) 0%, rgba(40,112,93,0) 100%);
+				content:'';
+				z-index: 1;
+			}
+			&:after {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background: radial-gradient(190px 190px at 94.51% 127.17%, #5B77E7 0%, rgba(91,119,231,0) 100%);
+				content:'';
+				z-index: 2;
+			}
+
+			.banner-inner {
+				position: relative;
+				z-index: 3;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-title {
+				color: white;
+			}
+			.banner-content {
+				color: white;
+			}
+
+			.cx-vui-button {
+				color: #4EFEC3;
+				box-shadow: inset 0 0 0 1px #4EFEC3;
+			}
+		}
+
+		&.dark-3-preset {
+			background-color: #0F1419;
+
+			&:before {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background: radial-gradient(190px 190px at 91% -24.9%, rgba(91,119,231,0.88) 0%, rgba(91,119,231,0) 100%);
+				content:'';
+				z-index: 1;
+			}
+
+			&:after {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-image: url( '../images/youtube-icons.svg' );
+				background-size: 120px;
+				background-position: getValueByDirection( calc(100% - 5px) -20px, calc(0% - 5px) -20px );
+				background-repeat: no-repeat;
+				content:'';
+				z-index: 2;
+			}
+
+			.banner-inner {
+				position: relative;
+				z-index: 3;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-title {
+				color: white;
+			}
+			.banner-content {
+				color: white;
+			}
+
+			.cx-vui-button {
+				color: #4EFEC3;
+				box-shadow: inset 0 0 0 1px #4EFEC3;
+			}
+		}
+
+		&.dark-4-preset {
+			background-color: #0F1419;
+
+			&:before {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background: radial-gradient(190px 190px at 91% -24.9%, rgba(91,119,231,0.88) 0%, rgba(91,119,231,0) 100%);
+				content:'';
+				z-index: 1;
+			}
+
+			&:after {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-image: url( '../images/elementor-wordpress-icon.svg' );
+				background-size: 120px;
+				background-position: getValueByDirection( calc(100% - 20px) -60px, calc(0% - 20px) -60px );
+				background-repeat: no-repeat;
+				content:'';
+				z-index: 2;
+			}
+
+			.banner-inner {
+				position: relative;
+				z-index: 3;
+			}
+
+			.banner-label {
+				color: #26E8A8;
+			}
+			.banner-title {
+				color: white;
+			}
+			.banner-content {
+				color: white;
+			}
+
+			.cx-vui-button {
+				color: #4EFEC3;
+				box-shadow: inset 0 0 0 1px #4EFEC3;
+			}
+		}
+
+		&.custom-preset {
+
+		}
+	}
+}

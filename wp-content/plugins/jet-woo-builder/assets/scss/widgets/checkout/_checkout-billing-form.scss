@@ -1,0 +1,24 @@
+.woocommerce .elementor-jet-checkout-billing {
+	.form-row {
+		margin: 0;
+		padding: 0;
+
+		label {
+			display: block;
+		}
+
+		.select2 {
+			text-align: start;
+		}
+
+		&-first,
+		&-last {
+			.jet-woo-builder-forms-mobile-approach-yes & {
+				@media screen and (max-width: 767px) {
+					float: none;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

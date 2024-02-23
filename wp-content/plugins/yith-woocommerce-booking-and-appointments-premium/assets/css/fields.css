@@ -1,0 +1,46 @@
+/**
+ * Fields
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+/* ----- Select Alt ----- */
+.yith-wcbk-select-alt__container {
+	position : relative;
+	cursor   : pointer;
+}
+
+.yith-wcbk-select-alt__container select {
+	-webkit-appearance : textfield;
+	-moz-appearance    : textfield;
+	appearance         : textfield;
+	padding-right      : 10px;
+	cursor             : pointer;
+}
+
+.yith-wcbk-select-alt__container .yith-wcbk-select-alt__arrow {
+	position       : absolute;
+	right          : 10px;
+	top            : 50%;
+	transform      : translateY(-50%);
+	transition     : all 0.3s ease-in-out;
+	pointer-events : none;
+	font-size      : 16px;
+	color          : inherit;
+	opacity        : .7;
+}
+
+.yith-wcbk-select-alt__container.yith-wcbk-select-alt__container--unselected select {
+	color : #888;
+}
+
+.yith-wcbk-select-alt__container.yith-wcbk-select-alt__container--opened .yith-wcbk-select-alt__arrow {
+	transform : translateY(-50%) rotateZ(179deg);
+	color     : var(--yith-wcbk-border-color-focus);
+	opacity   : .7;
+}
+
+.yith-wcbk-help-tip {
+	cursor : pointer;
+}

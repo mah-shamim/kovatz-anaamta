@@ -1,0 +1,147 @@
+.jet-woo-products-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	.jet-compare-button__link,
+	.jet-wishlist-button__link {
+		margin: 5px 10px;
+	}
+	
+	.jet-woo-product-title {
+		font-size: 18px;
+	}
+	
+	.jet-woo-product-rating {
+		margin: 5px 0 5px 0;
+	}
+	
+	.jet-woo-products-list__item {
+		overflow: hidden;
+		transition: all .2s linear;
+	}
+	
+	.jet-woo-product-price {
+		ins {
+			border: none;
+			font-style: normal;
+		}
+
+		del {
+			opacity: 1 !important;
+		}
+	}
+	
+	.jet-woo-products-list__item-img {
+		overflow: hidden;
+		transition: all .2s linear;
+	}
+
+	.jet-woo-product-thumbnail {
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		transform: translate3d(0, 0, 0);
+		transition: all .2s linear;
+
+		img {
+			width: 100%;
+			vertical-align: middle;
+		}
+	}
+
+	.jet-woo-product-badges {
+		line-height: normal;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+
+	.jet-woo-product-badge {
+		align-items: center;
+		font-size: 12px;
+		padding: 5px;
+
+		&__sale {
+			background-color: #fd6d75;
+		}
+	}
+	
+	.jet-woo-product-button {
+		margin: 10px 0 10px 0;
+
+		.button {
+			text-align: center;
+		}
+
+		.quantity .qty {
+			width: 100% !important;
+		}
+
+		&.is--default {
+			@include ajax-add-to-cart();
+		}
+	}
+	
+	.jet-woo-products-list__inner-box {
+		display: flex;
+		flex-grow: 1;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.jet-woo-product-categories,
+	.jet-woo-product-tags {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			
+			> li {
+				display: inline-block;
+			}
+		}
+	}
+	
+	&.products-layout-left {
+		.jet-woo-products-list__inner-box {
+			flex-direction: row;
+			flex-wrap: wrap;
+
+			.rtl & {
+				flex-direction: row-reverse;
+			}
+		}
+	}
+	
+	&.products-layout-right {
+		.jet-woo-products-list__inner-box {
+			flex-direction: row-reverse;
+			flex-wrap: wrap;
+
+			.rtl & {
+				flex-direction: row;
+			}
+		}
+	}
+	
+	&.products-layout-top {
+		.jet-woo-products-list__inner-box {
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+	}
+	
+	// remove added to cart button
+	.added_to_cart.wc-forward {
+		display: none !important;
+	}
+}
+
+.jet-woo-products-list__item-content {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}

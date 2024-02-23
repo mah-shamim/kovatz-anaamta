@@ -1,0 +1,327 @@
+{
+  "VendorEdit.css": {
+    "file": "assets/VendorEdit-fef58052.css",
+    "src": "VendorEdit.css"
+  },
+  "_VendorEdit.c4dff8e1.js": {
+    "css": [
+      "assets/VendorEdit-fef58052.css"
+    ],
+    "dynamicImports": [
+      "src/components/Admin.vue",
+      "src/components/CommissionTiers.vue",
+      "src/components/DynamicComponent.vue",
+      "src/components/DynamicControl.vue",
+      "src/components/GMap.vue",
+      "src/components/OpeningHours.vue",
+      "src/components/ShippingAddress.vue",
+      "src/components/ShippingFlat.vue",
+      "src/components/ShippingTableRates.vue",
+      "src/components/Spinner.vue",
+      "src/components/VendorTable.vue"
+    ],
+    "file": "common/VendorEdit.c4dff8e1.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorStore.c0428353.js",
+      "_index.033703c1.js",
+      "_antd.bb16c729.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_initDefaultProps.ddfd9383.js"
+    ],
+    "isDynamicEntry": true
+  },
+  "_VendorStore.c0428353.js": {
+    "file": "common/VendorStore.c0428353.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_antd.bb16c729.js"
+    ]
+  },
+  "__plugin-vue_export-helper.c27b6911.js": {
+    "file": "common/_plugin-vue_export-helper.c27b6911.js"
+  },
+  "_antd.bb16c729.js": {
+    "file": "common/antd.bb16c729.js",
+    "imports": [
+      "_vendor.d81eb0ee.js"
+    ]
+  },
+  "_index.033703c1.js": {
+    "file": "common/index.033703c1.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_VendorStore.c0428353.js",
+      "_initDefaultProps.ddfd9383.js"
+    ]
+  },
+  "_index.36c026e4.js": {
+    "file": "common/index.36c026e4.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_responsiveObserve.6e1022f8.js",
+      "_VendorStore.c0428353.js"
+    ]
+  },
+  "_index.76fac504.js": {
+    "file": "common/index.76fac504.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_initDefaultProps.ddfd9383.js"
+    ]
+  },
+  "_index.d226d532.js": {
+    "file": "common/index.d226d532.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_VendorStore.c0428353.js",
+      "_index.76fac504.js",
+      "_antd.bb16c729.js",
+      "_responsiveObserve.6e1022f8.js",
+      "_initDefaultProps.ddfd9383.js"
+    ]
+  },
+  "_initDefaultProps.ddfd9383.js": {
+    "file": "common/initDefaultProps.ddfd9383.js",
+    "imports": [
+      "src/main.ts"
+    ]
+  },
+  "_responsiveObserve.6e1022f8.js": {
+    "file": "common/responsiveObserve.6e1022f8.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js"
+    ]
+  },
+  "_vendor.d81eb0ee.js": {
+    "file": "common/vendor.d81eb0ee.js"
+  },
+  "src/components/Admin.vue": {
+    "file": "components/Admin.3e3a369c.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "__plugin-vue_export-helper.c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/Admin.vue"
+  },
+  "src/components/CommissionTiers.vue": {
+    "file": "components/CommissionTiers.fa778d55.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorStore.c0428353.js",
+      "_antd.bb16c729.js",
+      "_VendorEdit.c4dff8e1.js",
+      "_index.033703c1.js",
+      "_index.d226d532.js",
+      "_initDefaultProps.ddfd9383.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_index.76fac504.js",
+      "_responsiveObserve.6e1022f8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/CommissionTiers.vue"
+  },
+  "src/components/DynamicComponent.vue": {
+    "file": "components/DynamicComponent.fd3b6d84.js",
+    "imports": [
+      "_VendorEdit.c4dff8e1.js",
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_antd.bb16c729.js",
+      "_VendorStore.c0428353.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_index.033703c1.js",
+      "__plugin-vue_export-helper.c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/DynamicComponent.vue"
+  },
+  "src/components/DynamicControl.vue": {
+    "file": "components/DynamicControl.e1116d02.js",
+    "imports": [
+      "_VendorEdit.c4dff8e1.js",
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_antd.bb16c729.js",
+      "_VendorStore.c0428353.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_index.033703c1.js",
+      "__plugin-vue_export-helper.c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/DynamicControl.vue"
+  },
+  "src/components/GMap.css": {
+    "file": "assets/GMap-86d63f51.css",
+    "src": "src/components/GMap.css"
+  },
+  "src/components/GMap.vue": {
+    "css": [
+      "assets/GMap-86d63f51.css"
+    ],
+    "file": "components/GMap.7bc1f32d.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorStore.c0428353.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_antd.bb16c729.js",
+      "_initDefaultProps.ddfd9383.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/GMap.vue"
+  },
+  "src/components/OpeningHours.vue": {
+    "file": "components/OpeningHours.b68a3d03.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorStore.c0428353.js",
+      "_antd.bb16c729.js",
+      "_index.033703c1.js",
+      "_VendorEdit.c4dff8e1.js",
+      "_index.d226d532.js",
+      "_initDefaultProps.ddfd9383.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_index.76fac504.js",
+      "_responsiveObserve.6e1022f8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/OpeningHours.vue"
+  },
+  "src/components/ShippingAddress.vue": {
+    "file": "components/ShippingAddress.2e647da9.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorEdit.c4dff8e1.js",
+      "_VendorStore.c0428353.js",
+      "_antd.bb16c729.js",
+      "_index.033703c1.js",
+      "_initDefaultProps.ddfd9383.js",
+      "__plugin-vue_export-helper.c27b6911.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/ShippingAddress.vue"
+  },
+  "src/components/ShippingFlat.vue": {
+    "file": "components/ShippingFlat.089badb6.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "_VendorEdit.c4dff8e1.js",
+      "src/main.ts",
+      "_index.36c026e4.js",
+      "_VendorStore.c0428353.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_antd.bb16c729.js",
+      "_index.033703c1.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_responsiveObserve.6e1022f8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/ShippingFlat.vue"
+  },
+  "src/components/ShippingTableRates.vue": {
+    "file": "components/ShippingTableRates.5b77b9c2.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorEdit.c4dff8e1.js",
+      "_VendorStore.c0428353.js",
+      "_index.033703c1.js",
+      "_antd.bb16c729.js",
+      "_index.d226d532.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_index.76fac504.js",
+      "_responsiveObserve.6e1022f8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/ShippingTableRates.vue"
+  },
+  "src/components/Spinner.vue": {
+    "file": "components/Spinner.5a0b23da.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_index.76fac504.js",
+      "_antd.bb16c729.js",
+      "_initDefaultProps.ddfd9383.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/Spinner.vue"
+  },
+  "src/components/VendorTable.css": {
+    "file": "assets/VendorTable-baafd03b.css",
+    "src": "src/components/VendorTable.css"
+  },
+  "src/components/VendorTable.vue": {
+    "css": [
+      "assets/VendorTable-baafd03b.css"
+    ],
+    "dynamicImports": [
+      "src/components/VendorTable/VendorTableCell.vue"
+    ],
+    "file": "components/VendorTable.4ea6af0a.js",
+    "imports": [
+      "src/main.ts",
+      "_vendor.d81eb0ee.js",
+      "_VendorStore.c0428353.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_index.d226d532.js",
+      "_index.36c026e4.js",
+      "_antd.bb16c729.js",
+      "_initDefaultProps.ddfd9383.js",
+      "_index.76fac504.js",
+      "_responsiveObserve.6e1022f8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/VendorTable.vue"
+  },
+  "src/components/VendorTable/VendorTableCell.css": {
+    "file": "assets/VendorTableCell-fd5fde97.css",
+    "src": "src/components/VendorTable/VendorTableCell.css"
+  },
+  "src/components/VendorTable/VendorTableCell.vue": {
+    "css": [
+      "assets/VendorTableCell-fd5fde97.css"
+    ],
+    "file": "components/VendorTable/VendorTableCell.e1ffb9e6.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "src/main.ts",
+      "_VendorStore.c0428353.js",
+      "_antd.bb16c729.js",
+      "_index.033703c1.js",
+      "__plugin-vue_export-helper.c27b6911.js",
+      "_initDefaultProps.ddfd9383.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/VendorTable/VendorTableCell.vue"
+  },
+  "src/main.ts": {
+    "dynamicImports": [
+      "src/components/Admin.vue",
+      "src/components/Spinner.vue",
+      "src/components/VendorTable.vue",
+      "_VendorEdit.c4dff8e1.js"
+    ],
+    "file": "main.93ffca59.js",
+    "imports": [
+      "_vendor.d81eb0ee.js",
+      "_antd.bb16c729.js"
+    ],
+    "isEntry": true,
+    "src": "src/main.ts"
+  }
+}

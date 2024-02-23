@@ -1,0 +1,61 @@
+body.jet-woo-builder-shop-document.post-type-jet-woo-builder #template-settings,
+body.jet-woo-builder-category-document.post-type-jet-woo-builder #template-settings {
+	display: none;
+}
+
+.jet-woo-builder-settings-page {
+	.available-widgets {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		margin-bottom: 40px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&__option-info {
+			margin-bottom: 20px;
+			border-bottom: 1px solid #DCDCDD;
+			padding-bottom: 15px;
+
+			&-name {
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 20px;
+			}
+
+			&-desc {
+				font-size: 12px;
+				line-height: 18px;
+				font-weight: 300;
+				color: #7B7E81;
+			}
+		}
+
+		&__controls {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-wrap: wrap;
+		}
+
+		&__control {
+			width: 33.3333%;
+
+			> .cx-vui-component {
+				padding: 0;
+				margin-bottom: 15px;
+			}
+
+			@media screen and (max-width: 1200px) {
+				width: 50%;
+			}
+
+			@media screen and (max-width: 782px) {
+				width: 100%;
+			}
+		}
+	}
+}

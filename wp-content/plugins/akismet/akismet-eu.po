@@ -1,0 +1,826 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Basque
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-08 13:03:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: eu_ES\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/config.php:75
+msgid "Akismet is active and ready to stop spam. Your site&#8217;s spam statistics will be displayed here."
+msgstr "Akismet aktibo dago zaborra gelditzeko. Zure gunearen zabor estatistikak hemen agertuko dira."
+
+#: views/notice.php:51
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "WP-Cron DISABLE_WP_CRON konstantearen bidez desgaitu da. Posible da iruzkin berrikuspenak huts egitea."
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:700
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: views/get.php:17
+msgid "(opens in a new tab)"
+msgstr "(erlaitz berrian zabaltzen da)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:321
+msgid "Upgrade to %s"
+msgstr "Berritu ezazu bertsioa %s-(e)ra"
+
+#: views/notice.php:276 views/notice.php:284 views/notice.php:292
+#: views/notice.php:301
+msgid "Learn more about usage limits."
+msgstr "Ikasi gehiago erabiltze mugen buruz."
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "Akismet ezin izan du iruzkin hau berriro ikuskatu."
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Akismetek ezin izan du iruzkin hau egiaztatu, baina automatikoki saiatuko da beranduago."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Sartu zure API kodea"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Konfiguratu kontu desberdin bat"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Konfiguratu zure Akismet kontua gune honetan zabor irgazkia gaitzeko."
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Akismetek ezin ditzake zure iruzkinak berriro egiaztatu zaborraren bilatzeko. "
+
+#: class.akismet-admin.php:450
+msgid "You don&#8217;t have permission to do that."
+msgstr "Ez duzu hori egiteko baimenik."
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "Estatistiken erantzuna ezin da dekodetu."
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Ezin izan dira estatistikarik eskuratu. Saiatu berriro, mesedez."
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "APi gakoa ezarri behar da estatistikak jaso ahal izateko."
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "Ez erakutsi pribatutasun abisua."
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "Erakutsi pribatutasun abisua erantzuteko kutxaren azpian."
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "Akismeten pribatutasun oharra"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Pribatutasuna"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "Gune honek Akismet erabiltzen du zaborra murrizteko. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Ikusi nola prozesatzen diren zure erantzunen datuak</a>."
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "Iruzkina baztertuta."
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "Gune honen API gakoa kodean txertatuta dago eta ezin da ezabatu."
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "Emandako balioa ez da baleko eta erregistratutako API gako bat."
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "Gune honen API gakoa kodean txertatuta dago eta ezin da aldatu API bidez."
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Estatistikak jasotzeko denbora tartea. Aukerak: 60 egun, 6 hilabete, guztia"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Gaituta badago, onartutako erantzunen kopurua erakusten du iruzkigile bakoitzaren ondoan erantzunen zerrendako orrian."
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Gaituz gero, Akismetek automatikoki baztertuko du zaborrik okerrena, zabor-karpetara bidali beharrean,"
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "12 karaktereko luzera duen Akismet API gako bat. Eskuratu hemen: akismet.com/get/"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Zure gunea ezin da konektatu Akismet zerbitzarietara."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Akismet API gako bat zehaztu da gune honetako %s fitxategian."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Eskuzko konfigurazioa"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Orri honetan, zure Akismet ezarpenak eguneratu eta zabor estatistikak ikus ditzakezu."
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Konektatu API gakoarekin"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "%s bezala zaude konektatuta."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Konektatu Jetpackekin"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Erabili zure jetpack konexioa Akismet gaitzeko."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Ezabatu zaborra zure gunetik"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Nahi al duzu <a href=\"%s\">zain dauden erantzunak aztertzea</a>?"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Konfiguratu zure Akismet kontua"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Estatistikak"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Milioika lagunek erabilia, Akismet <strong>zure bloga zaborraren aurka babesteko</strong> munduko modurik onena da seguruenik. Lo zaudela ere babesten du zure gunea. Hasteko, joan <a href=\"admin.php?page=akismet-key-config\">zure Akismet Ezarpenak orrira</a> zure API gakoa ezartzera."
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Milkioika lagunek erabilia, Akismet <strong>zure bloga zaborraren aurka babesteko</strong> munduko modurik onena da seguruenik. Zure gunea erabat konfiguratuta eta babestuta dago, lo zauden bitartean ere!"
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "Iruzkin %s zabor gisa atxiki da."
+msgstr[1] "%s iruzkin zabor gisa atxiki dira."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Ez da iruzkinik atxiki zabor gisa."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismetek iruzkin %s egiaztatu du."
+msgstr[1] "Akismetek %s iruzkinn egiaztatu ditu."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Ez da iruzkina aurkitu."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "Iruzkin %d ezin izan da egiaztatu."
+msgstr[1] "%d iruzkin ezin izan dira egiaztatu."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "Iruzkin %d mugitu da Zaborretara."
+msgstr[1] "%d iruzkin mugitu dira Zaborretara."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Iruzkin %d prozesatu da."
+msgstr[1] "%d iruzkin prozesatu dira."
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "#%d iruzkina ezin izan da egiaztatu."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Ezin izan da Akismet-era konektatu."
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "#%d iruzkina ez da zaborra."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "#%d iruzkina zaborra da."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "positibo faltsu %s"
+msgstr[1] "%s positibo faltsu"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "iragazi gabeko zabor mezu %s"
+msgstr[1] "iragazi gabeko %s zabor mezu"
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Akismet planik ez duzu."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Zure Akismet harpidetza eten egin da."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Zure Akismet plana ezeztatu egin da."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Zure ordainketa ezin dugu prozesatu. <a href=\"%s\" target=\"_blank\">Zure ordainketa xehetasunak eguneratu</a>, mesedez."
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Zure ordainketa informazioa eguneratu, mesedez."
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Kasik amaitu duzu</strong> - konfiguratu Akismet eta esan agur zaborrari"
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet-ek minutu %d aurreztu dizu!"
+msgstr[1] "Akismet-ek %d minutu aurreztu dizkizu!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet-ek ordu %d aurreztu dizu!"
+msgstr[1] "Akismet-ek %d ordu aurreztu dizkizu!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet-ek egun %s aurreztu dizu!"
+msgstr[1] "Akismet-ek %s egun aurreztu dizkizu!"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet-ek zaborra iragazten du, zu gauza garrantzitsuagoetan aritu zaitezen."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Ezin izan da akismet.com-ekin konektatu. <a href=\"%s\" target=\"_blank\">Gure suhesiei buruzko gidari</a> begirada bat bota eta zure zerbitzariko konfigurazioa konprobatu, mesedez."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "Sartu duzun API gakoa ezin izan da egiaztatu."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "<a href=\"%s\" target=\"_blank\">Gure euskarri taldearekin harremanetan jarri</a>, mesedez, edozein galdera egiteko."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "2012an, Akismet kontu guztientzako harpidetza planak erabiltzen hasi zen (doakoentzat ere). Zure kontuari oraindik ez diogu planik esleitu. Hortaz, <a href=\"%s\" target=\"_blank\">zure kontuan saioa hasi</a> eta plan bat aukeratzea eskertuko genizuke."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Sistema guztiak martxan."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Gaituta."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Akismet-ek arazo bat izan du aurreko SSL eskaerarekin eta behin-behingoz ezgaitu egin ditu. Laster hasiko da berriz SSL eskaerak egiten."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Aldi baterako desgaituta."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Zure webguneak ezin ditu SSL eskaerak egin; jarri harremanetan zerbitzuaren hornitzailearekin eta eskatu SSL eskaerak aktibatzeko."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Desaktibatuta."
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Iruzkin hau ez da zabortzat jo."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Iruzkin hau zabortzat jo da."
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "http://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "http://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Eskuz sartu API gakoa"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Akismet-en laguntza-zerbitzuarekin harremanetan jarri"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Ez arduratu! Jarri harremanetan eta lagunduko dizugu."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "%s-rako zure harpidetza etenda dago."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "%s-rako zure harpidetza ezabatua dago."
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Sartu duzun gakoa baliogabea da. Egiazta ezazu berriro."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Arazo bat dago zure API gakoarekin."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Zaborraren aurkako borrokan lagundu diezagukezu zure kontua <a href=\"%s\" target=\"_blank\">token batzuk erosiz eguneratuz</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Jarri harremanetan <a href=\"%s\" target=\"_blank\">Akismet-eko laguntza zerbitzuarekin</a> laguntza lortzeko."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "<a href=\"%s\" target=\"_blank\">Akismet kontuaren orrialdea</a> bisitatu zure harpidetza berraktibatzeko."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Baliteke zure suhesia Akismet blokeatzen egotea. Jarri harremanetan zure ostalariarekin eta <a href=\"%s\" target=\"_blank\">gure suhesien inguruko gida</a> irakurri."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Zure web ostalariak edo zerbitzariko administratzaileak PHPko <code>gethostbynamel</code> funtzioa desgaitu du. <strong>Hau konpondu artean Akismet ezin du behar bezala funtzionatu.</strong> Zure web ostalariarekin edo suhesi administratzailearekin harremanetan jarri eta emaiezu <a href=\"%s\" target=\"_blank\">Akismet-en sistema betekizunei buruzko informazio hau</a>."
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "Sareko funtzioa desgaituta daude."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Informazio gehiagorako: %s"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Iruzkin batzuk oraindik ez dira Akismet-ekin egiaztatu zaborra diren hala ez jakiteko. Moderatzeke markatu dira eta geroago automatikoki egiaztatuko dira."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "Akismet-ek arazo bat atzeman du."
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Aldatu"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Eguneratu"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Aktibatuta"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Falta da"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Bertan behera utzita"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Ezeztatuta"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Kontu hau deskonektatu"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Oharra:"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Zabor guztia beti zabor karpetan utzi errebisatzeko."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Baztertu ezazu ezer esan gabe zaborrik txarrena nik ikusi ere egin ez dezadan."
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Zehaztasuna"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "Betidanik"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Blokeatutako zaborra"
+msgstr[1] ""
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Azken sei hilabeteak"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "<a href=\"%1$s\">Eguneratu WordPress</a> egungo bertsiora mesedez edo bestela <a href=\"%2$s\">Akismet plugina 2.4 bertsio zaharragora pasatu beharko duzu</a>."
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "Akismet %s-k WordPress %s edo berriagoa behar du."
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet-ek automatikoki berriro saiatzean garbitu du iruzkina."
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet-ek iruzkina zabor gisa harrapatu du automatikoki berriro saiatzean."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s-(e)k iruzkin hau ez dela zaborra esaten du."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s-(e)k iruzkin hau zaborra dela esaten du."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s-(e)k iruzkinaren egoera %2$s-ra aldatu du."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet-ek ezin izan du iruzkin hau egiaztatu (erantzuna: %s), baina geroago berriz saiatuko da automatikoki."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Akismet-ek iruzkin hau garbitu du."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "Iruzkinaren egoera aldatu egin da: %s"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet-ek iruzkin hau zabor giza atxiki du."
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">zabor %1$s</strong><strong>Akismet-ek</strong> blokeatua"
+msgstr[1] "<strong class=\"count\">%1$s zabor </strong><strong>Akismet-ek</strong> blokeatuak"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Izenburua:"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Blokeatutako zaborra"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Erakutsi Akismet-ek harrapatutako zabor-iruzkin kopurua"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Akismet Widget-a"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Zaborra garbitzeak bere denbora darama."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Mesedez egiaztatu zure <a href=\"%s\">Akismet konfigurazioa</a> eta zure web ostalariarekin kontaktatu arazoa konpontzen ez bada."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "duela %s"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s onartua"
+msgstr[1] "%s onartuak"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Historia"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Ikusi iruzkin-historia"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "%s(e)k zabor bezala desmarkatua"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "%s(e)k zabor bezala markatua"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Akismet-ek garbituta"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet-ek zabor bezala markatua"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Zabor egiaztapenaren zain"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet-ek ezin izan du iruzkin hori berriz egiaztatu (erantzuna: %s)."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Akismet-ek iruzkin hau berriz egiaztatu eta garbitu egin du."
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Akismet-ek iruzkin hau berriz egiaztatu eta zabor gisa atxiki du."
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Zaborrik dagoen begiratu"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Ez dago ezer <a href='%s'>zabor-zerrendan</a>."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "<a href=\"%2$s\">Erantzun %1$s </a> dago zabor-zerrendan."
+msgstr[1] "<a href=\"%2$s\">%1$s erantzun</a> daude zabor-zerrendan."
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet-ek</a> zure gunea zaborretik babesten du."
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet-ek</a> zure gunea zabor-iruzkin %2$setik babestu du dagoeneko."
+msgstr[1] "<a href=\"%1$s\">Akismet-ek</a> zure gunea %2$s zabor-iruzkinetik babestu du dagoeneko. "
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet-ek</a> zure gunea <a href=\"%2$s\">zabor-iruzkin %3$setik</a> babestu du."
+msgstr[1] "<a href=\"%1$s\">Akismet-ek</a> zure gunea <a href=\"%2$s\">%3$setik zabor-iruzkinetik</a> babestu du."
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Zaborra"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Ziria sartzen, eh?"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Akismet Laguntza Zerbitzua"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Akismet Sarri Egindako Galderak"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Informazio gehiagorako:"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Harpidetzaren egoera - aktibo, ezeztatua edo bertan behera utzita"
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Egoera"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Akismet harpidetza-plana"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Harpidetza-mota"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Kontua"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Aukeratu zabor txarrena automatikoki ezabatzea edo zabor guztia beti zabor karpetan uztea."
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Zorroztasuna"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Erantzun bakoitzaren egilearen ondoan onartutako erantzun kopurua erakutsi erantzunen zerrendaren orrialdean."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Iruzkinak"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "API gakoa ezarri/ezabatu."
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "API gakoa"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "Akismet konfigurazioa"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Orrialde honetan, zure gunean ezabatutako zaborraren inguruko estatistikak dituzu."
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Akismet estatistikak"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Egin klik 'Gako hau erabili' botoian."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Kopiatu eta itsatsi API gakoa testu eremu honetan."
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Dagoeneko API gako bat baduzu"
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Sartu API gako bat"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "%s-en kontu bat lortzeko izena eman, API gako bat lortzeko."
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "API gakoa idatzi behar duzu Akismet zerbitzua aktibatzeko."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Akismet-ekin berria bazara"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Orrialde honetan, Akismet plugina konfiguratu dezakezu."
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Akismet-en konfigurazioa"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Gainbegirada"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Bir-gehitzen..."
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(desegin)"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL-a ezabatua"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Ezabatzen..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Ezabatu URL hau"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Iruzkin-historia"

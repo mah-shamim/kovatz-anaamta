@@ -1,0 +1,948 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-18 11:55:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/notice.php:181
+msgid "Akismet is now protecting your site from spam."
+msgstr "O Akismet agora está protegendo seu site contra spam."
+
+#: views/config.php:306
+msgid "Account overview"
+msgstr "Visão geral da conta"
+
+#. translators: %1$s: spam folder link, %2$d: delete interval in days
+#: views/config.php:194
+msgid "Spam in the %1$s older than %2$d day is deleted automatically."
+msgid_plural "Spam in the %1$s older than %2$d days is deleted automatically."
+msgstr[0] "Spam no %1$s com mais de %2$d dia é excluído automaticamente."
+msgstr[1] "Spam no %1$s com mais de %2$d dias é excluído automaticamente."
+
+#: views/config.php:189
+msgid "spam folder"
+msgstr "pasta de spam"
+
+#: views/config.php:270
+msgid "Subscription type"
+msgstr "Tipo de assinatura"
+
+#: views/config.php:234
+msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
+msgstr "Para ajudar seu site com transparência sob leis de privacidade como o GDPR, o Akismet pode exibir um aviso aos seus usuários nos seus formulários de comentários."
+
+#: views/config.php:156
+msgid "Spam filtering"
+msgstr "Filtro de spam"
+
+#: views/config.php:96 views/enter.php:9
+msgid "API key"
+msgstr "Chave de API"
+
+#: views/config.php:44
+msgid "Akismet stats"
+msgstr "Estatísticas do Akismet"
+
+#: views/config.php:75
+msgid "Akismet is active and ready to stop spam. Your site&#8217;s spam statistics will be displayed here."
+msgstr "O Akismet está ativo e pronto para acabar com o spam. As estatísticas de spam do seu site serão exibidas aqui."
+
+#: views/notice.php:51
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "O WP-Cron foi desativado usando a constante DISABLE_WP_CRON. As verificações de comentários podem não funcionar corretamente."
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:700
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: views/get.php:17
+msgid "(opens in a new tab)"
+msgstr "(abre em uma nova aba)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:321
+msgid "Upgrade to %s"
+msgstr "Fazer upgrade para %s"
+
+#: views/notice.php:276 views/notice.php:284 views/notice.php:292
+#: views/notice.php:301
+msgid "Learn more about usage limits."
+msgstr "Ver mais sobre utilização de limites."
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:268
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "Desde %1$s, a sua conta fez %2$s chamadas de API, comparado com o limite do seu plano de %3$s."
+
+#: views/notice.php:298
+msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Seu uso do Akismet ultrapassou o limite do seu plano por três meses consecutivos. Restringimos sua conta pelo resto do mês. Atualize seu plano para que o Akismet possa continuar bloqueando spam."
+
+#: views/notice.php:289
+msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Seu uso do Akismet está se aproximando do limite do seu plano pelo terceiro mês consecutivo. Restringiremos sua conta depois que você atingir o limite. Atualize seu plano para que o Akismet possa continuar bloqueando spam."
+
+#: views/notice.php:281
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "Seu uso do Akismet ultrapassou o limite do seu plano por dois meses consecutivos. No próximo mês, iremos restringir sua conta depois que você atingir o limite. Considere atualizar seu plano."
+
+#: views/notice.php:255
+msgid "Your account has been restricted"
+msgstr "Sua conta foi restringida "
+
+#: views/notice.php:251
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "O uso da sua conta Akismet está se aproximando do limite do seu plano"
+
+#: views/notice.php:248
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "O uso da sua conta Akismet está acima do limite do seu plano"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:211
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Digite uma nova chave ou <a href=\"%s\" target=\"_blank\">entre em contato com o suporte Akismet</a>."
+
+#: views/notice.php:205
+msgid "Your API key is no longer valid."
+msgstr "A sua chave API não é mais válida."
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:429
+msgid "Checking for Spam (%1$s%)"
+msgstr "Verificando spam (%1$s%)"
+
+#: class.akismet-admin.php:716
+msgid "No comment history."
+msgstr "Sem histórico de comentários."
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "O Akismet não pôde reavaliar este comentário."
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "O Akismet não pôde verificar este comentário, mas tentará novamente mais tarde automaticamente."
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:628
+msgid "Comment was caught by %s."
+msgstr "O comentário foi capturado por %s."
+
+#: class.akismet.php:724
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "O Akismet não está configurado. Digite uma chave de API."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Digite sua chave da API"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Configurar uma conta diferente"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Configure sua conta Akismet para ativar o filtro contra spam neste site."
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "A Akismet não foi possível reavaliar seus comentários por spam."
+
+#: class.akismet-admin.php:450
+msgid "You don&#8217;t have permission to do that."
+msgstr "Você não tem permissão para fazer isso."
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "Não foi possível decodificar a resposta de estatísticas."
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Não foi possível coletar estatísticas. Tente novamente."
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "A chave API precisa estar configurada para coletar estatísticas."
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "Não exibir aviso de privacidade."
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "Exibir um aviso de privacidade abaixo do seu formulário de comentários."
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "Aviso de privacidade do Akismet"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Privacidade"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "Esse site utiliza o Akismet para reduzir spam. <a href=\"%s\" target=\"_blank\">Aprenda como seus dados de comentários são processados</a>."
+
+#: class.akismet-admin.php:88
+msgid "We collect information about visitors who comment on Sites that use our Akismet Anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
+msgstr "Coletamos informações sobre visitantes que comentam em sites que usam nosso serviço anti-spam da Akismet. As informações que coletamos dependem de como o Usuário configura o Akismet para o Site, mas geralmente incluem o endereço IP, o agente do usuário, o referenciador e o URL do site do comentarista (além de outras informações diretamente fornecidas pelo comentarista, como nome, nome de usuário, endereço de e-mail e o próprio comentário)."
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "Comentário descartado."
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "A chave API deste site é codificada e não pode ser excluída."
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "O valor fornecido não corresponde à uma chave API cadastrada e válida."
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "A chave API deste site é codificada e não pode ser alterada via API."
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Período de tempo para retornar estatísticas. Opções: 60 dias, 6 meses, Tudo"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Se verdadeiro, mostra o número de comentários aprovados ao lado de cada autor de comentários na página de listar comentários."
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Se verdadeiro, o Akismet descartará automaticamente os spam mais óbvios ao invés de enviá-los para a pasta de spam."
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "Uma chave de API do Akismet contendo 12 caracteres. Disponível em akismet.com/get/"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Seu site não pôde se conectar aos servidores do Akismet."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Uma chave de API Akismet foi definida no arquivo %s para este site."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Configuração manual"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Neste página, você poderá atualizar suas configurações do Akismet e ver as estatísticas de spam."
+
+#: class.akismet-admin.php:114 class.akismet-admin.php:117
+msgid "Akismet Anti-spam"
+msgstr "Akismet Antispam"
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Conectar com uma chave API"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Você está conectado como %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Conectar com o Jetpack"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Use sua conexão com o Jetpack para configurar o Akismet."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Elimine spam do seu site"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Gostaria de <a href=\"%s\">verificar os comentários pendentes</a>?"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Configure sua conta do Akismet"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Usado por milhões, Akismet é possivelmente a melhor maneira do mundo para <strong>proteger seu blog contra spam</strong>. Ele mantém seu site protegido mesmo enquanto você dorme. Para começar, vá até <a href=\"admin.php?page=akismet-key-config\">sua página de configurações do Akismet</a> para configurar sua chave API."
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Usado por milhões, Akismet é possivelmente a melhor maneira do mundo para <strong>proteger seu blog contra spam</strong>. Seu site está totalmente configurado e protegido, mesmo enquanto você dorme."
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s comentário foi detectado como spam."
+msgstr[1] "%s comentários foram detectados como spam."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Nenhum comentário foi detectado como spam."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismet verificou %s comentário."
+msgstr[1] "Akismet verificou %s comentários."
+
+#: class.akismet-admin.php:1157
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "Não houve comentários para verificar. O Akismet verificará apenas os comentários que aguardam moderação."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Comentário não encontrado."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d comentário não pode ser verificado."
+msgstr[1] "%d comentários não podem ser verificados."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d comentário movido para Spam."
+msgstr[1] "%d comentários movidos para Spam."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Comentário %d processado"
+msgstr[1] "Comentários %d processados"
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "Comentário #%d não pode ser verificado."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Falha ao conectar ao Akismet"
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "Comentário #%d não é spam."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "Comentário #%d é spam."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s falso positivo"
+msgstr[1] "%s falsos positivos"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s spam perdido."
+msgstr[1] "%s spams perdidos."
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Você não tem um plano do Akismet."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Sua assinatura do Akismet está suspensa."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Seu plano no Akismet foi cancelado."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Não conseguimos processar seu pagamento. <a href=\"%s\" target=\"_blank\">Atualize suas informações de pagamento</a>."
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Atualize suas informações de pagamento."
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Quase pronto</strong> - configure o Akismet e diga adeus ao spam"
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet te salvou %d minuto!"
+msgstr[1] "Akismet te salvou %d minutos!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet te salvou %d hora!"
+msgstr[1] "Akismet te salvou %d horas!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet te salvou %s dia!"
+msgstr[1] "Akismet te salvou %s dias!"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet filtra os spams, então você pode focar em coisas mais importantes."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "A conexão ao akismet.com não pôde ser estabelecida. Consulte <a href=\"%s\" target=\"_blank\">nosso guia sobre firewalls</a> e verifique as configurações do seu servidor."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "A chave API que você digitou não pôde ser verificada."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Por favor, <a href=\"%s\" target=\"_blank\">contate o suporte</a> caso tenha dúvidas."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Em 2012, o Akismet passou a usar assinaturas para todas as contas (mesmo as gratuitas). Não foi atribuído um plano à sua conta e nós apreciaríamos se você fizesse <a href=\"%s\" target=\"_blank\">login em sua conta</a> e escolhesse um."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Todos os sistemas estão funcionando."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Ativo."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "O Akismet encontrou um problema com um pedido SSL anterior e foi desativado temporariamente. Ele vai começar a usar o SSL para solicitações novamente em breve."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Temporariamente inativo."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Seu servidor Web não pode fazer solicitações SSL; entre em contato com seu servidor Web e peça para adicionarem o suporte para solicitações SSL."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Inativo."
+
+#: views/config.php:110
+msgid "SSL status"
+msgstr "Status do SSL"
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Esse comentário foi relatado como não sendo spam."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Esse comentário foi relatado como spam."
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Digite manualmente sua chave API"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Entre em contato com o suporte do Akismet"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Não se preocupe! Entre em contato e nós vamos ajudar a resolver isso."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Sua assinatura para %s está suspensa."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Sua assinatura para %s está cancelada."
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "A chave digitada é inválida. Confira novamente."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Existe um problema com a sua chave API."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Você pode nos ajudar a combater o spam e atualizar sua conta <a href=\"%s\" target=\"_blank\">contribuindo com um valor simbólico</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Entre em contato com o <a href=\"%s\" target=\"_blank\">suporte do Akismet</a> para obter ajuda."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Visite sua <a href=\"%s\" target=\"_blank\">página da conta do Akismet</a> para reativar sua assinatura."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Seu firewall deve estar bloqueando o Akismet de se conectar com nossa API. Entre em contato com seu provedor e consulte <a href=\"%s\" target=\"_blank\">nosso guia sobre firewalls</a>."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "O seu provedor ou o administrador do servidor desativou as funções <code>gethostbynamel</code> do PHP. <strong>O Akismet não funcionará corretamente até isto ser corrigido.</strong> Entre em contato com seu provedor ou administrador de firewall e forneça <a href=\"%s\" target=\"_blank\">esta informação sobre os requisitos de sistema do Akismet</a>."
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "As funções de rede estão desativadas."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Para obter mais informações: %s"
+
+#. translators: The placeholder is an error code returned by Akismet.
+#: views/notice.php:57
+msgid "Akismet error code: %s"
+msgstr "Código de erro Akismet: %s"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Alguns comentários ainda não tiveram verificação de spam pelo Akismet. Eles foram mantidos temporariamente para moderação e serão reavaliados automaticamente depois."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "O Akismet detectou um problema."
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Alterar"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Atualizar"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Ativo"
+
+#: views/config.php:286
+msgid "No subscription found"
+msgstr "Nenhuma assinatura encontrada"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Faltando"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Suspenso"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Sair dessa conta"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Nota:"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Sempre enviar os spams para serem revisados na pasta Spam."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Silenciosamente descarte os piores e mais difundidos spams sem que eu os veja"
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Precisão"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "Todo o Tempo"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Spam bloqueado"
+msgstr[1] ""
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Últimos seis meses"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "<a href=\"%1$s\">Atualize o WordPress</a> para a versão atual ou <a href=\"%2$s\">faça downgrade para a versão 2.4 do plugin Akismet</a>."
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "O Akismet %s requer WordPress %s ou superior."
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "O Akismet liberou este comentário durante uma tentativa automática."
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "O Akismet pegou este comentário como spam durante uma tentativa de verificação automática."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s relatou este comentário como não sendo spam."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s relatou este comentário como sendo spam."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s mudou o status de comentário para %2$s."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "O Akismet não conseguiu verificar este comentário (resposta: %s) mas tentará automaticamente mais tarde."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Akismet liberou este comentário."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "O status do comentário foi alterado para %s"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "O Akismet capturou esse comentário como spam. "
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s spam</strong> bloqueado pelo <strong>Akismet</strong>"
+msgstr[1] "<strong class=\"count\">%1$s spams</strong> bloqueados pelo <strong>Akismet</strong>"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Título:"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Spam bloqueado"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Mostrar o número de comentários spam que o Akismet pegou"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Widget do Akismet"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Leva um tempo para limpar os spams."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Verifique sua <a href=\"%s\">configuração do Akismet</a> e entre em contato com seu provedor se o problema persistir."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s aprovado"
+msgstr[1] "%s aprovados"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Histórico"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Ver histórico de comentários"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "Definido que não é spam por %s"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "Definido que é spam por %s"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Limpo pelo Akismet"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Sinalizadas como spam pelo Akismet"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Aguardando verificação de spam"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "O Akismet foi incapaz de reavaliar este comentário (resposta:%s)."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "O Akismet verificou novamente e liberou esse comentário."
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "O Akismet verificou novamente e capturou esse comentário como spam."
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Conferir se há spam"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Nenhum <a href='%s'>spam em sua caixa</a> até o momento."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Há <a href=\"%2$s\">%1$s comentário</a> em sua caixa de spam."
+msgstr[1] "Existem <a href=\"%2$s\">%1$s comentários</a> em sua caixa de spam."
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> bloqueia spams no seu blog."
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> protegeu seu site contra %2$s spam até o momento. "
+msgstr[1] "<a href=\"%1$s\">Akismet</a> protegeu seu site contra %2$s spams até o momento. "
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">O Askimet</a> protegeu seu site de <a href=\"%2$s\">%3$s comentário com spam</a>."
+msgstr[1] "<a href=\"%1$s\">O Askimet</a> protegeu seu site de <a href=\"%2$s\">%3$s comentários com spam</a>."
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Spam"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Trapaceando, é?"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Suporte do Askimet"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Perguntas frequentes do Askimet"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Para mais informações:"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Status da assinatura - ativa, cancelada ou suspensa."
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Status"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Planos de assinatura do Askimet"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Tipo de assinatura"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Conta"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Escolha entre deletar o spam automaticamente ou enviá-los para a lixeira."
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Rigor"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Exibir o número de comentários aprovados ao lado do autor na página com lista de comentários."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Comentários"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "Digite/remova uma chave API."
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "Chave API"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "Configuração do Akismet"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Nesta página você pode ver o status dos spams filtrados no site."
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Estatísticas do Akismet"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Clique no botão Usar esta chave."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Copie e cole sua Chave API no campo texto."
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Se você já possui uma Chave API."
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Digite uma chave API"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Faça o login em uma conta do %s para obter uma Chave API."
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Você precisa inserir uma Chave de API para ativar o Askimet em seu site."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Novo no Akismet"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Nesta página você poderá configurar o plugin do Askimet"
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Configuração do Akismet"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Visão geral"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Readicionando..."
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(desfazer)"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL removida"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Removendo..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Remover esta URL"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Configurações"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Histórico de Comentário"

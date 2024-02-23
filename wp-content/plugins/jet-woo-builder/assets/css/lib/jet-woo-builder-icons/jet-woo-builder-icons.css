@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'jet-woo-builder-icons';
+	src:
+		url('fonts/jet-woo-builder-icons.ttf?kb7u99') format('truetype'),
+		url('fonts/jet-woo-builder-icons.woff?kb7u99') format('woff'),
+		url('fonts/jet-woo-builder-icons.svg?kb7u99#jet-woo-builder-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jet-woo-builder-icon,
+i[class*="jet-woo-builder-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'jet-woo-builder-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.jet-woo-taxonomy-tiles-layout-7:before {
+	content: "\e906";
+	display: block;
+}
+.jet-woo-taxonomy-tiles-layout-8:before {
+	content: "\e907";
+}
+.jet-woo-taxonomy-tiles-layout-9:before {
+	content: "\e908";
+}
+.jet-woo-taxonomy-tiles-layout-3:before {
+	content: "\e902";
+}
+.jet-woo-taxonomy-tiles-layout-4:before {
+	content: "\e903";
+}
+.jet-woo-taxonomy-tiles-layout-5:before {
+	content: "\e904";
+}
+.jet-woo-taxonomy-tiles-layout-6:before {
+	content: "\e905";
+}
+.jet-woo-taxonomy-tiles-layout-2:before {
+	content: "\e900";
+}
+.jet-woo-taxonomy-tiles-layout-1:before {
+	content: "\e901";
+}

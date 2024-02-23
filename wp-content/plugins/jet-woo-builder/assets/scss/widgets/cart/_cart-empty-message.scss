@@ -1,0 +1,10 @@
+.woocommerce .elementor-jet-cart-empty-message {
+	.woocommerce-info {
+		margin: 0;
+
+		&::before {
+			display: var( --cart-empty-message-icon-display, inline-block );
+			position: static;
+		}
+	}
+}

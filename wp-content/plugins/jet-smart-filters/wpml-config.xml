@@ -1,0 +1,35 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">jet-smart-filters</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="translate" style="line" label="Filter Label">_filter_label</custom-field>
+		<custom-field action="translate" style="line" label="Active Filter Label">_active_label</custom-field>
+		<custom-field action="copy">_filter_type</custom-field>
+		<custom-field action="copy">_date_source</custom-field>
+		<custom-field action="copy">_data_source</custom-field>
+		<custom-field action="copy">_is_custom_checkbox</custom-field>
+		<custom-field action="copy">_rating_options</custom-field>
+		<custom-field action="copy">_rating_compare_operand</custom-field>
+		<custom-field action="copy">_source_taxonomy</custom-field>
+		<custom-field action="copy">_source_post_type</custom-field>
+		<custom-field action="copy">_only_child</custom-field>
+		<custom-field action="copy">_group_by_parent</custom-field>
+		<custom-field action="copy">_source_custom_field</custom-field>
+		<custom-field action="translate">_source_manual_input</custom-field>
+		<custom-field action="copy">_source_manual_input_range</custom-field>
+		<custom-field action="translate" style="line" label="Placeholder">_placeholder</custom-field>
+		<custom-field action="translate" style="line" label="Search Placeholder">_s_placeholder</custom-field>
+		<custom-field action="copy">_s_by</custom-field>
+		<custom-field action="copy">_values_prefix</custom-field>
+		<custom-field action="copy">_values_suffix</custom-field>
+		<custom-field action="copy">_values_thousand_sep</custom-field>
+		<custom-field action="copy">_values_decimal_sep</custom-field>
+		<custom-field action="copy">_values_decimal_num</custom-field>
+		<custom-field action="copy">_source_min</custom-field>
+		<custom-field action="copy">_source_max</custom-field>
+		<custom-field action="copy">_source_step</custom-field>
+		<custom-field action="copy">_source_callback</custom-field>
+		<custom-field action="copy">_query_var</custom-field>
+	</custom-fields>
+</wpml-config>

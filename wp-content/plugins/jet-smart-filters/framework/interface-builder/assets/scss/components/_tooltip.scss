@@ -1,0 +1,32 @@
+.cx-tooltip {
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	padding: 5px 15px;
+	margin: 0 0 10px;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	background: $dark_color;
+	box-shadow: 0 1px 4px rgba(35, 40, 45, 0.24);
+	border-radius: 3px;
+
+	&--show {
+		display: block;
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		width: 0;
+		height: 0;
+		margin: 0 0 0 -4px;
+		border-style: solid;
+		border-width: 4px 4px 0 4px;
+		border-color: $dark_color transparent transparent transparent;
+	}
+}

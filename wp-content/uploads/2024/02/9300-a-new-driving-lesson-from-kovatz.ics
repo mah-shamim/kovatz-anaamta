@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 2.0.5//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:
+X-ORIGINAL-URL:https://anaamta.com/new/
+X-WR-CALDESC:Bookings from
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTEND:20240222T073000
+UID:wc_bookings_9300
+DTSTAMP:20240221T073606
+LOCATION:
+DESCRIPTION:Resource #9213 - Intermediate\n\nBooking description:\nlorem Ipsome some text lorem Ipsome some text lorem Ipsome some text lorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some textlorem Ipsome some text
+URL;VALUE=URI:https://anaamta.com/new/my-account/view-order/9302/
+SUMMARY:#9300 - A new Driving Lesson from kovatz
+DTSTART:20240222T060000
+END:VEVENT
+END:VCALENDAR

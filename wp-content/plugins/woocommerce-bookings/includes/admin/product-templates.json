@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "slug": "driving-lesson",
+      "name": "Driving Lesson",
+      "short_description": "Briefly Describe about your Driving Lesson, Mention Duration, Date, Price, Transmission, Location and so on.",
+      "scenario": "Write your contents here. Briefly Describe about your Driving Lesson, Mention Duration, Date, Price, Transmission, Location and so on.",
+      "features_utilized": [
+        "Custom hour ranges"
+      ],
+      "products_used": [
+        "WooCommerce",
+        "WooCommerce Bookings"
+      ],
+      "product_thumbnail": "bookings-tutoring.png",
+      "front_end_display": "bookings-tutoring-FE.png",
+      "is_virtual": false,
+      "duration": 1,
+      "duration_unit": "hour",
+      "duration_type": "fixed",
+      "qty": 2,
+      "default_date_availability": "not-available",
+      "cost": 0,
+      "block_cost": 0,
+      "display_cost": "",
+      "availability": {
+        "time1": {
+          "type": "time:1",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "19:00",
+          "to": "21:00"
+        },
+        "time2": {
+          "type": "time:2",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "19:00",
+          "to": "21:00"
+        },
+        "time3": {
+          "type": "time:3",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "19:00",
+          "to": "21:00"
+        },
+        "time4": {
+          "type": "time:4",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "19:00",
+          "to": "21:00"
+        },
+        "time5": {
+          "type": "time:5",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "19:00",
+          "to": "21:00"
+        },
+        "time6": {
+          "type": "time:6",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "12:00",
+          "to": "14:00"
+        },
+        "time7": {
+          "type": "time:7",
+          "bookable": "yes",
+          "priority": 10,
+          "from": "12:00",
+          "to": "14:00"
+        }
+      }
+		
+    }
+      
+  ]
+}

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 2.0.5//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:
+X-ORIGINAL-URL:https://anaamta.com/new/
+X-WR-CALDESC:Bookings from
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTEND;VALUE=DATE:20240223
+UID:wc_bookings_9305
+DTSTAMP:20240222T004144
+LOCATION:
+DESCRIPTION:Resource #9213 - Intermediate\n\nQty (Sample person): 1\n\nBooking description:\nThis template helps you set up a party supply store that rents out two types of tables as well as chairs.
+URL;VALUE=URI:https://anaamta.com/new/my-account/view-order/9306/
+SUMMARY:#9305 - Driving Lesson 2
+DTSTART;VALUE=DATE:20240223
+END:VEVENT
+END:VCALENDAR

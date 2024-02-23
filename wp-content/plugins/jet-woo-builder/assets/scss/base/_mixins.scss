@@ -1,0 +1,60 @@
+@mixin display-grid {
+	display: -ms-grid;
+	display: grid;
+}
+
+@mixin grid-item ($col-start, $col-end, $row-start, $row-end) {
+	-ms-grid-column: $col-start;
+	-ms-grid-column-span: $col-end - $col-start;
+	-ms-grid-row: $row-start;
+	-ms-grid-row-span: $row-end - $row-start;
+	grid-column: #{$col-start}/#{$col-end};
+	grid-row: #{$row-start}/#{$row-end};
+}
+
+// Column width with margin
+@mixin column-width($columns: 3) {
+	flex: 0 0 calc( 100% / #{$columns} );
+	// Add a `max-width` to ensure content within each column does not blow out
+	// the width of the column. Applies to IE10+ and Firefox. Chrome and Safari
+	// do not appear to require this.
+	max-width: calc( 100% / #{$columns} );
+}
+
+@mixin ajax-add-to-cart {
+	.ajax_add_to_cart {
+		&.loading {
+			position: relative;
+			opacity: 0.25;
+			padding-right: 2.618em;
+
+			.rtl & {
+				padding-left: 2.618em;
+				padding-right: 1em;
+			}
+
+			&::after {
+				font-family: WooCommerce;
+				content: "\e01c";
+				vertical-align: top;
+				position: absolute;
+				top: 50%;
+				margin-top: -9px;
+				animation: spin 2s linear infinite;
+			}
+		}
+
+		&.added::after {
+			font-family: WooCommerce;
+			content: "\e017";
+			margin-left: .53em;
+			font-weight: 400;
+			vertical-align: bottom;
+
+			.rtl & {
+				margin-left: 0;
+				margin-right: .53em;
+			}
+		}
+	}
+}

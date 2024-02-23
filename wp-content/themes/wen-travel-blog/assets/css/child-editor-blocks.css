@@ -1,0 +1,362 @@
+/*
+Theme Name: Wen Travel Blog
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+/* Captions */
+
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+	color: #777;
+}
+
+/* Quote */
+
+.wp-block-quote cite {
+	color: inherit;
+}
+
+/* File */
+
+.wp-block-file__textlink {
+	box-shadow: 0 1px 0 0 currentColor;
+	color: #333;
+}
+
+.wp-block-file .wp-block-file__button {
+	border: none;
+	background-color: #b99470;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.button:hover,
+.button:focus {
+	background-color: #333;
+	-webkit-box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+	box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+	transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+}
+
+/*--------------------------------------------------------------
+4.0 Blocks - Formatting
+--------------------------------------------------------------*/
+
+/* Quotes */
+
+blockquote.wp-block-quote .wp-block-quote__citation,
+blockquote.wp-block-quote cite,
+.is-style-default .wp-block-pullquote__citation,
+.wp-block-pullquote .wp-block-pullquote__citation,
+blockquote.wp-block-quote.is-style-large .wp-block-quote__citation {
+	color: #999999;
+}
+
+/* PULLQUOTE */
+
+.wp-block-pullquote.is-style-solid-color {
+	background-color: #f6f6f6;
+	border: 0;
+}
+
+.wp-block[data-align="left"] figure.wp-block-pullquote,
+.wp-block-pullquote.alignleft {
+	border-left: 5px solid #b99470;
+}
+
+.wp-block[data-align="left"] figure.wp-block-pullquote.is-style-solid-color,
+.wp-block-pullquote.alignleft.is-style-solid-color {
+	border-left: 0;
+}
+
+.wp-block[data-align="right"] figure.wp-block-pullquote,
+.wp-block-pullquote.alignright {
+	border-right: 5px solid #b99470;
+}
+
+/* Pullquote */
+
+/* Table */
+
+.editor-block-list__block .wp-block-table {
+	border: 1px solid #ebebeb;
+}
+
+figure.wp-block-table.is-style-stripes table {
+    border-color: transparent;
+}
+
+.editor-block-list__block figure.wp-block-table.is-style-stripes th,
+.editor-block-list__block figure.wp-block-table.is-style-stripes td,
+.editor-block-list__block figure.wp-block-table.is-style-stripes thead {
+	border: 0;
+	border-color: transparent;
+}
+
+.editor-block-list__block figure.wp-block-table.is-style-stripes tfoot {
+	border-color: #e6e6e6;
+}
+
+figure.wp-block-table thead {
+	border-bottom: 0;
+}
+
+figure.wp-block-table tfoot {
+	border-top: 3px solid #e6e6e6;
+}
+
+figure.wp-block-table figcaption,
+figure.wp-block-embed figcaption {
+	color: #999;
+}
+
+/*--------------------------------------------------------------
+5.0 Blocks - Layout Elements
+--------------------------------------------------------------*/
+
+/* Buttons */
+
+.wp-block-button .wp-block-button__link,
+.more-link,
+.button,
+.wp-block-button__link {
+	background-color: #b99470;
+	color: #fff;
+	border: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: #333;
+	color: #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+6.0 Blocks - Widgets
+--------------------------------------------------------------*/
+
+/* Latest Comments */
+
+.wp-block-latest-comments__comment-date {
+	color: #999;
+}
+
+/* Latest Posts */
+
+
+
+.wp-block-categories li span:after,
+.wp-block-archives li span:after {
+	background-color: #f6f6f6;
+	content: "";
+}
+
+
+/* COLOR */
+
+
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link {
+	background-color: #b99470;
+	color: #fff;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+	border: 1px dashed #b99470;
+	background-color: transparent;
+	color: #000;
+}
+
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus,
+.is-style-outline .more-link:hover,
+.is-style-outline .more-link:focus,
+.is-style-outline .button:hover,
+.is-style-outline .button:focus {
+	border-color: transparent;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: #333;
+	color: #fff;
+	box-shadow: 0px 15px 30px -17px rgba(0,0,0,0.75);
+}
+
+.wp-block-quote:before {
+	color: #b99470;
+}
+
+.wp-block-quote,
+blockquote.wp-block-quote,
+.wp-block-quote.has-text-align-right,
+blockquote.wp-block-quote.has-text-align-right,
+.wp-block-code {
+    border: 0;
+}
+
+.has-white-color {
+	color: #fff;
+}
+
+.has-white-background-color {
+	background-color: #fff;
+}
+
+.has-black-color {
+	color: #333;
+}
+
+.has-black-background-color {
+	background-color: #333;
+}
+
+.has-gray-color {
+	color: #444;
+}
+
+.has-gray-background-color {
+	background-color: #444;
+}
+
+.has-medium-gray-color {
+	color: #7b7b7b;
+}
+
+.has-medium-gray-background-color {
+	background-color: #7b7b7b;
+}
+
+.has-light-gray-color {
+	color: #f6f6f6;
+}
+
+.has-light-gray-background-color {
+	background-color: #f6f6f6;
+}
+
+.has-light-yellow-color {
+	color: #fa6742;
+}
+
+.has-light-red-background-color {
+	background-color: #fa6742;
+}
+
+.has-light-red-border-color {
+	border-color: #fa6742;
+}
+
+.wp-block-pullquote.is-style-solid-color {
+	background-color: #f6f6f6;
+	border: 0;
+}
+
+
+.wp-block-button .wp-block-button__link.has-white-color,
+.wp-block-pullquote.has-white-color,
+.has-white-color {
+	color: #fff;
+}
+
+/* LIGHT RED COLOR */
+
+.wp-block-button .wp-block-button__link.has-light-red-background-color,
+.wp-block-pullquote.is-style-solid-color.has-light-red-background-color {
+	background-color: #fa6742;
+}
+
+.wp-block-button .wp-block-button__link.has-light-red-color,
+.wp-block-pullquote blockquote.has-light-red-color,
+.has-light-red-color {
+	color: #fa6742;
+}
+
+/* BLACK COLOR */
+
+.wp-block-button .wp-block-button__link.has-black-background-color,
+.wp-block-pullquote.is-style-solid-color.has-black-background-color {
+	background-color: #333;
+}
+
+.wp-block-button .wp-block-button__link.has-black-color,
+.wp-block-pullquote blockquote.has-black-color,
+.has-black-color {
+	color: #333;
+}
+
+/* LIGHT GREY COLOR */
+
+.wp-block-button .wp-block-button__link.has-light-gray-background-color,
+.wp-block-pullquote.is-style-solid-color.has-light-gray-background-color {
+	background-color: #f6f6f6;
+}
+
+.wp-block-button .wp-block-button__link.has-light-gray-color,
+.wp-block-pullquote blockquote.has-light-gray-color,
+.has-light-gray-color {
+	color: #f6f6f6;
+}
+
+/* MEDIUM GRAY COLOR */
+
+.wp-block-button .wp-block-button__link.has-medium-gray-background-color,
+.wp-block-pullquote.is-style-solid-color.has-medium-gray-background-color {
+	background-color: #7b7b7b;
+}
+
+.wp-block-button .wp-block-button__link.has-medium-gray-color,
+.wp-block-pullquote blockquote.has-medium-gray-color,
+.has-medium-gray-color {
+	color: #7b7b7b;
+}
+
+/* GRAY BACKGROUND COLOR */
+
+.wp-block-button .wp-block-button__link.has-gray-background-color,
+.wp-block-pullquote.is-style-solid-color.has-gray-background-color {
+	background-color: #444444;
+}
+
+.wp-block-button .wp-block-button__link.has-gray-color,
+.wp-block-pullquote blockquote.has-gray-color,
+.has-gray-color {
+	color: #444444;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link.has-light-red-border-color,
+.wp-block-pullquote.is-style-solid-color.has-red-border-color,
+.wp-block-button__link.is-style-outline .wp-block-button__link.has-light-red-border-color {
+	border-color: #fa6742;
+}
+
+.edit-post-visual-editor a,
+.editor-block-list__block a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+	color: #fa6742;
+}
+
+figure.wp-block-pullquote,
+.wp-block[data-align="right"] figure,
+.wp-block[data-align="left"] figure,
+figure.wp-block-pullquote.alignleft, 
+figure.wp-block-pullquote.alignright,
+.editor-styles-wrapper .wp-block-pullquote blockquote {
+    border-color: #b99470;
+}

@@ -1,0 +1,101 @@
+.jet-engine-map-field {
+
+	&__preview {
+		display: none;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 0 10px;
+		
+		&.show {
+			display: flex;
+		}
+	}
+
+	&__reset {
+		flex-shrink: 0;
+		font-weight: 500;
+		color: #c92c2c;
+		cursor: pointer;
+	}
+
+	&__search {
+		position: relative;
+		margin: 0 0 10px;
+
+		&-list {
+			display: none;
+			position: absolute;
+			top: calc(100% - 1px);
+			left: 0;
+			right: 0;
+			z-index: 9999;
+			margin: 0;
+			background-color: #fff;
+			border: 1px solid #a9a9a9;
+			border-radius: 0 0 2px 2px;
+			
+			&.show {
+				display: block;
+			}
+		}
+
+		&-item,
+		&-no-results {
+			margin: 0;
+			padding: 5px;
+		}
+
+		&-item {
+			cursor: pointer;
+
+			&:hover {
+				background-color: #f1f1f1;
+			}
+		}
+
+		&-loader {
+			display: none;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			width: 14px;
+			height: 14px;
+			border: 2px solid #a9a9a9;
+			border-bottom-color: transparent;
+			border-radius: 50%;
+			animation: rotation 1s linear infinite;
+
+			.rtl & {
+				left: 5px;
+				right: auto;
+			}
+
+			&.show {
+				display: block;
+			}
+		}
+	}
+
+	&__description {
+		p {
+			margin-top: 5px;
+		}
+	}
+
+	&__frame {
+		.gm-svpc {
+			img {
+				max-width: none;
+			}
+		}
+	}
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

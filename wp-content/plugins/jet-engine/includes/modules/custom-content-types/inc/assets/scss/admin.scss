@@ -1,0 +1,44 @@
+.jet-cct-edit-page-wrap {
+	.cx-form {
+		display: flex;
+		justify-content: space-between;
+		.settings_bottom {
+			flex: 0 0 200px;
+			margin: 0;
+			.cx-control {
+				padding-bottom: 0;
+			}
+			.cx-control__content {
+				width: 100%;
+				flex: 0 1 100%;
+			}
+		}
+		.settings_top {
+			flex: 0 0 calc( 100% - 215px );
+		}
+		.save_button {
+			.cx-button-primary-style {
+				display: block;
+				width: 100%;
+				margin: 0 0 12px;
+			}
+			.jet-cct-delete-item {
+				color: #a00;
+				width: 100%;
+				display: block;
+				text-align: center;
+				&:hover {
+					color: #dc3232;
+				}
+			}
+		}
+		.go_to_single > .cx-ui-kit__content {
+			width: 100%;
+			flex: 0 0 100%;
+			display: flex;
+		}
+	}
+	.cx-component.cx-html {
+		width: 100%;
+	}
+}

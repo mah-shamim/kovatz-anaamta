@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Directory Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-20 16:30+0000\n"
+"PO-Revision-Date: 2023-03-20 16:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/downgrade-functions.php:49
+msgid "Directory Theme Notice"
+msgstr ""
+
+#: includes/downgrade-functions.php:54
+msgid "Immediate attention required"
+msgstr ""
+
+#: includes/downgrade-functions.php:58
+msgid ""
+"Version 3 of Directory theme has changed to be a block theme, this will "
+"require manual work to recreate your current layout."
+msgstr ""
+
+#: includes/downgrade-functions.php:60
+msgid "Not ready? no problem"
+msgstr ""
+
+#: includes/downgrade-functions.php:61
+msgid "This will downgrade directory to the latest version 2"
+msgstr ""
+
+#: includes/downgrade-functions.php:63
+msgid "Downgrade to latest v2.8"
+msgstr ""
+
+#: includes/downgrade-functions.php:65
+msgid "OR"
+msgstr ""
+
+#: includes/downgrade-functions.php:68
+msgid "Continue with v3 block theme"
+msgstr ""
+
+#: includes/downgrade-functions.php:72
+msgid "( If this is a new install you can proceed and ignore this notice )"
+msgstr ""
+
+#: includes/plugin-functions.php:42
+msgid "GeoDirectory"
+msgstr ""
+
+#: includes/plugin-functions.php:43
+msgid ""
+"GeoDirectory is required for the directory functionality. Please install it "
+"now to continue."
+msgstr ""
+
+#: includes/plugin-functions.php:51
+msgid "Install GeoDirectory"
+msgstr ""
+
+#: includes/plugin-functions.php:53
+msgid "No thanks"
+msgstr ""
+
+#: includes/register-patterns.php:11
+msgid "Header Transparent"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Enter Your Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "GT > Location Select"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Select Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Homepage Location description"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Location Settings"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Location database checks"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Select location order"
+#~ msgstr "'Lokácia"

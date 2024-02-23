@@ -1,0 +1,49 @@
+.site-main .jet-woo-builder,
+.entry-content .jet-woo-builder {
+	.product_meta {
+		> span {
+			display: block;
+		}
+	}
+	
+	.tabs{
+		&:after,
+		&:before{
+			display: none !important;
+		}
+
+		.tabs {
+			&:after,
+			&:before {
+				display: none !important;
+			}
+
+			> li {
+				border: none !important;
+				background: transparent !important;
+
+				&:after,
+				&:before {
+					display: none;
+				}
+
+				a {
+					width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+
+	.jet-woo-builder-single-ajax-add-to-cart {
+		form.cart div.buttons-added {
+			display: flex !important;
+			float: left !important;
+			margin: 0;
+
+			.qty {
+				max-width: 100%;
+			}
+		}
+	}
+}

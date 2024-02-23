@@ -1,0 +1,27 @@
+.woocommerce .jet-woo-builder-my-account-content {
+	.elementor-jet-myaccount-order {
+		.woocommerce-orders-table {
+			width: 100%;
+
+			.button {
+				display: inline-block;
+			}
+		}
+
+		.woocommerce-pagination {
+			display: block;
+		}
+	}
+
+	.elementor-jet-myaccount-logout {
+		a {
+			display: inline-block;
+		}
+	}
+
+	.elementor-jet-myaccount-account-details {
+		.woocommerce-EditAccountForm .woocommerce-Button {
+			margin-top: 1em;
+		}
+	}
+}

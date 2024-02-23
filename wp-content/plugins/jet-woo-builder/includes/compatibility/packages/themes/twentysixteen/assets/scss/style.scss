@@ -1,0 +1,31 @@
+.entry-content .jet-woo-builder {
+	.product_meta > span {
+		display: block;
+	}
+
+	.woocommerce-tabs li {
+		margin: 0;
+	}
+
+	.tabs > li {
+		border: none !important;
+		background-color: transparent !important;
+		border-radius: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+
+		&:after,
+		&:before {
+			display: none;
+		}
+
+		a {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.woocommerce-variation-price .price {
+		display: block;
+	}
+}

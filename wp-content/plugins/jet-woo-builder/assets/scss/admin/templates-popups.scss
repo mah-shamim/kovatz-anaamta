@@ -1,0 +1,140 @@
+.jet-woo-builder-template-popup {
+	display: none;
+}
+
+.jet-woo-builder-create-form {
+	width: 700px;
+	max-width: 100%;
+	padding: 10px 10px 20px;
+
+	&__subheading {
+		margin: 0 0 5px;
+	}
+
+	&__item {
+		position: relative;
+		box-sizing: border-box;
+		flex: 0 0 25%;
+		max-width: 25%;
+		padding: 10px;
+
+		&-uncheck {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			display: none;
+			font-size: 20px;
+			cursor: pointer;
+			z-index: 2;
+		}
+	}
+
+	&__label {
+		display: block;
+		position: relative;
+
+		&.is--checked ~ .jet-woo-builder-create-form__item-uncheck {
+			display: block;
+		}
+
+		input[type="radio"] {
+			display: none;
+
+			&:checked + img {
+				border-color: #ccc;
+				box-shadow: 0 0 3px #008ec2;
+			}
+		}
+
+		img {
+			border: 1px solid #eee;
+			border-radius: 3px;
+			box-sizing: border-box;
+			vertical-align: middle;
+			width: 100%;
+
+			&:hover {
+				box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+			}
+		}
+	}
+
+	&__row {
+		&.plain-row {
+			padding: 0 0 20px;
+
+			label {
+				display: block;
+				padding: 0 0 4px;
+				text-align: left;
+				
+				.rtl & {
+					text-align: right;
+				}
+			}
+
+			input,
+			select {
+				width: 100%;
+				max-width: 100%;
+				padding: 10px 20px;
+				line-height: 20px;
+				height: auto;
+			}
+		}
+
+		&.predesigned-row {
+			padding: 0 0 10px;
+			margin: 0 -10px;
+			display: none;
+			flex-wrap: wrap;
+
+			&.is-active {
+				display: flex;
+			}
+		}
+	}
+
+	&__actions .button {
+		width: 100%;
+	}
+
+	.predesigned-templates__description{
+		font-size: .7rem;
+		text-align: left;
+		margin: 0 10px;
+
+		.rtl & {
+			text-align: right;
+		}
+	}
+}
+
+.jet-woo-builder-import-form {
+	&__inputs {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: stretch;
+		margin: 10px 5px;
+		float: none;
+
+		.file-button {
+			margin-bottom: 10px;
+		}
+
+		.button {
+			width: 100%;
+		}
+	}
+}
+
+.jet-woo-builder-light-theme {
+	color: #555;
+	background-color: white;
+	filter: drop-shadow( 1px 1px 3px rgba( 0, 0, 0, 0.2 ) );
+
+	.tippy-popper[x-placement^=bottom] & .tippy-arrow {
+		border-bottom-color: white;
+	}
+}

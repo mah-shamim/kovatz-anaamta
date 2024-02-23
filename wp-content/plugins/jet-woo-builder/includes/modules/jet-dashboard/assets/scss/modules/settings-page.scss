@@ -1,0 +1,108 @@
+.jet-dashboard-settings-page {
+
+	&__inner {
+		&.jet-dashboard-page__panel {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			padding-left: 0;
+		}
+	}
+
+	.subpage-category-list {
+		min-width: 228px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		@include margin-end(20px);
+	}
+
+	.subpage-content {
+		flex: 1 1 auto;
+	}
+
+	.plugin-settings-toggle {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		width: 228px;
+		border-top: 1px solid #DCDCDD;
+
+		&:first-child {
+			border-top: none;
+		}
+
+		&__header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px 20px 15px 30px;
+			box-sizing: border-box;
+			cursor: pointer;
+		}
+
+		&__header-label {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 18px;
+			color: #23282D;
+		}
+
+		&__header-marker {
+			width: 20px;
+			height: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&__links {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: stretch;
+		}
+
+		&__link {
+
+			border-style: solid;
+			border-color: white;
+			border-width: getValueByDirection( 0 0 0 2px, 0 2px 0 0 );
+
+			&:hover {
+				background-color: #f5f8fd;
+
+				span {
+					color: #007CBA;
+				}
+			}
+
+			&.active {
+				border-color: #007CBA;
+				background-color: #E9F0FD;
+
+				span {
+					color: #007CBA;
+				}
+			}
+
+			span {
+				display: block;
+				font-size: 14px;
+				line-height: 18px;
+				color: #23282D;
+				padding: getValueByDirection( 11px 0 11px 52px, 11px 52px 11px 0 );
+				text-decoration: none;
+				box-sizing: border-box;
+				cursor: pointer;
+
+				&:focus {
+					outline: none;
+					box-shadow: none;
+				}
+			}
+		}
+	}
+}

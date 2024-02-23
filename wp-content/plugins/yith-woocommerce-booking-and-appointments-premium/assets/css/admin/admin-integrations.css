@@ -1,0 +1,179 @@
+/**
+ * Admin Integrations style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.1
+ */
+
+#yith-wcbk-integrations-tab-wrapper * {
+    box-sizing : border-box;
+}
+
+#yith-wcbk-integrations-tab-wrapper {
+    display               : grid;
+    grid-template-columns : 1fr;
+    justify-content       : space-between;
+}
+
+.yith-wcbk-integration {
+    position   : relative;
+    background : #fff;
+    min-height : 330px;
+    margin     : 0 20px 20px 0;
+    border     : 1px solid #e9e9e9;
+    overflow   : hidden;
+}
+
+.yith-wcbk-integration h5 {
+    margin         : 0;
+    padding        : 16px;
+    font-size      : 1.1em;
+    line-height    : normal;
+    font-weight    : 700;
+    text-align     : center;
+    color          : #445674;
+    text-transform : uppercase;
+}
+
+.yith-wcbk-integration-icon {
+    display   : block;
+    margin    : 25px auto 0;
+    width     : 100%;
+    max-width : 70px;
+}
+
+.yith-wcbk-integration-content {
+    padding    : 10px 15px;
+    font-size  : 1.1em;
+    color      : #828488;
+    text-align : center;
+}
+
+.yith-wcbk-integration-needs-plugin {
+    margin-top  : 15px;
+    font-size   : .7em;
+    font-weight : 600;
+    line-height : 1.5;
+}
+
+.yith-wcbk-integration-actions {
+    position   : absolute;
+    bottom     : 0;
+    left       : 0;
+    width      : 100%;
+    padding    : 20px;
+    text-align : center;
+}
+
+.yith-wcbk-integration-get-plugin, .yith-wcbk-integration-get-plugin:focus {
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    text-align      : center;
+    font-size       : 15px;
+    width           : 100%;
+    height          : 44px;
+    color           : #fff;
+    text-transform  : uppercase;
+    background      : #405e69;
+    text-decoration : none;
+    font-weight     : 600;
+    line-height     : 44px;
+    cursor          : pointer;
+    box-shadow      : none;
+}
+
+.yith-wcbk-integration-get-plugin:hover, .yith-wcbk-integration-get-plugin:active {
+    color      : #fff;
+    background : #517581;
+    box-shadow : none;
+}
+
+.yith-wcbk-integration-automatically-active {
+    color       : #2a8db0;
+    font-size   : .9em;
+    font-weight : 600;
+}
+
+.yith-wcbk-integration-badge {
+    display        : block;
+    padding        : 7px 13px;
+    background     : #676f76;
+    color          : #fff;
+    font-size      : 11px;
+    text-transform : uppercase;
+    border-radius  : 3px;
+    position       : absolute;
+    top            : -10px;
+    right          : 10px;
+}
+
+.yith-wcbk-integration-badge.new {
+    color            : #fff;
+    box-sizing       : border-box;
+    position         : absolute;
+    background-color : transparent;
+    width            : 75px;
+    height           : 75px;
+    overflow         : hidden;
+    top              : 0;
+    right            : 0;
+}
+
+.yith-wcbk-integration-badge.new .yith-wcbk-integration-badge-text {
+    background        : #acc327;
+    font-size         : 11px;
+    font-weight       : bold;
+    line-height       : 35px;
+    position          : absolute;
+    text-align        : center;
+    z-index           : 100;
+    -webkit-transform : rotate(45deg);
+    -ms-transform     : rotate(45deg);
+    transform         : rotate(45deg);
+    top               : 4px;
+    left              : 2px;
+    width             : 100px;
+}
+
+@media only screen and (min-width : 580px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width : 850px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(4, 1fr);
+    }
+}
+
+@media only screen and (min-width : 1700px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(5, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2000px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(6, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2300px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(7, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2600px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(8, 1fr);
+    }
+}

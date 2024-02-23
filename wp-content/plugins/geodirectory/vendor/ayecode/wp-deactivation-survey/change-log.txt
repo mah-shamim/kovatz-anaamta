@@ -1,0 +1,11 @@
+= 1.0.7 - 2023-12-14 =
+* Update textdomain - CHANGED
+
+= 1.0.6 =
+* changed remodal data attribute which was causing issue with shareaholic plugin - CHANGED
+
+= 1.0.4 =
+* Added option for difficult to design - ADDED
+
+= 1.0.3 =
+* Initial release

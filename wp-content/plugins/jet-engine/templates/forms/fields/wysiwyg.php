@@ -1,0 +1,38 @@
+<?php
+/**
+ * WYSIWIG field template
+ */
+if ( empty( $args['default'] ) ) {
+	$args['default'] = '';
+}
+
+$editor_id = 'wp_editor_' . $this->get_field_id( $args['name'] );
+$editor    = apply_filters( 'jet-engine/forms/fields/wysiwyg-field/config', array(
+	'textarea_name' => $this->get_field_name( $args['name'] ),
+	'media_buttons' => false,
+	'textarea_rows' => 8,
+	'quicktags'     => false,
+	'tinymce'       => array(
+		'plugins'                       => 'lists,paste,tabfocus,link,wordpress',
+		'paste_as_text'                 => true,
+		'paste_auto_cleanup_on_paste'   => true,
+		'paste_remove_spans'            => true,
+		'paste_remove_styles'           => true,
+		'paste_remove_styles_if_webkit' => true,
+		'paste_strip_class_attributes'  => true,
+		'toolbar1'                      => 'formatselect,|,bold,italic,strikethrough,blockquote,|,bullist,numlist,|,alignleft,aligncenter,alignright,|,link,unlink,|,undo,redo',
+		'toolbar2'                      => '',
+		'toolbar3'                      => '',
+		'toolbar4'                      => ''
+	),
+) );
+
+if ( is_rtl() ) {
+	$editor['tinymce']['plugins']  = $editor['tinymce']['plugins'] . ',directionality';
+	$editor['tinymce']['toolbar1'] = $editor['tinymce']['toolbar1'] . ',ltr';
+}
+
+?>
+<div class="jet-form__field wysiwyg-field" data-editor="<?php echo htmlspecialchars( json_encode( $editor ) ); ?>"><?php
+	wp_editor( $args['default'], $editor_id, $editor );
+?></div>

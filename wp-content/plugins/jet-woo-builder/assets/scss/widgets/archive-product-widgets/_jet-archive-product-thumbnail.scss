@@ -1,0 +1,17 @@
+.jet-woo-builder-archive-product-thumbnail__wrapper{
+	font-size: 0;
+	display: block;
+	
+	.jet-woo-builder-archive-product-thumbnail{
+		transform: translate3d(0,0,0);
+	}
+	
+	> *{
+		display: inline-block;
+		position: relative;
+	}
+}
+
+.elementor-msie .jet-woo-builder-archive-product-thumbnail__wrapper img{
+	width: 100%;
+}

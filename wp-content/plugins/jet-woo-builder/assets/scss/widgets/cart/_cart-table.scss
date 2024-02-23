@@ -1,0 +1,80 @@
+.woocommerce .elementor-jet-cart-table {
+	.woocommerce-cart-form {
+		float: none;
+		overflow: hidden;
+		width: 100%;
+
+		table.shop_table {
+			border: 0;
+			border-collapse: collapse;
+			margin: 0;
+
+			td.actions {
+				button[name="update_cart"],
+				input[name="update_cart"] {
+					display: var(--cart-update-automatically-display, inline-block);
+
+					@media only screen and (max-width: 768px) {
+						display: var(--cart-update-automatically-display, block) !important;
+					}
+				}
+
+				.coupon {
+					display: flex;
+
+					label {
+						display: none;
+					}
+
+					.input-text {
+						float: none;
+						width: 100% !important;
+					}
+
+					.button {
+						margin: 0;
+						width: 100%;
+					}
+				}
+			}
+
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+
+				.product-thumbnail {
+					display: block !important;
+
+					&:before {
+						content: none;
+					}
+				}
+			}
+
+			.product-thumbnail img {
+				max-width: 100%;
+				width: auto;
+			}
+
+			.product-remove .remove {
+				display: inline-block;
+				height: auto;
+				transition: all .3s;
+				width: auto;
+
+				svg {
+					display: block;
+					height: 1em;
+					width: 1em;
+				}
+
+				&::before {
+					content: none;
+				}
+			}
+
+			.product-quantity input {
+				width: 100%;
+			}
+		}
+	}
+}

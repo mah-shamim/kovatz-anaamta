@@ -1,0 +1,4674 @@
+# Copyright (C) 2021 YITH
+# This file is distributed under the same license as the YITH Booking and Appointment for WooCommerce Premium plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Booking and Appointment for WooCommerce Premium 3.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-booking-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-24T10:49:27+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: yith-booking-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "YITH Booking and Appointment for WooCommerce Premium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-booking/"
+msgstr ""
+
+#. Description of the plugin
+msgid "<code><strong>YITH Booking and Appointment for WooCommerce</strong></code> allows you to create and manage Booking Products. You can create monthly/daily/hourly/per-minute booking products with Services and People by setting costs and availability. You can also synchronize your booking products with external services such as Booking.com or Airbnb. Moreover, it includes Google Calendar integration, Google Maps, Search Forms, YITH Booking theme, and many other features! <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr ""
+
+#: includes/admin/class-yith-wcbk-booking-calendar.php:137
+#: includes/class-yith-wcbk-booking-externals.php:377
+msgid "1 hour"
+msgstr ""
+
+#: includes/admin/class-yith-wcbk-booking-calendar.php:138
+#: includes/class-yith-wcbk-booking-externals.php:376
+msgid "30 minutes"
+msgstr ""
+
+#: includes/admin/class-yith-wcbk-booking-calendar.php:139
+msgid "15 minutes"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:57
+msgid "You don't have permissions to create bookings!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:97
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:99
+msgid "Error: Unable to create order. Please try again."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:141
+msgid "Error: Unable to create order item. Please try again."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:191
+#: includes/class-yith-wcbk-frontend-action-handler.php:98
+#: includes/objects/class-yith-wcbk-booking.php:1385
+#: includes/objects/data-stores/class-yith-wcbk-booking-data-store.php:121
+msgid "Booking successfully created."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-create.php:200
+msgid "Error when creating booking"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-metabox.php:93
+msgid "Booking notes"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-metabox.php:99
+msgid "Booking actions"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-metabox.php:105
+msgid "Booking data"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:81
+msgid "You have no bookings yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:83
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:747
+msgctxt "Button text"
+msgid "Create booking"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:177
+#: includes/class-yith-wcbk-post-types.php:113
+#: includes/class-yith-wcbk-post-types.php:130
+#: templates/myaccount/bookings-table.php:18
+msgid "Booking"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:178
+msgid "Listing"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:179
+#: templates/booking/booking-details.php:48
+#: templates/booking/pdf/booking-details.php:42
+#: templates/emails/email-booking-details.php:44
+#: templates/emails/plain/email-booking-details.php:29
+#: views/calendar/html-booking-calendar-single-booking-data.php:77
+msgid "Order"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:180
+msgid "Booked by"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:181
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:285
+#: includes/class-yith-wcbk-language.php:107
+#: templates/myaccount/bookings-table.php:19
+#: views/calendar/html-booking-calendar-single-booking-data.php:65
+#: views/metaboxes/html-booking-meta-data.php:203
+#: views/product-tabs/utility/html-availability-rule-date-range.php:26
+#: views/product-tabs/utility/html-price-rule-condition.php:78
+msgid "From"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:182
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:297
+#: includes/class-yith-wcbk-language.php:117
+#: templates/myaccount/bookings-table.php:20
+#: views/calendar/html-booking-calendar-single-booking-data.php:69
+#: views/metaboxes/html-booking-meta-data.php:219
+#: views/product-tabs/utility/html-availability-rule-date-range.php:43
+#: views/product-tabs/utility/html-price-rule-condition.php:134
+msgid "To"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:183
+#: includes/class-yith-wcbk-language.php:105
+#: views/calendar/html-booking-calendar-single-booking-data.php:60
+#: views/metaboxes/html-booking-meta-data.php:198
+#: views/metaboxes/html-order-related-bookings.php:33
+msgid "Duration"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:184
+#: includes/class-yith-wcbk-language.php:111
+#: includes/class-yith-wcbk-post-types.php:155
+#: includes/class-yith-wcbk-post-types.php:156
+#: views/calendar/html-booking-calendar-single-booking-data.php:104
+#: views/metaboxes/html-booking-meta-data.php:250
+#: views/metaboxes/html-order-related-bookings.php:48
+#: views/metaboxes/html-search-form-metabox.php:63
+#: views/product-tabs/utility/html-price-rule-condition.php:39
+msgid "People"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:185
+#: views/metaboxes/html-booking-meta-data.php:172
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:186
+#: includes/class-yith-wcbk-google-calendar.php:723
+#: templates/booking/booking-details.php:25
+#: templates/booking/pdf/booking-details.php:20
+#: templates/emails/email-booking-details.php:121
+#: templates/emails/plain/email-booking-details.php:74
+#: templates/myaccount/bookings-table.php:21
+#: views/calendar/html-booking-calendar-single-booking-data.php:39
+#: views/metaboxes/html-order-related-bookings.php:41
+msgid "Status"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:195
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:131
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:134
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:94
+#: includes/class-yith-wcbk-service-tax-admin.php:93
+#: views/settings-tabs/html-google-calendar.php:175
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:211
+msgid "Export to CSV"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:212
+msgid "Export to ICS"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:304
+#: views/calendar/html-booking-calendar-action-bar.php:94
+msgid "Filter by date"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:591
+msgctxt "Booking status action"
+msgid "Set as paid"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:598
+msgctxt "Booking status action"
+msgid "Complete"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:605
+msgctxt "Booking status action"
+msgid "Confirm"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:611
+msgctxt "Booking status action"
+msgid "Reject"
+msgstr ""
+
+#. translators: %s: human-readable time difference.
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:642
+msgid "%s ago"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:666
+#: views/metaboxes/html-booking-meta-actions.php:18
+msgid "Admin PDF"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:670
+#: views/metaboxes/html-booking-meta-actions.php:17
+msgid "Customer PDF"
+msgstr ""
+
+#. translators: %s is the title of the booking including its ID (ex: #123 Amsterdam Room).
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:675
+msgid "Are you sure you want to move the booking \"%s\" to trash?"
+msgstr ""
+
+#. translators: %s is the title of the booking including its ID (ex: #123 Amsterdam Room).
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:677
+msgid "Are you sure you want to delete the booking \"%s\"?"
+msgstr ""
+
+#. translators: %s is the title of the booking including its ID (ex: #123 Amsterdam Room).
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:677
+msgid "This action cannot be undone and you will be not able to recover this data."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:784
+msgid "Upcoming"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:785
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:803
+msgid "All"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:854
+msgid "No bookings found for the selected filters!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:862
+msgid "You have no new bookings for now."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-booking-post-type-admin.php:863
+msgid "Don't worry, upcoming bookings will appear here!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:72
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:72
+#: views/product-tabs/utility/html-imported-calendars.php:15
+#: views/taxonomies/service/wpml/html-add-service.php:27
+#: views/taxonomies/service/wpml/html-edit-service.php:40
+msgid "Name"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:75
+msgid "Enter a name to identify the extra cost."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:78
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:81
+#: views/calendar/html-booking-calendar-single-booking-data.php:125
+#: views/product-tabs/utility/html-add-service.php:32
+#: views/settings-tabs/html-logs.php:160
+#: views/taxonomies/service/wpml/html-add-service.php:34
+#: views/taxonomies/service/wpml/html-edit-service.php:51
+msgid "Description"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:81
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:84
+msgid "Enter a description."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:106
+msgid "You have no cost yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-extra-cost-post-type-admin.php:154
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:157
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:126
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:75
+msgid "Enter a name to identify the person type."
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-person-type-post-type-admin.php:109
+msgid "You have no person yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:63
+msgid "You have no search form yet!"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:65
+msgctxt "Button text"
+msgid "Create search form"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:92
+msgid "Form name"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:93
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:177
+#: includes/class-yith-wcbk-post-types.php:190
+msgid "Search form"
+msgstr ""
+
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:199
+#: includes/admin/post-types/class-yith-wcbk-search-form-post-type-admin.php:215
+msgid "Options"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:60
+msgid "Are you sure you want to delete logs?"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:61
+#: views/product-tabs/utility/html-availability-rule.php:40
+#: views/product-tabs/utility/html-price-rule.php:59
+msgid "Untitled"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:62
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:63
+msgid "Copied!"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:66
+msgctxt "Popup title"
+msgid "Create Booking"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:67
+msgctxt "Theme"
+msgid "Installation failed!"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:68
+#: plugin-options/settings/general-settings-options.php:169
+msgctxt "Theme"
+msgid "Install"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:69
+msgctxt "Theme"
+msgid "Installed!"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:70
+msgctxt "Theme"
+msgid "Installing..."
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:71
+#: plugin-options/settings/general-settings-options.php:196
+msgctxt "Theme"
+msgid "Activate"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:72
+#: plugin-options/settings/general-settings-options.php:179
+msgctxt "Theme"
+msgid "Network enable"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:73
+msgctxt "Theme"
+msgid "Enabling..."
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:74
+msgctxt "Theme"
+msgid "Enabled"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-admin-assets.php:173
+msgid "Are you sure you want to delete this note? This action cannot be undone."
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:189
+msgid "Select people"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:190
+msgid "1 person"
+msgstr ""
+
+#. translators: %s is the number of persons.
+#: includes/assets/class-yith-wcbk-common-assets.php:192
+msgid "%s persons"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:204
+msgid "Clear"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:221
+msgid "Choose a duration"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:222
+msgid "Select a date"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:223
+msgid "Select a date to choose the time"
+msgstr ""
+
+#: includes/assets/class-yith-wcbk-common-assets.php:224
+#: includes/class-yith-wcbk-ajax.php:476
+#: templates/single-product/add-to-cart/booking-form/dates/time.php:24
+msgid "Select Time"
+msgstr ""
+
+#. translators: %s is the minimum number of people.
+#. translators: %s is the minimum number of people.
+#: includes/assets/class-yith-wcbk-common-assets.php:226
+#: includes/objects/class-wc-product-booking.php:1978
+msgid "Minimum people: %s"
+msgstr ""
+
+#. translators: %s is the maximum number of people.
+#. translators: %s is the maximum number of people.
+#: includes/assets/class-yith-wcbk-common-assets.php:228
+#: includes/objects/class-wc-product-booking.php:1984
+msgid "Maximum people: %s"
+msgstr ""
+
+#. translators: %s is the minimum duration.
+#: includes/assets/class-yith-wcbk-common-assets.php:230
+msgid "Minimum duration: %s"
+msgstr ""
+
+#. translators: %s is the maximum duration.
+#: includes/assets/class-yith-wcbk-common-assets.php:232
+msgid "Maximum duration: %s"
+msgstr ""
+
+#: includes/background-process/class-yith-wcbk-background-process-google-calendar-sync.php:35
+#: includes/background-process/class-yith-wcbk-background-process-google-calendar-sync.php:36
+msgid "Google Calendar Sync - your bookable products are being synchronized in the background."
+msgstr ""
+
+#: includes/background-process/class-yith-wcbk-background-process-google-calendar-sync.php:37
+msgid "Google Calendar Sync - synchronization completed!"
+msgstr ""
+
+#: includes/builders/gutenberg/render/class-yith-wcbk-booking-products-block.php:309
+msgid "There are no bookable products to show!"
+msgstr ""
+
+#: includes/builders/gutenberg/render/class-yith-wcbk-booking-products-block.php:315
+msgid "There are no top-rated bookable products to show!"
+msgstr ""
+
+#: includes/builders/gutenberg/render/class-yith-wcbk-booking-products-block.php:320
+msgid "Select products to be shown in the block settings."
+msgstr ""
+
+#: includes/builders/gutenberg/render/class-yith-wcbk-booking-products-block.php:325
+msgid "There are no bookable products in the categories you selected!"
+msgstr ""
+
+#: includes/builders/gutenberg/render/class-yith-wcbk-booking-products-block.php:328
+msgid "Select product categories in the block settings."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: includes/class-yith-wcbk-admin-notices.php:50
+msgid "%s is updating bookable product prices in the background."
+msgstr ""
+
+#: includes/class-yith-wcbk-admin-notices.php:53
+msgid "It will take a few minutes and this notice will disappear when completed."
+msgstr ""
+
+#: includes/class-yith-wcbk-admin-notices.php:55
+#: includes/class-yith-wcbk-admin-notices.php:74
+#: plugin-options/tools/tools-options.php:118
+#: plugin-options/tools/tools-options.php:127
+msgid "View progress"
+msgstr ""
+
+#: includes/class-yith-wcbk-admin-notices.php:60
+msgid "You don't have any bookable product in your store."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: includes/class-yith-wcbk-admin-notices.php:69
+msgid "%s is updating booking data in background."
+msgstr ""
+
+#: includes/class-yith-wcbk-admin-notices.php:72
+msgid "It will take a few minutes and this notice will disappear when complete."
+msgstr ""
+
+#: includes/class-yith-wcbk-admin.php:217
+msgctxt "Settings tab name"
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-yith-wcbk-admin.php:218
+#: views/product-tabs/html-settings-tab.php:27
+msgctxt "Settings tab name"
+msgid "Settings"
+msgstr ""
+
+#: includes/class-yith-wcbk-admin.php:219
+#: views/product-tabs/html-services-tab.php:29
+#: views/product-tabs/utility/html-people-types.php:32
+msgctxt "Settings tab name"
+msgid "Configuration"
+msgstr ""
+
+#: includes/class-yith-wcbk-admin.php:220
+#: plugin-options/tools-options.php:16
+msgctxt "Settings tab name"
+msgid "Tools"
+msgstr ""
+
+#: includes/class-yith-wcbk-admin.php:221
+msgctxt "Settings tab name"
+msgid "Integrations"
+msgstr ""
+
+#: includes/class-yith-wcbk-ajax.php:91
+#: views/metaboxes/html-booking-meta-notes.php:31
+msgid "Delete note"
+msgstr ""
+
+#: includes/class-yith-wcbk-ajax.php:261
+msgid "No booking available for this search"
+msgstr ""
+
+#: includes/class-yith-wcbk-ajax.php:359
+#: includes/class-yith-wcbk-ajax.php:463
+#: includes/class-yith-wcbk-ajax.php:524
+msgctxt "Error"
+msgid "Required POST variable not set"
+msgstr ""
+
+#: includes/class-yith-wcbk-ajax.php:440
+#: includes/class-yith-wcbk-ajax.php:502
+#: includes/class-yith-wcbk-ajax.php:555
+msgctxt "Error"
+msgid "Product not found"
+msgstr ""
+
+#: includes/class-yith-wcbk-ajax.php:496
+msgid "No time available"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:378
+msgid "2 hours"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:379
+msgid "6 hours"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:380
+msgid "12 hours"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:381
+msgid "1 day"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:382
+msgid "2 days"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:383
+msgid "7 days"
+msgstr ""
+
+#: includes/class-yith-wcbk-booking-externals.php:384
+msgid "1 month"
+msgstr ""
+
+#. translators: %s is the product link.
+#: includes/class-yith-wcbk-cart.php:238
+msgid "There was an error in the request, please try again: %s"
+msgstr ""
+
+#. translators: 1. the product name; 2. list of reasons why the product is not available.
+#: includes/class-yith-wcbk-cart.php:257
+msgid "%1$s is not available: %2$s"
+msgstr ""
+
+#. translators: %s is the product name.
+#: includes/class-yith-wcbk-cart.php:260
+msgid "%s is not available"
+msgstr ""
+
+#. translators: %s is the minimum number of people.
+#: includes/class-yith-wcbk-cart.php:270
+msgid "Minimum number of people: %s"
+msgstr ""
+
+#. translators: %s is the maximum number of people.
+#: includes/class-yith-wcbk-cart.php:276
+msgid "Maximum number of people: %s"
+msgstr ""
+
+#. translators: 1. person type name; 2. minimum number of people.
+#: includes/class-yith-wcbk-cart.php:292
+msgid "Minimum number for \"%1$s\": %2$s"
+msgstr ""
+
+#. translators: 1. person type name; 2. maximum number of people.
+#: includes/class-yith-wcbk-cart.php:298
+msgid "Maximum number for \"%1$s\": %2$s"
+msgstr ""
+
+#. translators: %s is the number of available people remained.
+#. translators: %s is the remaining people number.
+#: includes/class-yith-wcbk-cart.php:324
+#: includes/objects/class-wc-product-booking.php:2062
+msgid "Too many people selected (%s remaining)"
+msgstr ""
+
+#. translators: %s is the number of available bookings.
+#. translators: %s is the remaining quantity.
+#: includes/class-yith-wcbk-cart.php:327
+#: includes/objects/class-wc-product-booking.php:2065
+msgid "(%s remaining)"
+msgstr ""
+
+#. translators: 1. the product name; 2. additional details about availability.
+#: includes/class-yith-wcbk-cart.php:338
+msgid "You cannot add another &quot;%1$s&quot; to your cart in the dates you selected. %2$s"
+msgstr ""
+
+#. translators: %s is the product name (with link).
+#. translators: %s is the product name (with link).
+#: includes/class-yith-wcbk-cart.php:530
+#: includes/class-yith-wcbk-cart.php:565
+msgid "%s has been removed from your cart because it can no longer be booked."
+msgstr ""
+
+#: includes/class-yith-wcbk-cart.php:696
+#: plugin-options/settings/booking-forms-options.php:200
+#: templates/single-product/add-to-cart/booking-form/totals.php:13
+msgid "Totals"
+msgstr ""
+
+#. translators: %s is the number of days.
+#: includes/class-yith-wcbk-cron.php:100
+msgid "Automatically reject booking after %d day(s) from creating"
+msgstr ""
+
+#. translators: %s is the number of days.
+#: includes/class-yith-wcbk-cron.php:139
+msgid "Automatically complete booking after %d day(s) from End Date"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:73
+msgid "Booking endpoints"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:78
+#: includes/class-yith-wcbk-endpoints.php:147
+#: includes/class-yith-wcbk-endpoints.php:215
+msgid "Bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:79
+msgid "Endpoint for the My Account &rarr; Bookings page"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:86
+msgid "View booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:87
+msgid "Endpoint for the My Account &rarr; View Booking page"
+msgstr ""
+
+#. translators: %s is the page number.
+#: includes/class-yith-wcbk-endpoints.php:213
+msgid "Bookings (page %d)"
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:278
+#: includes/objects/data-stores/class-yith-wcbk-booking-data-store.php:140
+msgid "Invalid booking."
+msgstr ""
+
+#: includes/class-yith-wcbk-endpoints.php:278
+msgid "View your bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:54
+msgid "You must log in before asking for a booking confirmation"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:57
+msgid "Log in"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:104
+msgid "Request for booking confirmation sent"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:106
+msgid "Error in requesting booking confirmation"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:134
+msgid "This booking cannot be cancelled. Contact us for more info"
+msgstr ""
+
+#. translators: %s is the booking title (including the booking ID).
+#: includes/class-yith-wcbk-frontend-action-handler.php:143
+msgid "Booking %s cancelled"
+msgstr ""
+
+#. translators: %s is the booking title (including the booking ID).
+#: includes/class-yith-wcbk-frontend-action-handler.php:146
+msgid "Booking %s not cancelled"
+msgstr ""
+
+#: includes/class-yith-wcbk-frontend-action-handler.php:177
+msgid "This booking cannot be paid. Contact us for more info"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:85
+msgid "Google Calendar Sync"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:102
+#: views/metaboxes/html-booking-meta-actions.php:26
+msgid "not synchronized"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:106
+#: views/metaboxes/html-booking-meta-actions.php:30
+msgid "synchronized"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:239
+msgid "Google Calendar: event successfully created"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:243
+msgid "Google Calendar: event successfully updated"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar-sync.php:271
+msgid "Google Calendar: event successfully deleted"
+msgstr ""
+
+#: includes/class-yith-wcbk-google-calendar.php:675
+#: includes/class-yith-wcbk-post-types.php:119
+#: includes/class-yith-wcbk-post-types.php:120
+msgid "View Booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:96
+msgctxt "Text of add-to-cart-button for bookable products"
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:97
+msgid "Additional Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:98
+#: views/product-tabs/utility/html-availability.php:58
+msgid "Bookable"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:99
+#: includes/class-yith-wcbk-post-types.php:285
+#: includes/class-yith-wcbk-post-types.php:287
+#: includes/class-yith-wcbk-product-post-type-admin.php:196
+#: views/metaboxes/html-booking-meta-data.php:280
+msgid "Booking Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:100
+msgid "Booking of:"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:101
+msgid "Check-in"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:102
+msgid "Check-out"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:103
+#: views/metaboxes/html-order-related-bookings.php:37
+#: views/metaboxes/html-search-form-metabox.php:50
+msgid "Dates"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:104
+msgid "Distance (Km)"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:106
+msgid "End date"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:108
+msgid "Included Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:109
+#: views/calendar/html-booking-calendar-single-booking-data.php:126
+#: views/metaboxes/html-search-form-metabox.php:29
+#: views/product-tabs/html-settings-tab.php:185
+msgid "Location"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:110
+msgid "Not-bookable"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:112
+msgctxt "Add-to-cart button text for bookable products"
+msgid "Read more"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:113
+msgctxt "Add-to-cart button text for bookable products"
+msgid "Request Confirmation"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:114
+msgid "Start date"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:115
+#: includes/objects/class-wc-product-booking.php:2607
+#: views/calendar/html-booking-calendar-single-booking-data.php:115
+#: views/metaboxes/html-order-related-bookings.php:74
+#: views/metaboxes/html-search-form-metabox.php:77
+#: views/product-tabs/html-services-tab.php:21
+msgid "Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:116
+msgid "Time"
+msgstr ""
+
+#: includes/class-yith-wcbk-language.php:118
+msgid "Total people"
+msgstr ""
+
+#: includes/class-yith-wcbk-orders.php:73
+#: includes/class-yith-wcbk-orders.php:193
+msgid "Related Bookings"
+msgstr ""
+
+#. translators: %s is the order ID (with link).
+#: includes/class-yith-wcbk-orders.php:119
+msgid "Reason: order %s has been resumed (probably due to a failed payment)."
+msgstr ""
+
+#. translators: %s a comma-separated list of booking products.
+#: includes/class-yith-wcbk-orders.php:160
+msgid "You are trying to add the following Bookable Products to the order: %s. You cannot add Bookable products to orders through this box. To do it, please use the Create Booking page in Bookings menu"
+msgstr ""
+
+#. translators: 1. is the URL of the booking edit page; 2. is the booking ID.
+#: includes/class-yith-wcbk-orders.php:479
+msgid "A new booking <a href=\"%1$s\">#%2$s</a> has been created from this order"
+msgstr ""
+
+#. translators: 1. is the URL of the booking edit page; 2. is the booking ID.
+#: includes/class-yith-wcbk-orders.php:495
+msgid "Booking associated to order <a href=\"%1$s\">#%2$s</a>"
+msgstr ""
+
+#. translators: %s is the order ID (with link).
+#: includes/class-yith-wcbk-orders.php:547
+msgid "Reason: order %s has been cancelled."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:112
+#: includes/class-yith-wcbk-post-types.php:126
+msgid "All Bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:114
+msgid "Add Booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:115
+msgid "Add New Booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:116
+msgid "Edit"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:117
+msgid "Edit Booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:118
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:28
+#: includes/emails/class-yith-wcbk-email-customer-new-booking.php:24
+#: includes/emails/class-yith-wcbk-email-customer-new-booking.php:26
+#: includes/emails/class-yith-wcbk-email-vendor-new-booking.php:27
+msgid "New Booking"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:121
+msgid "Search Bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:122
+msgid "No bookings found"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:123
+msgid "No bookings found in trash"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:124
+msgid "Parent Bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:125
+#: includes/legacy/class-yith-wcbk-legacy-elements.php:41
+#: includes/legacy/class-yith-wcbk-legacy-elements.php:42
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:132
+msgid "This is where bookings are stored."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:154
+msgctxt "Admin menu name"
+msgid "People"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:157
+msgid "Person"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:158
+msgid "Add new type"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:159
+msgid "New type"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:160
+msgid "Edit type"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:161
+msgid "View this type"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:162
+msgid "Search person type"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:163
+msgid "Type not found"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:164
+msgid "Type not found in trash"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:187
+msgctxt "Admin menu name"
+msgid "Search Forms"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:188
+#: includes/class-yith-wcbk-post-types.php:189
+msgid "Search Forms"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:191
+msgid "Add search form"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:192
+msgid "New search form"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:193
+msgid "Edit search form"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:194
+msgid "View search form"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:195
+msgctxt "Search label for \"search forms\""
+msgid "Search"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:196
+msgid "Search form not found"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:197
+msgid "Search form not found in trash"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:220
+msgctxt "Admin menu name"
+msgid "Extra Costs"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:221
+#: includes/class-yith-wcbk-post-types.php:222
+#: views/product-tabs/html-costs-tab.php:187
+msgid "Extra Costs"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:223
+msgid "Extra Cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:224
+msgid "Add New Extra Cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:225
+msgid "New Extra Cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:226
+msgid "Edit Extra Cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:227
+msgid "View this extra cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:228
+msgid "Search extra cost"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:229
+msgid "Extra cost not found"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:230
+msgid "Extra cost not found in trash"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:288
+msgid "Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:289
+msgctxt "Admin menu name"
+msgid "Booking Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:290
+msgid "All Booking Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:291
+msgid "Edit Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:292
+msgid "View Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:293
+msgid "Update Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:294
+msgid "Add New Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:295
+msgid "New Booking Service Name"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:296
+msgid "Parent Booking Service"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:297
+msgid "Parent Booking Service:"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:298
+msgid "Search Booking Services"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:299
+msgid "Separate booking services with commas"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:300
+msgid "Add or remove booking services"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:301
+msgid "Choose among the most popular booking services"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:302
+msgid "No booking service found."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:557
+msgid "Something went wrong. Try again!"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:572
+msgid "Person type name"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:573
+msgid "Extra cost name"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:574
+msgid "Search form name"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:589
+msgid "Enter a name to identify this person type."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:590
+msgid "Enter a name to identify this extra cost."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:591
+msgid "Enter a name to identify this search form."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:623
+msgctxt "Save button"
+msgid "Save"
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:639
+#: includes/class-yith-wcbk-post-types.php:640
+msgid "Booking updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:641
+msgid "Booking saved."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:645
+#: includes/class-yith-wcbk-post-types.php:646
+msgid "Person type updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:647
+msgid "Person type published."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:648
+msgid "Person type saved."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:649
+msgid "Person type submitted."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:650
+msgid "Person type draft updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:654
+#: includes/class-yith-wcbk-post-types.php:655
+msgid "Extra cost updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:656
+msgid "Extra cost published."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:657
+msgid "Extra cost saved."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:658
+msgid "Extra cost submitted."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:659
+msgid "Extra cost draft updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:663
+#: includes/class-yith-wcbk-post-types.php:664
+msgid "Search form updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:665
+msgid "Search form published."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:666
+msgid "Search form saved."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:667
+msgid "Search form submitted."
+msgstr ""
+
+#: includes/class-yith-wcbk-post-types.php:668
+msgid "Search form draft updated."
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:105
+msgid "Export Future ICS"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:109
+msgid "Booking Calendar"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:172
+#: views/product-tabs/html-settings-tab.php:37
+msgid "Booking Settings"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:178
+msgid "Booking Costs"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:184
+msgid "Booking Availability"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:190
+#: views/metaboxes/html-booking-meta-data.php:248
+msgid "Booking People"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:202
+#: views/product-tabs/html-sync-tab.php:18
+msgid "Booking Sync"
+msgstr ""
+
+#: includes/class-yith-wcbk-product-post-type-admin.php:222
+msgctxt "Admin: type of product"
+msgid "Bookable Product"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:88
+#: includes/class-yith-wcbk-service-tax-admin.php:222
+#: templates/single-product/add-to-cart/booking-form/price.php:15
+msgid "Price"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:226
+msgid "Select the price for this service."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:230
+msgid "Set as optional - Let customers choose to add it or not"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:231
+msgid "Set as optional"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:234
+msgid "Select if this service is optional (let customers choose to add it or not)."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:237
+msgid "Hide to customers"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:240
+msgid "Select if you want to hide this service to customers."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:243
+msgid "Hide in booking search forms"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:246
+msgid "Select if you want to hide this service to customers in Booking Search Forms."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:253
+msgid "Multiply cost by units selected"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:256
+msgid "Select if you want to multiply the cost of this service by the number of units selected."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:259
+msgid "Multiply cost by people"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:262
+msgid "Select if you want to multiply the cost of this service by the number of people selected."
+msgstr ""
+
+#. translators: %s is the person type. Ex: Price for Children.
+#: includes/class-yith-wcbk-service-tax-admin.php:272
+msgctxt "Price for person type"
+msgid "Price for %s"
+msgstr ""
+
+#. translators: %s is the person type.
+#: includes/class-yith-wcbk-service-tax-admin.php:278
+msgid "Select this service price for %s. Leave empty to use default price"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:290
+msgid "Show quantity selector"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:293
+msgid "Select if you want to allow a quantity selection for this service."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:296
+msgid "Min quantity"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:299
+msgid "Choose the minimum quantity for this service."
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:307
+msgid "Max quantity"
+msgstr ""
+
+#: includes/class-yith-wcbk-service-tax-admin.php:310
+msgid "Choose the maximum quantity for this service. Leave empty for unlimited"
+msgstr ""
+
+#: includes/class-yith-wcbk-theme.php:40
+msgid "Something went wrong! Please try again."
+msgstr ""
+
+#. translators: %s is the theme name.
+#: includes/class-yith-wcbk-theme.php:60
+msgid "Error: \"%s\" doesn't exist!"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:26
+msgid "New Booking (Admin)"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:27
+msgid "This email is sent to the admin when a booking is created."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:29
+#: includes/emails/class-yith-wcbk-email-customer-new-booking.php:27
+#: includes/emails/class-yith-wcbk-email-vendor-new-booking.php:28
+msgid "Booking #{booking_id} created"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:37
+msgid ""
+"Hi Admin,\n"
+"\n"
+"Great news! There is a new booking for the item \"{product_name}\"\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:58
+#: includes/emails/class-yith-wcbk-email-booking-status.php:61
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s is the default value.
+#. translators: %s is the default recipient.
+#: includes/emails/class-yith-wcbk-email-admin-new-booking.php:62
+#: includes/emails/class-yith-wcbk-email-booking-status.php:65
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:25
+msgid "Booking status (Vendor)"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:26
+msgid "This email is sent to the vendor when a booking's status changes."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:27
+#: includes/emails/class-yith-wcbk-email-booking-status.php:26
+msgid "Booking status changed"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:28
+#: includes/emails/class-yith-wcbk-email-booking-status.php:27
+msgid "Booking #{booking_id} is now {status}"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:31
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"the booking {booking_id_link} is now <strong>{status}</strong>!\n"
+"\n"
+"{booking_details}"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:78
+#: includes/emails/class-yith-wcbk-email-booking-status.php:79
+msgid "Send email for these statuses"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status-vendor.php:80
+#: includes/emails/class-yith-wcbk-email-booking-status.php:81
+msgid "Choose on which status(es) this email notification should be sent."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status.php:24
+msgid "Booking status"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-booking-status.php:25
+msgid "This email is sent to the administrator when a booking's status changes."
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-booking-status.php:36
+msgid ""
+"Hi Admin,\n"
+"\n"
+"The booking {booking_id_link} is now <strong>{status}</strong>!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-booking-note.php:33
+msgid "Customer Booking Note"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-booking-note.php:34
+msgid "Customer Booking Note emails are sent when you add a note to a booking."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-booking-note.php:35
+msgid "A note has been added to your Booking #{booking_id}"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-booking-note.php:36
+msgid "Note added to your Booking #{booking_id}"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-booking-note.php:41
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"a note has just been added to your booking {booking_id_link}:\n"
+"\n"
+"{note}\n"
+"\n"
+"For your reference, your booking details are shown below.\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-cancelled-booking.php:25
+msgid "Cancelled booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-cancelled-booking.php:26
+msgid "This email is sent to customers when a booking is cancelled."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-cancelled-booking.php:27
+msgid "Cancelled Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-cancelled-booking.php:28
+msgid "Booking #{booking_id} was cancelled"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-cancelled-booking.php:33
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"Your booking {booking_id_link} was cancelled!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-completed-booking.php:26
+msgid "Completed Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-completed-booking.php:27
+msgid "This email is sent to customers when a booking is completed."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-completed-booking.php:28
+msgid "Thanks for your Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-completed-booking.php:29
+msgid "Booking #{booking_id} was completed"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-completed-booking.php:34
+msgid ""
+"Hi {customer_name}, \n"
+"\n"
+"Your booking {booking_id_link} was completed!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-confirmed-booking.php:24
+#: includes/emails/class-yith-wcbk-email-customer-confirmed-booking.php:26
+msgid "Confirmed Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-confirmed-booking.php:25
+msgid "This email is sent to customers when a booking is confirmed."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-confirmed-booking.php:27
+msgid "Booking #{booking_id} is now confirmed"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-confirmed-booking.php:32
+msgid ""
+"Hi {customer_name}, \n"
+"\n"
+"Your booking {booking_id_link} was confirmed!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-new-booking.php:25
+msgid "This email is sent to the customer when a booking is created."
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-new-booking.php:32
+msgid ""
+"Hi {customer_name}, \n"
+"\n"
+"Great news! Your booking {booking_id_link} has been created and it's now <strong>{status}<strong>\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-paid-booking.php:25
+#: includes/emails/class-yith-wcbk-email-customer-paid-booking.php:27
+msgid "Paid Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-paid-booking.php:26
+msgid "This email is sent to customers when a booking is paid."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-paid-booking.php:28
+msgid "Booking #{booking_id} is now paid"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-paid-booking.php:33
+msgid ""
+"Hi {customer_name}, \n"
+"\n"
+"Your booking {booking_id_link} is now paid!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-unconfirmed-booking.php:24
+#: includes/emails/class-yith-wcbk-email-customer-unconfirmed-booking.php:26
+msgid "Rejected Booking"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-unconfirmed-booking.php:25
+msgid "This email is sent to the customer when a booking is not confirmed."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-customer-unconfirmed-booking.php:27
+msgid "Booking #{booking_id} was rejected"
+msgstr ""
+
+#. translators: %s is the site name.
+#: includes/emails/class-yith-wcbk-email-customer-unconfirmed-booking.php:32
+msgid ""
+"Hi {customer_name}, \n"
+"\n"
+"Your booking {booking_id_link} was rejected!\n"
+"\n"
+"{booking_details}\n"
+"\n"
+"Regards,\n"
+"%s Staff"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-vendor-new-booking.php:25
+msgid "New Booking (Vendor)"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-vendor-new-booking.php:26
+msgid "This email is sent to the vendor when a booking is created."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email-vendor-new-booking.php:30
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"Great news! There is a new booking for the item \"{product_name}\"\n"
+"\n"
+"{booking_details}"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:297
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:299
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:303
+msgid "Subject"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:305
+msgid "This controls the email subject line. Leave blank to use the default subject."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:311
+msgid "Email Heading"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:313
+msgid "This controls the main heading in the email notification. Leave blank to use the default heading."
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:319
+msgctxt "Email message title"
+msgid "Message"
+msgstr ""
+
+#. translators: %s is a comma-separated list of the available placeholders.
+#: includes/emails/class-yith-wcbk-email.php:326
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:332
+msgid "Email type"
+msgstr ""
+
+#: includes/emails/class-yith-wcbk-email.php:334
+msgid "Choose which email format to send."
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:22
+msgctxt "Booking Status"
+msgid "Unpaid"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:23
+msgctxt "Booking Status"
+msgid "Paid"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:24
+msgctxt "Booking Status"
+msgid "Completed"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:25
+msgctxt "Booking Status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:26
+msgctxt "Booking Status"
+msgid "Pending"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:27
+msgctxt "Booking Status"
+msgid "Confirmed"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:28
+msgctxt "Booking Status"
+msgid "Rejected"
+msgstr ""
+
+#: includes/functions.yith-wcbk-booking.php:33
+msgctxt "Booking Status"
+msgid "Cancelled by customer"
+msgstr ""
+
+#. translators: %s is the number of months.
+#: includes/functions.yith-wcbk-core.php:21
+#: includes/functions.yith-wcbk-labels.php:168
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of days.
+#: includes/functions.yith-wcbk-core.php:22
+#: includes/functions.yith-wcbk-labels.php:172
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of hours.
+#: includes/functions.yith-wcbk-core.php:23
+#: includes/functions.yith-wcbk-labels.php:174
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of minutes.
+#: includes/functions.yith-wcbk-core.php:24
+#: includes/functions.yith-wcbk-labels.php:176
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.yith-wcbk-core.php:40
+#: views/product-tabs/html-availability-tab.php:360
+#: views/product-tabs/html-availability-tab.php:396
+#: views/product-tabs/html-settings-tab.php:90
+msgid "Day(s)"
+msgstr ""
+
+#: includes/functions.yith-wcbk-core.php:41
+#: views/product-tabs/html-availability-tab.php:359
+#: views/product-tabs/html-availability-tab.php:395
+#: views/product-tabs/html-settings-tab.php:89
+msgid "Month(s)"
+msgstr ""
+
+#: includes/functions.yith-wcbk-core.php:507
+#: views/create-booking.php:34
+msgid "Guest"
+msgstr ""
+
+#. translators: 1. order number with link; 2. user name.
+#: includes/functions.yith-wcbk-core.php:512
+msgctxt "Order number by X"
+msgid "%1$s by %2$s"
+msgstr ""
+
+#. translators: %s is the order ID.
+#: includes/functions.yith-wcbk-core.php:527
+msgctxt "Deleted Order:#123 (deleted)"
+msgid "#%s (deleted)"
+msgstr ""
+
+#. translators: %d is the number of the week: ex. Week 15.
+#: includes/functions.yith-wcbk-dates.php:21
+msgid "Week %d"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:39
+msgid "January"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:40
+msgid "February"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:41
+msgid "March"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:42
+msgid "April"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:43
+msgid "May"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:44
+msgid "June"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:45
+msgid "July"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:46
+msgid "August"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:47
+msgid "September"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:48
+msgid "October"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:49
+msgid "November"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:50
+msgid "December"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:86
+msgctxt "Short day name"
+msgid "Mon"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:87
+msgctxt "Short day name"
+msgid "Tue"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:88
+msgctxt "Short day name"
+msgid "Wed"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:89
+msgctxt "Short day name"
+msgid "Thu"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:90
+msgctxt "Short day name"
+msgid "Fri"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:91
+msgctxt "Short day name"
+msgid "Sat"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:92
+msgctxt "Short day name"
+msgid "Sun"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:96
+msgid "Monday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:97
+msgid "Tuesday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:98
+msgid "Wednesday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:99
+msgid "Thursday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:100
+msgid "Friday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:101
+msgid "Saturday"
+msgstr ""
+
+#: includes/functions.yith-wcbk-dates.php:102
+msgid "Sunday"
+msgstr ""
+
+#. translators: %s is the number of months.
+#: includes/functions.yith-wcbk-labels.php:140
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of weeks.
+#: includes/functions.yith-wcbk-labels.php:142
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of days.
+#: includes/functions.yith-wcbk-labels.php:144
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of hours.
+#: includes/functions.yith-wcbk-labels.php:146
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of minutes.
+#: includes/functions.yith-wcbk-labels.php:148
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of seconds.
+#: includes/functions.yith-wcbk-labels.php:150
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of months.
+#: includes/functions.yith-wcbk-labels.php:154
+msgid "month(s)"
+msgid_plural "&times; %s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of weeks.
+#: includes/functions.yith-wcbk-labels.php:156
+msgid "week(s)"
+msgid_plural "&times; %s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of days.
+#: includes/functions.yith-wcbk-labels.php:158
+msgid "day(s)"
+msgid_plural "&times; %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of hours.
+#: includes/functions.yith-wcbk-labels.php:160
+msgid "hour(s)"
+msgid_plural "&times; %s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of minutes.
+#: includes/functions.yith-wcbk-labels.php:162
+msgid "minute(s)"
+msgid_plural "&times; %s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of seconds.
+#: includes/functions.yith-wcbk-labels.php:164
+msgid "second(s)"
+msgid_plural "&times; %s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of weeks.
+#: includes/functions.yith-wcbk-labels.php:170
+msgid "week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of seconds.
+#: includes/functions.yith-wcbk-labels.php:178
+msgid "second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the number of 'seats' left.
+#: includes/functions.yith-wcbk-product.php:83
+msgid "%s left"
+msgstr ""
+
+#: includes/functions.yith-wcbk-product.php:86
+msgid "Non Bookable"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:17
+msgid "Show badges also on bookable products. Show them on product page, shop page and in the booking search popup"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:29
+msgid "Enable Catalog Mode on bookable products"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:41
+msgid "You can allow bookings with deposit/advance payment"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:54
+msgid "You can stylize the Booking email templates"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:66
+msgid "You can allow Vendor to manage their bookings"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:78
+msgid "Allow users to see and pay for bookable products in their own local currency."
+msgstr ""
+
+#: includes/integrations/integrations-list.php:91
+msgid "You can enable quick view on your bookable products"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:103
+msgid "You can allow quote requests on your bookable products"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:115
+msgid "You can send an email to your customers and remember them to leave a review for your bookable products"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:127
+msgid "Stay updated with your bookings: receive and send an SMS to your customers every time a booking status changes."
+msgstr ""
+
+#: includes/integrations/integrations-list.php:139
+msgid "You can create sandbox environments and online test environments"
+msgstr ""
+
+#: includes/integrations/integrations-list.php:154
+msgid "A sleek, modern and \"Gutenberg-friendly\" Free WooCommerce theme."
+msgstr ""
+
+#. translators: %s is the order link.
+#: includes/integrations/plugins/class-yith-wcbk-deposits-integration.php:194
+msgid "Reason: balance order %s has been cancelled."
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:154
+msgctxt "Tab title in plugin settings panel"
+msgid "Bookings"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:155
+msgctxt "Tab title in vendor plugin settings panel"
+msgid "Calendar"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:156
+msgctxt "Tab title in vendor plugin settings panel"
+msgid "Services"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:776
+#: plugin-options/settings/booking-forms-options.php:43
+#: views/product-tabs/html-settings-tab.php:123
+#: views/product-tabs/html-settings-tab.php:162
+msgid "None"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:780
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:845
+msgid "Vendor"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:804
+msgid "Mine"
+msgstr ""
+
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:827
+msgid "Filter by Vendor"
+msgstr ""
+
+#. translators: %s is the vendor name.
+#: includes/integrations/plugins/class-yith-wcbk-multi-vendor-integration.php:875
+msgctxt "Filter by Vendor name"
+msgid "Filter by %s"
+msgstr ""
+
+#: includes/integrations/plugins/wpml/class-yith-wcbk-wpml-services.php:91
+msgid "WPML Languages"
+msgstr ""
+
+#. translators: %s is the comma-separated list of required plugins.
+#. translators: %s is the comma-separated list of required plugins.
+#. translators: %s is the comma-separated list of required plugins.
+#: includes/integrations/themes/class-yith-wcbk-yith-proteo-integration.php:74
+#: includes/integrations/themes/class-yith-wcbk-yith-proteo-integration.php:91
+#: includes/integrations/themes/class-yith-wcbk-yith-proteo-integration.php:108
+msgid "This demo uses the following plugins: %s. Please be sure to enable these plugins prior to proceed."
+msgstr ""
+
+#. translators: 1. plugin version; 2. plugin name; 3. menu name with link.
+#: includes/legacy/class-yith-wcbk-legacy-elements.php:66
+msgid "Since version %1$s of %2$s we moved all booking settings to a new panel that you can find in %3$s, so you can access to all plugin settings from there."
+msgstr ""
+
+#: includes/legacy/class-yith-wcbk-legacy-elements.php:72
+msgid "Go to the new panel"
+msgstr ""
+
+#. translators: %s is the ID of the Booking. Example: Booking #123.
+#: includes/objects/abstract-yith-wcbk-booking.php:47
+msgctxt "Booking name"
+msgid "Booking #%s"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:1914
+msgid "The selected start date has already passed"
+msgstr ""
+
+#. translators: %s is the minimum date.
+#: includes/objects/class-wc-product-booking.php:1927
+msgid "The selected start date is not allowed; you cannot book it before %s"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:1934
+msgid "The selected start day is not allowed"
+msgstr ""
+
+#. translators: %s is the minimum duration.
+#: includes/objects/class-wc-product-booking.php:1946
+msgid "Min duration: %s"
+msgstr ""
+
+#. translators: %s is the maximum duration.
+#: includes/objects/class-wc-product-booking.php:1961
+msgid "Max duration: %s"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:1969
+msgid "The selected duration is not allowed"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:1995
+msgid "The end date is beyond available ones"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2583
+#: plugin-options/settings/customization-options.php:67
+#: views/product-tabs/utility/html-people-type.php:89
+msgid "Base Price"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2587
+#: plugin-options/settings/customization-options.php:68
+#: views/product-tabs/html-costs-tab.php:196
+#: views/product-tabs/utility/html-price-rule.php:212
+msgid "Fixed base fee"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2591
+msgid "Extra price for additional people"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2595
+#: views/product-tabs/html-costs-tab.php:110
+msgid "Weekly discount"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2599
+#: views/product-tabs/html-costs-tab.php:131
+msgid "Monthly discount"
+msgstr ""
+
+#: includes/objects/class-wc-product-booking.php:2603
+#: views/product-tabs/html-costs-tab.php:152
+msgid "Last minute discount"
+msgstr ""
+
+#. translators: %s is the discount percentage.
+#: includes/objects/class-wc-product-booking.php:2710
+msgid "%s%% weekly discount"
+msgstr ""
+
+#. translators: %s is the discount percentage.
+#: includes/objects/class-wc-product-booking.php:2715
+msgid "%s%% monthly discount"
+msgstr ""
+
+#. translators: %s is the Product ID.
+#: includes/objects/class-yith-wcbk-booking-external.php:274
+msgid "External of #%s product"
+msgstr ""
+
+#: includes/objects/class-yith-wcbk-booking-external.php:343
+msgid "External"
+msgstr ""
+
+#: includes/objects/class-yith-wcbk-booking.php:959
+msgid "(All Day)"
+msgstr ""
+
+#: includes/objects/class-yith-wcbk-booking.php:1299
+msgid "by customer"
+msgstr ""
+
+#. translators: 1: old booking status 2: new booking status.
+#: includes/objects/class-yith-wcbk-booking.php:1305
+msgid "Booking status changed from %1$s to %2$s."
+msgstr ""
+
+#. translators: %s: new booking status.
+#: includes/objects/class-yith-wcbk-booking.php:1314
+msgid "Booking status set to %s."
+msgstr ""
+
+#: includes/objects/class-yith-wcbk-booking.php:1330
+msgid "Error during status transition."
+msgstr ""
+
+#. translators: %s is the interval; ex: Starts in 1 month, 12 days.
+#: includes/objects/class-yith-wcbk-booking.php:1493
+msgid "Starts in %s"
+msgstr ""
+
+#. translators: it's related to current bookings, so "in progress" bookings.
+#: includes/objects/class-yith-wcbk-booking.php:1495
+msgid "In progress"
+msgstr ""
+
+#. translators: it's related to past bookings, so "finished" bookings.
+#: includes/objects/class-yith-wcbk-booking.php:1497
+msgid "Finished"
+msgstr ""
+
+#: includes/objects/class-yith-wcbk-service.php:378
+#: includes/objects/class-yith-wcbk-service.php:410
+msgid "Free"
+msgstr ""
+
+#: includes/utils/class-yith-wcbk-exporter.php:62
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/utils/class-yith-wcbk-ics-parser.php:115
+msgctxt "ICS Parser Error"
+msgid "Generic Error"
+msgstr ""
+
+#: includes/utils/class-yith-wcbk-ics-parser.php:116
+msgctxt "ICS Parser Error"
+msgid "ICS file seems to be empty"
+msgstr ""
+
+#: includes/utils/class-yith-wcbk-ics-parser.php:117
+msgctxt "ICS Parser Error"
+msgid "Malformed ICS"
+msgstr ""
+
+#. translators: 1. error number; 2. error message.
+#: includes/utils/class-yith-wcbk-ics-parser.php:122
+msgctxt "ICS Parser Error"
+msgid "Error %1$s: %2$s"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-product-form-widget.php:24
+msgid "Display booking form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-product-form-widget.php:26
+msgctxt "Widget Name"
+msgid "Bookable Product Form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-product-form-widget.php:83
+msgid "The bookable product form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:24
+msgid "Display booking search form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:26
+msgctxt "Widget Name"
+msgid "Booking Search Form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:29
+msgid "Select a search form..."
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:34
+msgctxt "Default title for booking search form widget"
+msgid "Booking Search Form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:35
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:39
+msgid "Search Form"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:45
+msgid "Hide in single product"
+msgstr ""
+
+#: includes/widgets/class-yith-wcbk-search-form-widget.php:109
+msgid "Create search booking form"
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: init.php:109
+msgid "%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/configuration-options.php:16
+#: views/settings-tabs/html-global-availability-rules.php:13
+msgctxt "Tab title in plugin settings panel"
+msgid "Availability rules"
+msgstr ""
+
+#: plugin-options/configuration-options.php:19
+#: views/settings-tabs/html-global-price-rules.php:14
+msgctxt "Tab title in plugin settings panel"
+msgid "Price rules"
+msgstr ""
+
+#: plugin-options/configuration-options.php:22
+#: views/product-tabs/html-services-tab.php:30
+msgctxt "Tab title in plugin settings panel"
+msgid "Services"
+msgstr ""
+
+#: plugin-options/configuration-options.php:25
+#: views/product-tabs/utility/html-people-types.php:33
+msgctxt "Tab title in plugin settings panel"
+msgid "People"
+msgstr ""
+
+#: plugin-options/configuration-options.php:28
+msgctxt "Tab title in plugin settings panel"
+msgid "Costs"
+msgstr ""
+
+#: plugin-options/configuration-options.php:31
+msgctxt "Tab title in plugin settings panel"
+msgid "Search Forms"
+msgstr ""
+
+#: plugin-options/dashboard-options.php:16
+msgctxt "Tab title in plugin settings panel"
+msgid "All Bookings"
+msgstr ""
+
+#: plugin-options/dashboard-options.php:19
+msgctxt "Tab title in plugin settings panel"
+msgid "Calendar"
+msgstr ""
+
+#: plugin-options/integrations-options.php:16
+msgctxt "Settings tab title"
+msgid "Integrations"
+msgstr ""
+
+#: plugin-options/logs-options.php:16
+#: plugin-options/tools-options.php:19
+#: plugin-options/tools/logs-options.php:16
+#: plugin-options/tools/tools-options.php:37
+#: views/settings-tabs/html-google-calendar.php:70
+msgctxt "Settings tab name"
+msgid "Logs"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:14
+msgid "Style"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:17
+msgid "Layout"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:18
+msgid "Choose between a vertical or horizontal layout for the form."
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:21
+msgid "Vertical"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:22
+msgid "Horizontal"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:27
+msgid "Show results in"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:28
+msgid "Select where you want to show results."
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:31
+msgid "Popup"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:32
+msgid "Shop Page"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:37
+#: plugin-options/settings/customization-options.php:133
+msgid "Colors"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:42
+#: plugin-options/meta-boxes/search-form-options.php:58
+msgid "Background"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:47
+#: plugin-options/meta-boxes/search-form-options.php:63
+msgid "Text"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:53
+msgid "Search button colors"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:68
+msgid "Background hover"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:73
+msgid "Text hover"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:79
+msgid "Search button border radius"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:82
+msgid "Top-Left"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:83
+msgid "Top-Right"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:84
+msgid "Bottom-Right"
+msgstr ""
+
+#: plugin-options/meta-boxes/search-form-options.php:85
+msgid "Bottom-Left"
+msgstr ""
+
+#: plugin-options/settings-options.php:16
+#: views/product-tabs/html-settings-tab.php:28
+msgctxt "Tab title in plugin settings panel"
+msgid "General Settings"
+msgstr ""
+
+#: plugin-options/settings-options.php:19
+msgctxt "Tab title in plugin settings panel"
+msgid "Booking Forms"
+msgstr ""
+
+#: plugin-options/settings-options.php:22
+msgctxt "Tab title in plugin settings panel"
+msgid "Calendars"
+msgstr ""
+
+#: plugin-options/settings-options.php:25
+msgctxt "Tab title in plugin settings panel"
+msgid "Cart & Orders"
+msgstr ""
+
+#: plugin-options/settings-options.php:28
+msgctxt "Tab title in plugin settings panel"
+msgid "Customizations"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:13
+msgid "Forms options"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:19
+msgid "Show booking form in bookable product page to"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:22
+msgid "Choose to show the booking form in the product page or hide it to guest users."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:24
+msgid "All users"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:25
+msgid "Only logged-in users"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:31
+msgid "Booking Form Position"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:36
+msgid "Default"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:37
+msgid "Before summary"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:38
+msgid "After title"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:39
+msgid "Before description"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:40
+msgid "After description"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:41
+msgid "After summary"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:42
+msgid "Use Widget"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:49
+msgid "Choose the position of the booking form in Single Product Page."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:50
+msgid "In our live demo, we set it to \"use widget\". Then in \"Appearance > Widgets\" we put the \"Bookable Product Form\" widget into the product page sidebar."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:56
+msgid "Date range picker layout"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:59
+msgid "Choose to show the date pickers as a unique field or as two different fields. In our demo, we use the single line layout."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:61
+msgid "Start and end date in a single line"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:62
+msgid "Start and end date in separate lines"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:68
+msgid "Date range picker columns"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:74
+msgid "Choose the number of columns for calendar range picker fields shown in the Booking form."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:75
+msgid "In our live demo we use the single column layout."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:80
+msgid "Single column"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:81
+msgid "Two columns"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:91
+msgid "Calendar style"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:96
+#: plugin-options/settings/booking-forms-options.php:125
+msgid "Show as dropdown"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:97
+msgid "Show inline in the page"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:102
+msgid "Choose to show the calendar in a dropdown or by embedding it in the page."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:103
+msgid "Please note: this will affect the single date-pickers only; the \"single-line\" date range picker will always be displayed as a dropdown."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:109
+msgid "In calendar load"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:116
+msgid "months"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:117
+msgid "Choose the number of months loaded in calendar. Other ones will be loaded in AJAX to improve performance (Suggested: 3)."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:121
+msgid "People types layout"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:126
+msgid "Show people type fields"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:129
+msgid "Choose to show people types in a dropdown or by listing all people type fields in the Booking form."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:133
+msgid "Columns for people fields"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:136
+msgid "Choose the number of columns for people fields shown in the Booking form."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:147
+msgid "Check min/max duration"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:150
+msgid "If enabled, the plugin considers the minimum and maximum duration to show available dates in the calendar."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:155
+msgid "Update non-available dates on loading (AJAX)"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:158
+msgid "If enabled, the plugin will update non-available dates in the calendar on page loading. You should activate it only if you use plugins to cache product pages."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:163
+msgid "Disable day if no time is available"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:169
+msgid "If enabled, hide days in calendar if no time is available."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:170
+msgid "Please note: enabling this option the calendar will show up to 3 months for hourly bookings and up to 1 month for per-minute bookings."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:177
+msgid "Info to show before \"book\" button"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:179
+msgid "Prices for services"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:185
+msgid "Descriptions for services"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:193
+msgid "Included services"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:206
+msgid "Service info layout"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:209
+msgid "Choose how to show service info (description and prices)."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:211
+msgid "Show in tooltip"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:212
+msgid "Show inline"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:223
+msgid "In case of errors in the booking form"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:226
+msgid "Choose the booking form behavior in case of errors."
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:228
+msgid "Disable the \"book\" button and show messages when updating the form"
+msgstr ""
+
+#: plugin-options/settings/booking-forms-options.php:229
+msgid "Show error messages after clicking on the \"book\" button"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:13
+msgid "Plugin Calendar"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:19
+msgid "Default time step in Daily Calendar"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:21
+msgid "Choose the default time step in Daily Calendar"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:27
+msgid "Default start time in Daily Calendar"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:30
+msgid "Choose the default start time in Daily Calendar (format: hh:mm)"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:38
+msgid "Booking name in calendar will include"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:42
+#: views/settings-tabs/html-google-calendar.php:140
+msgid "Booking ID and product name"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:43
+#: views/settings-tabs/html-google-calendar.php:141
+msgid "Booking ID and user name"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:44
+#: views/settings-tabs/html-google-calendar.php:142
+msgid "Booking ID, product name and user name"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:45
+#: views/settings-tabs/html-google-calendar.php:143
+msgid "Booking ID, user name and product name"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:47
+msgid "Choose what to show as booking title in calendar."
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:54
+msgid "External Calendars"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:60
+msgid "Calendar synchronization expires after"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:65
+msgid "Choose the sync expiration for external calendars"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:66
+msgid "When the expiration is reached, external calendars will be automatically updated when a user will open the product page."
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:74
+msgid "Show bookings of external calendars in plugin calendar"
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:76
+msgid "Enable to also show external bookings (set in the Booking Sync tab of your products) in plugin calendar."
+msgstr ""
+
+#: plugin-options/settings/calendars-options.php:84
+msgid "Google Calendar"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:20
+msgid "Cart & Checkout"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:26
+msgid "Show \"booking of\" text before product name"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:29
+msgid "Enable to add a \"booking of\" label before the product name in Cart and Checkout."
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:34
+msgid "\"Booking of\" label"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:37
+msgid "Enter a text to be shown before product name in cart and checkout pages."
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:48
+msgid "Show totals in cart and checkout"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:51
+msgid "Enable to show totals in Cart and Checkout."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: plugin-options/settings/cart-options.php:59
+msgctxt "Panel Section Title"
+msgid "%s integration"
+msgstr ""
+
+#. translators:  %s is the plugin name including the version number.
+#: plugin-options/settings/cart-options.php:65
+msgid "In order to use this integration you have to install and activate %s or greater."
+msgstr ""
+
+#. translators:  %s is the plugin name including the version number.
+#: plugin-options/settings/cart-options.php:66
+msgctxt "Learn more link for plugin integrations"
+msgid "Learn more"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:72
+msgid "Set bookings as paid for deposit orders"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:76
+msgid "When the deposit order is paid"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:77
+msgid "When the balance order is paid"
+msgstr ""
+
+#: plugin-options/settings/cart-options.php:81
+msgid "Choose when setting the booking as paid if it's purchased with a deposit."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:15
+msgid "Labels"
+msgstr ""
+
+#. translators: %s is the label text.
+#: plugin-options/settings/customization-options.php:40
+msgid "Choose the text of \"%s\" label for bookable products."
+msgstr ""
+
+#. translators: %s is the label text.
+#: plugin-options/settings/customization-options.php:41
+msgid "Leave empty to get the default label."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:57
+#: plugin-options/settings/customization-options.php:190
+msgid "Customization options"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:63
+msgid "The price shown will include"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:69
+msgid "Extra costs"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:70
+msgid "Service costs"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:75
+msgid "Choose which costs will be used when calculating the price shown for bookable products in the Shop page."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:76
+msgid "Please note: you have to select at least one of these costs."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:83
+msgid "Show the price type (/day, /month, ...)"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:86
+msgid "If enabled, the user will see if the price is for days, for months and so on..."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:91
+msgid "Replace \"days\" with \"weeks\""
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:94
+msgid "Enable to use the \"week\" formula for booking units multiple of 7 days. In this way, for example, if you set a fixed booking duration of 7 days you will see \"price / week\" instead of \"price / 7 days\"."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:99
+msgid "Redirect users to checkout"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:102
+msgid "If enabled, after clicking on the \"book\" button, the user will be automatically redirected to the Checkout page."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:107
+msgid "Hide \"Read more\" button in Shop"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:110
+msgid "Hide \"Read more\" button for bookable products in Shop pages."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:115
+msgid "Date Picker Format"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:119
+msgid "Choose the format for date-pickers in booking forms."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:124
+msgid "Time Picker Format"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:128
+msgid "Choose the format for time-pickers in booking forms."
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:139
+msgctxt "Color variant"
+msgid "Primary"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:145
+msgctxt "Color variant"
+msgid "Primary Light"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:151
+msgctxt "Color variant"
+msgid "Primary Contrast"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:157
+msgctxt "Color variant"
+msgid "Border"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:163
+msgctxt "Color variant"
+msgid "Border focus"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:169
+msgctxt "Color variant"
+msgid "Shadow focus"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:175
+msgctxt "Color variant"
+msgid "Underlined background"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:181
+msgctxt "Color variant"
+msgid "Underlined text"
+msgstr ""
+
+#: plugin-options/settings/customization-options.php:186
+msgid "Choose colors used in frontend elements, such as booking form fields, search form fields, and so on."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:21
+#: views/settings-tabs/html-google-calendar.php:42
+msgid "Settings"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:26
+msgid "Suggested Themes"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:34
+msgid "Set which categories to show in Search Forms"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:40
+msgid "Choose the categories of the bookable products that will be visible in the Search Form."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:41
+msgid "You can set all categories (if all categories are assigned to bookable products) or choose specific ones."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:46
+msgid "All product categories"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:47
+msgid "Choose specific product categories"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:52
+msgid "Booking Categories"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:57
+msgctxt "Categories"
+msgid "Add all"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:58
+msgctxt "Categories"
+msgid "Remove all"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:67
+msgid "Reject a \"pending confirmation\" booking after a specific time"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:70
+msgid "Enable to automatically reject a \"pending confirmation\" booking after a specific time."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:75
+msgid "Reject a \"pending confirmation\" booking after"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:79
+#: plugin-options/settings/general-settings-options.php:103
+msgid "days"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:82
+msgid "Set after how many days a \"pending confirmation\" booking will be automatically rejected."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:91
+msgid "Set paid bookings to \"completed\""
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:94
+msgid "Enable to automatically change the status of \"paid\" bookings to \"completed\" after a specific time."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:99
+msgid "Set paid bookings to \"completed\" after"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:106
+msgid "Set after how many days a \"paid\" booking will be automatically set to \"completed\"."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:115
+msgid "Google Maps API Key"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:119
+msgid "Enter the Google Maps API Key."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:122
+msgid "Learn how to use the Google Maps API Key >"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:128
+msgid "Google Maps Geocode API Key"
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:132
+msgid "Enter the Google Maps API Key for Geocode."
+msgstr ""
+
+#: plugin-options/settings/general-settings-options.php:135
+msgid "Learn how to use the Google Maps Geocode API Key >"
+msgstr ""
+
+#. translators: %s is the theme name.
+#: plugin-options/settings/general-settings-options.php:185
+msgid "%s theme is installed, but you cannot activate it. If you are running a Multi Site installation, please contact the Multi-Site administrator to enable it in <em>Network Admin > Themes</em>."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:24
+msgid "Tools"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:29
+#: views/settings-tabs/html-google-calendar.php:48
+msgid "Debug"
+msgstr ""
+
+#. translators: %s is  logs tab path (YITH > Booking > Logs).
+#: plugin-options/tools/tools-options.php:34
+msgid "If enabled, the plugin will add some bookings-related debug logs that will be available in the \"%s\" tab."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:43
+msgid "Booking Cache"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:51
+msgid "If enabled, booking data are stored in cache to speed up the site."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:52
+msgid "Important: we suggest to <strong>keep it enabled</strong>; disable it only for testing purpose."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:53
+msgid "Please note: you can disable this option only for 24 hours; so it will be automatically activated 24 hours after disabling it."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:58
+msgid "Sync Prices"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:74
+msgid "Sync Bookable Product Prices"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:78
+msgid "Booking look-up tables"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:95
+msgid "Regenerate"
+msgstr ""
+
+#. translators: %s is the name of the filter.
+#: plugin-options/tools/tools-options.php:110
+msgid "Warning: value overridden through %s filter"
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:116
+msgid "Updating bookable product prices in background."
+msgstr ""
+
+#: plugin-options/tools/tools-options.php:125
+msgid "Updating booking data in background."
+msgstr ""
+
+#: templates/booking/booking-actions.php:25
+msgid "Pay"
+msgstr ""
+
+#: templates/booking/booking-actions.php:29
+msgid "View"
+msgstr ""
+
+#: templates/booking/booking-actions.php:33
+msgid "Cancel"
+msgstr ""
+
+#: templates/booking/booking-actions.php:36
+msgid "Confirm"
+msgstr ""
+
+#: templates/booking/booking-details.php:22
+msgid "Booking Details"
+msgstr ""
+
+#: templates/booking/booking-details.php:35
+#: templates/booking/pdf/booking-details.php:29
+#: templates/emails/email-booking-details.php:53
+#: templates/emails/plain/email-booking-details.php:33
+#: views/calendar/html-booking-calendar-single-booking-data.php:43
+msgid "Product"
+msgstr ""
+
+#: templates/booking/pdf/user-info.php:26
+msgid "User info"
+msgstr ""
+
+#: templates/booking/pdf/user-info.php:29
+#: views/calendar/html-booking-calendar-single-booking-data.php:94
+#: views/create-booking.php:23
+msgid "User"
+msgstr ""
+
+#: templates/booking/pdf/user-info.php:33
+msgid "First Name"
+msgstr ""
+
+#: templates/booking/pdf/user-info.php:37
+msgid "Last Name"
+msgstr ""
+
+#: templates/booking/pdf/user-info.php:41
+msgid "Email"
+msgstr ""
+
+#: templates/booking/search-form/booking-search-form.php:67
+#: templates/booking/search-form/fields/search.php:12
+#: views/metaboxes/html-search-form-metabox.php:16
+#: views/metaboxes/html-search-form-metabox.php:23
+msgid "Search"
+msgstr ""
+
+#: templates/booking/search-form/fields/categories.php:32
+#: views/metaboxes/html-search-form-metabox.php:44
+msgid "Categories"
+msgstr ""
+
+#: templates/booking/search-form/fields/persons-people-selector.php:61
+#: templates/single-product/add-to-cart/booking-form/persons/people-selector.php:72
+msgid "Close"
+msgstr ""
+
+#: templates/booking/search-form/fields/services-selector.php:38
+msgid "Select services"
+msgstr ""
+
+#: templates/booking/search-form/fields/tags.php:29
+#: views/metaboxes/html-search-form-metabox.php:47
+msgid "Tags"
+msgstr ""
+
+#: templates/booking/search-form/results/results.php:39
+msgid "Show more results..."
+msgstr ""
+
+#: templates/emails/email-booking-details.php:26
+#: templates/emails/plain/email-booking-details.php:26
+msgid "Booking ID"
+msgstr ""
+
+#: templates/emails/email-booking-details.php:135
+msgid "Confirm booking"
+msgstr ""
+
+#. translators: %s is an action link.
+#. translators: %s is an action link.
+#: templates/emails/email-booking-details.php:142
+#: templates/emails/email-booking-details.php:166
+msgctxt "Email action alternative"
+msgid "or %s"
+msgstr ""
+
+#: templates/emails/email-booking-details.php:146
+msgid "Reject booking"
+msgstr ""
+
+#: templates/emails/email-booking-details.php:159
+msgid "Pay booking"
+msgstr ""
+
+#: templates/emails/email-booking-details.php:170
+msgid "View booking details"
+msgstr ""
+
+#: templates/myaccount/bookings.php:36
+msgid "Previous"
+msgstr ""
+
+#: templates/myaccount/bookings.php:43
+msgid "Next"
+msgstr ""
+
+#: templates/myaccount/bookings.php:51
+msgid "Go to the Shop"
+msgstr ""
+
+#: templates/myaccount/bookings.php:53
+msgid "No booking has been made yet."
+msgstr ""
+
+#. translators: 1. The booking name with ID; 2. the date; 3. the status.
+#: templates/myaccount/view-booking.php:22
+msgid "%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: templates/printer/types/services-selector.php:78
+msgid "Save"
+msgstr ""
+
+#. translators: 1. bookable or non-bookable status; 2. date.
+#: templates/single-product/add-to-cart/bookable.php:29
+msgid "<strong>%1$s</strong>: on %2$s"
+msgstr ""
+
+#. translators: 1. bookable or non-bookable status; 2. start date; 3. end date.
+#: templates/single-product/add-to-cart/bookable.php:32
+msgid "<strong>%1$s</strong>: from %2$s to %3$s"
+msgstr ""
+
+#: templates/single-product/add-to-cart/booking-form/dates/month.php:23
+msgid "Start month"
+msgstr ""
+
+#: templates/single-product/add-to-cart/booking-form/services/service-info-inline.php:34
+msgid "Prices:"
+msgstr ""
+
+#: templates/single-product/add-to-cart/booking-form/totals-list.php:33
+msgid "Total"
+msgstr ""
+
+#: templates/single-product/add-to-cart/booking.php:18
+msgid "You must be logged in to book this product!"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-action-bar.php:78
+msgid "Filter by product..."
+msgstr ""
+
+#. translators: %s is the product ID.
+#. translators: %s is the ID of the product.
+#. translators: %s is the product ID.
+#: views/calendar/html-booking-calendar-action-bar.php:86
+#: views/calendar/html-booking-calendar-single-booking-data.php:52
+#: views/metaboxes/html-booking-meta-data.php:64
+msgid "Deleted Product #%s"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-action-bar.php:112
+#: views/settings-tabs/html-logs.php:102
+msgid "Filter"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-action-bar.php:118
+msgid "Month"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-action-bar.php:122
+msgid "Day"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-action-bar.php:141
+msgid "Quick search..."
+msgstr ""
+
+#: views/calendar/html-booking-calendar-day.php:61
+#: views/metaboxes/html-booking-meta-data.php:238
+msgid "All Day"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:124
+msgid "Summary"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:127
+msgid "UID"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:128
+msgid "Calendar Name"
+msgstr ""
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:129
+msgid "Source"
+msgstr ""
+
+#: views/create-booking.php:45
+msgid "Bookable Product"
+msgstr ""
+
+#: views/create-booking.php:56
+msgid "Select a bookable product..."
+msgstr ""
+
+#: views/create-booking.php:68
+msgid "Assign Order"
+msgstr ""
+
+#: views/create-booking.php:78
+msgid "Don't assign this booking to any order"
+msgstr ""
+
+#: views/create-booking.php:79
+msgid "Create new order for this booking"
+msgstr ""
+
+#: views/create-booking.php:80
+msgid "Assign this booking to a specific order"
+msgstr ""
+
+#: views/create-booking.php:91
+msgid "Related Order"
+msgstr ""
+
+#: views/create-booking.php:104
+msgid "Search order"
+msgstr ""
+
+#: views/create-booking.php:120
+msgctxt "Action in button"
+msgid "Cancel"
+msgstr ""
+
+#: views/create-booking.php:121
+msgid "Create Booking"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-actions.php:42
+msgid "force sync"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-actions.php:51
+msgid "Save Booking"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-actions.php:52
+msgid "Save/update the booking"
+msgstr ""
+
+#. translators: %s is the Booking name.
+#: views/metaboxes/html-booking-meta-data.php:19
+msgctxt "Booking #123 details"
+msgid "%s details"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:26
+msgid "General Details"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:30
+msgid "Booking creation date:"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:44
+msgid "Booking status:"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:70
+msgid "Bookable Product:"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:74
+msgid "View product"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:82
+msgid "Order:"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:87
+msgid "View order"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:107
+#: views/metaboxes/html-booking-meta-data.php:156
+msgid "N.D."
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:123
+msgid "User:"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:129
+msgid "View user"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:176
+msgid "Calculated Amount"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-data.php:196
+msgid "Booking Date"
+msgstr ""
+
+#. translators: 1. date; 2. time.
+#: views/metaboxes/html-booking-meta-notes.php:28
+msgid "added on %1$s at %2$s"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:36
+msgid "There are no notes."
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:41
+msgid "Add note"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:41
+msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:45
+msgid "Note type"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:47
+msgid "Private note"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:48
+msgid "Note to customer"
+msgstr ""
+
+#: views/metaboxes/html-booking-meta-notes.php:50
+msgid "Add"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:19
+msgid "Label"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:32
+msgid "Default distance range"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:37
+msgid "Show distance range"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:55
+msgid "Show two different date pickers"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:56
+msgid "Show date range picker selector"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:68
+msgid "People field"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:69
+msgid "People type field"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:70
+msgid "People selector field"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:82
+msgid "Show services as checkboxes"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:83
+msgid "Show service selector"
+msgstr ""
+
+#: views/metaboxes/html-search-form-metabox.php:93
+msgid "Fields of this form"
+msgstr ""
+
+#: views/privacy/html-policy-content-collect-and-store.php:10
+msgctxt "Privacy Policy Content"
+msgid "While you visit our site, we’ll track information concerning users’ bookings: date, number of people, services added and all other information about the booking."
+msgstr ""
+
+#: views/privacy/html-policy-content-has-access.php:10
+msgctxt "Privacy Policy Content"
+msgid "Members of our team have access to the information you provide us. For example, both Administrators and Shop Managers can access to information about customer bookings."
+msgstr ""
+
+#: views/privacy/html-policy-content-share.php:11
+msgctxt "Privacy Policy Content"
+msgid "If you sync the whole calendar with a shared or public calendar on Google"
+msgstr ""
+
+#: views/privacy/html-policy-content-share.php:13
+msgctxt "Privacy Policy Content"
+msgid "We share the calendar with booking information through Google Calendar"
+msgstr ""
+
+#: views/privacy/html-policy-content-share.php:16
+msgctxt "Privacy Policy Content"
+msgid "If you sync the availability calendar of some of your bookable products with external services like booking.com or Airbnb"
+msgstr ""
+
+#: views/privacy/html-policy-content-share.php:19
+msgctxt "Privacy Policy Content"
+msgid "We share the availability calendars with external services, such as booking.com or Airbnb, as we sell our bookable products through these portals, to sync the availability information and prevent overbooking."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:19
+#: views/product-tabs/utility/html-availability-rule.php:187
+msgid "Availability"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:34
+msgid "Set default availability"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:35
+msgid "Set the default availability for this product. You can override these options by using the additional availability rules below."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:48
+msgid "Additional availability rules"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:50
+#: views/product-tabs/html-costs-tab.php:243
+#: views/product-tabs/utility/html-people-types.php:22
+#: views/settings-tabs/html-global-availability-rules.php:17
+#: views/settings-tabs/html-global-price-rules.php:17
+msgid "Expand all"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:51
+#: views/product-tabs/html-costs-tab.php:244
+#: views/product-tabs/utility/html-people-types.php:23
+#: views/settings-tabs/html-global-availability-rules.php:18
+#: views/settings-tabs/html-global-price-rules.php:18
+msgid "Collapse all"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:54
+msgid "You can create advanced rules to enable/disable booking availability for specific dates or months"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:66
+msgid "Booking terms"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:74
+msgid "Max bookings per unit"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:75
+msgid "Select the maximum number of bookings allowed for each unit. Set 0 (zero) for unlimited."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:95
+msgid "Minimum booking duration"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:96
+msgid "Set the minimum booking duration that customers can select."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:122
+msgid "Maximum booking duration"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:123
+msgid "Set the maximum booking duration that customers can select."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:150
+msgid "Require confirmation"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:151
+msgid "Enable if the admin has to confirm a booking before accepting it."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:166
+msgid "Allow cancellation"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:167
+msgid "Enable if the customer can cancel the booking."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:182
+msgid "The booking can be cancelled up to"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:209
+msgid "before the booking start date"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:222
+msgid "Booking preferences"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:231
+msgid "Allowed Start Days"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:232
+msgid "Select on which days the booking can start. Leave empty if it can start without any limit on any day of the week."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:252
+msgid "Buffer time"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:253
+msgid "Time for preparation or cleanup between two bookings."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:276
+msgid "Check-in time"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:277
+msgid "Insert check-in time for your customers"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:292
+msgid "Check-out time"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:293
+msgid "Insert check-out time for your customers"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:308
+msgid "Time increment based on duration"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:309
+msgid "Select if the time increment of your booking is based on booking duration. By default the time increment is 1 hour for hourly bookings and 15 minutes for per-minute bookings. Example: if enabled and your booking duration is 3 hours, the time increment will be 3 hours, so you'll see the following time slots: 8:00 - 11:00 - 14:00 - 17:00"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:322
+msgid "Time increment including buffer"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:323
+msgid "Select if you want to include buffer time to the time increment. Example: if enabled and the booking duration is 1 hour and you set a buffer of 1 hour, the time increment will be 1 hour + 1 hour, so you'll see the following time slots: 8:00 - 10:00 - 12:00 - 14:00"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:336
+msgid "Minimum advance reservation"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:337
+msgid "Insert the minimum advance reservation for the booking. For example: if you set it to 10 days, customers can book now a booking that will start in 10 days"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:361
+#: views/product-tabs/html-settings-tab.php:91
+msgid "Hour(s)"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:371
+msgid "Maximum advance reservation"
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:372
+msgid "Insert the maximum advance reservation for the booking. For example: if you set it to 6 months, customers can only book within 6 months."
+msgstr ""
+
+#: views/product-tabs/html-availability-tab.php:394
+msgid "Year(s)"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:16
+msgid "Standard Prices"
+msgstr ""
+
+#. translators: %s is the duration; ex: Base price for 1 day.
+#. translators: %s is the booking duration.
+#: views/product-tabs/html-costs-tab.php:24
+#: views/product-tabs/utility/html-price-rule.php:168
+msgid "Base price for %s"
+msgstr ""
+
+#. translators: %s is the duration; ex: Base price for 1 day.
+#: views/product-tabs/html-costs-tab.php:25
+msgid "Set your booking price here."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:50
+#: views/product-tabs/html-costs-tab.php:222
+#: views/product-tabs/utility/html-extra-cost-custom.php:63
+#: views/product-tabs/utility/html-extra-cost.php:52
+msgid "Multiply by the number of people"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:66
+msgid "Extra price of"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:67
+msgid "Here you can set an extra cost for each person added to the specified number."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:83
+msgid "for every person added to"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:102
+msgid "Discounts"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:111
+msgid "Encourage users to book longer stays by offering weekly discounts."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:132
+msgid "Encourage users to book longer stays by offering monthly discounts."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:153
+msgid "Encourage users to book by offering last minute discounts."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:168
+msgid "Days before arrival"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:191
+msgid "Leave empty if you don't need to charge extra costs"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:206
+#: views/product-tabs/utility/html-extra-cost-custom.php:41
+#: views/product-tabs/utility/html-extra-cost.php:31
+msgid "Set the cost..."
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:241
+msgid "Advanced Price Rules"
+msgstr ""
+
+#: views/product-tabs/html-costs-tab.php:248
+msgid "You can create advanced rules to set different prices for specific conditions (dates, months, durations)."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:19
+msgid "People settings"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:26
+msgid "Enable people option"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:27
+msgid "Check this box if the booking can be made only by a specific number of people."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:41
+msgid "Minimum number of people"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:42
+msgid "Select the minimum number of people per booking."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:60
+msgid "Maximum number of people"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:61
+msgid "Select the maximum number of people per booking."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:79
+msgid "Count people as separated bookings"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:80
+msgid "If you need to book only for a fixed number of people and you set the number in \"Max bookings per unit\" option, check this option to count each person as a separate booking."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:82
+msgid "Example: you set 10 people for a Yoga class and you set 10 in \"Max bookings per unit\" option; every person will be a separate booking until number 10 is reached."
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:96
+msgid "Enable people types"
+msgstr ""
+
+#: views/product-tabs/html-people-tab.php:97
+msgid "You can use types, for example, to set different prices for different people. Example: Adult 30 $, Child 10 $."
+msgstr ""
+
+#. translators: %s is the settings path (YITH > Booking > Configuration > Services).
+#: views/product-tabs/html-services-tab.php:34
+msgid "You can create services in %s"
+msgstr ""
+
+#: views/product-tabs/html-services-tab.php:42
+msgid "select one or more services..."
+msgstr ""
+
+#: views/product-tabs/html-services-tab.php:51
+msgid "Select all"
+msgstr ""
+
+#: views/product-tabs/html-services-tab.php:52
+msgid "Deselect all"
+msgstr ""
+
+#: views/product-tabs/html-services-tab.php:58
+msgid "Insert services available for this product"
+msgstr ""
+
+#: views/product-tabs/html-services-tab.php:59
+msgid "Click on the field to add a service available for this product or click on 'Select all' to add all services"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:45
+msgid "Booking Duration"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:47
+msgid "Set if your customers can book for minutes, hours, days or months"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:55
+msgid "Customer can book units of"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:56
+msgid "Fixed units of"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:92
+msgid "Minute(s)"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:102
+msgid "Enable calendar range picker"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:103
+msgid "Enable or disable the calendar range picker in product page."
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:115
+msgid "Default start date in booking form"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:116
+msgid "Insert the day to show as default in Start Date field of booking form."
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:124
+msgid "Current day"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:125
+msgid "Current day + 1"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:126
+#: views/product-tabs/html-settings-tab.php:163
+msgid "First available"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:127
+msgid "Custom Date"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:140
+msgid "Custom default start date"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:141
+msgid "Insert the custom date to show as default in Start Date field of booking form."
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:154
+msgid "Default start time in booking form"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:155
+msgid "Insert the time to show as default in Time field of booking form."
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:172
+msgid "Full day booking"
+msgstr ""
+
+#: views/product-tabs/html-settings-tab.php:173
+msgid "Choose whether the booking will be active or not for the full day (Example: for a booking from day 1 to day 2, day 2 will be fully booked only if this option is active)"
+msgstr ""
+
+#. translators: %s is the Booking Settings link.
+#: views/product-tabs/html-settings-tab.php:191
+msgid "Set your Google Maps API Keys in %s and then enter your address in this field."
+msgstr ""
+
+#. translators: %s is the [booking_map] shortcode.
+#: views/product-tabs/html-settings-tab.php:196
+msgid "You can put a map in product page by using the %s shortcode."
+msgstr ""
+
+#: views/product-tabs/html-sync-tab.php:37
+msgid "Download"
+msgstr ""
+
+#: views/product-tabs/html-sync-tab.php:45
+msgid "Export Future ICS URL"
+msgstr ""
+
+#: views/product-tabs/html-sync-tab.php:59
+msgid "Import ICS Calendars"
+msgstr ""
+
+#: views/product-tabs/html-sync-tab.php:70
+msgid "Last Sync"
+msgstr ""
+
+#: views/product-tabs/utility/html-add-service.php:15
+msgid "Service name"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:66
+#: views/product-tabs/utility/html-price-rule.php:77
+msgid "Rule name"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:84
+msgid "Rule type"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:94
+msgid "Specific date"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:94
+msgid "Rules are valid only for the year selected. Example: you want to disable bookings from 14th August to 30th August of the current year."
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:95
+msgid "Generic dates"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:95
+msgid "Rules are valid without any time limit, until you disable them. Example: you want to disable bookings for August each year, or all Sunday days of the year."
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:133
+msgid "Apply rule"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:154
+msgid "Add date range"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:208
+#: views/product-tabs/utility/html-default-availabilities.php:46
+msgid "Add options for specific days"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:222
+#: views/product-tabs/utility/html-availability-rules.php:26
+#: views/product-tabs/utility/html-price-rule.php:244
+msgid "Add rule"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability-rule.php:225
+#: views/product-tabs/utility/html-price-rule.php:248
+msgid "Delete rule"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:19
+#: views/product-tabs/utility/html-default-availabilities.php:26
+msgid "All days"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:32
+msgid "Set"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:50
+msgctxt "Set day AS bookable"
+msgid "as"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:59
+msgid "Not bookable"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:68
+msgid "All day"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:69
+msgid "Set hours"
+msgstr ""
+
+#: views/product-tabs/utility/html-availability.php:114
+msgid "Add hours"
+msgstr ""
+
+#: views/product-tabs/utility/html-extra-cost-custom.php:29
+msgid "Set the name..."
+msgstr ""
+
+#: views/product-tabs/utility/html-extra-cost-custom.php:80
+#: views/product-tabs/utility/html-extra-cost.php:69
+msgid "Multiply by duration"
+msgstr ""
+
+#: views/product-tabs/utility/html-extra-costs.php:46
+msgid "Create cost"
+msgstr ""
+
+#: views/product-tabs/utility/html-imported-calendars.php:16
+msgid "URL"
+msgstr ""
+
+#: views/product-tabs/utility/html-imported-calendars.php:43
+msgid "Add ICS calendar"
+msgstr ""
+
+#: views/product-tabs/utility/html-people-type.php:58
+msgid "Minimum"
+msgstr ""
+
+#: views/product-tabs/utility/html-people-type.php:71
+msgid "Maximum"
+msgstr ""
+
+#: views/product-tabs/utility/html-people-type.php:85
+msgid "Enter a minimum number required and a maximum number available of this type. Example: you can set min 1 adult or leave it empty."
+msgstr ""
+
+#: views/product-tabs/utility/html-people-type.php:101
+msgid "Base Fee"
+msgstr ""
+
+#: views/product-tabs/utility/html-people-type.php:114
+msgid "Enter a customized base price and fixed base fee for this type. These prices will override prices set in Booking Costs."
+msgstr ""
+
+#: views/product-tabs/utility/html-people-types.php:20
+msgid "People types"
+msgstr ""
+
+#. translators: %s is the settings path (YITH > Booking > Configuration > People).
+#: views/product-tabs/utility/html-people-types.php:37
+msgid "You can create people types in %s"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:28
+msgid "Custom date range"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:29
+msgid "Range of months"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:30
+msgid "Range of year's weeks"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:31
+msgid "Range of days"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:32
+msgid "People count"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:33
+msgid "Duration unit"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:34
+msgid "Time range"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule-condition.php:58
+#: views/settings-tabs/html-logs.php:12
+#: views/settings-tabs/html-logs.php:158
+msgid "Type"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:33
+msgid "+ Increase the price by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:34
+msgid "- Decrease the price by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:35
+msgid "* Multiply the price by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:36
+msgid "/ Divide the price by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:37
+msgid "= Set the price to"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:38
+msgid "+% Increase the price as a percentage by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:39
+msgid "-% Decrease the price as a percentage by"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:115
+msgid "Add new condition"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:120
+msgid "Conditions"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:152
+msgid "Rule changes the base price"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:153
+msgid "Enable to use this rule to change the base price"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:197
+msgid "Rule changes the fixed base fee"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rule.php:198
+msgid "Enable to use this rule to change the fixed base fee"
+msgstr ""
+
+#: views/product-tabs/utility/html-price-rules.php:34
+msgid "Create rule"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:15
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:15
+msgid "Credentials"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:16
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:16
+msgid "Access"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:20
+msgid "Click here to access"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:24
+msgid "Please note: you should add the following URI to the <strong>Allowed Redirect URI</strong> in your ID client OAuth 2.0"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:20
+msgid "Client ID"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:21
+msgid "Client Secret"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:26
+msgid "To use this integration you should:"
+msgstr ""
+
+#. translators: 1. link start; 2. link end.
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:31
+msgid "create a project in %1$s<strong>Google Developers Console</strong>%2$s"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:35
+msgid "enable the <strong>Google Calendar API</strong> in <strong>Your Project > Library</strong>"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:38
+msgid "create an <strong>OAuth Client ID</strong> for a <strong>Web application</strong> in <strong>Your Project > Credentials > Create Credentials</strong>"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:41
+msgid "add the following URI to the <strong>Allowed Redirect URI</strong> in your ID client OAuth 2.0"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-delete-secret-form.php:13
+msgid "Delete Client Secret"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-logout-form.php:13
+msgid "Logout"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:16
+msgid "Select a calendar"
+msgstr ""
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:19
+msgid "- Disabled -"
+msgstr ""
+
+#. translators: 1. WordPress timezone; 2. Google calendar timezone.
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:21
+msgid "Please note: your WordPress Timezone %1$s is different by your Google Calendar Timezone %2$s"
+msgstr ""
+
+#. translators: %s is the timezone.
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:28
+msgid "Timezone %s"
+msgstr ""
+
+#: views/settings-tabs/html-global-availability-rules.php:26
+msgid "Create advanced rules to manage availability on specific dates."
+msgstr ""
+
+#: views/settings-tabs/html-global-availability-rules.php:27
+#: views/settings-tabs/html-global-price-rules.php:26
+msgid "These rules are global and applied to all bookable products by default. You can override them with specific rules on the product editing page."
+msgstr ""
+
+#: views/settings-tabs/html-global-availability-rules.php:43
+#: views/settings-tabs/html-global-price-rules.php:42
+msgid "Save rules"
+msgstr ""
+
+#: views/settings-tabs/html-global-price-rules.php:25
+msgid "Create advanced rules to set different prices for specific conditions (dates, months, duration)."
+msgstr ""
+
+#. translators: %s is the number of updated bookings.
+#: views/settings-tabs/html-google-calendar.php:16
+msgid "Google Calendar: %s booking updated!"
+msgid_plural "Google Calendar: %s bookings updated!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/settings-tabs/html-google-calendar.php:18
+msgid "Google Calendar: no booking to update!"
+msgstr ""
+
+#. translators: %s is  logs tab path (YITH > Booking > Logs).
+#: views/settings-tabs/html-google-calendar.php:67
+msgid "If enabled, the plugin will add some Google Calendar related debug logs that will be available in the \"%s\" tab."
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:81
+msgid "Synchronize"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:86
+msgid "on booking creation"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:87
+msgid "on booking update"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:88
+msgid "on booking status update"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:89
+msgid "on booking deletion"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:111
+msgid "Add note on sync"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:125
+msgid "If enabled, the plugin will add a note to the booking when it's synchronized on Google Calendar."
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:130
+msgid "Event name will include"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:150
+msgid "Choose what to show as name of the synchronized event in Google Calendar."
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:162
+msgid "Syncronize not syncronized bookings"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:163
+msgid "Sync bookings"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:167
+msgid "Syncronize all bookings (Force)"
+msgstr ""
+
+#: views/settings-tabs/html-google-calendar.php:168
+msgid "Force sync bookings"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:13
+#: views/settings-tabs/html-logs.php:159
+msgid "Group"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:14
+#: views/settings-tabs/html-logs.php:161
+msgid "Date"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:18
+msgid "Asc"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:19
+msgid "Desc"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:51
+msgid "Warning: Booking Logger is not enabled"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:61
+msgid "Delete Logs"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:71
+msgctxt "Label in Logs tab"
+msgid "Limit"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:74
+msgctxt "Label in Logs tab"
+msgid "Group"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:76
+#: views/settings-tabs/html-logs.php:84
+msgid "Any"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:82
+msgctxt "Label in Logs tab"
+msgid "Type"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:90
+msgctxt "Label in Logs tab"
+msgid "Order by"
+msgstr ""
+
+#. translators: 1: Current page, 2: Total pages.
+#: views/settings-tabs/html-logs.php:139
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:198
+msgid "No logs for the selected filters."
+msgstr ""
+
+#: views/settings-tabs/html-logs.php:212
+msgid "There are no logs yet!"
+msgstr ""
+
+#: views/settings-tabs/html-single-integration.php:17
+msgctxt "text of integration badge"
+msgid "New"
+msgstr ""
+
+#. translators: 1. plugin name; 2. minimum version.
+#: views/settings-tabs/html-single-integration.php:45
+msgid "(needs %1$s plugin – version %2$s or greater)"
+msgstr ""
+
+#: views/settings-tabs/html-single-integration.php:58
+msgid "Get Plugin"
+msgstr ""
+
+#: views/settings-tabs/html-single-integration.php:63
+msgid "Deactivate integration"
+msgstr ""
+
+#: views/settings-tabs/html-single-integration.php:65
+msgid "This integration is automatically active"
+msgstr ""
+
+#: views/settings-tabs/html-single-integration.php:69
+msgid "Activate integration"
+msgstr ""
+
+#: views/taxonomies/service/wpml/html-add-service.php:43
+#: views/taxonomies/service/wpml/html-edit-service.php:17
+msgid "WPML translations"
+msgstr ""
+
+#: dist/gutenberg/index.js:1
+#: dist/gutenberg/index.js:2
+#: dist/gutenberg/index.js:3
+#: includes/builders/gutenberg/src/blocks/booking-products/components/categories-control/index.js:32
+#: includes/builders/gutenberg/src/blocks/booking-products/components/products-control/index.js:32
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:14
+msgid "Clear all"
+msgstr ""
+
+#: dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:15
+msgid "No items found."
+msgstr ""
+
+#: dist/gutenberg/index.js:1
+#: dist/gutenberg/index.js:2
+#: dist/gutenberg/index.js:3
+#: includes/builders/gutenberg/src/blocks/booking-products/components/categories-control/index.js:34
+#: includes/builders/gutenberg/src/blocks/booking-products/components/products-control/index.js:34
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:16
+msgid "No results for %s"
+msgstr ""
+
+#: dist/gutenberg/index.js:1
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:17
+msgid "Search for items"
+msgstr ""
+
+#. translators: Number of items selected from list.
+#: dist/gutenberg/index.js:2
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:21
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/gutenberg/index.js:2
+#: includes/builders/gutenberg/src/blocks/booking-products/components/search-list-control/index.js:115
+msgid "Loading..."
+msgstr ""
+
+#: dist/gutenberg/index.js:2
+#: includes/builders/gutenberg/src/blocks/booking-products/components/products-control/index.js:33
+msgid "No products found."
+msgstr ""
+
+#: dist/gutenberg/index.js:2
+#: includes/builders/gutenberg/src/blocks/booking-products/components/products-control/index.js:35
+msgid "Search products..."
+msgstr ""
+
+#. translators: Number of products selected from list.
+#: dist/gutenberg/index.js:3
+#: includes/builders/gutenberg/src/blocks/booking-products/components/products-control/index.js:39
+msgid "%d product selected"
+msgid_plural "%d products selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/gutenberg/index.js:3
+#: includes/builders/gutenberg/src/blocks/booking-products/components/categories-control/index.js:33
+msgid "No categories found."
+msgstr ""
+
+#: dist/gutenberg/index.js:3
+#: includes/builders/gutenberg/src/blocks/booking-products/components/categories-control/index.js:35
+msgid "Search categories..."
+msgstr ""
+
+#. translators: Number of products selected from list.
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/components/categories-control/index.js:39
+msgid "%d category selected"
+msgid_plural "%d categories selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:115
+#: includes/builders/gutenberg/src/blocks/booking-products/index.js:9
+msgctxt "Block name"
+msgid "Bookable Products"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:40
+msgctxt "Bookable Products block"
+msgid "Type"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:46
+msgctxt "Bookable Products block types"
+msgid "Newest"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:50
+msgctxt "Bookable Products block types"
+msgid "Hand-picked products"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:54
+msgctxt "Bookable Products block types"
+msgid "Product categories"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:58
+msgctxt "Bookable Products block types"
+msgid "Top rated"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:68
+msgctxt "Bookable Products block panel title"
+msgid "Products"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:79
+msgctxt "Bookable Products block panel title"
+msgid "Categories"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:90
+msgctxt "Bookable Products block panel title"
+msgid "Layout"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:93
+msgctxt "Bookable Products block"
+msgid "Columns"
+msgstr ""
+
+#: dist/gutenberg/index.js:4
+#: includes/builders/gutenberg/src/blocks/booking-products/edit.js:100
+msgctxt "Bookable Products block"
+msgid "Rows"
+msgstr ""

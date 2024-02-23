@@ -1,0 +1,148 @@
+.post-type-jet-smart-filters {
+	.cx-control.cx-control-hidden:first-child + .cx-control {
+		border-top: none;
+	}
+}
+
+.jet-smart-filters-color-image {
+	&.cx-ui-kit.cx-ui-repeater-container {
+		padding: 20px;
+	}
+
+	.cx-ui-repeater-add {
+		margin-top: 10px;
+	}
+
+	.cx-ui-repeater-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		.cx-ui-repeater-item {
+			box-sizing: border-box;
+			flex: 0 1 calc(33.333% - 20px);
+			margin: 10px;
+		}
+
+		.color-image-type-control {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+
+			label {
+				margin-bottom: 0;
+				margin-right: 10px;
+			}
+
+			.cx-ui-select-wrapper {
+				display: flex;
+				align-items: center;
+				width: 100%;
+			}
+
+			&.cx-control-hidden {
+				display: none;
+			}
+
+			&.color-control,
+			&.selected-value-control {
+				.cx-label {
+					margin-right: 7px;
+				}
+			}
+
+			&.image-control {
+				align-items: flex-start;
+
+				.cx-label {
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	&[data-source="posts"],
+	&[data-source="taxonomies"] {
+		.color-image-type-control.value-control {
+			display: none;
+		}
+	}
+
+	&[data-source="custom_fields"],
+	&[data-source="manual_input"] {
+		.color-image-type-control.selected-value-control {
+			display: none;
+		}
+	}
+
+	&[data-type="color"] {
+		.color-image-type-control.image-control {
+			display: none;
+		}
+	}
+
+	&[data-type="image"] {
+		.color-image-type-control.color-control {
+			display: none;
+		}
+	}
+}
+
+#jet-smart-filters {
+	&-admin-mode-switcher,
+	&-indexer-button {
+		cursor: pointer;
+		float: right;
+		position: relative;
+		outline: none;
+		margin-left: 10px;
+		padding: 5px 15px;
+		font-size: 11px;
+		line-height: 18px;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 4px;
+		border-width: 1px;
+		border-style: solid;
+		transition: all 200ms linear;
+
+		&.loading {
+			opacity: 0.7;
+			cursor: not-allowed;
+		}
+	}
+
+	&-admin-mode-switcher {
+		color: #2271b1;
+		border-color: #2271b1;
+		background: #f6f7f7;
+
+		&:hover {
+			background: #f0f0f1;
+			border-color: #0a4b78;
+			color: #0a4b78;
+		}
+	}
+
+	&-indexer-button {
+		color: #fff;
+		border-color: #e54444 #b83636 #b83636 #e54444;
+		background: #e64545;
+
+		&:hover {
+			background: #fd4545;
+		}
+	}
+}
+
+#filter-settings {
+	.cx-control {
+		&[data-control-name="_color_image_add_all_option_image"] {
+			margin-left: 30%;
+			padding-top: 0;
+			border: none;
+		}
+	}
+}

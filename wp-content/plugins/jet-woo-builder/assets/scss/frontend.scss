@@ -1,0 +1,176 @@
+@import 'base/mixins';
+
+@import "widgets/single-product-widgets/jet-single-images";
+@import "widgets/single-product-widgets/jet-single-price";
+@import "widgets/single-product-widgets/jet-single-add-to-cart";
+@import "widgets/single-product-widgets/jet-single-rating";
+@import "widgets/single-product-widgets/jet-single-tabs";
+@import "widgets/single-product-widgets/jet-single-badge";
+@import "widgets/single-product-widgets/jet-single-attributes";
+@import "widgets/single-product-widgets/jet-single-meta";
+
+@import 'widgets/global-widgets/jet-woo-products';
+@import 'widgets/global-widgets/jet-woo-categories';
+@import 'widgets/global-widgets/jet-woo-products-list';
+@import 'widgets/global-widgets/jet-woo-taxonomy-tiles';
+
+@import 'widgets/archive-product-widgets/jet-archive-product-thumbnail';
+@import 'widgets/archive-product-widgets/jet-archive-product-price';
+@import 'widgets/archive-product-widgets/jet-archive-product-sale-badge';
+@import 'widgets/archive-product-widgets/jet-archive-product-tags';
+@import 'widgets/archive-product-widgets/jet-archive-product-cats';
+@import 'widgets/archive-product-widgets/jet-archive-product-add-to-cart';
+
+@import 'widgets/archive-category-widgets/jet-archive-category-thumbnail';
+
+@import 'widgets/shop-widgets/jet-products-pagination';
+@import 'widgets/shop-widgets/jet-products-navigation';
+@import 'widgets/shop-widgets/jet-products-ordering';
+@import 'widgets/shop-widgets/jet-products-page-title';
+@import 'widgets/shop-widgets/jet-products-loop';
+
+@import 'widgets/cart/cart-cross-sells';
+@import 'widgets/cart/cart-empty-message';
+@import 'widgets/cart/cart-return-to-shop';
+@import 'widgets/cart/cart-table';
+@import 'widgets/cart/cart-totals';
+
+@import 'widgets/checkout/checkout-additional-form';
+@import 'widgets/checkout/checkout-billing-form';
+@import 'widgets/checkout/checkout-coupon-form';
+@import 'widgets/checkout/checkout-login-form';
+@import 'widgets/checkout/checkout-order-review';
+@import 'widgets/checkout/checkout-payment';
+@import 'widgets/checkout/checkout-shipping-form';
+
+@import 'widgets/thankyou/thankyou-order';
+
+@import 'widgets/myaccount/myaccount-account-details';
+@import 'widgets/myaccount/myaccount-addresses';
+@import 'widgets/myaccount/myaccount-content';
+@import 'widgets/myaccount/myaccount-downloads';
+@import 'widgets/myaccount/myaccount-order';
+
+@import 'extensions/jet-woo-product-thumb-effects';
+@import 'extensions/jet-woo-carousel';
+@import 'extensions/jet-woo-archive-templates';
+@import 'extensions/jet-woo-quick-view';
+
+@import 'base/grid';
+@import 'base/fonts';
+
+.jet-woo-product-rating .star{
+	max-width: 17px;
+}
+
+.product-rating__stars {
+	overflow: hidden;
+	position: relative;
+	height: 1em;
+	line-height: 1;
+	font-size: 1em;
+	width: 5.4em;
+	font-family: 'star';
+	display: inline-block;
+	
+	&::before {
+		content: '\73\73\73\73\73';
+		color: #e7e8e8;
+		float: left;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+	
+	span {
+		overflow: hidden;
+		float: left;
+		top: 0;
+		left: 0;
+		position: absolute;
+		padding-top: 1.5em;
+		color: #fdbc32;
+
+		&::before {
+			content: '\53\53\53\53\53';
+			top: 0;
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+
+.product-star-rating {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+
+	&__rated {
+		display: flex;
+		position: absolute;
+		left: 0;
+		overflow: hidden;
+
+		.rtl & {
+			left: auto;
+			right: 0;
+		}
+	}
+}
+
+.elementor-widget[data-element_type*="jet-woo-builder-archive"]:not(:last-child) {
+	margin-bottom: 0;
+}
+
+.jet-woo-builder ul.product {
+	&::after, &::before {
+		display: none;
+	}
+}
+
+.jet-woo-builder-icon {
+	display: inline-block;
+	line-height: 1;
+	
+	svg {
+		display: block;
+		width: 1em;
+		height: 1em;
+		fill: currentColor;
+	}
+}
+
+.jet-woo-item-overlay-wrap {
+	position: relative;
+	cursor: pointer;
+
+	.jet-woo-item-overlay-link {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+	}
+}
+
+.jet-woo-builder-title-line-wrap-yes {
+	.jet-woo-product-title,
+	.jet-woo-category-title,
+	.jet-woo-builder-archive-product-title,
+	.jet-woo-builder-archive-category-title {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.jet-woo-products-list {
+		.jet-woo-product-title {
+			max-width: 100%;
+		}
+	}
+}
+
+.woocommerce-account .jet-woo-builder-woocommerce-myaccount-login-page {
+	width: 100%;
+}

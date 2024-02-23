@@ -1,0 +1,69 @@
+
+$font_size: 14px;
+
+.cx-ui-colorpicker-wrapper {
+
+	.wp-picker-container {
+		padding: 3px;
+		border-radius: 3px;
+
+		.wp-color-result-text {
+			line-height: 18px;
+			text-align: right;
+			display: none;
+		}
+
+		.wp-color-result {
+			width: 60px;
+			height: 26px;
+			padding: 0;
+			margin: 0;
+			box-shadow: inset 0 0 0 3px white;
+			border: 1px solid #d5dadf;
+
+			&:focus {
+				border: 1px solid #9ba7b3;
+				outline: none;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.wp-picker-input-wrap {
+			margin: 1px 0;
+		}
+
+		.wp-picker-clear {
+			min-height: 30px;
+			margin: 0 0 0 6px;
+			.rtl & {
+				margin: 0 6px 0 0;
+			}
+		}
+
+		&.wp-picker-active {
+			.wp-color-result {
+				margin: 0 6px 0 0;
+				.rtl & {
+					margin: 0 0 0 6px;
+				}
+			}
+		}
+
+		.iris-picker {
+			position: absolute;
+			z-index: 999;
+		}
+
+		//.wp-picker-clear {
+		//	font-size: 0;
+		//	width: 30px;
+		//	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='53.7' height='53.7' viewBox='0 0 53.7 53.7'><path fill='%23666E6E' d='M35.6 34.4L28 26.8l7.6-7.6c.2-.2.2-.5 0-.7l-.5-.5c-.2-.2-.5-.2-.7 0l-7.6 7.6-7.5-7.6c-.2-.2-.5-.2-.7 0l-.6.6c-.2.2-.2.5 0 .7l7.6 7.6-7.6 7.5c-.2.2-.2.5 0 .7l.5.5c.2.2.5.2.7 0l7.6-7.6 7.6 7.6c.2.2.5.2.7 0l.5-.5c.2-.2.2-.5 0-.7z'/></svg>");
+		//	background-repeat: no-repeat;
+		//	background-size: 130%;
+		//	background-position: center center;
+		//}
+	}
+}

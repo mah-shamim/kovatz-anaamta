@@ -1,0 +1,1026 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Welsh
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-17 22:51:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: cy_GB\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/notice.php:181
+msgid "Akismet is now protecting your site from spam."
+msgstr "Mae Akismet nawr yn diogelu eich gwefan rhag sbam."
+
+#: views/config.php:306
+msgid "Account overview"
+msgstr "Trosolwg cyfrif"
+
+#. translators: %1$s: spam folder link, %2$d: delete interval in days
+#: views/config.php:194
+msgid "Spam in the %1$s older than %2$d day is deleted automatically."
+msgid_plural "Spam in the %1$s older than %2$d days is deleted automatically."
+msgstr[0] "Mae sbam yn %1$s sy'n hŷn na %2$d diwrnod yn cael ei ddileu'n awtomatig."
+msgstr[1] "Mae sbam yn %1$s sy'n hŷn na %2$d diwrnod yn cael eu dileu'n awtomatig."
+msgstr[2] "Mae sbam yn %1$s sy'n hŷn na %2$d diwrnod yn cael eu dileu'n awtomatig."
+msgstr[3] "Mae sbam yn %1$s sy'n hŷn na %2$d diwrnod yn cael eu dileu'n awtomatig."
+
+#: views/config.php:189
+msgid "spam folder"
+msgstr "ffolder sbam"
+
+#: views/stats.php:11
+msgid "Akismet detailed stats"
+msgstr "Ystadegau manwl Akismet"
+
+#: views/stats.php:6
+msgid "Back to settings"
+msgstr "Nôl i'r gosodiadau"
+
+#: views/config.php:270
+msgid "Subscription type"
+msgstr "Math o danysgrifiad"
+
+#: views/config.php:234
+msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
+msgstr "I gynorthwyo'ch gwefan gyda thryloywder o dan gyfreithiau fel y GDPR, gall Akismet ddangos hysbysiad i'ch defnyddwyr o dan eich ffurflenni sylwadau."
+
+#: views/config.php:156
+msgid "Spam filtering"
+msgstr "Hidlo sbam"
+
+#: views/config.php:96 views/enter.php:9
+msgid "API key"
+msgstr "Allwedd API"
+
+#: views/config.php:44
+msgid "Akismet stats"
+msgstr "Ystadegau Akismet"
+
+#. Author of the plugin
+msgid "Automattic - Anti-spam Team"
+msgstr "Automattic - Tîm Gwrth Sbam"
+
+#. Plugin Name of the plugin
+msgid "Akismet Anti-spam: Spam Protection"
+msgstr "Akismet Gwrth-Sbam: Diogelwch Rhag Sbam"
+
+#: views/config.php:75
+msgid "Akismet is active and ready to stop spam. Your site&#8217;s spam statistics will be displayed here."
+msgstr "Mae Akismet yn weithredol ac yn barod i atal sbam. Bydd ystadegau sbam eich gwefan yn cael eu dangos yma."
+
+#: views/notice.php:51
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "Mae  WP-Cron wedi ei analluogi gan ddefnyddio cysonyn DISABLE_WP_CRON. Efallai na fydd ailwirio sylwadau'n gweithio'n iawn."
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:700
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: views/get.php:17
+msgid "(opens in a new tab)"
+msgstr "(yn agor mewn tab newydd)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:321
+msgid "Upgrade to %s"
+msgstr "Uwchraddiwch i %s"
+
+#: views/notice.php:316
+msgid "Upgrade your subscription level"
+msgstr "Uwchraddiwch eich lefel tanysgrifiad"
+
+#: views/notice.php:276 views/notice.php:284 views/notice.php:292
+#: views/notice.php:301
+msgid "Learn more about usage limits."
+msgstr "Dysgu rhagor am derfynau defnydd."
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:268
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "Ers %1$s, mae eich cyfrif wedi gwneud %2$s o alwadau API, o'i gymharu ag uchafswm eich cynllun o %3$s."
+
+#: views/notice.php:298
+msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Mae eich defnydd o Akismet wedi bod yn fwy nag uchafswm eich cynllun am dri mis yn olynol. Rydym wedi cyfyngu eich cyfrif am weddill y mis. Uwchraddiwch eich cynllun fel y gall Akismet barhau i rwystro sbam."
+
+#: views/notice.php:289
+msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "Mae eich defnydd o Akismet yn agosáu at uchafswm eich cynllun am y trydydd mis yn olynol. Byddwn yn cyfyngu ar eich cyfrif ar ôl i chi gyrraedd y terfyn. Uwchraddiwch eich cynllun fel y gall Akismet barhau i rwystro sbam."
+
+#: views/notice.php:281
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "Mae eich defnydd o Akismet wedi bod dros uchafswm eich cynllun am ddau fis yn olynol. Y mis nesaf, byddwn yn cyfyngu ar eich cyfrif ar ôl i chi gyrraedd y terfyn. Ystyriwch uwchraddio eich cynllun."
+
+#: views/notice.php:255
+msgid "Your account has been restricted"
+msgstr "Mae eich cyfrif wedi'i gyfyngu"
+
+#: views/notice.php:251
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "Mae eich defnydd o gyfrif Akismet yn agosáu at uchafswm eich cynllun"
+
+#: views/notice.php:248
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "Mae eich defnydd o gyfrif Akismet dros uchafswm eich cynllun"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:211
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Rhowch allwedd newydd neu <a href=\"%s\" target=\"_blank\">cysylltwch â chefnogaeth Akismet</a>."
+
+#: views/notice.php:205
+msgid "Your API key is no longer valid."
+msgstr "Nid yw eich allwedd API yn ddilys mwyach."
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:429
+msgid "Checking for Spam (%1$s%)"
+msgstr "Gwirio am Sbam (%1$s%)"
+
+#: class.akismet-admin.php:716
+msgid "No comment history."
+msgstr "Dim hanes sylwadau."
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "Nid oedd Akismet yn gallu ailwirio'r sylw hwn."
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Nid oedd Akismet yn gallu gwirio'r sylw hwn ond bydd yn ceisio eto yn awtomatig yn hwyrach."
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:628
+msgid "Comment was caught by %s."
+msgstr "Cipiwyd y sylw gan %s."
+
+#: class.akismet.php:724
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "Nid yw Akismet wedi'i ffurfweddu. Rhowch eich allwedd API."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Rhowch eich allwedd API"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Gosodwch gyfrif gwahanol"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Gosodwch eich cyfrif Akismet i alluogi hidlo sbam ar y wefan hon."
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Nid oedd modd i Akismet ailwirio'ch sylwadau am sbam."
+
+#: class.akismet-admin.php:450
+msgid "You don&#8217;t have permission to do that."
+msgstr "Nid oes gennych ganiatâd i wneud hyn."
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "Nid oedd modd dadgodio'r ymateb ystadegol."
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Methu estyn yr ystadegau, ar hyn o bryd. Ceisiwch eto'n hwyrach."
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "Rhaid gosod yr allwedd API i estyn yr ystadegau."
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "Peidiwch â dangos hysbysiad preifatrwydd."
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "Dangoswch rybudd preifatrwydd o dan eich ffurflenni sylwadau."
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "Rhybudd preifatrwydd Akismet"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Preifatrwydd"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "Mae&#39;r wefan hon yn defnyddio Akismet i leihau sbam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Dysgwch sut mae eich data sylwadau yn cael ei brosesu</a> ."
+
+#: class.akismet-admin.php:88
+msgid "We collect information about visitors who comment on Sites that use our Akismet Anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
+msgstr "Rydym yn casglu gwybodaeth am ymwelwyr sy&#39;n rhoi sylwadau ar Wefannau sy&#39;n defnyddio ein gwasanaeth gwrth-sbam Akismet. Mae&#39;r wybodaeth a gasglwn yn dibynnu ar sut y mae&#39;r Defnyddiwr yn gosod Akismet ar gyfer y Wefan, ond fel arfer mae&#39;n cynnwys cyfeiriad IP y cyfeiriwr, asiant defnyddiwr, cyfeiriwr, ac URL y Wefan (ynghyd â gwybodaeth arall sy'n cael ei ddarparu yn uniongyrchol gan y sylwebydd fel eu henw, enw defnyddiwr, e-bost cyfeiriad, a&#39;r sylw ei hun)."
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "Sylw wedi&#39;i ddileu."
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "Mae allwedd API y wefan hon wedi ei godio'n galed ac nid oes modd ei ddileu."
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "Nid yw&#39;r gwerth sydd wedi ei ddarparu yn allwedd API dilys ac wedi&#39;i gofrestru."
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "Mae allwedd API y wefan hon wedi ei godio'n galed ac nid oes modd ei newid drwy'r API."
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Y cyfnod amser ar gyfer derbyn ystadegau. Dewis: 60 diwrnod, 6 mis, y cyfan"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Os yw&#39;n wir, dangoswch nifer y sylwadau a gymeradwywyd wrth ymyl pob awdur sylw yn y dudalen rhestr sylwadau."
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Os yw&#39;n wir, bydd Akismet yn diddymu&#39;r sbam gwaethaf yn awtomatig yn hytrach na&#39;i roi yn y ffolder sbam."
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "Allwedd API 12-nod Akismet. Ar gael yn akismet.com/get/"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Nid yw eich gwefan yn gallu cysylltu â gweinyddwyr Akismet."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Mae allwedd API Akismet wedi&#39;i ddiffinio yn y ffeil %s ar gyfer y wefan hon."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Ffurfweddu â Llaw"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Ar y dudalen hon, gallwch ddiweddaru eich gosodiadau Akismet a gweld ystadegau sbam."
+
+#. Description of the plugin
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
+msgstr "Yn cael ei ddefnyddio gan filiynau, mae'n debygol taw Akismet yw'r ffordd orau i <strong>ddiogelu eich blog oddi wrth sbam</strong>. Mae Akismet Gwrth-Sbam yn cadw eich gwefan yn ddiogel wrth i chi gysgu. I gychwyn arni, agorwch eich ategyn Akismet ac yna mynd i dudalen eich Gosodiadau Akismet, i osod eich allwedd API."
+
+#: class.akismet-admin.php:114 class.akismet-admin.php:117
+msgid "Akismet Anti-spam"
+msgstr "Akismet Gwrth-Sbam "
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Cysylltu ag allwedd API"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Rydych chi wedi cysylltu fel %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Cysylltu â Jetpack"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Defnyddio eich cysylltiad Jetpack i osod Akismet."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Cael gwared â sbam ar eich gwefan"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Hoffech chi <a href=\"%s\">wirio'r sylwadau sy'n aros</a>?"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Creu eich cyfrif Akismet"
+
+#: views/config.php:36
+msgid "Detailed stats"
+msgstr "Ystadegau manwl"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Ystadegau"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Yn cael ei ddefnyddio gan filiynau o bobl, mae'n bosib mai Akismet yw'r ffordd gorau i <strong>ddiogelu eich blog rhag spam</strong>. Mae'n cadw eich gwefan yn ddiogel hyd yn oed wrth i chi gysgu. I ddechrau arni, ewch i <a href=\"admin.php?page=akismet-key-config\">eich tudalen Gosodiadau Akismet</a> i osod eich allwedd API."
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Yn cael ei ddefnyddio gan filiynau o bobl, mae'n bosib mai Akismet yw'r ffordd gorau i <strong>ddiogelu eich blog rhag spam</strong>. Mae'n cadw eich gwefan yn ddiogel hyd yn oed wrth i chi gysgu."
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "Mae %s sylw wedi eu dal fel sbam."
+msgstr[1] "Mae %s sylw wedi eu dal fel sbam."
+msgstr[2] "Mae %s sylw wedi eu dal fel sbam."
+msgstr[3] "Mae %s sylw wedi eu dal fel sbam."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Nid oes dim sylwadau wedi eu dal yn y sbam."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Gwiriodd %s sylw gan Akismet."
+msgstr[1] "Gwiriodd %s sylw gan Akismet."
+msgstr[2] "Gwiriodd %s sylw gan Akismet."
+msgstr[3] "Gwiriodd %s sylw gan Akismet."
+
+#: class.akismet-admin.php:1157
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "Nid oedd unrhyw sylwadau i&#39;w gwirio. Dim ond yn y rhestr dan ystyriaeth fydd Akismet yn gwirio sylwadau."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Heb ganfod sylw."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "Nid oedd modd gwirio %d sylw."
+msgstr[1] "Nid oedd modd gwirio %d sylw."
+msgstr[2] "Nid oedd modd gwirio %d sylw."
+msgstr[3] "Nid oedd modd gwirio %d sylw."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "Wedi symud %d sylw i'r Sbam."
+msgstr[1] "Wedi symud %d sylw i'r Sbam."
+msgstr[2] "Wedi symud %d sylw i'r Sbam."
+msgstr[3] "Wedi symud %d sylw i'r Sbam."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Wedi prosesu %d sylw."
+msgstr[1] "Wedi prosesu %d sylw."
+msgstr[2] "Wedi prosesu %d sylw."
+msgstr[3] "Wedi prosesu %d sylw."
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "Nid oedd modd i sylw #%d gael ei wirio."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Wedi methu cysylltu ag Akismet."
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "Nid yw sylw #%d yn sbam."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "Mae sylw #%d yn sbam."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s  cadarnhaol anghywir"
+msgstr[1] "%s  cadarnhaol anghywir"
+msgstr[2] "%s  cadarnhaol anghywir"
+msgstr[3] "%s  cadarnhaol anghywir"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s sbam wedi ei golli"
+msgstr[1] "%s sbam wedi eu colli"
+msgstr[2] "%s sbam wedi eu colli"
+msgstr[3] "%s sbam wedi eu colli"
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Nid oes gennych gynllun Akismet."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Mae eich tanysgrifiad Akismet wedi'i atal."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Mae eich cynllun Akismet wedi'i ddiddymu."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Nid ydym yn gallu prosesu eich taliad. <a href=\"%s\" target=\"_blank\">Diweddarwch eich manylion talu</a>."
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Diweddarwch eich manylion talu."
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Bron â gorffen</strong> - cychwynnwch Akismet a ffarwelio â sbam"
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Mae Akismet wedi arbed %d munud i chi!"
+msgstr[1] "Mae Akismet wedi arbed %d munud i chi!"
+msgstr[2] "Mae Akismet wedi arbed %d munud i chi!"
+msgstr[3] "Mae Akismet wedi arbed %d munud i chi!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Ae Akismet wedi arbed %d awr i chi!"
+msgstr[1] "Ae Akismet wedi arbed %d awr i chi!"
+msgstr[2] "Ae Akismet wedi arbed %d awr i chi!"
+msgstr[3] "Ae Akismet wedi arbed %d awr i chi!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Mae Akismet wedi arbed %s diwrnod i chi!"
+msgstr[1] "Mae Akismet wedi arbed %s diwrnod i chi!"
+msgstr[2] "Mae Akismet wedi arbed %s diwrnod i chi!"
+msgstr[3] "Mae Akismet wedi arbed %s diwrnod i chi!"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Mae Akismet yn hidlo sbam, fel y gallwch ganolbwyntio ar y pethau pwysicaf."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Nid oedd modd creu cysylltiad ag akismet.com. Darllenwch ein <a href=\"%s\" target=\"_blank\">canllaw ar furiau cadarn</a> a gwiriwch ffurfweddiad eich gweinydd."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "Nid oedd modd dilysu'r allwedd API rydych wedi ei chyflwyno."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Cysylltwch <a href=\"%s\" target=\"_blank\">â'n tîm cymorth</a> ag unrhyw gwestiynau."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Yn 2012, dechreuodd Akismet defnyddio cynlluniau tanysgrifiad ar gyfer holl gyfrifon (rhai hyd yn oed am ddim). Nid oes cynllun wedi'i neilltuo at eich cyfrif, a byddem yn gwerthfawrogi pe byddech yn  <a href=\"%s\" target=\"_blank\">mewngofnodi i'ch cyfrif</a> a dewis un."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Pob system yn weithredol."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Galluogwyd."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Profodd Akismet anhawster gyda'r cais SSL blaenorol ac fe'i hanalluogwyd dros dro. Bydd yn cychwyn defnyddio ceisiadau SSL eto, cyn bo hir."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Analluogwyd dros dro."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Nid yw eich gweinydd gwe'n gallu gwneud ceisiadau SSL: cysylltwch â'ch gwesteiwr Gwe a gofyn iddyn nhw ychwanegu cefnogaeth ar gyfer ceisiadau SSL."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Analluogwyd."
+
+#: views/config.php:110
+msgid "SSL status"
+msgstr "Statws SSL"
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Adroddwyd nad sbam yw'r sylw hwn."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Adroddwyd taw sbam yw'r sylw hwn."
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Rhowch allwedd API â llaw"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Cysylltu a chefnogaeth Akismet"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Dim problem! Cysylltwch â ni ac mi wnawn ni eich cynorthwyo."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Mae eich tanysgrifiad i %s wedi ei atal dros dro."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Mae eich tanysgrifiad ar gyfer %s wedi ei ddiddymu."
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Mae'r allwedd yn annilys. Edrych arno eto."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Bu anhawster gyda'ch allwedd API."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Mae modd i chi ein cynorthwyo i ymladd sbam drwy uwchraddio eich cyfrif drwy <a href=\"%s\" target=\"_blank\">gyfrannu swm bychan</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Cysylltwch a <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Ewch i'ch <a href=\"%s\" target=\"_blank\">tudalen cyfrif Akismet </a> i ailgychwyn eich tanysgrifiad."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Efallai fod eich mur cadarn yn ein rhwystro. Cysylltwch â'ch gwesteiwr a chyfeirio at ein canllaw <a href=\"%s\" target=\"_blank\"> am furiau cadarn</a>."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Mae eich gwesteiwr gwe neu weinyddwr gweinydd wedi analluogi swyddogaethau PHP&#8217;s <code>gethostbynamel</code>. <strong>Nid yw Akismet yn gallu gweithio nes bod hyn wedi ei ddatrys.</strong>  Cysylltwch â'ch gweinyddwr gwe neu weinyddwr mur cadarn a rhoi iddyn nhw'r <a href=\"%s\" target=\"_blank\">wybodaeth yma am anghenion system Akismet</a>."
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "Diffoddwyd swyddogaethau'r rhwydwaith."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Am rhagor o wybodaeth: %s"
+
+#. translators: The placeholder is an error code returned by Akismet.
+#: views/notice.php:57
+msgid "Akismet error code: %s"
+msgstr "Cod gwall Akismet: %s"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Nid yw rhai sylwadau wedi cael eu gwirio eto gan Akismet. Maen nhw wedi eu dal dros dro ar gyfer eu cymedroli a byddan nhw'n cael eu hail wirio yn nes ymlaen."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "Mae Akismet wedi canfod anhawster."
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Newid"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Diweddaru"
+
+#: views/config.php:295
+msgid "Next billing date"
+msgstr "Dyddiad bilio nesaf"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Gweithredol"
+
+#: views/config.php:286
+msgid "No subscription found"
+msgstr "Heb ganfod tanysgrifiad"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Coll"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Wedi ei wahardd"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Wedi ei ddiddymu"
+
+#: views/config.php:251
+msgid "Save changes"
+msgstr "Cadw newidiadau"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Datgysylltu'r cyfrif hwn"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Nodyn:"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Gosod y sbam yn y ffolder Sbam i mi eu hadolygu."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Dileu'r sbam gwaethaf a mwyaf lluosog yn dawel, fel na fydda i byth yn ei weld."
+
+#: views/config.php:161
+msgid "Akismet Anti-spam strictness"
+msgstr "Llymder gwrth-sbam Akismet"
+
+#: views/config.php:148
+msgid "Show the number of approved comments beside each comment author."
+msgstr "Dangos y nifer o sylwadau wedi eu cymeradwyo wrth ochr pob awdur sylwadau."
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Cywirdeb"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "O'r cychwyn"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Sbam wedi ei atal"
+msgstr[1] "Sbam wedi ei atal"
+msgstr[2] "Sbam wedi ei atal"
+msgstr[3] "Sbam wedi ei atal"
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Y chwe mis diwethaf"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Os gwelwch chi'n dda <a href=\"%1$s\">diweddarwch WordPress</a> i fersiwn gyfredol neu <a href=\"%2$s\"> defnyddiwch fersiwn 2.4 o ategyn Akismet</a>."
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "Mae Akismet %s angen WordPress %s neu uwch."
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Pasiodd Akismet y sylw hwn yn ystod ailgeisio awtomatig."
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Daliodd Akismet y sylw hwn fel sbam yn ystod ailgeisiad awtomatic."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "Adroddodd %s nad sbam yw'r sylw hwn."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "Adroddodd %s taw sbam yw'r sylw hwn."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "Mae %1$S wedi newid statws sylw i %2$s."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Nid oedd modd i Akismet wirio'r sylw hwn (ymateb: %s), bydd ceisio eto yn awtomatig yn nes ymlaen."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Cliriodd Akismet y sylw hwn."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "Newidwyd statws y sylw i %s"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "Daliodd Akismet y sylw hwn fel sbam."
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s spam</strong>wedi ei rwystro gan <strong>Akismet</strong>"
+msgstr[1] "<strong class=\"count\">%1$s spam</strong>wedi eu rhwystro gan <strong>Akismet</strong>"
+msgstr[2] "<strong class=\"count\">%1$s spam</strong>wedi eu rhwystro gan <strong>Akismet</strong>"
+msgstr[3] "<strong class=\"count\">%1$s spam</strong>wedi eu rhwystro gan <strong>Akismet</strong>"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Teitl:"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Sbam Rhwystrwyd"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Dangos y nifer o sylwadau sbam mae Akismet wedi eu dal"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Teclyn Akismet"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Mae clirio sbam yn cymryd amser."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Gwiriwch eich <a href=\"%s\">ffurfweddiad Akismet</a> a cysylltwch â'ch gweinyddwr gwe os yw'r anhawster yn parhau."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "%s yn ôl"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s wedi'i gymeradwyo"
+msgstr[1] "%s wedi'u cymeradwyo"
+msgstr[2] "%s wedi'u cymeradwyo"
+msgstr[3] "%s wedi'u cymeradwyo"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Hanes"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Gweld hanes y cofnod"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "Dadsbamiwyd gan %s"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "Wedi'i nodi fel sbam gan %s"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Wedi'i gymeradwyo gan Akismet"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Wedi'i nodi fel sbam gan Akismet"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Disgwyl gwirio sbam"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Nid oedd modd i Akismet ail wirio'r sylw hwn (ymateb: %s)."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Ail wiriodd Akismet y sylw hwn a'i glirio."
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Ail wiriodd Akismet y sylw hwn a'i ddal fel sbam."
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Gwirio am Sbam"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Does dim yn eich <a href='%s'>casgliad sbam</a> ar hyn o bryd."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Mae yna <a href=\"%2$s\">%1$s sylw</a> yn eich casgliad sbam ar hyn o bryd."
+msgstr[1] "Mae yna <a href=\"%2$s\">%1$s sylw</a> yn eich casgliad sbam ar hyn o bryd."
+msgstr[2] "Mae yna <a href=\"%2$s\">%1$s sylw</a> yn eich casgliad sbam ar hyn o bryd."
+msgstr[3] "Mae yna <a href=\"%2$s\">%1$s sylw</a> yn eich casgliad sbam ar hyn o bryd."
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "Mae <a href=\"%s\">Akismet</a> yn rhwystro sbam rhag cyrraedd eich blog. "
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "Mae <a href=\"%1$s\">Akismet</a> eisoes wedi amddiffyn eich gwefan rhag sbam %2$s sylw. "
+msgstr[1] "Mae <a href=\"%1$s\">Akismet</a> eisoes wedi amddiffyn eich gwefan rhag sbam %2$s sylw. "
+msgstr[2] "Mae <a href=\"%1$s\">Akismet</a> eisoes wedi amddiffyn eich gwefan rhag %2$s sylw sbam. "
+msgstr[3] "Mae <a href=\"%1$s\">Akismet</a> eisoes wedi amddiffyn eich gwefan rhag %2$s sylw sbam. "
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Mae Akismet</a> wedi diogelu eich gwefan rhag <a href=\"%2$s\">%3$s o syllwadau sbam</a>."
+msgstr[1] "<a href=\"%1$s\">Mae Akismet</a> wedi diogelu eich gwefan rhag <a href=\"%2$s\">%3$s o syllwadau sbam</a>."
+msgstr[2] "<a href=\"%1$s\">Mae Akismet</a> wedi diogelu eich gwefan rhag <a href=\"%2$s\">%3$s o syllwadau sbam</a>."
+msgstr[3] "<a href=\"%1$s\">Mae Akismet</a> wedi diogelu eich gwefan rhag <a href=\"%2$s\">%3$s o syllwadau sbam</a>."
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Sbam"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Twyllo, ai e?"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Cefnogaeth Akismet"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Cwestiynau am Akismet"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Rhagor o wybodaeth:"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Statws tanysgrifio - gweithredol, diddymwyd neu wedi ei atal dros dro"
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Statws"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Cynllun tanysgrifio Akismet"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Math o Danysgrifiad"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Cyfrif"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Dewiswch i ddileu'r sbam gwaethaf yn awtomatig neu i gadw'r cyfan mewn ffolder sbam."
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Cyfyngder"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Dangos y nifer o sylwadau sydd wedi eu cymeradwyo wrth ochr awduron sylwadau yn y rhestr sylwadau."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Sylwadau"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "Rhoi/Tynnu allwedd API."
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "Allwedd API"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "Ffurfweddu Akismet"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Ar y dudalen hon, mae modd gweld ystadegau ar y sbam sydd wedi ei hidlo ar eich gwefan."
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Ystadegau Akismet"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Cliciwch y botwm Defnyddiwch yr Allwedd hon."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Copïwch a gludo'r allwedd API i'r maes testun."
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Os oes gennych eisoes allwedd API"
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Rhowch Alwedd API"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Ymunwch am gyfrif ar %s i dderbyn Allwedd API."
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Rhaid gosod allwedd API i gychwyn gwasanaeth Akismet ar eich gwefan."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Newydd i Akismet"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Mae modd i chi osod ategyn Akismet ar y dudalen hon."
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Gosod t"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Trosolwg"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Ail-ychwanegu..."
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(dadwneud)"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL wedi ei dynnu"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Tynnu..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Tynnu'r URL yma"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Gosodiadau"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Hanes Sylwadau"

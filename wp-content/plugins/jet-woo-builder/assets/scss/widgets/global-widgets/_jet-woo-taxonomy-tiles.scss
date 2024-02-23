@@ -1,0 +1,346 @@
+$layouts: (
+	layout-2-1-2:(
+		1: (1, 2, 1, 2),
+		2: (1, 2, 2, 3),
+		3: (2, 3, 1, 3),
+		4: (3, 4, 1, 2),
+		5: (3, 4, 2, 3),
+	),
+	layout-1-1-2-h:(
+		1: (1, 2, 1, 3),
+		2: (2, 4, 1, 2),
+		3: (2, 3, 2, 3),
+		4: (3, 4, 2, 3),
+	),
+	layout-1-1-2-v:(
+		1: (1, 2, 1, 3),
+		2: (2, 3, 1, 3),
+		3: (3, 4, 1, 2),
+		4: (3, 4, 2, 3),
+	),
+	layout-1-2:(
+		1: (1, 2, 1, 3),
+		2: (2, 3, 1, 2),
+		3: (2, 3, 2, 3),
+	),
+	layout-2-3-v:(
+		1: (1, 4, 1, 2),
+		2: (4, 7, 1, 2),
+		3: (1, 3, 2, 3),
+		4: (3, 5, 2, 3),
+		5: (5, 7, 2, 3),
+	),
+	layout-1-2-2:(
+		1: (1, 2, 1, 3),
+		2: (2, 3, 1, 2),
+		3: (3, 4, 1, 2),
+		4: (2, 3, 2, 3),
+		5: (3, 4, 2, 3),
+	)
+);
+
+.jet-woo-taxonomy-tiles {
+	@include display-grid();
+	justify-content: stretch;
+	
+	@each $layout, $items in $layouts {
+		&--#{$layout} {
+			.jet-woo-taxonomy-item {
+				@each $item, $value in $items {
+					&:nth-child(#{$item}) {
+						@include grid-item($value...);
+					}
+				}
+			}
+		}
+	}
+
+	&--layout-2-1-2 {
+		grid-template-columns: 1fr 30% 1fr;
+		-ms-grid-columns: 1fr 30% 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 1fr 1fr !important;
+			grid-template-rows: 1fr 1fr 1fr;
+			-ms-grid-columns: 1fr 1fr !important;
+			-ms-grid-rows: 1fr 1fr 1fr;
+
+			.jet-woo-taxonomy-item {
+				&:nth-child( 1 ) {
+					@include grid-item(1, 2, 1, 2);
+				}
+				&:nth-child( 2 ) {
+					@include grid-item(2, 3, 1, 2);
+				}
+				&:nth-child( 3 ) {
+					@include grid-item(1, 3, 2, 3);
+				}
+				&:nth-child( 4 ) {
+					@include grid-item(1, 2, 3, 4);
+				}
+				&:nth-child( 5 ) {
+					@include grid-item(2, 3, 3, 4);
+				}
+			}
+		}
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-1-1-2-h {
+		grid-template-columns: 50% 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 50% 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 1fr 1fr !important;
+			grid-template-rows: 1fr 1fr 1fr;
+			-ms-grid-columns: 1fr 1fr !important;
+			-ms-grid-rows: 1fr 1fr 1fr;
+
+			.jet-woo-taxonomy-item {
+				&:nth-child( 1 ) {
+					@include grid-item(1, 3, 1, 2);
+				}
+				&:nth-child( 2 ) {
+					@include grid-item(1, 3, 2, 3);
+				}
+				&:nth-child( 3 ) {
+					@include grid-item(1, 2, 3, 4);
+				}
+				&:nth-child( 4 ) {
+					@include grid-item(2, 3, 3, 4);
+				}
+			}
+		}
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-1-1-2-v {
+		grid-template-columns: 50% 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 50% 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 1fr 1fr !important;
+			grid-template-rows: 1fr 1fr 1fr;
+			-ms-grid-columns: 1fr 1fr !important;
+			-ms-grid-rows: 1fr 1fr 1fr;
+
+			.jet-woo-taxonomy-item {
+				&:nth-child( 1 ) {
+					@include grid-item(1, 3, 1, 2);
+				}
+				&:nth-child( 2 ) {
+					@include grid-item(1, 2, 2, 4);
+				}
+				&:nth-child( 3 ) {
+					@include grid-item(2, 3, 2, 3);
+				}
+				&:nth-child( 4 ) {
+					@include grid-item(2, 3, 3, 4);
+				}
+			}
+		}
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-1-2 {
+		grid-template-columns: 50% 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 50% 1fr;
+		-ms-grid-rows: 1fr 1fr;
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-2-3-v {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr;
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-1-2-2 {
+		grid-template-columns: 50% 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		-ms-grid-columns: 50% 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 1fr 1fr !important;
+			grid-template-rows: 1fr 1fr 1fr;
+			-ms-grid-columns: 1fr 1fr !important;
+			-ms-grid-rows: 1fr 1fr 1fr;
+
+			.jet-woo-taxonomy-item {
+				&:nth-child( 1 ) {
+					@include grid-item(1, 3, 1, 2);
+				}
+				&:nth-child( 2 ) {
+					@include grid-item(1, 2, 2, 3);
+				}
+				&:nth-child( 3 ) {
+					@include grid-item(2, 3, 2, 3);
+				}
+				&:nth-child( 4 ) {
+					@include grid-item(1, 2, 3, 4);
+				}
+				&:nth-child( 5 ) {
+					@include grid-item(2, 3, 3, 4);
+				}
+			}
+		}
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--layout-2-x {
+		grid-template-columns: repeat(2, 1fr);
+		-ms-grid-columns: 1fr 1fr;
+	}
+
+	&--layout-3-x {
+		grid-template-columns: repeat(3, 1fr);
+		-ms-grid-columns: 1fr 1fr 1fr;
+	}
+
+	&--layout-4-x {
+		grid-template-columns: repeat(4, 1fr);
+		-ms-grid-columns: 1fr 1fr 1fr 1fr;
+
+		@media (max-width: 1024px) {
+			grid-template-columns: repeat(2, 1fr);
+			-ms-grid-columns: 1fr 1fr;
+		}
+		
+		@media (max-width: 767px) {
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+	}
+	
+	@media (max-width: 767px) {
+		grid-template-columns: 1fr!important;
+		-ms-grid-columns: 1fr!important;
+		
+		.jet-woo-taxonomy-item:nth-child( 1 ) {
+			@include grid-item(1, 2, 1, 2);
+		}
+		.jet-woo-taxonomy-item:nth-child( 2 ) {
+			@include grid-item(1, 2, 2, 3);
+		}
+		.jet-woo-taxonomy-item:nth-child( 3 ) {
+			@include grid-item(1, 2, 3, 4);
+		}
+		.jet-woo-taxonomy-item:nth-child( 4 ) {
+			@include grid-item(1, 2, 4, 5);
+		}
+		.jet-woo-taxonomy-item:nth-child( 5 ) {
+			@include grid-item(1, 2, 5, 6);
+		}
+		.jet-woo-taxonomy-item:nth-child( 6 ) {
+			@include grid-item(1, 2, 6, 7);
+		}
+	}
+	
+	&.jet-woo-taxonomy-tiles-count--out-of-content{
+		.jet-woo-taxonomy-item__box-count{
+			position: absolute;
+		}
+		
+		&.jet-woo-taxonomy-tiles-count--top-right{
+			.jet-woo-taxonomy-item__box-count{
+				top: 0;
+				right: 0;
+			}
+		}
+		
+		&.jet-woo-taxonomy-tiles-count--top-left{
+			.jet-woo-taxonomy-item__box-count{
+				top: 0;
+				left: 0;
+			}
+		}
+		
+		&.jet-woo-taxonomy-tiles-count--bottom-right{
+			.jet-woo-taxonomy-item__box-count{
+				bottom: 0;
+				right: 0;
+			}
+		}
+		
+		&.jet-woo-taxonomy-tiles-count--bottom-left{
+			.jet-woo-taxonomy-item__box-count{
+				bottom: 0;
+				left: 0;
+			}
+		}
+	}
+}
+
+.jet-woo-taxonomy-item__box {
+	height: 100%;
+	background-size: cover;
+	position: relative;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: flex-start;
+	overflow: hidden;
+	background-position: center;
+	transition: all 200ms linear;
+	
+	&::before {
+		position: absolute;
+		z-index: 0;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		content: '';
+		-webkit-transition: all 200ms linear;
+		-o-transition: all 200ms linear;
+		transition: all 200ms linear;
+	}
+}
+
+.jet-woo-taxonomy-item__box-link{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.jet-woo-taxonomy-item__box-content{
+	width: 100%;
+	z-index: 1;
+}
+
+.jet-woo-taxonomy-item__box-inner{
+	display: inline-block;
+}

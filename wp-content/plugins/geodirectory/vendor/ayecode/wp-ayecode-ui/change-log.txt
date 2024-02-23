@@ -1,0 +1,347 @@
+= 0.2.6 - 2024-01-25 =
+* Single quote breaks validation message - FIXED
+* WP Editor Styles can now style headings, links, typography - ADDED
+
+= 0.2.5 - 2023-12-14 =
+* Update textdomain - CHANGED
+* Inline CSS breaks p element in block editor - FIXED
+
+= 0.2.4 =
+* Last ios fix broke standard image select from library - FIXED
+
+= 0.2.3 =
+* iOS add listing add images button not working - FIXED
+
+= 0.2.1 =
+* Manage native mobile datepicker for date or time input on mobile - CHANGED
+* plupload button on safari can overflow and block other page elements - FIXED
+
+= 0.2.0 =
+* color-scheme-flip-on-scroll feature should flip when mobile menu opened even if not scrolled - FIXED
+* Font awesome icon-picker searcher updated to latest 6.x - UPDATED
+* Icon picker will now show icons v5 or v6 depending on Font Awesome Settings - CHANGED
+
+= 0.1.98 =
+* Greedy tab links not showing properly in mobile device - FIXED
+
+= 0.1.97 =
+* BS5 removed mb-3 on slider as it was causing padding issues on GD when mixed Single and Slider archives - CHANGED
+* image cover classes are nto vertically centering image - FIXED
+
+= 0.1.96 =
+* BS4 to BS5 font italic class is not working - FIXED
+* Custom pallet colors not showing in BS5 when selected as a color in block - FIXED
+
+= 0.1.94 =
+* Fix conditional field for multiselect field type in search bar - FIXED
+
+= 0.1.93 =
+* Rounded right not working in BS5 - FIXED
+* Firefox and Safari can have issues displaying images with the .ratio class - FIXED
+
+= 0.1.92 =
+* removed extra styling in bs5 for deprecated .form-group class - REMOVED
+* Multiple AUI lightbox instances can prevent scrollbar coming back once closed - FIXED
+
+= 0.1.91 =
+* Improvements to BS5 compatibility - ADDED
+
+= 0.1.90 =
+* Improvements for FSE color pallet changes - CHANGED
+* Default value as BS v5 should not have been set yet - FIXED
+
+= 0.1.89 =
+* Prevent conditional fields execution twice on select2 - FIXED
+* Changes to BS5 CSS - CHANGED
+* Added notice when theme is overriding default settings - ADDED
+
+= 0.1.88 =
+* BS 4/5 functions split to separate files - CHANGED
+* Tweaks for FSE styles - ADDED
+* $aui_bs5 global added for detecting if BS5 is active - ADDED
+
+= 0.1.86 =
+* Tweaks for FSE styles - ADDED
+* Added support for Bootstrap v5 - (NOT YET COMPLETE)
+
+= 0.1.85 =
+* Bootstrap updated to latest v4.6.2 - UPDATED
+
+= 0.1.84 =
+* Compatibility added for BlockStrap theme - ADDED
+
+= 0.1.83 =
+* Filter for default settings - ADDED
+
+= 0.1.82 =
+* Added CSS build file for FSE to fix consistency issues - ADDED
+* Increased spacer options from 5 to 12 - ADDED
+* FSE CSS can now be activated in other themes by adding constant AUI_FSE - ADDED
+
+= 0.1.81 =
+* Tweaks for FSE - ADDED
+
+= 0.1.80 =
+* Flatpickr CSS conflict fix - FIXED
+* Tweaks for FSE - ADDED
+
+= 0.1.79 =
+* Hover animations class tweaks - CHANGED
+
+= 0.1.77 =
+* FSE tweaks - ADDED
+
+= 0.1.76 =
+* Open video popup on badge click when available - ADDED
+* Changes added for upcoming FSE BlockStrap theme -  ADDED
+
+= 0.1.75 =
+* Font Awesome Settings Dequeue option can disable iconpicker - FIXED
+* aui_init_counters() helper functions added to animate number counters - ADDED
+* Classes added for bg-transparent-until-scroll - ADDED
+* .embed-has-action animations now smoother - CHANGED
+
+= 0.1.74 =
+* Style is not loading when WordPress installed on sub-directory - FIXED
+
+= 0.1.73 =
+* Conditional field multiselect field don't match for specific option - FIXED
+* Allow to run conditionl fields on custom event trigger - ADDED
+
+= 0.1.72 =
+* Input now has "size" option: sm, small, lg, large - ADDED
+* Input now has "clear_icon" that will show a clear icon when field has value if set to true - ADDED
+
+= 0.1.71 =
+* TikTok class added for .btn-tiktok - ADDED
+
+= 0.1.70 =
+* select2 can sometimes double initiate - FIXED
+
+= 0.1.69 =
+* Parameter added to be able to directly echo functions - ADDED
+
+= 0.1.68 =
+* Bootstrap updated to 4.6.1 - UPDATED
+
+= 0.1.67 =
+* input_group_left/right now supported by textareas - ADDED
+
+= 0.1.66 =
+* Textarea shows stripped some part for variable like %category% - FIXED
+
+= 0.1.65 =
+* Changes for Avada builder backend settings display - FIXED
+* Change all script/style versions to AUI version to invalidate cache on each change - CHANGED
+* Toast sometimes hidden by support widgets - FIXED
+* Select field option don't show option selected when value is empty - FIXED
+
+= 0.1.64 =
+* minimised version of iconpicker JS missing from release - FIXED
+
+= 0.1.63 =
+* Deprecated: version_compare(): Passing null to parameter - FIXED
+* iconpicker input type added - ADDED
+* aui_modal_iframe() function added to show iframes in a modal - ADDED
+* aui_toast() function added to add toasts to the screen - ADDED
+* aui_confirm() function added to replace JS confirm with a bootstrap alternative - ADDED
+* modal in wp-admin not showing correctly - FIXED
+* Admin notice added if admin settings not set to defaults - ADDED
+
+= 0.1.62 =
+* Grid view .gv-hide-0 class added to hide items on list view - ADDED
+
+= 0.1.61 =
+* Escape validation pattern - FIXED
+
+= 0.1.60 =
+* Conditional fields changes - CHANGED
+
+= 0.1.59 =
+* Parameter added to add attributes to main wrapper - ADDED
+* Conditional fields scripts added - ADDED
+
+= 0.1.58 =
+* Filter added to be able to override AUI loading from wp-admin - ADDED
+
+= 0.1.57 =
+* Video shows extra padding on Divi theme - FIXED
+
+= 0.1.56 =
+* Radio with empty value do not renders value attribute - FIXED
+
+= 0.1.55 =
+* Add unique CSS class to radio/checkbox wrapper - ADDED
+* Added wp_unslash() to value output helper - ADDED
+
+= 0.1.53 =
+* Better escaping for input values - CHANGED
+
+= 0.1.52 =
+* WP 5.8 legacy widgets preview not loading styles - FIXED
+
+= 0.1.51 =
+* Textarea "name" arg can't contain [square brackets] - FIXED
+
+= 0.1.50 =
+* Scroll within popup scrolls the modal background on iOS mobile device - FIXED
+
+= 0.1.49 =
+* Unable to save empty value for multiselect fields - FIXED
+* Text left/right classes alignment swapped for RTL CSS - CHANGED
+
+= 0.1.48 =
+* Tooltips in wp-admin have wrong margin offset - FIXED
+* Inline CSS and JS is now minified to reduce size - CHANGED
+
+= 0.1.47 =
+* Timeago labels are not translatable - FIXED
+* Kleo theme fix for mobile menu in some situations not showing - FIXED
+
+= 0.1.46 =
+* JS function added to open embedded items in a lightbox gallery - ADDED
+
+= 0.1.45 =
+* Some texts missing a textdomain - FIXED
+
+= 0.1.44 =
+* Field description is missing for radio field - FIXED
+* WP 5.7 Gutenberg widgets screen breaks some AUI CSS - FIXED
+* Calendar labels are not translatable - FIXED
+* Select2 JS labels are not translatable - FIXED
+
+= 0.1.43 =
+* AUI will now only load on backend (wp-admin) pages if the screen id has been added via filter 'aui_screen_ids' - BREAKING CHANGE
+
+= 0.1.42 =
+* Theme check wrongly thinks we hide the admin bar so we move CSS to PHP file - CHANGED
+
+= 0.1.41 =
+* Time ago feature is not working - FIXED
+* Allow HTML tags in textarea field with allow_tags attribute - ADDED
+* Bootstrap v3 compatibility CSS function added to help with some conflicts - ADDED
+* Textarea (non wysiwyg) now supports `extra_attributes` - ADDED
+
+= 0.1.40 =
+* BS Full mode on backend causes style conflicts, warning added - ADDED
+
+= 0.1.39 =
+* flatpickr calendar can sometimes have the year select hidden on some themes - FIXED
+
+= 0.1.38 =
+* List group item spacing and border using wrong rule - FIXED
+
+= 0.1.36 =
+* Show JS error when field condition has "form" word - FIXED
+* Bootstrap Updated to 4.5.3 - CHANGED
+* RTL support added for RTL languages - ADDED
+
+= 0.1.35 =
+* Conditional fields shows JavaScript error - FIXED
+
+= 0.1.34 =
+* Select input names with [multiples] being sanitized too much - FIXED
+* Map source file comments removed from CSS files - CHANGED
+* Not possible to use 0 as a value or placeholder - FIXED
+
+= 0.1.33 =
+* Select2 not being added if other JS options selected - FIXED
+* Inputs now have wrap_class argument to add classes to the wrapper - ADDED
+
+= 0.1.32 =
+* Multi-select not always adding [] to name attribute - FIXED
+* Multi-select not checking if values is_array - FIXED
+
+= 0.1.30 =
+* Changes for theme check - CHANGED
+
+= 0.1.28 =
+* Allow menus to have multiple submenus with by adding class .navbar-multi-sub-menus - ADDED
+
+= 0.1.26 =
+* List view image not fully taking up column - FIXED
+* clear-both class added - ADDED
+
+= 0.1.25 =
+* Primary and Secondary default colors can be set via PHP constant - ADDED
+* Replace jQuery deprecated load() function - CHANGED
+
+= 0.1.24 =
+* Added ability to add multiple visible items to a slider responsively - ADDED
+
+= 0.1.23 =
+* Conditional fields options now work with AUI inputs - ADDED
+* Changed flatpickr to a data attribute initiator - CHANGED
+* aui_init_flatpickr() can have a race condition - FIXED
+* Greedy nav can break if initiated twice - FIXED
+
+= 0.1.22 =
+* In admin add script to footer to avoid jQuery UI tooltip issues - CHANGED
+
+= 0.1.21 =
+* Added top and floating label type - ADDED
+* Added admin fix for gutenberg color input not showing color on some browsers - FIXED
+
+= 0.1.20 =
+* Button now has icon_extra_attributes option - ADDED
+* extra_attributes now available on more input types - ADDED
+* icon_extra_attributes added to buttons - ADDED
+
+= 0.1.19 =
+* Select placeholder not showing for select2 - FIXED
+* code font size too small for mobile SEO - FIXED
+* extra_attributes array now work with buttons - ADDED
+* Added input to be able to disable loading of scripts in wp-admin certain URLs - ADDED
+
+= 0.1.18 =
+* Hide grid view elements on small breakpoints - ADDED
+* Grid view 0 (list view) not going 100% if smaller grid view classes active - FIXED
+
+= 0.1.17 =
+* Added grid view hide secondary info classes - ADDED
+* Floating label classes added - ADDED
+
+= 0.1.16 =
+* bg-initial and bg-inherit background classes added - ADDED
+* Init flatpickr with class aui-flatpickr - ADDED
+
+= 0.1.15 =
+* Radio inputs now available - ADDED
+* Flatpickr date/time picker script - ADDED
+* Use wp_kses_post() on label output instead of esc_attr() - CHANGED
+
+= 0.1.14 =
+* Popovers don't have full styling in compatibility mode - FIXED
+* Badges now support branding variants - ADDED
+
+= 0.1.13 =
+* Badge hover actions not working due to wrong nesting when using compatibility mode - FIXED
+* Classes added for badge absolute and angled positioning - ADDED
+* WP admin bar overlaps modal when open - FIXED
+* Select not using vendor prefix to hide default arrow - FIXED
+
+= 0.1.11 =
+* IOS scroll bar class .scrollbars-ios added - ADDED
+
+= 0.1.10 =
+* Embed item cover classes added - ADDED
+* Input group inside ability added - ADDED
+
+= 0.1.8 =
+* Checkbox / radio can now set an item selected by setting argument `checked` to true - ADDED
+
+= 0.1.7 =
+* variable $js_default_backend not defined in some cases - FIXED
+
+= 0.1.6 =
+* Separate backend settings added for JS/CSS - ADDED
+
+= 0.1.5 =
+* Fix stripslashes() expects parameter 1 to be string array given notice for the multiselect field - FIXED
+* Added button new window option - ADDED
+* Added badge component - ADDED
+
+= 0.1.4 =
+* Avada theme default JS settings added for compatibility - ADDED
+* Pagination component added - ADDED
+* $ver class property added - ADDED

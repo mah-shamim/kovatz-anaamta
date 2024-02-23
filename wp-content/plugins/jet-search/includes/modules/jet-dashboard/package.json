@@ -1,0 +1,31 @@
+{
+  "name": "gulp-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZemezLab/jet-tabs.git"
+  },
+  "author": "Shin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZemezLab/jet-tabs/issues"
+  },
+  "homepage": "https://github.com/ZemezLab/jet-tabs#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "gulp-checktextdomain": "^2.3.0"
+  }
+}

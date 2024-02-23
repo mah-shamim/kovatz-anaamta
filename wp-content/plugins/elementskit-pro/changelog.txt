@@ -1,0 +1,374 @@
+== Changelog ==
+Version: 3.4.0 (29 October 2023)
+Added: Comparison table widget
+Added: Wrapper link Module
+Fixed: Volume display handling for touch devices
+Fixed: Price menu widget anchor tag issue
+Fixed: Facebook feed responsive issues
+Fixed: Facebook page review widget ID token vaildation check
+Fixed: Blog posts masonry issue
+Fixed: Advanced slider thumbs issue
+Fixed: Blog posts widgets load more
+Improved: Vertical menu dropdown arrow changes option
+
+Version: 3.3.0 (21 Jun 2023)
+Fixed: Popup modal widget editor loading
+Fixed: Advanced tab hash change undefined
+Fixed: HTML is not working in advanced tab widget
+Fixed: WhatsApp widget responsive issues
+Fixed: Google SDK deprecated issues for PHP 8.0 and above
+Fixed: Particles module console error occurs on non-Elementor pages
+Fixed: Compatibility issue with slick slider
+Fixed: Accordion not working inside advanced toggle widget
+Fixed: Dribbble widget spelling issues
+Improved: Flip box widget firefox browser compatibility
+Improved: Coupon Code Widget controls
+Improved: Optimize review, price menu, team, video gallery sliders
+
+Version: 3.2.1 (05 Apr 2023)
+Fixed: Swiper v8.45 compatibility
+Fixed: Advanced Tab Widget Enable URL Hash Issue
+Fixed: Pause on Hover option doesn't work on the Video Gallery widget Carousel
+Fixed: Stylish List description escaping issue
+Fixed: Social profile URL on the popup of the Team Carousel Slider widget issue.
+Fixed: Yelp Review feed issue
+Improved: Advanced Slider Widget Js Optimize and New Controls Added like Thumbnail Scale, Loop Option, Speed.
+Improved: Fancy Animated Text Support with an Advanced Slider widget
+
+Version: 3.2.0 (28 Feb 2023)
+Added: Content Ticker widget
+Added: Coupon Code Widget
+Added: Particles Module
+Added: New styles and features in Whatsapp Widget
+Added: Icons for Dribble, Pinterest and Behance Feed Widgets
+Fixed: Parallax Module support with Flex Container
+Fixed: Maximum project per page is fixed at Dribble Feed Widget
+Fixed: Breakpoints issue fixed for Advanced Slider Widget
+Fixed: Parallax Module On Mouse Move effect for widget support with Container.
+Fixed: Compatibility issues with Eduma theme
+Improved: Accessibility for widgets and modules
+
+Version: 3.1.0 (16 Jan 2023)
+Added: Audio Player Widget
+Added: Flip Box Widget
+Added: Image Morphing Widget
+Added: Flex container support
+Added: Carousel Slider controls to Blog Post Widget
+Added: Ten new swap styles to Image Swap Widget
+Fixed: Gallery Widget PHP warning issue
+Fixed: Box-shadow arrow issue in Advanced Tooltip Module
+Fixed: Swiper slider initial loading breaks columns
+Fixed: Link getting duplicate for socials in Team Carousel Slider
+Improved: Team Carousel Slider controls
+Improved: Optimize JS for Behance Feed Widget
+Improved: Widgets searching keywords for editor panel
+Improved: Breadcrumb Widget styles and controls
+Tweaked: Disable glare effect in Parallax Module
+
+Version: 3.0.0 (12 Dec 2022)
+Added: Stylish List widget
+Added: Team Carousel Slider widget
+Added: Widgets Documentation URL
+Fixed: Fancy Animated Text animation issues
+Fixed: Board name more than one word doesn't fetch in Pinterest Feed widget
+Fixed: Price Menu widget link doesn't work properly
+Fixed: Button link not working properly in Image hover effect
+Fixed: Arrow position in Video Gallery
+Fixed: Flickering issue for Advanced tab content
+Fixed: Advanced widgets issue with Table widget
+Fixed: Testimonials slider not working inside advanced tab of OceanWP theme
+Fixed: Fancy Animated Text Widget Text crop & Cursor gap issue
+Fixed: Advanced tab widget vertical height issues
+Fixed: Responsive issues in Video Gallery widget
+Fixed: Firebase JWT conflict issue
+Improved: Parallax module js
+Improved: Vertical alignment in Advanced Tab widget
+Improved: Fancy Animated Text Widget Visibility
+Improved: Fancy Animated Text Widget Bar Loading Animation
+Improved: Fancy Animated Text Widget SVG Shape left, Right Moved
+Improved: Advanced Slider widget Progress-bar System & Slider Content Animation
+Improved: Advanced Slider widget Slides Per View & Wrapper Padding
+Improved: Filter spacing Control in Video Gallery widget
+Tweaked: Image Overlay control in Blog Post widget
+Tweaked: Advanced Slider widget Vertical & Image Thumbs
+
+Version: 2.8.0 (02 Oct 2022)
+Added: Price Menu widget
+Added: Fancy Animated Text Widget
+Added: Image Masking Module
+Added: Dynamic content support for Elementor pro
+Added: Image hover effect widget WPML compatibility
+Fixed: Elementor reset style issue with Elementskit Conditions module
+Fixed: Swiper slider is not working and updating inside an advanced tab
+Fixed: Ajax mega menu load issue with vertical menu
+Tweaked: Image Hover Effect widget
+
+Version: 2.7.0 (24 Aug 2022)
+Added: Image Hover Effect widget
+Added: Option for disable CSS3 animation for responsiveness
+Added: Horizontal bottom position for Timeline widget
+Fixed: Woo Product List widget's query issue
+Fixed: Timeline widget pinpoint icon border-radius control disappear issue
+Fixed: Fatal error with google client vendor
+Fixed: Animation and css issues in Timeline widget
+
+Version: 2.6.10 (17 Jul 2022)
+Added: Facebook Feed widget's demo in Template library
+Added: Style for Breadcrumb widget
+Added: Text field in Woo Mini Cart widget
+Fixed: Code Optimized.
+Fixed: Vendor conflict issue
+Fixed: Advanced Tooltip background not changed when upload image
+Fixed: Conflict css issue with twenty twenty one theme
+Fixed: Pinterest share is not working in Facebook Feed widget
+Fixed: Advanced tab issue for OceanWP Theme
+Fixed: Woo Mini Cart css issue for OceanWP theme
+Fixed: Timeline widget's title, subtitle and anchor color not changing
+Tweaked: Table Widget css issue in OceanWP Theme
+
+Version: 2.6.9 (26 Jun 2022)
+Fixed: Code Optimized.
+
+Version: 2.6.8 (24 May 2022)
+Fixed: CSS bug fix.
+
+Version: 2.6.7 (27th April 2022)
+Added: Compatibility with PHP 8.0. 
+Tweaked: JS, PHP & CSS.
+
+Version: 2.6.6 (25th April 2022)
+Fixed: Advance Tab widget issue.
+Fixed: Advance Accordion widget issue.
+Fixed: Advance Toggle widget issue.
+Fixed: Advance Slider widget issue.
+
+Version: 2.6.5 (18th April 2022)  
+Addded: Whatsapp Widget. 
+Fixed: Creative Button icon position.
+Fixed: Advanced tab content issue.
+Fixed: Advanced Accordion content issue.
+Fixed: Advanced Toggle content issue.
+
+Version: 2.6.4 (24th March 2022)
+Added: Subcontinent and Image in Advanced Tooltip widget.
+Improved: Added  Advance tooltip subtitle, image, and many controls.
+Fixed: Body alignment issue in Table widget.
+Fixed: HTML content issue in Advanced Tooltip widget.
+Fixed: Instagram widget caption and others issues
+Fixed: Elementor 3.6.1 conflicts for deprecation.
+Fixed: Elementor responsive control devices compatibility issue
+Fixed: Tweak border radius issue of advance tooltip widget
+Fixed: Advanced tab issue ( specially with OceanWP theme )
+
+Version: 2.6.3 (15th February 2022)
+Improved: Parallax doesn't work on tablets & mobile devices.
+Fixed: Table widget issue ( Editor output style not work & HTML print with image).
+Fixed: Video widget issue.
+Fixed: Conditional content module has a conflict with the Russian language.
+
+Version: 2.6.2 (30th January 2022)
+Added: Integrate google sheet inside table widget.
+Added: WYSIWYG control for table body text.
+Fixed: Table widget fopen function warning.
+Fixed: Table widget image issue.
+
+Version: 2.6.1 (22th January 2022).
+Fixed: Icon missing & replaced fontAwesome icon with elementor icon.
+Fixed: Advanced Tab issue with OceanWP theme.
+Tweaked: CSS and JS improved.
+
+Version: 2.6.0 (9th January 2022).
+Added: Ajax Loading support for Advanced Tab Widget.
+Improved: Improved data attribute.
+Improved: Update paralax library version(Jaralax).
+Improved: Mini cart & ajax loading support for Advanced Tab. 
+Fixed: HTML tag does not work into table widget cell text.
+Fixed: PHP notice and warning when username is not exist in pinterest feed.
+Fixed: Limiting instagram feeds causes shrinking of columns in instagram feed.
+
+Version: 2.5.0 (20th December 2021)
+New: Hover option added for Vertical Menu Widget.
+New: Russian language for translation.
+Fix: Sticky Offset support for Smooth Scrolling.
+Fix: Background Image rendering issue for Parallax Module.
+Fix: Table widget missing controls.
+Fix: Instagram Feed Fatal Error.
+Removed: Comment and like count from instagram feed widget.
+
+Version: 2.4.1 (2nd December 2021)
+Fix: Script defer loading issue for Copy-Paste Module.
+Tweak: CSS and JS improved
+
+Version: 2.4.0 (25th November, 2021)
+Improved: Bundled Modules js for avoiding multiple request to increase the performance.
+Tweak: CSS and JS improved
+
+Version: 2.3.7 (7th November, 2021)
+Fix: Woo Product Carousel issue.
+Fix: Advanced tab nested issue fixed.
+Fix: fixed grid compatibility issue.
+Tweak: CSS and JS improved
+
+Version: 2.3.6 (26th September, 2021)
+Fix: Woo Category widget grid issue with Astra theme
+Fix: Woo Product List widget grid issue with Astra theme
+Fix: Hover behavior issue for Woo Mini Cart Widget.
+Fix: Responsive support for Chart Widget with large data.
+Fix: Horizontal style content alignment for Timeline Widget.
+
+Version: 2.3.5 (19 August, 2021)
+Fix: JS conflict when first load for Parallax Module.
+Fix: Responsive controls issue for Woo Category List Widget.
+Fix: Removed deprecated Elementor PHP Methods from Widgets.
+
+Version: 2.3.4 (2 August, 2021)
+Fix: Advanced Accordion and Advanced Tab widgets conflict with OceanWP theme.
+Fix: Advanced Toggle widget Indicator Global color issues.
+Fix: Unfold widget title alignment issue.
+Fix: Timeline widget content alignment issue.
+
+Version: 2.3.3 (15 July, 2021)
+Fix: Swiper Slider conflict issues fixed with other theme.
+
+Version: 2.3.2 (15 July, 2021)
+Tweak: Removed loop from carousel related widgets.
+
+Version: 2.3.1 (13 July, 2021)
+Fix: Multiple placeholder image upload issues when importing widget.
+Fix: Background color delay loading issues fixed on Table widget.
+Tweak: Improved W3validation.
+Tweak: TweenMax JS Library updated to the latest version.
+Tweek: Converted widgets slideshow from slick to swiper.
+Tweak: Optimized Images. 
+
+Version: 2.3.0 (8 June, 2021)
+New: Refined Layout Manager with Tabs, Categories and Search filters.
+New: Modern and Creative Template Kits, Pages and Section Ready Templates.
+Tweak: Manual cache clear button for Dribbble Feed widget.
+Tweak: Getting access token made easy for Dribbble Feed widget.
+Tweak: Bring unfold widget into viewport while closing the content.
+Fix: Mobile scrolling issues for Hotspot Widget.
+Fix: Undefined variables for Twitter Feed Widget.
+Fix: Limit for Facebook Feed API.
+Fix: Reaction Icons for Facebook Feed.
+Fix: Minor spelling issue.
+
+Version: 2.2.3 (10 May, 2021)
+New: Hover Trigger on Advanced Tab Widget.
+Tweak: Improvements for the Instagram API.
+Tweak: Improvements for the Faceebook Feed API.
+Fix: Profile Picture issue for Instagram Widget.
+
+Version: 2.2.2 (29 April, 2021)
+New: Blog Posts Widget Floating Category.
+New: Blog Posts Widget Various Missing Controls.
+New: Dribbble Feed User Info & Header.
+New: Dribbble Feed Various Missing Controls.
+New: Border control to pinterest feed widget.
+New: Follow button icon control to twitter feed widget.
+New: Padding control to twitter feed widget.
+New: Header background control to twitter feed widget.
+New: Share button to twitter feed widget.
+Tweak: SVG icon to elementskit icon to twitter feed widget.
+Tweak: Layout five to behance feed widget.
+Tweak: Replaced deprecated Elementor PHP Methods for Widgets.
+Fix: Category List Widget separator position issue.
+Fix: Google Map Widget static type image issue.
+Fix: Facebook Page Review content alignment issue.
+Fix: Twitter feed read more button.
+Fix: Header Alignment Control for Table Widget.
+Fix: Product Count styles for Woo Category List Widget.
+Fix: Responsive support for Dribbble Feed Widget.
+
+Version: 2.2.1 (14-04-2021)
+Fix: Compatibility issues with Elementor 3.2.0.
+
+Version: 2.2.0 (02-03-2021)
+Improve: Minor bug fix and code improvements.
+Improve: Minor escaping and validation improvements.
+
+Version: 2.1.7 (25-02-2021)
+New: Image Size control for Gallery Widget.
+New: Option to Show/Hide Facebook Messenger Dialog Box.
+New: Image Comparison support for Advanced Tab Widget.
+Fix: Responsive glitch in Timeline Widget.
+
+Version: 2.1.6 (07-02-2021)
+New: Introducing Image Swap Widget - show a different image as the user hovers.
+
+Version: 2.1.5 (27-01-2021)
+Fix: Sticky Module conflict with latest Elementor.
+Fix: Slick Library update support for Latest Elementor update.
+Fix: Woo Category List widget featured style minor CSS grid issue.
+
+Version: 2.1.4 (25-01-2021)
+Tweak: Support W3C validation when using Facebook Messenger.
+Fix: Blog Posts Widget default image size changed to provide clear images.
+
+Version: 2.1.3 (18-01-2021)
+Fix: Instagram api expire time extended.
+Fix: Editor live changes support for Advanced Tooltip.
+
+Version: 2.1.2 (12-01-2021)
+Fix: Advanced Tooltip js conflict in the Elementor editor.
+
+Version: 2.1.1 (10-01-2021)
+New: Introducing Advanced Tooltip - add tooltip to any Widget.
+Fix: Improved Advanced Toggle Widget toggler btn.
+Fix: Missing string translations for Table Widget.
+Fix: List style reset for Gallery Filter.
+
+Version: 2.1.0 (24-12-2020)
+New: Advanced Tab Widget now has option to enable URL hash routing capability.
+New: Option to set popup alignment for Woo Mini Cart Widget.
+Fix: Popup Modal Widget content editor showing same content for multiple widget in the same page.
+Fix: Minor CSS broken issues fixed on Hotspot Widget.
+Fix: Some css broken issues fixed on hotspot
+Fix: added featured category link field 'Woo Category List' widget
+Fix: Buttons white-space are reset to default.
+Fix: Woo Product Carousel and List Widget compatibility with TwentyTwentyOne Theme.
+Fix: CSS ul and ol list style wasn't visible inside widgets.
+
+Version: 2.0.6 (06-12-2020)
+Fix: JS conflict issues fixed with 'Rank Math' plugin.
+Improve: CSS and JS improved.
+
+Version: 2.0.5 (30-11-2020)
+New: Added 'Popup Modal' widget.
+New: Added new instagram widget with Instagram official API.
+New: Added control for keeping one dot always active.
+New: Added Iframe and shortcode support on content.
+Fix: Clicking pointer issues fixed.
+Fix: "Non property" notice in instagram widget.
+Fix: Fixed the line issues when increasing the pointer size.
+Fix: Minor responsive issues fixed.
+
+Version: 2.0.4 (22-11-2020)
+Fix: Timeline's elements was showing after some delay.
+
+Version: 2.0.3 (16-11-2020)
+New: Advanced controls for Conditional Widget.
+New: Cross domain copy-paste module (the long waited feature).
+New: Added default color scheme on Facebook Messenger widget.
+New: Added Locale on Facebook Messenger widget.
+Fix: Caret image missing for Advanced Tab.
+Fix: Ekit button js error when "add section" is clicked.
+Tweak: Instagram feed widget.
+Tweak: Improved CSS & JS.
+
+Version: 2.0.2
+Fix: Facebook feed API.
+Fix: Some spelling mistakes.
+Fix: License activation conflicting.
+
+Version: 2.0.1
+Fix: Instagram's cache issue. Posts were not properly updated.
+
+Version: 2.0.0
+New: New Unfold widget added.
+Fix: Google Map API Script is enqueueing even it's not enabled.
+Fix: Facebook Review Broken issue.
+Fix: HeaderFooter builder compatiblity.
+Added: Pagination to Blog Posts.
+Added: Import & export system for WidgetBuilder module.
+Added: New features: "dribble-feed, facebook-feed, facebook-review, instagram-feed, twitter-feed, unfold, yelp, zoom".

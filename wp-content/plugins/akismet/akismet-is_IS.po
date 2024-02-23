@@ -1,0 +1,681 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Icelandic
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-01 17:46:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: is\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Friðhelgi"
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Tengja með API lykli"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Þú ert tengd(ur) sem %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Tengja með Jetpack"
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Útilokaðu ruslpóst af vefnum þínum"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Viltu  <a href=\"%s\">fara yfir athugasemdir á bið</a>?"
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Notað af milljónum, Akismet er hugsanlega besta leiðin í heiminum til þess að <strong>vernda bloggið þitt gegn amapóstum.</strong>. Búið er að stilla vefinn þinn og er hann nú varinn, jafnvel þegar þú sefur."
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Notað af milljónum, Akismet er hugsanlega besta leiðin í heiminum til þess að <strong>vernda bloggið þitt gegn amapóstum.</strong>. Það ver vefinn þinn jafnvel á meðan þú sefur. Til þess að hefjast handa, farðu einfaldlega á <a href=\"admin.php?page=akismet-key-config\">Akismet stillinga-síðuna þína</a> til að setja upp API lykilinn þinn."
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Setja upp Akismet reikninginn þinn"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Tölfræði"
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s athugasemd gripin sem amapóstur."
+msgstr[1] "%s athugasemdir gripnar sem amapóstar."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Engar athugasemdir voru gripnar sem amapóstur."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismet fór yfir %s athugasemd."
+msgstr[1] "Akismet fór yfir %s athugasemdir."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Gat ekki tengst Akismet."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Athugasemd fannst ekki."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Yfirfór %d athugasemd."
+msgstr[1] "Yfirfór %d athugasemdir."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d athugasemd færð í ruslið."
+msgstr[1] "%d athugasemdir færðar í ruslið."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d athugasemd var ekki hægt að yfirfara."
+msgstr[1] "%d athugasemdir var ekki hægt að yfirfara."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "Athugasemd #%d er rusl."
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "Athugasemd #%d er ekki rusl."
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "Ekki var hægt að yfirfara athugasemd #%d."
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s amapóstur slapp í gegn"
+msgstr[1] "%s amapóstar sluppu í gegn"
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s rangt jákvætt"
+msgstr[1] "%s röng jákvæð"
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Vinsamlegast uppfærðu greiðsluupplýsingar."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Við gátum ekki lokið við greiðslu. Vinsamlegast <a href=\"%s\" target=\"_blank\">uppfærðu greiðsluupplýsingarnar þínar</a>."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Akismet áskriftinni þinni hefur verið sagt upp."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Akismet áskriftinni þinni hefur verið frestað."
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Þú ert ekki með Akismet áskrift."
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet síar út ruslpósta, svo þú getir einbeitt þér að mikilvægari hlutum."
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet hefur sparað þér %d mínútu!"
+msgstr[1] "Akismet hefur sparað þér %d mínútur!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet hefur sparað þér %d klukkutíma!"
+msgstr[1] "Akismet hefur sparað þér %d klukkutíma!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet hefur sparað þér %s dag!"
+msgstr[1] "Akismet hefur sparað þér %s daga!"
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Næstum lokið</strong> - virkjaðu aðganginn þinn og segðu bless við rusl í athugasemdum."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Vinsamlegast <a href=\"%s\" target=\"_blank\">hafðu samband við notendaþjónustuna okkar</a> ef spurningar vakna."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Síðan 2012 hefur Akismet notast við áskriftir fyrir allan aðgang (einnig þessa gjaldfrjálsu). Það lítur út fyrir að áskrift hafi ekki verið skilgreind fyrir aðganginn þinn og við værum afar þakklát ef þú gætir <a href=\"%s\" target=\"_blank\">skráð þig inn</a> og valið áskrift."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "Ekki var hægt að staðfesta lykilinn sem þú gafst upp."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Ekki var hægt að tengjast við akismet.com. Vinsamlegast skoðaðu <a href=\"%s\" target=\"_blank\">leiðbeiningar okkar um eldveggi</a> og farðu yfir stillingar netþjónsins þíns."
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Tilkynnt var að þessi athugasemd væri ekki amapóstur."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Tímabundið óvirkt."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Vefþjónninn þinn getur ekki framkvæmt SSL fyrirspurnir; hafðu samband við hýsingaraðila og óskaðu eftir því að stuðningur við SSL fyrirspurnir verði virkjaður."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Öll kerfi virka eðlilega."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Virkt."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Akismet lenti í vandræðum með SSL fyrirspurn og slökkti á þeim tímabundið. Það mun nýta SSL fyrir fyrirspurnir aftur mjög fljótlega."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Óvirkt."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Þessi athugasemd hefur verið tilkynnt sem amapóstur."
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Akismet endurskoðaði og greip þessa athugasemd sem amapóst."
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet greip þessa athugasemd sem amapóst."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Akismet endurmat og vottaði þessa athugasemd."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s tilkynnti þessa athugasemd sem amapóst."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Akismet vottaði þessa athugasemd."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet gat ekki metið þessa athugasemd (svar: %s) en gerir sjálfkrafa aðra tilraun síðar."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s tilkynnti að þessi athugasemd væri ekki amapóstur."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet gat ekki endurskoðað þessa athugasemd (svar: %s)."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s breytti stöðu athugasemdar í %2$s."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Vinsamlegast farðu yfir <a href=\"%s\">Akismet stillingarnar</a> og hafðu samband við hýsingaraðilann þinn ef vandamálið hverfur ekki."
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Einhverjar athugasemdir hafa ekki verið yfirfarnar með tilliti til ruslpósts af Akismet. Þær eru geymdar tímabundið í ritskoðun og verða fljótlega endurskoðaðar sjálfvirkt."
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Hætt við"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Vantar"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Frestað"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Virkt"
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Hversu strangt"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Veldu annaðhvort að eyða sjálfkrafa verstu amapóstunum eða ávallt flytja þá í amapósts-möppuna."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Fjarlægja hljóðlega verstu og þrautseigustu amapóstana þannig að ég sjái þá aldrei."
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Ávallt flytja amapósta í amapósts-möppuna til skoðunar."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Athugasemdir"
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "Netaðgerðir óvirkar."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "Akismet hefur orðið vart við vandamál."
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Hafa samband við þjónustuver Akismet"
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Vinsamlegast hafðu samband við <a href=\"%s\" target=\"_blank\">Akismet þjónustuverið</a> til þess að fá aðstoð."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Þú getur hjálpað okkur að berjast við ruslpóst og uppfært reikninginn þinn með því að <a href=\"%s\" target=\"_blank\">styrkja okkur með táknræmum hætti</a>."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Fyrir frekari upplýsingar: %s"
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Lykillinn virðist ógildur. Athugaðu hann aftur."
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Handskráðu API lykil"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Bíð eftir amapóstsskimun"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Akismet aukahlutur"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Birta fjölda amapóstsendinga sem Akismet hefur stöðvað"
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s amapóstur</strong> stöðvaður af <strong>Akismet</strong>"
+msgstr[1] "<strong class=\"count\">%1$s amapóstar</strong> stöðvaðir af <strong>Akismet</strong>"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Stillingar"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Er nokkuð að svindla ?"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Merkt sem amapóstur af Akismet"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Saga"
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Amapóstar"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Hreinsað af Akismet"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s samþykkt"
+msgstr[1] "%s samþykkt"
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet veiddi þessa athugasemd sem amapóst á meðan sjálfvirkar endurtöku."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "Staða amapósts var breytt í %s"
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet samþykkti þessa athugasemd gegnum sjálfvirka yfirferð."
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Skoða sögu ummæla"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "Merkt sem amapóstur af %s"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "Amapóstmerking fjarlægð af %s"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Amapóstur hindraður"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Fyrir meiri upplýsingar:"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Heiti:"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "Akismet-stillingar"
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Akismet-tölfræði"
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Leita að amapósti"
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "%s"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Það er ekkert í <a href='%s'>ruslbiðröðinni</a> í augnablikinu."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Það er <a href=\"%2$s\">%1$s athugasemd</a> í ruslbiðröðinni í augnablikinu."
+msgstr[1] "Það eru <a href=\"%2$s\">%1$s athugasemdir</a> í ruslbiðröðinni í augnablikinu."
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Staða áskriftar - virk, sagt upp eða frestuð"
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> kemur í veg fyrir að rusl komist í bloggið þitt."
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Á þessari síðu getur þú séð tölfræði um ruslsíuna á vefnum þínum."
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Vinsamlegast <a href=\"%1$s\">uppfærðu WordPress</a> í nýjustu útgáfu, eða <a href=\"%2$s\">færðu Akismet niður í útgáfu 2.4 af viðbótinni</a>."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Afritaðu og límdu API lykilinn inn í textareitinn."
+
+#: views/config.php:53
+msgid "All time"
+msgstr "Frá upphafi"
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Síðustu sex mánuðir"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "Slá inn/fjarlægja API lykil"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Birta fjölda samþykktra athugasemda við hlið hvers höfundar á yfirlitssíðu athugasemda."
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Akismet áskriftarleiðir"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Það tekur tíma að hreinsa út amapóst."
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Smelltu á Nota þennan lykil hnappinn."
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Sláðu inn API lykill"
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Þú þarft að slá inn API lykil til að virkja Akismet þjónustuna fyrir vefinn þinn."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Ókunnur Akismet"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Yfirlit"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Bæti aftur við..."
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL fjarlægt"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Fjarlægi..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Fjarlægja þetta URL"
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> hefur þegar varið vef þinn fyrir %2$s amapósti."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> hefur þegar varið vef þinn fyrir %2$s amapóstum."
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> hefur varið vefinn þinn gegn <a href=\"%2$s\">%3$s rusl athugasemd</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> hefur varið vefinn þinn gegn <a href=\"%2$s\">%3$s rusl athugasemdum</a>."
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Akismet þjónustuver"
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Breyta"
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(afturkalla)"
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Akismet uppsetning"
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Ef þú átt API lykil nú þegar"
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "API lykill"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Aðgangur"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Tegund áskriftar"
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Staða"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Akismet Spurt og Svarað"
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "Akismet %s þarf WordPress %s eða nýrra."
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Nákvæmni"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Athugið:"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Aftengja þennan aðgang"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Uppfæra"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Hýsingaraðilinn eða kerfisstjórinn þinn hefur lokað fyrir fallið <code>gethostbynamel</code> í PHP. <strong>Akismet getur ekki virkað eðlilega fyrr en það hefur verið lagað.</strong> Vinsamlegast hafðu samband við hýsingaraðila eða umsjónaraðila eldveggs og gefðu þeim <a href=\"%s\" target=\"_blank\">þessar upplýsingar um kerfiskröfur Akistmet</a>."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Það kom upp vandamál með lykilinn þinn."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Vinsamlegast farðu á <a href=\"%s\" target=\"_blank\">Akismet reiknings síðuna</a> til þess að virkja áskriftina þína aftur."
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Engar áhyggjur! Settu þig í samband og við hjálpum þér að finna út úr þessu."
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Á þessari síðu getur þú sett upp Akismet viðbótina."
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Nýskráðu þig fyrir reikningi á %s til þess að fá API lykil."
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Amapóstur stoppaður"
+msgstr[1] "Amapóstar stoppaðir"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Áskriftinni þinni fyrir %s hefur verið sagt upp."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Áskriftin þín fyrir %s hefur verið sett á ís."
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Saga ummæla"

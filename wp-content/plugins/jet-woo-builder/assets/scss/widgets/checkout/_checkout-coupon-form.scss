@@ -1,0 +1,27 @@
+.woocommerce .elementor-jet-checkout-coupon-form {
+	.woocommerce-info:before {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.woocommerce-form-coupon {
+		.elementor-html & {
+			display: block !important;
+		}
+
+		.form-row-first,
+		.form-row-last {
+			float: left;
+
+			html[dir=rtl] & {
+				float: right;
+			}
+		}
+
+		.form-row-last {
+			.button {
+				width: 100%;
+			}
+		}
+	}
+}

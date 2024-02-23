@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WPForms">
+  <domain name="wpforms-lite">
+    <project name="WPForms Lite" slug="wpforms-lite">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/wpforms-lite.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="wpforms">
+    <project name="WPForms" slug="wpforms">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>pro/languages</directory>
+      </target>
+      <template>
+        <file>pro/languages/wpforms.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

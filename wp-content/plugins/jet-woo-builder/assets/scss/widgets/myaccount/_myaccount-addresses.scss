@@ -1,0 +1,26 @@
+.woocommerce .elementor-jet-myaccount-addresses {
+	.woocommerce-Address {
+		position: relative;
+
+		.title {
+			&:before,
+			&:after {
+				content: none;
+			}
+
+			> * {
+				float: none;
+			}
+
+			.edit {
+				position: absolute;
+				right: 0;
+				top: 0;
+
+				html[dir=rtl] & {
+					left: 0;
+				}
+			}
+		}
+	}
+}

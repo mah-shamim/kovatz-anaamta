@@ -1,0 +1,253 @@
+.jet-dashboard-page {
+	.cx-vui-popup {
+		.cx-vui-popup__header {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.cx-vui-popup__header-label {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 36px;
+			text-align: center;
+			color: #23282D;
+		}
+
+		.cx-vui-popup__content {
+
+		}
+
+		&.license-manager-popup {
+
+			.cx-vui-popup__body {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: stretch;
+				overflow: hidden;
+				max-height: calc( 100% - 100px );
+			}
+
+			.cx-vui-popup__header {
+				padding-bottom: 15px;
+				border-bottom: 1px solid #DCDCDD;
+
+				.cx-vui-popup__header-inner {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+			}
+
+			.cx-vui-popup__content {
+				flex: 1 1 auto;
+				overflow-y: auto;
+
+				.license-manager {
+					width: 100%;
+					max-width: 1260px;
+
+				}
+			}
+		}
+
+		&.license-activation-popup {
+
+			.cx-vui-popup__header {
+				text-align: center;
+			}
+
+			.cx-vui-popup__body {
+
+			}
+
+			.popup-licence-control {
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				margin-top: 10px;
+
+				p {
+					width: 100%;
+				}
+
+				.popup-licence__key {
+					flex: 1 1 auto;
+
+					input {
+						border-radius: getValueByDirection(4px 0 0 4px, 0 4px 4px 0);
+					}
+				}
+
+				.popup-licence__action-button {
+					border-radius: getValueByDirection(0 4px 4px 0, 4px 0 0 4px);
+					box-shadow: none;
+				}
+			}
+		}
+
+		&.license-deactivation-popup {
+			.cx-vui-popup__content {
+				text-align: center;
+
+				.show-license-manager {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		&.update-check-popup {
+
+			.cx-vui-popup__content {
+				text-align: center;
+
+				svg {
+					margin-bottom: 20px;
+				}
+
+				p {
+					text-align: center;
+					line-height: 30px;
+
+					span {
+						font-size: 20px;
+						color: #23282d;
+						display: block;
+					}
+				}
+
+				.cx-vui-button {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		&.rollback-popup {
+			p {
+				text-align: center;
+				line-height: 30px;
+
+				i {
+					display: block;
+					color: #D6336C;
+				}
+			}
+
+			.cx-vui-button {
+				margin-top: 10px;
+				width: 100%;
+			}
+		}
+
+		&.responce-data-popup {
+
+			.responce-data-popup__inner {
+
+				&.responce-type-error {
+					.responce-data-popup__title {
+						color: #C92C2C;
+					}
+				}
+
+				&.responce-type-success {
+					.responce-data-popup__title {
+						color: #46B450;
+					}
+				}
+
+				.responce-data-popup__header {
+					padding-bottom: 15px;
+					border-bottom: 1px solid #DCDCDD;
+					margin-bottom: 30px;
+				}
+
+				.responce-data-popup__title {
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 36px;
+					color: #23282D;
+				}
+
+				p {
+					&:last-child {
+						padding-bottom: 0;
+					}
+
+					.activation-limit {
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						text-align: center;
+						justify-content: center;
+						align-items: center;
+						border-radius: 50%;
+						color: white;
+						background-color: #007CBA;
+					}
+				}
+
+				.responce-data-popup__activated-sites {
+					margin-bottom: 20px;
+
+					p {
+						padding-bottom: 5px;
+					}
+
+					.site-list {
+						display: flex;
+						justify-content: flex-start;
+						align-items: flex-start;
+						flex-wrap: wrap;
+						max-height: 100px;
+						overflow-y: auto;
+
+						.site-item {
+							@include margin(0, 0, 0, 10px);
+						}
+					}
+				}
+			}
+		}
+
+		&.video-guide-popup {
+			.cx-vui-popup__body {
+				padding: 0;
+				border-radius: 0;
+				background-color: #000;
+
+				iframe {
+					width: 100%;
+					min-height: 450px;
+				}
+			}
+
+			.cx-vui-popup__content {
+				> div {
+					line-height: 0;
+				}
+			}
+		}
+
+		&.service-actions-popup {
+			.service-actions-popup__form {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+
+				> .cx-vui-component-raw {
+					flex: 1 1 auto;
+
+					select {
+						max-width: 100%;
+					}
+				}
+
+				.cx-vui-button {
+					@include margin-start(10px);
+				}
+			}
+		}
+	}
+}

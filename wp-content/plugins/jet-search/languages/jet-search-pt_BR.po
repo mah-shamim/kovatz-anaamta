@@ -1,0 +1,930 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JetSearch for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-01 17:15+0300\n"
+"PO-Revision-Date: 2019-08-01 17:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: Zemez\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;"
+"_n_noop:1,2;_nx_noop:4c,1,2\n"
+"esc_attr__;_x: 1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/compatibility.php:59
+msgid "Jet Ajax Search: Placeholder Text"
+msgstr "Jet Ajax Search: Texto de espaço reservado"
+
+#: includes/compatibility.php:64
+msgid "Jet Ajax Search: Submit Button Label"
+msgstr "Jet Ajax Search: Rótulo do botão de envio"
+
+#: includes/compatibility.php:69
+msgid "Jet Ajax Search: Select Placeholder"
+msgstr "Jet Ajax Search: Selecione o espaço reservado"
+
+#: includes/compatibility.php:74
+msgid "Jet Ajax Search: Results Counter Text"
+msgstr ""
+
+#: includes/compatibility.php:79
+msgid "Jet Ajax Search: Full Results Button Text"
+msgstr "Jet Ajax Search: Texto do botão resultados completos"
+
+#: includes/compatibility.php:84
+msgid "Jet Ajax Search: Negative search results"
+msgstr "Jet Ajax Search: Resultados de pesquisa negativos"
+
+#: includes/compatibility.php:89
+msgid "Jet Ajax Search: Technical error"
+msgstr "Jet Ajax Search: Erro técnico"
+
+#: includes/integration.php:53
+msgid "JetElements"
+msgstr "JetElements"
+
+#: includes/tools.php:89
+msgid "Full"
+msgstr "Largura completa"
+
+#: includes/tools.php:101 includes/tools.php:123
+msgid "Angle"
+msgstr "Ângulo"
+
+#: includes/tools.php:102 includes/tools.php:124
+msgid "Chevron"
+msgstr "Chevron"
+
+#: includes/tools.php:103 includes/tools.php:125
+msgid "Angle Double"
+msgstr "Ângulo duplo"
+
+#: includes/tools.php:104 includes/tools.php:126
+msgid "Arrow"
+msgstr "Seta"
+
+#: includes/tools.php:105 includes/tools.php:127
+msgid "Caret"
+msgstr "Caret"
+
+#: includes/tools.php:106 includes/tools.php:128
+msgid "Long Arrow"
+msgstr "Seta grande"
+
+#: includes/tools.php:107 includes/tools.php:129
+msgid "Arrow Circle"
+msgstr "Seta de círculo"
+
+#: includes/tools.php:108 includes/tools.php:130
+msgid "Chevron Circle"
+msgstr "Círculo chevron"
+
+#: includes/tools.php:109 includes/tools.php:131
+msgid "Caret Square"
+msgstr "Caret quadrado"
+
+#: includes/updater/plugin-changelog.php:127
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/updater/plugin-changelog.php:129
+msgid "View details"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:41
+msgid "Ajax Search"
+msgstr "Pesquisa Ajax"
+
+#: includes/widgets/ajax-search.php:122 includes/widgets/ajax-search.php:705
+msgid "Search Form"
+msgstr "Formulário de pesquisa"
+
+#: includes/widgets/ajax-search.php:129
+msgid "Input Icon"
+msgstr "Ícone de entrada"
+
+#: includes/widgets/ajax-search.php:138
+msgid "Placeholder Text"
+msgstr "Texto de espaço reservado"
+
+#: includes/widgets/ajax-search.php:140
+msgid "Search ..."
+msgstr "Pesquisar ..."
+
+#: includes/widgets/ajax-search.php:147
+msgid "Show Submit Button"
+msgstr "Mostrar botão de enviar"
+
+#: includes/widgets/ajax-search.php:157
+msgid "Submit Button Label"
+msgstr "Rotulo do botão enviar"
+
+#: includes/widgets/ajax-search.php:169
+msgid "Submit Button Icon"
+msgstr "Ícone do botão enviar"
+
+#: includes/widgets/ajax-search.php:181
+msgid "Show Categories List"
+msgstr "Mostrar lista de categorias"
+
+#: includes/widgets/ajax-search.php:191
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+#: includes/widgets/ajax-search.php:204
+msgid "Select Placeholder"
+msgstr "Selecione espaço reservado"
+
+#: includes/widgets/ajax-search.php:206 includes/widgets/ajax-search.php:4096
+msgid "All Categories"
+msgstr "Todas as categorias"
+
+#: includes/widgets/ajax-search.php:216
+msgid "Responsive Form on Mobile"
+msgstr "Formulário responsivo no dispositivo móvel"
+
+#: includes/widgets/ajax-search.php:232
+msgid "Search Query"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:239
+msgid "Source"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:240
+msgid ""
+"You can select particular search areas. If nothing is selected in the "
+"option, the search will be made over the entire site."
+msgstr ""
+"Você pode selecionar áreas de pesquisa específicas. Se nada for selecionado "
+"na opção, a pesquisa será feita em todo o site."
+
+#: includes/widgets/ajax-search.php:253
+msgid "Include"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:260 includes/widgets/ajax-search.php:281
+msgid "Terms"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:274
+msgid "Exclude"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:293
+msgid "Posts"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:309
+msgid "Search in custom fields"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:311
+msgid "Set comma separated custom fields keys list (_sku, _price, etc.)"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:320
+msgid "Results Order By"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:324
+msgid "Relevance"
+msgstr "Relevância"
+
+#: includes/widgets/ajax-search.php:325
+msgid "ID"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:326
+msgid "Author"
+msgstr "Author"
+
+#: includes/widgets/ajax-search.php:327 includes/widgets/ajax-search.php:2506
+msgid "Title"
+msgstr "Título"
+
+#: includes/widgets/ajax-search.php:328
+msgid "Date"
+msgstr "Data"
+
+#: includes/widgets/ajax-search.php:329
+msgid "Last modified"
+msgstr "Última modificação"
+
+#: includes/widgets/ajax-search.php:330
+msgid "Rand"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:331
+msgid "Number of Comments (descending)"
+msgstr "Número de comentários (decrescente)"
+
+#: includes/widgets/ajax-search.php:332
+msgid "Menu order"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:341
+msgid "Results Order"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:345
+msgid "ASC"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:346
+msgid "DESC"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:354
+msgid "A number of results displayed on one search page"
+msgstr "Vários resultados exibidos em uma página de pesquisa"
+
+#: includes/widgets/ajax-search.php:356
+msgid ""
+"This option will allow you to limit the number of displayed search results."
+msgstr ""
+"Esta opção permitirá limitar o número de resultados da pesquisa exibidos."
+
+#: includes/widgets/ajax-search.php:368
+msgid "A number of results displayed in one search query"
+msgstr "Vários resultados exibidos em uma consulta de pesquisa"
+
+#: includes/widgets/ajax-search.php:385 includes/widgets/ajax-search.php:1930
+#: includes/widgets/ajax-search.php:1938
+msgid "Results Area"
+msgstr "Área de resultados"
+
+#: includes/widgets/ajax-search.php:392
+msgid "Results Area Width"
+msgstr "Largura da área de resultados"
+
+#: includes/widgets/ajax-search.php:396
+msgid "by Search Form"
+msgstr "por formulário de pesquisa"
+
+#: includes/widgets/ajax-search.php:397
+msgid "by Input Box and Categories List"
+msgstr "por caixa de entrada e lista de categorias"
+
+#: includes/widgets/ajax-search.php:398
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:406
+msgid "Custom Width"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:431
+msgid "Custom Position"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:435 includes/widgets/ajax-search.php:2356
+#: includes/widgets/ajax-search.php:3616 includes/widgets/ajax-search.php:3935
+msgid "Left"
+msgstr "Esquerda"
+
+#: includes/widgets/ajax-search.php:439 includes/widgets/ajax-search.php:1381
+#: includes/widgets/ajax-search.php:2360 includes/widgets/ajax-search.php:3620
+#: includes/widgets/ajax-search.php:3939
+msgid "Center"
+msgstr "Centralizado"
+
+#: includes/widgets/ajax-search.php:443 includes/widgets/ajax-search.php:2364
+#: includes/widgets/ajax-search.php:3624 includes/widgets/ajax-search.php:3943
+msgid "Right"
+msgstr "Direita"
+
+#: includes/widgets/ajax-search.php:464
+msgid "Show Post Thumbnail"
+msgstr "Mostrar a miniatura do post"
+
+#: includes/widgets/ajax-search.php:473
+msgid "Thumbnail Size"
+msgstr "Tamanho da miniatura"
+
+#: includes/widgets/ajax-search.php:486
+msgid "Post Content Source"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:490
+msgid "Post Content"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:491
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:492
+msgid "Custom Field"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:500
+msgid "Custom Field Key"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:511
+msgid "Post Content Length"
+msgstr "Comprimento do conteúdo do post"
+
+#: includes/widgets/ajax-search.php:512
+msgid "Set 0 to hide content."
+msgstr "Defina 0 para ocultar conteúdo."
+
+#: includes/widgets/ajax-search.php:523
+msgid "Show Product Price"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:532
+msgid "Show Product Rating"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:541
+msgid "Show Results Counter"
+msgstr "Mostrar contador de resultados"
+
+#: includes/widgets/ajax-search.php:551
+msgid "Results Counter Text"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:553
+msgid "Results"
+msgstr "Resultados"
+
+#: includes/widgets/ajax-search.php:563
+msgid "Show All Results Button"
+msgstr "Mostrar todos os resultados"
+
+#: includes/widgets/ajax-search.php:572
+msgid "All Results Button Text"
+msgstr "Todos os botões do texto de resultados"
+
+#: includes/widgets/ajax-search.php:574
+msgid "See all results"
+msgstr "Ver todos os resultados"
+
+#: includes/widgets/ajax-search.php:584
+msgid "Results Navigation"
+msgstr "Navegação de resultados"
+
+#: includes/widgets/ajax-search.php:593 includes/widgets/ajax-search.php:3035
+msgid "Bullet Pagination"
+msgstr "Paginação de marcador"
+
+#: includes/widgets/ajax-search.php:597 includes/widgets/ajax-search.php:612
+#: includes/widgets/ajax-search.php:627
+msgid "Hide"
+msgstr "Ocultar"
+
+#: includes/widgets/ajax-search.php:598 includes/widgets/ajax-search.php:613
+#: includes/widgets/ajax-search.php:628
+msgid "Show in header"
+msgstr "Mostrar no cabeçalho"
+
+#: includes/widgets/ajax-search.php:599 includes/widgets/ajax-search.php:614
+#: includes/widgets/ajax-search.php:629
+msgid "Show in footer"
+msgstr "Mostrar no rodapé"
+
+#: includes/widgets/ajax-search.php:600 includes/widgets/ajax-search.php:615
+#: includes/widgets/ajax-search.php:630
+msgid "Show in header and footer"
+msgstr "Mostrar no cabeçalho e no rodapé"
+
+#: includes/widgets/ajax-search.php:608 includes/widgets/ajax-search.php:3205
+msgid "Number Pagination"
+msgstr "Paginação de números"
+
+#: includes/widgets/ajax-search.php:623 includes/widgets/ajax-search.php:3411
+msgid "Navigation Arrows"
+msgstr "Setas de navegação"
+
+#: includes/widgets/ajax-search.php:638
+msgid "Navigation Arrows Type"
+msgstr "Tipo de setas de navegação"
+
+#: includes/widgets/ajax-search.php:657 includes/widgets/ajax-search.php:2651
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:661 includes/widgets/ajax-search.php:2673
+msgid "Before/After Title"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:663 includes/widgets/ajax-search.php:2679
+msgid "Before/After Content"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:673 includes/widgets/ajax-search.php:3585
+msgid "Notifications"
+msgstr "Notificações"
+
+#: includes/widgets/ajax-search.php:680
+msgid "Negative search results"
+msgstr "Resultados de pesquisa negativos"
+
+#: includes/widgets/ajax-search.php:683
+msgid "Sorry, but nothing matched your search terms."
+msgstr "Desculpe, mas nada correspondeu aos seus termos de pesquisa."
+
+#: includes/widgets/ajax-search.php:690
+msgid "Technical error"
+msgstr "Erro técnico"
+
+#: includes/widgets/ajax-search.php:693
+msgid ""
+"Sorry, but we cannot handle your search query now. Please, try again later!"
+msgstr ""
+"Desculpe, mas não podemos lidar com sua consulta de pesquisa agora. Tente "
+"novamente mais tarde!"
+
+#: includes/widgets/ajax-search.php:715 includes/widgets/ajax-search.php:838
+#: includes/widgets/ajax-search.php:1055 includes/widgets/ajax-search.php:1281
+#: includes/widgets/ajax-search.php:1501 includes/widgets/ajax-search.php:1819
+#: includes/widgets/ajax-search.php:2150 includes/widgets/ajax-search.php:2712
+#: includes/widgets/ajax-search.php:2884 includes/widgets/ajax-search.php:3065
+#: includes/widgets/ajax-search.php:3226 includes/widgets/ajax-search.php:3442
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/widgets/ajax-search.php:722 includes/widgets/ajax-search.php:750
+#: includes/widgets/ajax-search.php:845 includes/widgets/ajax-search.php:879
+#: includes/widgets/ajax-search.php:1087 includes/widgets/ajax-search.php:1151
+#: includes/widgets/ajax-search.php:1299 includes/widgets/ajax-search.php:1352
+#: includes/widgets/ajax-search.php:1531 includes/widgets/ajax-search.php:1596
+#: includes/widgets/ajax-search.php:1731 includes/widgets/ajax-search.php:1837
+#: includes/widgets/ajax-search.php:1868 includes/widgets/ajax-search.php:1964
+#: includes/widgets/ajax-search.php:2157 includes/widgets/ajax-search.php:2255
+#: includes/widgets/ajax-search.php:2730 includes/widgets/ajax-search.php:2769
+#: includes/widgets/ajax-search.php:2902 includes/widgets/ajax-search.php:2941
+#: includes/widgets/ajax-search.php:3072 includes/widgets/ajax-search.php:3103
+#: includes/widgets/ajax-search.php:3134 includes/widgets/ajax-search.php:3244
+#: includes/widgets/ajax-search.php:3286 includes/widgets/ajax-search.php:3328
+#: includes/widgets/ajax-search.php:3460 includes/widgets/ajax-search.php:3502
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: includes/widgets/ajax-search.php:743 includes/widgets/ajax-search.php:872
+#: includes/widgets/ajax-search.php:1119 includes/widgets/ajax-search.php:1565
+msgid "Focus"
+msgstr "Foco"
+
+#: includes/widgets/ajax-search.php:761 includes/widgets/ajax-search.php:893
+#: includes/widgets/ajax-search.php:1098 includes/widgets/ajax-search.php:1162
+#: includes/widgets/ajax-search.php:1338 includes/widgets/ajax-search.php:1543
+#: includes/widgets/ajax-search.php:1608 includes/widgets/ajax-search.php:2780
+#: includes/widgets/ajax-search.php:2952 includes/widgets/ajax-search.php:3083
+#: includes/widgets/ajax-search.php:3114 includes/widgets/ajax-search.php:3145
+#: includes/widgets/ajax-search.php:3255 includes/widgets/ajax-search.php:3297
+#: includes/widgets/ajax-search.php:3339 includes/widgets/ajax-search.php:3471
+#: includes/widgets/ajax-search.php:3513
+msgid "Border Color"
+msgstr "Cor da borda"
+
+#: includes/widgets/ajax-search.php:787 includes/widgets/ajax-search.php:923
+#: includes/widgets/ajax-search.php:1185 includes/widgets/ajax-search.php:1395
+#: includes/widgets/ajax-search.php:1632 includes/widgets/ajax-search.php:1756
+#: includes/widgets/ajax-search.php:1883 includes/widgets/ajax-search.php:2018
+#: includes/widgets/ajax-search.php:2115 includes/widgets/ajax-search.php:2339
+#: includes/widgets/ajax-search.php:2825 includes/widgets/ajax-search.php:2997
+#: includes/widgets/ajax-search.php:3354 includes/widgets/ajax-search.php:3528
+#: includes/widgets/ajax-search.php:3641
+msgid "Padding"
+msgstr "Espaçamento"
+
+#: includes/widgets/ajax-search.php:808 includes/widgets/ajax-search.php:950
+#: includes/widgets/ajax-search.php:1222 includes/widgets/ajax-search.php:1427
+#: includes/widgets/ajax-search.php:1673 includes/widgets/ajax-search.php:1777
+#: includes/widgets/ajax-search.php:1896 includes/widgets/ajax-search.php:1997
+#: includes/widgets/ajax-search.php:2494 includes/widgets/ajax-search.php:2846
+#: includes/widgets/ajax-search.php:3018 includes/widgets/ajax-search.php:3178
+#: includes/widgets/ajax-search.php:3384 includes/widgets/ajax-search.php:3558
+msgid "Border Radius"
+msgstr "Raio da Borda"
+
+#: includes/widgets/ajax-search.php:825
+msgid "Input Field and Categories List Wrapper"
+msgstr "Campo de entrada e Wrapper da lista de categorias"
+
+#: includes/widgets/ajax-search.php:970
+msgid "Input Field"
+msgstr "Campo de entrada"
+
+#: includes/widgets/ajax-search.php:987
+msgid "Placeholder Typography"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:995
+msgid "Icon"
+msgstr "Ícone"
+
+#: includes/widgets/ajax-search.php:1009 includes/widgets/ajax-search.php:2576
+#: includes/widgets/ajax-search.php:3422
+msgid "Font Size"
+msgstr "Tamanho da Fonte"
+
+#: includes/widgets/ajax-search.php:1030 includes/widgets/ajax-search.php:1713
+#: includes/widgets/ajax-search.php:1908 includes/widgets/ajax-search.php:1946
+#: includes/widgets/ajax-search.php:2476
+msgid "Gap"
+msgstr "Espaço"
+
+#: includes/widgets/ajax-search.php:1062 includes/widgets/ajax-search.php:1126
+#: includes/widgets/ajax-search.php:1508 includes/widgets/ajax-search.php:1572
+msgid "Text Color"
+msgstr "Cor de texto"
+
+#: includes/widgets/ajax-search.php:1073 includes/widgets/ajax-search.php:1137
+msgid "Icon Color"
+msgstr "Cor ícone"
+
+#: includes/widgets/ajax-search.php:1198 includes/widgets/ajax-search.php:1407
+#: includes/widgets/ajax-search.php:1648 includes/widgets/ajax-search.php:2523
+#: includes/widgets/ajax-search.php:2552 includes/widgets/ajax-search.php:2596
+#: includes/widgets/ajax-search.php:2634 includes/widgets/ajax-search.php:3918
+msgid "Margin"
+msgstr "Margem"
+
+#: includes/widgets/ajax-search.php:1210 includes/widgets/ajax-search.php:1660
+#: includes/widgets/ajax-search.php:3160 includes/widgets/ajax-search.php:3367
+#: includes/widgets/ajax-search.php:3541
+msgid "Border Width"
+msgstr "Largura da borda"
+
+#: includes/widgets/ajax-search.php:1239
+msgid "Submit Button"
+msgstr "Botão de envio"
+
+#: includes/widgets/ajax-search.php:1258
+msgid "Icon Font Size"
+msgstr "Tamanho da fonte do ícone"
+
+#: includes/widgets/ajax-search.php:1288 includes/widgets/ajax-search.php:1327
+#: includes/widgets/ajax-search.php:1826 includes/widgets/ajax-search.php:1857
+#: includes/widgets/ajax-search.php:2435 includes/widgets/ajax-search.php:2719
+#: includes/widgets/ajax-search.php:2758 includes/widgets/ajax-search.php:2891
+#: includes/widgets/ajax-search.php:2930 includes/widgets/ajax-search.php:3233
+#: includes/widgets/ajax-search.php:3275 includes/widgets/ajax-search.php:3317
+#: includes/widgets/ajax-search.php:3449 includes/widgets/ajax-search.php:3491
+#: includes/widgets/ajax-search.php:3601 includes/widgets/ajax-search.php:3666
+#: includes/widgets/ajax-search.php:3826 includes/widgets/ajax-search.php:3898
+msgid "Color"
+msgstr "Cor"
+
+#: includes/widgets/ajax-search.php:1320 includes/widgets/ajax-search.php:1850
+#: includes/widgets/ajax-search.php:2248 includes/widgets/ajax-search.php:2751
+#: includes/widgets/ajax-search.php:2923 includes/widgets/ajax-search.php:3096
+#: includes/widgets/ajax-search.php:3268 includes/widgets/ajax-search.php:3484
+msgid "Hover"
+msgstr "Hover (ao passar mouse)"
+
+#: includes/widgets/ajax-search.php:1375
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:1379 includes/widgets/ajax-search.php:2281
+#: includes/widgets/ajax-search.php:2806 includes/widgets/ajax-search.php:2978
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/widgets/ajax-search.php:1380
+msgid "Start"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:1382
+msgid "End"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:1383
+msgid "Stretch"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:1444
+msgid "Categories List"
+msgstr "Lista de categorias"
+
+#: includes/widgets/ajax-search.php:1455 includes/widgets/ajax-search.php:2458
+msgid "Width"
+msgstr "Largura"
+
+#: includes/widgets/ajax-search.php:1481
+msgid "Arrow Font Size"
+msgstr "Tamanho de fonte da seta"
+
+#: includes/widgets/ajax-search.php:1520 includes/widgets/ajax-search.php:1584
+msgid "Arrow Color"
+msgstr "Cor da seta"
+
+#: includes/widgets/ajax-search.php:1686
+msgid "Dropdown Style"
+msgstr "Estilo dropdown"
+
+#: includes/widgets/ajax-search.php:1695
+msgid "Max Height"
+msgstr "Altura máxima"
+
+#: includes/widgets/ajax-search.php:1789 includes/widgets/ajax-search.php:2092
+msgid "Scrollbar Thumb Color"
+msgstr "Cor de miniatura da barra de rolagem"
+
+#: includes/widgets/ajax-search.php:1800
+msgid "Dropdown Items Style"
+msgstr "Estilo de itens do dropdown"
+
+#: includes/widgets/ajax-search.php:2009
+msgid "Results Header"
+msgstr "Cabeçalho dos resultados"
+
+#: includes/widgets/ajax-search.php:2038
+msgid "Results List"
+msgstr "Lista de resultados"
+
+#: includes/widgets/ajax-search.php:2047
+msgid "Enable Scrolling "
+msgstr "Ativar rolagem "
+
+#: includes/widgets/ajax-search.php:2060
+msgid "Max Height (px)"
+msgstr "Altura máxima (px)"
+
+#: includes/widgets/ajax-search.php:2078
+msgid "Scrollbar Color"
+msgstr "Cor da barra de rolagem"
+
+#: includes/widgets/ajax-search.php:2106
+msgid "Results Footer"
+msgstr "Rodapé de resultados"
+
+#: includes/widgets/ajax-search.php:2140
+msgid "Results Items"
+msgstr "Itens de resultados"
+
+#: includes/widgets/ajax-search.php:2168 includes/widgets/ajax-search.php:2266
+msgid "Title Color"
+msgstr "Cor do título"
+
+#: includes/widgets/ajax-search.php:2179 includes/widgets/ajax-search.php:2296
+msgid "Content Color"
+msgstr "Cor do conteúdo"
+
+#: includes/widgets/ajax-search.php:2190
+msgid "Product Rating Color"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2204
+msgid "Product Rating Unmarked Color"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2218 includes/widgets/ajax-search.php:2307
+msgid "Product Price Color"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2232 includes/widgets/ajax-search.php:2321
+msgid "Product Old Price Color"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2277
+msgid "Title Text Decoration"
+msgstr "Decoração de texto do título"
+
+#: includes/widgets/ajax-search.php:2282 includes/widgets/ajax-search.php:2807
+#: includes/widgets/ajax-search.php:2979
+msgctxt "Typography Control"
+msgid "Underline"
+msgstr "Sublinhado"
+
+#: includes/widgets/ajax-search.php:2283 includes/widgets/ajax-search.php:2808
+#: includes/widgets/ajax-search.php:2980
+msgctxt "Typography Control"
+msgid "Overline"
+msgstr "Linha superior"
+
+#: includes/widgets/ajax-search.php:2284 includes/widgets/ajax-search.php:2809
+#: includes/widgets/ajax-search.php:2981
+msgctxt "Typography Control"
+msgid "Line Through"
+msgstr "Linha no meio"
+
+#: includes/widgets/ajax-search.php:2285 includes/widgets/ajax-search.php:2810
+#: includes/widgets/ajax-search.php:2982
+msgctxt "Typography Control"
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/widgets/ajax-search.php:2352 includes/widgets/ajax-search.php:3612
+#: includes/widgets/ajax-search.php:3931
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: includes/widgets/ajax-search.php:2368 includes/widgets/ajax-search.php:3628
+#: includes/widgets/ajax-search.php:3947
+msgid "Justified"
+msgstr "Justificada"
+
+#: includes/widgets/ajax-search.php:2381
+msgid "Divider"
+msgstr "Divisor"
+
+#: includes/widgets/ajax-search.php:2391
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/widgets/ajax-search.php:2395
+msgid "Solid"
+msgstr "Sólido"
+
+#: includes/widgets/ajax-search.php:2396
+msgid "Double"
+msgstr "Duplo"
+
+#: includes/widgets/ajax-search.php:2397
+msgid "Dotted"
+msgstr "Pontilhado"
+
+#: includes/widgets/ajax-search.php:2398
+msgid "Dashed"
+msgstr "Tracejadas"
+
+#: includes/widgets/ajax-search.php:2412
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/widgets/ajax-search.php:2449
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/widgets/ajax-search.php:2535
+msgid "Content"
+msgstr "Conteúdo"
+
+#: includes/widgets/ajax-search.php:2564
+msgid "Product Rating"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2611
+msgid "Product Price"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:2691
+msgid "Results Counter"
+msgstr "Mostrar contador"
+
+#: includes/widgets/ajax-search.php:2802 includes/widgets/ajax-search.php:2974
+msgid "Text Decoration"
+msgstr "Decoração de texto"
+
+#: includes/widgets/ajax-search.php:2863
+msgid "All Results Button"
+msgstr "Mostrar botão todos os resultados"
+
+#: includes/widgets/ajax-search.php:3046
+msgid "Size"
+msgstr "Tamanho"
+
+#: includes/widgets/ajax-search.php:3127 includes/widgets/ajax-search.php:3310
+msgid "Active"
+msgstr "Ativo"
+
+#: includes/widgets/ajax-search.php:3658
+msgid "Spinner"
+msgstr "Girador"
+
+#: includes/widgets/ajax-search.php:3691
+#, php-format
+msgid "Show Meta %s"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3701
+msgid "Meta Fields Position"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3705
+msgid "Before"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3706
+msgid "After"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3719
+msgid "Key"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3720
+msgid "Meta key from post-meta table in database"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3729 includes/widgets/ajax-search.php:3782
+msgid "Label"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3738
+msgid "Value Format"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3739
+#, php-format
+msgid "Value format string, accepts HTML markup. %s - is meta value"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3748
+msgid "Prepare meta value with callback"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3752
+msgid "Clean"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3753
+msgid "Format date"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3754
+msgid "Format date (localized)"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3764
+msgid "Format"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3767
+msgid "Documentation on date and time formatting"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3777
+msgid "Meta Fields List"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3809
+#, php-format
+msgid "Meta Styles %s"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3818
+msgid "Meta Label"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3846
+msgid "Display Meta Label and Value"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3850
+msgid "As Blocks"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3851
+msgid "Inline"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3863
+msgid "Horizontal Gap Between Label and Value"
+msgstr ""
+
+#: includes/widgets/ajax-search.php:3889
+msgid "Meta Value"
+msgstr ""
+
+#: jet-search.php:170
+msgid "JetSearch requires Elementor to be activated."
+msgstr "O JetSearch requer que o Elementor seja ativado."
+
+#: jet-search.php:171
+msgid "Activate Elementor Now"
+msgstr "Ativar Elementor sgora"
+
+#: jet-search.php:179
+msgid "JetSearch requires Elementor to be installed."
+msgstr "O JetSearch requer que o Elementor seja instalado."
+
+#: jet-search.php:180
+msgid "Install Elementor Now"
+msgstr "Instalar o Elementor agora"
+
+#~ msgid "Search Settings"
+#~ msgstr "Configurações da pesquisa"
+
+#~ msgid "Search in"
+#~ msgstr "Pesquisa em"
+
+#~ msgid "Sort results by"
+#~ msgstr "Ordenar resultados por"
+
+#~ msgid "Filter results by"
+#~ msgstr "Filtrar resultados por"
+
+#~ msgid "Asc"
+#~ msgstr "Asc"
+
+#~ msgid "Desc"
+#~ msgstr "Desc"

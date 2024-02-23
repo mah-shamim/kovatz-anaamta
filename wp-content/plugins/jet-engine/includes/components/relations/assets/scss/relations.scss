@@ -1,0 +1,184 @@
+#side-sortables,
+.components-panel {
+	.cx-control-posts {
+		flex-wrap: wrap;
+		.cx-control__info {
+			flex: 0 1 100%;
+			max-width: 100%;
+			padding-right: 0;
+			padding-bottom: 0;
+			.cx-control__title {
+				margin: 0;
+			}
+		}
+		.cx-control__content {
+			flex: 0 1 100%;
+			max-width: 100%;
+		}
+		.cx-control__description {
+			overflow-wrap: break-word;
+		}
+		.select2-selection__rendered {
+			overflow-x: auto;
+		}
+		.select2 {
+			width: 100% !important;
+		}
+	}
+}
+
+.jet-engine-edit-page.jet-engine-edit-page--relations {
+	flex-wrap: wrap;
+	border-top: none;
+	.jet-engine-edit-page__fields {
+		flex: 0 0 calc( 100% - 430px );
+	}
+	.jet-engine-relations-legacy-alert {
+		flex: 0 0 100%;
+		display: flex;
+		padding: 25px 20px;
+		box-sizing: border-box;
+		p {
+			margin: 0;
+			padding: 0 0 5px;
+			&:last-of-type {
+				padding: 0 0 15px;
+			}
+		}
+		svg.jet-engine-relations-legacy-alert--icon {
+			width: 48px;
+			height: 48px;
+			margin: 0 15px 0 0;
+			path {
+				fill: #c92c2c;
+			}
+		}
+	}
+}
+
+.jet-engine-rels {
+	padding: 15px 10px 5px;
+	.jet-engine-terms-relations & {
+		padding: 0;
+		margin: 0 -10px 0 0;
+	}
+	.jet-engine-user-relations & {
+		padding: 0 20px 0 0;
+		margin: 0;
+	}
+	.jet-engine-cct-relations & {
+		padding: 0 20px 0 0;
+	}
+	.components-button-group {
+		padding: 0 0 10px;
+	}
+	&__table-wrap {
+		overflow: auto;
+		max-height: 356px;
+		border: 1px solid #c3c4c7;
+	}
+	&__table {
+		border: none !important;
+		.components-button.is-small {
+			svg {
+				width: 16px !important;
+				height: 16px !important;
+			}
+		}
+		td {
+			vertical-align: middle;
+		}
+		thead {
+			tr {
+				position: sticky;
+				top: 0;
+				background: #fff;
+			}
+		}
+		tfoot {
+			tr {
+				position: sticky;
+				bottom: 0;
+				background: #fff;
+			}
+		}
+	}
+	&__create-item {
+		margin-top: 15px;
+	}
+	&__actions-list {
+		display: flex;
+		gap: 5px;
+		.components-button.has-icon.has-text svg {
+			margin-right: 4px;
+			.rtl & {
+				margin-right: 0;
+				margin-left: 4px;
+			}
+		}
+		.components-popover:not(.is-without-arrow)[data-y-axis=top] {
+			margin-top: -15px;
+		}
+		.components-popover__content {
+			padding: 3px 6px;
+			color: #50575e;
+			a {
+				display: inline-block;
+				margin: 0 5px;
+				line-height: 14px;
+				vertical-align: middle;
+				font-weight: bold;
+			}
+		}
+	}
+	td.rel-meta,
+	th.rel-meta {
+		width: 115px;
+	}
+}
+
+.jet-engine-rels-modal {
+	&.has-footer {
+		.components-modal__content {
+			//position: relative;
+			padding-bottom: 0;
+		}
+	}
+	.components-text-control__input, .components-text-control__input[type=text], .components-text-control__input[type=tel], .components-text-control__input[type=time], .components-text-control__input[type=url], .components-text-control__input[type=week], .components-text-control__input[type=password], .components-text-control__input[type=color], .components-text-control__input[type=date], .components-text-control__input[type=datetime], .components-text-control__input[type=datetime-local], .components-text-control__input[type=email], .components-text-control__input[type=month], .components-text-control__input[type=number] {
+		box-sizing: border-box;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.je-checkbox-group-horizontal,
+	.je-radio-group-horizontal .components-flex {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		column-gap: 5px;
+	}
+
+	.je-radio-group-horizontal .components-flex {
+		row-gap: 10px;
+	}
+}
+
+.jet-engine-rels-popup {
+	&__footer {
+		position: sticky;
+		background: #fff;
+		bottom: 0;
+		padding: 0 0 24px;
+		&:before {
+			content: "";
+			border-top: 1px solid #ddd;
+			height: 20px;
+			display: block;
+			margin: 5px -32px 0;
+		}
+	}
+}
+
+.cx-vui-panel h4.cx-vui-subtitle {
+	padding: 20px 20px 0;
+}

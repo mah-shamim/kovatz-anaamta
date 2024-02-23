@@ -1,0 +1,60 @@
+$wc-max-columns: 12;
+$gutter: 30px;
+
+.woocommerce {
+	.products.jet-woo-builder-categories--columns,
+	.products.jet-woo-builder-products--columns {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: calc($gutter / -2);
+		margin-right: calc($gutter / -2);
+		list-style: none;
+
+		.product {
+			position: relative;
+			// Prevent columns from becoming too narrow when at smaller grid tiers by
+			// always setting `width: 100%;`. This works because we use `flex` values
+			// later on to override this initial width.
+			min-height: 1px; // Prevent collapsing
+			padding-right: calc($gutter / 2);
+			padding-left: calc($gutter / 2);
+			width: 100% !important;
+			float: none !important;
+			margin-right: 0 !important;
+			margin-left: 0 !important;
+			@include column-width( var( --columns ) );
+
+			&.jet-equal-columns {
+				> .elementor {
+					height: 100%;
+					> .elementor-inner {
+						height: 100%;
+						> .elementor-section-wrap {
+							height: 100%;
+							> .elementor-section {
+								height: 100%;
+							}
+						}
+					}
+
+					// For compat with Elementor v3.0
+					> .elementor-section-wrap {
+						height: 100%;
+						> .elementor-section {
+							height: 100%;
+						}
+					}
+
+					// For compat with Elementor v3.6
+					> :is( .elementor-section, .e-container ) {
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.jet-woo-builder-hide{
+		display: none;
+	}
+}

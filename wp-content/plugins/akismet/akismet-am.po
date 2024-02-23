@@ -1,0 +1,865 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Amharic
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-03 19:48:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: am_ET\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Plus" or "Enterprise" .
+#: views/notice.php:321
+msgid "Upgrade to %s"
+msgstr "አሁኑኑ ወድ  %s አድስ"
+
+#: views/notice.php:276 views/notice.php:284 views/notice.php:292
+#: views/notice.php:301
+msgid "Learn more about usage limits."
+msgstr "ስለ አጠቃቀም ገደቦች የበለጠ ይወቁ ።"
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:268
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "ከ%1$s ጀምሮ ፣ መለያዎ %2$s API ጥሪዎችን አድርጓል ፣ ከእቅድዎ የ%3$s መጠን ጋር ሲነጻጸር።"
+
+#: views/notice.php:298
+msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "የአኪስሜት አጠቃቀምዎ ከእቅድዎ በላይ፤ ለተከታታይ ሶስት ወራት ገደብ አለው ። መለያዎን በቀሪው ወር ውስጥ ከልክለናል ። ዕቅድዎን ያሳድጉ ፣ ስለዚህ አኪስሜት አይፈለጌን መዝጋቱን መቀጠል ይችላል ።"
+
+#: views/notice.php:289
+msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Upgrade your plan so Akismet can continue blocking spam."
+msgstr "የአኪስሜት አጠቃቀምዎ ዕቅድዎ፤ ለሶስተኛ ተከታታይ ወር ገደብ ቀርቧል ። ገደቡን ከደረሱ በኋላ መለያዎን እንገድባለን ። ዕቅድዎን ያሳድጉ ፣ ስለዚህ አኪስሜት አይፈለጌን መዝጋቱን መቀጠል ይችላል ።"
+
+#: views/notice.php:255
+msgid "Your account has been restricted"
+msgstr "መለያዎ ተገድቧል"
+
+#: views/notice.php:281
+msgid "Your Akismet usage has been over your plan&#8217;s limit for two consecutive months. Next month, we will restrict your account after you reach the limit. Please consider upgrading your plan."
+msgstr "የአኪስሜት አጠቃቀምዎ ከእቅድዎ በላይ ፤ ለተከታታይ ሁለት ወራት ገደብ አለው ። በሚቀጥለው ወር ፣ ገደቡን ከደረስክ በኋላ መለያዎን እንገድባለን ። እባክዎ ዕቅድዎን ለማሻሻል ያስቡ ።"
+
+#: views/notice.php:248
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "የአኪስሜትታ መለያ አጠቃቀምህ ከእቅድህና # 8217 በላይ ነው ፤"
+
+#: views/notice.php:251
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "የአኪስሜትታ መለያዎ አጠቃቀምዎ ዕቅድዎን እና # 8217 ፤"
+
+#: views/notice.php:205
+msgid "Your API key is no longer valid."
+msgstr "የ API ቁልፍዎ አሁን ልክ አይደለም ።"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:211
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "እባክዎ አዲስ ቁልፍ ያስገቡ ወይም <a href=\"%s\" target=\"_blank\">የአኪሜት ድጋፍን ያግኙ</a>።"
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:429
+msgid "Checking for Spam (%1$s%)"
+msgstr "አይፈለጌ መልዕክትን በመፈተሽ ላይ  (%1$s%)"
+
+#: class.akismet-admin.php:716
+msgid "No comment history."
+msgstr "ምንም አስተያየት የሚሰጥ ታሪክ የለም ።"
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:628
+msgid "Comment was caught by %s."
+msgstr "አስተያየት በ%s ተይዟል ።"
+
+#: class.akismet.php:724
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "አኪስሜት አልተዋቀረም ። እባክዎ የAPI ቁልፍ ያስገቡ ።"
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "አኪስሜት ይህን አስተያየት ዳግም መመርመር አልቻለም ።"
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "አኪስሜት ይህን አስተያየት መፈተሽ አልቻለም ነገር ግን በኋላ በራስ ሰር እንደገና ይሞክሩ ።"
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "የ API ቁልፍዎን ያስገቡ"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "የተለየ መለያ ያዘጋጁ"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "በዚህ ጣቢያ ላይ የማያቋርጥ ማጣሪያን ለማንቃት አኪስሜት መለያዎን ያዘጋጁ ።"
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "አኪስሜት ለሰይፍ አስተያየትዎን ዳግም ማንበብ አልቻለም ።"
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "አፒአይ ቁልፍ አኃዛዊ መረጃዎችን ለማግኘት መዘጋጀት አለበት ።"
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "በአሁኑ ጊዜ አኃዛዊ መረጃዎችን ማግኘት አልተቻለም ። እባክዎ እንደገና ይሞክሩ ።"
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "የስታቲስቲክስ ምላሽ ሊገለበጥ አልቻለም።"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "ግላዊነት"
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "በአስተያየት ቅጾችዎ ስር የግላዊነት ማስታወሻ ያሳይ ።"
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "የግላዊነት ማሳወቂያ አታሳይ ።"
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "አኪስሜት ግላዊነት ማስታወቂያ"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "ይህ ጣቢያ አይፈለጌ መልዕክትን ለመቀነስ Akismet ይጠቀማል። <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">የአስተያየትዎ ውሂብ እንዴት እንደሚሰናዳ ይወቁ</a>።"
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "አስተያየት ተጥሏል ።"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "እውነት ከሆነ ፣ በእያንዳንዱ ሐሳብ ዝርዝር ውስጥ ከሚገኙት ጸሃፊዎች ጎን ለጎን ተቀባይነት ያገኙ አስተያየቶችን ቁጥር አሳየው ።"
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "በዚህ ጊዜ ውስጥ ከሂሳቦች ጋር የተያያዙ መረጃዎችን ማግኘት ይቻላል ። አማራጮች ፦ 60 ቀናት ፣ 6 ወራት ፣ ሁሉም"
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "የዚህ ጣቢያ አፒአይ ቁልፍ ተቦድኗል እናም በAPI በኩል ሊለወጥ አይችልም ።"
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "የቀረበው እሴት ልክ እና የተመዘገበ API ቁልፍ አይደለም ፡ ፡"
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "የዚህ ጣቢያ API ቁልፍ ተቆድሯል እናም ሊሰረዝ አይችልም ፡ ፡"
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "ባለ 12 ቁምፊ አኪስሜት API ቁልፍ ። በ akismet.com/get/"
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "እውነት ከሆነ አኪስሜትታ በሰፊ አቃፊ ውስጥ ከማስቀመጥ ይልቅ በራስ ሰር መጥፎውን አይፈለጌ መልእክት ያስወግዳል ።"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "ጣቢያዎ፤ ከአኪስሜት ስብከቶች ጋር ይገናኙ ።"
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "ለዚህ ጣቢያ በ%s ፋይል ውስጥ አኪስሜት API ቁልፍ ተበይኗል ።"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "በዚህ ገጽ ላይ የአኪስሜት የክንውን ቅንብሮችን ማዘመን እና የአይፈለጌ መመልከት ሁናት ይችላሉ ።"
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "ማንዋል ለውጥ"
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "ከAPI ቁልፍ ጋር ይገናኙ"
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "ምንም ዓይነት አስተያየት አይፈለጌንም ።"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "እስታትስቲክስ"
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "አይፈለጌ መልእክት ከ ጣቢያዎ ያስወግዱ"
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "ከ Jetpack ጋር ይገናኙ"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "እንደ%s ተገናኝተዋል ።"
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "አኪስሜትታን ለማቀናበር የጄትፓክ ግንኙነትዎን ይጠቀሙ ።"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "የአኪስሜትታ መለያዎን ያዘጋጁ"
+
+#: class.akismet-admin.php:1157
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "ይህን ለማወቅ የተሰጡ አስተያየቶች አልነበሩም ። አኪስሜት አስተያየቶችን በመጠባበቅ ላይ ብቻ ነው የምትወስደው ።"
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "አኪሜት የ%s አስተያየትን አረጋግጧል።"
+msgstr[1] "አኪሜት %s አስተያየቶችን አረጋግጧል።"
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s አስተያየት እንደ አይፈለጌ መልዕክት ተይዟል።"
+msgstr[1] "%s አስተያየቶች እንደ አይፈለጌ መልዕክት ተደርገዋል።"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "በሚሊዮኖች ጥቅም ላይ የሚውል፣ አኪስሜት ብሎግዎን ከአይፈለጌ መልዕክት ለመጠበቅ</strong><strong>በዓለም ላይ ምርጡ መንገድ ሊሆን ይችላል። እርስዎ በሚተኙበት ጊዜ እንኳን ጣቢያዎን ይጠብቃል። ለመጀመር፣ የእርስዎን API ቁልፍ ለማዘጋጀት ወደ <a href=\"admin.php?page=akismet-key-config\">የእርስዎን የአኪሜት ቅንብሮች ገጽ</a> ይሂዱ።"
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "በሚሊዮኖች ጥቅም ላይ የሚውል፣ </strong>አኪስሜት ብሎግዎን ከአይፈለጌ መልዕክት ለመጠበቅ<strong>በዓለም ላይ ምርጡ መንገድ ሊሆን ይችላል። እርስዎ በሚተኙበት ጊዜም እንኳ ጣቢያዎ ሙሉ በሙሉ የተዋቀረ እና የተጠበቀ ነው።"
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "<a href=\"%s\">በመጠባበቅ ላይ ያሉ አስተያየቶችን ማረጋገጥ</a> ይፈልጋሉ?"
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "አስተያየት አልተገኘም ።"
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "አስተያየት #%d አይፈለጌ አይደለም።"
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "አስተያየት #%d መፈተሽ አልቻሉም ።"
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "አስተያየት #%d አይፈለጌ ነው ።"
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "ከአኪስሜትኔት ጋር መገናኘት አልተቻለም ።"
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "%d አስተያየት ተሰርቷል።"
+msgstr[1] "%d አስተያየቶችን ተሰርቷል።"
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d አስተያየት ወደ አይፈለጌ መልእክት ተወስዷል።"
+msgstr[1] "%d አስተያየቶች ወደ አይፈለጌ መልእክት ተወስደዋል።"
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d አስተያየት ሊረጋገጥ አልቻለም።"
+msgstr[1] "%d አስተያየቶች ሊረጋገጡ አልቻሉም።"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s ያመለጠ አይፈለጌ መልእክት"
+msgstr[1] "%s ያመለጠ አይፈለጌ መልእክት"
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s የውሸት አዎንታዊ"
+msgstr[1] "%s የውሸት አዎንታዊ ውጤቶች"
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "እባክዎ የክፍያ መረጃዎን ያዘምኑ ።"
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "የአኪነት ምዝገባዎ ታግዷል ።"
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "አኪስሜት ያለበት ዕቅድ አለ"
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "የአኪስሜትታ ዕቅድዎ ተሰርዟል ።"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "ክፍያዎን ማስኬድ አንችልም። እባክዎ <a href=\"%s\" target=\"_blank\">የክፍያ ዝርዝሮችዎን ያዘምኑ</a>።"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "አኪስሜት አይፈለጌን ስለሚያጣሩ ይበልጥ አስፈላጊ በሆኑ ነገሮች ላይ ማተኮር ይችላሉ ።"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "አኪስሜት በቀን %s  አድኖሃል!"
+msgstr[1] "አኪሜት %s ቀናትን አድኖሃል!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "አኪሜት %d ሰዓት አድኖሃል!"
+msgstr[1] "አኪስሜት %d ሰዓቶችን አስቀምጦልዎታል!"
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "አኪስሜት %d ደቂቃ አድኖሃል!"
+msgstr[1] "አኪሜት %d ደቂቃዎችን አድኖሃል!"
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>ጨርሷል</strong> - አኪሜትን ያዋቅሩ እና ከአይፈለጌ መልእክት ይሰናበቱ"
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "ያስገባኸው የኤፒአይ ቁልፍ ሊረጋገጥ አልቻለም ።"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "ከ akismet.com ጋር ያለው ግንኙነት ሊመሰረት አልቻለም። እባክህ <a href=\"%s\" target=\"_blank\">የፋየርዎል መመሪያችንን</a> ተመልከት እና የአገልጋይ ውቅረትህን ተመልከት።"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "እባክዎን <a href=\"%s\" target=\"_blank\">የእኛን የድጋፍ ቡድን</a> ከማንኛውም ጥያቄዎች ጋር ያግኙ።"
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "እ.ኤ.አ. በ 2012 አኪስሜት ለሁሉም መለያዎች (ነጻ የሆኑትንም እንኳን) የደንበኝነት ምዝገባ እቅዶችን መጠቀም ጀመረ። ወደ መለያህ እቅድ አልተመደበም እና <a href=\"%s\" target=\"_blank\">ወደ መለያህ ገብተህ</a> እና አንዱን ከመረጥክ እናደንቀዋለን።"
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "ተሰናክሏል ።"
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "ድር አገልጋይዎ የ SSL ጥያቄዎችን ማድረግ አይችልም ፤ የድር አስተናጋጅዎን ያነጋግሩ እና ለ SSL ጥያቄዎች ድጋፍ እንዲያክሉ ይጠይቋቸው ።"
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "በጊዜያዊነት ተሰናክሏል ።"
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "ነቅቷል ።"
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "ሁሉም ሥርዓቶች ይሠራሉ ።"
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "ይህ አስተያየት አይፈለጌ እንዳልሆነ ተዘግቧል ።"
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "አኪስሜት በቀድሞው የ ኤስ ኤል ጥያቄ ላይ ችግር አጋጥሞታል እና ለጊዜው አሰናክሏል ። ለጥያቄዎች በቶሎ መልስ ለማግኘት SSLን መጠቀም ይጀምራል ።"
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "ይህ አስተያየት አይፈለጌ እንደሆነ ተዘግቧል ።"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "እንደገና እየጨመረ ነው ......"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URLሉ ተወግዷል"
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(መልሰው) "
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "አስተያየቶች "
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "አርእስት፤ "
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "ይህን URL አስወግድ"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "በማስወገድ ላይ..."
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "አጭር መግለጫ"
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "ቀድሞውኑ የኤፒአይ ቁልፍ ካለዎ"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "ይህን ቁልፍ አዝራር መጠቀምን ጠቅ ያድርጉ ።"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "ቅንብሮች"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "በአስተያየት ዝርዝር ገጽ ላይ ከእያንዳንዱ አስተያየት ደራሲ ጎን የተሰጡትን አስተያየቶች ቁጥር አሳይ ።"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "መለያ"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "የደንበኝነት ዓይነት"
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "አቋም"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "የምዝገባ ሁኔታ - ንቁ ፣ ተሰርዟል ወይም ታግዷል"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "ለተጨማሪ መረጃ ፥"
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "አይፈለጌን አረጋግጥ"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "የሚጠብቅ ስፓም ቼክ"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "የአስተያየት ታሪክ ይመልከቱ"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "ታሪክ"
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "ያለፉት ስድስት ወራት"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "ሁልጊዜ"
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "ትክክለኛነት"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "ማስታወሻ ፥"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "አሻሽል"
+
+#: views/config.php:314
+msgid "Change"
+msgstr "ለውጥ"
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "የአውታረ መረብ ተግባሮች ተሰናክለዋል ።"
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "ያስገቡት ቁልፍ የተሳሳተ ነው ። እባክዎ ሁለቴ ይፈትሹት ።"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "በእጅ የAPI ቁልፍ አስገባ"
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "ጥብቅነት"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "መጥፎውን አይፈለጌ በራስ ሰር ለማስወገድ ወይም ሁሉም አይፈለጌዎች በሰፊ አቃፊ ውስጥ ሁልጊዜ ለማስቀመጥ ምረጥ ።"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "ለግምገማ ሁልጊዜ አይፈለጌ መልእክት በApple ዓቃፊ ውስጥ ያስቀምጡ ።"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "ተሰርዟል"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "ታገደ"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "የጠፋ"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "ንቁ"
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s የአስተያየት ደረጃን ወደ %2$s ቀይሯል ።"
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "%s በፊት"
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s ይህን አስተያየት አይፈለጌ እንዳልሆነ ዘግቦታል።"
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "የአስተያየት ሁኔታ ወደ %s ተቀይሯል"
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s ይህን አስተያየት እንደ አይፈለጌ ሪፖርት አድርገዋል።"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Api ቁልፍ ለማግኘት በ%s ላይ ለ መለያ ይመዝገቡ ።"
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "ለ%s የምዝገባዎ ታግዷል ።"
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "ለበለጠ መረጃ ፥ %s"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "በ%s እንደ አይፈለጌ ምልክት ተደርጎበታል"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "በ%s አይፈለጌ ወጥተዋል"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "አይፈለጌ"
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> ጣቢያዎን አይፈለጌ መልዕክት አስተያየት <a href=\"%2$s\">%3$s  ጥበቃ አድርጓል</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> ጣቢያዎን አይፈለጌ መልዕክቶች አስተያየት <a href=\"%2$s\">%3$s  ጥበቃ አድርጓል</a>."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "ለ%s ምዝገባዎ ተሰርዟል ።"
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "ለአኪስሜት አዲስ"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "ማታለል እ?"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "አይፈለጌ ማንጻት ጊዜ ይጠይቃል ።"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "ምንም አያስጨንቅም! እንጠፋፋ መፍትሄ እናገኝለታለን ።"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "በአኪስሜት የፀዳ"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "በአኪስሜትቴት ምልክት አይፈለጌ"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "በዚህ ገጽ ላይ አኪስሜት ፕሉጊንን ማዘጋጀት ትችላለህ ።"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "በዚህ ገጽ ላይ ፣ በጣቢያዎ ላይ የተጣሩ የአይፈለጌ አድራጊዎችን መመልከት ይችላሉ ።"
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "ዝም ብለህ አስወግድ በጣም መጥፎና  የማይፈለግ  ፤ ስለዚህ ፈጽሞ አይቼው አላውቅም ።"
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "በጣቢያዎ ላይ የአኪስሜት አገልግሎትን ለማንቃት የAPI ቁልፍ ማስገባት ያስፈልግዎታል ።"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "አይፈለጌ ታገደ"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "አንዳንድ አስተያየቶች በአኪስሜት አይፈለጌን ለማግኘት ገና አልተፈተሹም ። ለጊዜውም ቢሆን በልከኝነት የተያዙ ሲሆን በኋላ ላይ እንደገና ይፈተሻሉ ።"
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "አኪስሜት ችግር አግኝቷል ፡ ፡"
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "አኪስሜት ይህን አስተያየት በራስ ሰር መልሶ መሞከር ወቅት አጣራችው ።"
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "አኪስሜት ይህን አስተያየት አፀዳች ፡ ፡"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "አኪስሜት ይህን አስተያየት እንደ አይፈለጌ ተቀበለው ።"
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "አኪስሜት መዋቅር"
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "አኪስሜት እንደገና ተፈትሾ ይህን አስተያየት አይፈለግም ብሎ ያዘው ።"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "አኪስሜት ኮንፍረንስ"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "አኪስሜት ውጂት"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "አኪስሜት የያዘውን የአይፎም አስተያየት ቁጥር አሳይ"
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "አኪስሜት ይህን አስተያየት በድጋሚ ፈትሸው አጸዱት ።"
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "አኪስሜት ይህን አስተያየት አውቶማቲክ በሆነ የመልሶ ማጥቃት ሙከራ ወቅት እንደ አይፈለጌ መልእክት ያዘ ።"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "አኪስሜት ይህንን አስተያየት (ምላሽ ፥ %s) ዳግም ማጤን አልቻለም ።"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "አኪስሜት"
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "አኪስሜት መረጃዎች"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "አኪስሜት ይህንን አስተያየት መፈተሽ አልቻለም (ምላሽ ፥%s) ነገር ግን በኋላ በራስ ሰር እንደገና ይሞክሩ ።"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "አኪስሜት ድጋፍ"
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "አኪስሜት%s ዎርድፕረስ %s ወይም ከዚያ በላይ ይፈልጋል ።"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "አኪስሜትዝ በተደጋጋሚ የሚጠየቁ ጥያቄዎች"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "የAPI ቁልፍ ያስገቡ/ያስወግዱ ።"
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "የAPI ቁልፍን ቅዳ እና ለጥፍ ወደ ጽሁፍ መስክ ።"
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "የAPI ቁልፍዎ ላይ ችግር አለ ።"
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "የAPI ቁልፍ አስገባ"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "የአኪስሜት ምዝገባ ዕቅድ"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "የአኪስሜት ድጋፍን ያግኙ"
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "የAPI ቁልፍ"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "ይህንን መለያ ያቋሩጡ"
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">አኪስሜት</a> ጣቢያህን ከ%2$s አይፈለጌ አስተያየት ጠብቆታል።"
+msgstr[1] "<a href=\"%1$s\">አኪስሜት</a> ጣቢያህን ከ%2$s አይፈለጌ አስተያየቶች ጠብቆታል።"
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">አኪስሜት</a> አይፈለጌ መልእክት ወደ ብሎግዎ እንዳይደርስ ይከለክላል።"
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "አሁን በእርስዎ አይፈለጌ መልዕክት ወረፋ ውስጥ <a href=\"%2$s\">%1$s አስተያየት</a> አለ።"
+msgstr[1] "አሁን በአንተ አይፈለጌ መልዕክት ወረፋ ውስጥ <a href=\"%2$s\">%1$s አስተያየቶች</a> አሉ።"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "በአሁኑ ጊዜ በእርስዎ <a href='%s'>አይፈለጌ መልዕክት ወረፋ</a> ውስጥ ምንም ነገር የለም።"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s ጸድቋል"
+msgstr[1] "%s ጸድቋል"
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s አይፈለጌ መልዕክት</strong> በ<strong>Akismet</strong> ታግዷል"
+msgstr[1] "<strong class=\"count\">%1$s አይፈለጌ መልዕክት</strong> በ<strong>Akismet</strong> ታግዷል"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "እባኮትን <a href=\"%1$s\">ዎርድፕረስን አሻሽል</a> ወደ የአሁኑ ስሪት ወይም <a href=\"%2$s\">የአኪሜት ተሰኪውን ወደ ስሪት 2.4 አውርዱ</a>።"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "አይፈለጌ መልእክት ታግዷል"
+msgstr[1] "አይፈለጌ መልእክት ታግዷል"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "የእርስዎ ፋየርዎል አኪሜትን ከኤፒአይው ጋር እንዳይገናኝ እየከለከለው ሊሆን ይችላል። እባክዎ አስተናጋጅዎን ያነጋግሩ እና <a href=\"%s\" target=\"_blank\">የፋየርዎል መመሪያችንን</a> ይመልከቱ።"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "የደንበኝነት ምዝገባዎን እንደገና ለማግበር እባክዎ የእርስዎን <a href=\"%s\" target=\"_blank\">አኪስሜት መለያ ገጽ</a> ይጎብኙ።"
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "እባክዎን ለእርዳታ <a href=\"%s\" target=\"_blank\">አኪስሜት ድጋፍን</a> ያግኙ።"
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">የቶክን መጠን ላማዋጧት</a> አይፈለጌ መልዕክትን እንድንዋጋ እና መለያዎን እንድናሻሽል ሊረዱን ይችላሉ።"
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "እባክዎ የእርስዎን <a href=\"%s\">አኪስሜት ውቅር</a> ይፈትሹ እና ችግሮች ከቀጠሉ የድር አስተናጋጅዎን ያግኙ።"
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "የእርስዎ የድር አስተናጋጅ ወይም የአገልጋይ አስተዳዳሪ የPHPን <code>gethostbynamel</code> ተግባርን ። <strong>ይህ እስካልተስተካከለ ድረስ አኪስሜት በትክክል መስራት አይችልም።</strong>እባክዎ የእርስዎን የድር አስተናጋጅ ወይም የፋየርዎል አስተዳዳሪን ያግኙ እና ስለ አኪሜት ስርዓት መረጃ  ስጣቸው<a href=\"%s\" target=\"_blank\">አኪሜት መስፈርቶች</a>"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "አስተያየት ታሪክ"

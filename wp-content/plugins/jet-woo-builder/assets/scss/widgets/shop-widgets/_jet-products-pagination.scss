@@ -1,0 +1,33 @@
+.jet-woo-builder-shop-pagination {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+	.page-numbers {
+		display: block;
+		text-align: center;
+		&.next,
+		&.prev {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	
+	.jet-woo-builder-shop-pagination__arrow {
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: inherit;
+		.rtl & {
+			transform: rotate(180deg);
+		}
+		&:before {
+			display: block;
+		}
+	}
+}

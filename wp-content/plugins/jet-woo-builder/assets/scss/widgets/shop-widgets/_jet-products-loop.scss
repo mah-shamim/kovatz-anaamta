@@ -1,0 +1,39 @@
+.jet-woo-builder-products-loop {
+	.jet-woo-switcher-controls-wrapper {
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: flex-end;
+		gap: 5px;
+
+		.jet-woo-switcher-btn {
+			cursor: pointer;
+			display: inline-flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+
+			&__icon {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				svg {
+					width: 1em;
+					height: 1em;
+				}
+			}
+
+			&.active {
+				pointer-events: none;
+			}
+		}
+	}
+
+	.jet-woo-products-wrapper {
+		&.jet-layout-loading {
+			opacity: .6 !important;
+			pointer-events: none !important;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.jet-cct-loading {
+	opacity: .5;
+}
+
+.jet-cct-defaults {
+	&__field {
+		display: flex;
+		align-items: center;
+		padding: 0 0 3px;
+		label {
+			display: flex;
+			align-items: center;
+			flex: 0 0 40%;
+			input[type="checkbox"] {
+				margin: 0 5px 0 0;
+			}
+		}
+	}
+}

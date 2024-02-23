@@ -1,0 +1,130 @@
+.jet-woo-product-thumbs {
+	position: relative;
+	overflow: hidden;
+	
+	img {
+		transition: all 400ms linear;
+	}
+	
+	&.effect-slide {
+		&-bottom,
+		&-top,
+		&-right,
+		&-left {
+			overflow: hidden;
+			
+			img + img {
+				position: absolute;
+				will-change: transform;
+			}
+		}
+		
+		&-left {
+			img + img {
+				top: 0;
+				right: 100%;
+			}
+		}
+		
+		&-right {
+			img + img {
+				top: 0;
+				left: 100%;
+			}
+		}
+		
+		&-top {
+			img + img {
+				bottom: 100%;
+				right: 0;
+			}
+		}
+		
+		&-bottom {
+			img + img {
+				top: 100%;
+				right: 0;
+			}
+		}
+	}
+	
+	.jet-woo-thumb-with-effect:hover &.effect-slide {
+		&-left {
+			img {
+				transform: translateX(100%);
+			}
+		}
+		
+		&-right {
+			img {
+				transform: translateX(-100%);
+			}
+		}
+		
+		&-top {
+			img {
+				transform: translateY(100%);
+			}
+		}
+		
+		&-bottom {
+			img {
+				transform: translateY(-100%);
+			}
+		}
+	}
+	
+	&.effect-fade {
+		img {
+			position: relative;
+			opacity: 1;
+			+ img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+			}
+		}
+	}
+	
+	.jet-woo-thumb-with-effect:hover &.effect-fade {
+		img {
+			opacity: 0;
+			will-change: opacity;
+			+ img {
+				opacity: 1;
+			}
+		}
+	}
+	
+	&.effect-fade-with-zoom {
+		img {
+			position: relative;
+			opacity: 1;
+			transition: all .6s ease;
+			transform: scale(1.1);
+			will-change: opacity;
+			
+			+ img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				transform: scale(1);
+			}
+		}
+	}
+	
+	.jet-woo-thumb-with-effect:hover &.effect-fade-with-zoom {
+		img {
+			opacity: 0;
+			will-change: opacity;
+			transform: scale(1);
+			
+			+ img {
+				opacity: 1;
+				transform: scale(1.1);
+			}
+		}
+	}
+}

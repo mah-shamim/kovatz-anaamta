@@ -1,0 +1,103 @@
+.elementor-jet-single-tabs.jet-woo-builder {
+	.wc-tabs-wrapper {
+		overflow: hidden;
+	}
+
+	.jet-single-tabs__wrap {
+		.woocommerce-tabs ul.tabs {
+			margin: 0;
+
+			li {
+				overflow: hidden;
+				border-bottom: none;
+				padding: 0;
+
+				a {
+					background-color: transparent;
+					border: none;
+				}
+			}
+		}
+	}
+	
+	.elementor-tabs-controls-left &,
+	.elementor-tabs-controls-center &,
+	.elementor-tabs-controls-right & {
+		> li {
+			display: flex;
+		}
+	}
+	
+	.elementor-tabs-controls-left & {
+		.tabs{
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+	}
+	
+	.elementor-tabs-controls-center & {
+		.tabs{
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	
+	.elementor-tabs-controls-right &{
+		.tabs{
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+	
+	.elementor-tabs-controls-stretch &{
+		.tabs{
+			display: flex;
+			
+			> li{
+				flex: 1 1 auto;
+			}
+		}
+	}
+	
+	.elementor-tabs-view-top & {
+		.woocommerce-tabs ul.tabs{
+			display: flex;
+		}
+		
+		.wc-tab.panel,
+		.woocommerce-tabs ul.tabs {
+			float: none;
+			width: 100%;
+		}
+	}
+	
+	.elementor-tabs-view-left & {
+		.woocommerce-tabs ul.tabs {
+			float: left;
+		}
+		
+		.wc-tab.panel{
+			float: right;
+			width: 100%;
+		}
+	}
+	
+	.elementor-tabs-view-right & {
+		.woocommerce-tabs ul.tabs {
+			float: right;
+		}
+		
+		.wc-tab.panel{
+			float: left;
+			width: 100%;
+		}
+	}
+	
+	.elementor-tabs-view-right &,
+	.elementor-tabs-view-left & {
+		.woocommerce-tabs ul.tabs {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

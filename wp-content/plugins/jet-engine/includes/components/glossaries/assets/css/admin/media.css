@@ -1,0 +1,9 @@
+.jet-engine-media {
+	display: flex;
+	align-items: center;
+	font-style: italic;
+}
+
+.jet-engine-media__name {
+	margin: 0 15px 0 0;
+}

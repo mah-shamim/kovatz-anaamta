@@ -1,0 +1,10 @@
+.elementor-jet-single-meta {
+	.product_meta {
+		display: flex;
+		flex-wrap: wrap;
+
+		> span {
+			display: block;
+		}
+	}
+}

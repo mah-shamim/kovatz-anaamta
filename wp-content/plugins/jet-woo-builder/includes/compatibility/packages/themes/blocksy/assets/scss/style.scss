@@ -1,0 +1,19 @@
+.jet-single-images__wrap {
+	div.woocommerce-product-gallery {
+		overflow: visible;
+	}
+
+	.flex-control-thumbs {
+		margin: 0;
+	}
+
+	.flex-control-nav li {
+		flex: 0 0 auto;
+	}
+}
+
+.jet-woo-builder-elementor-template {
+	form.woocommerce-checkout {
+		display: block;
+	}
+}

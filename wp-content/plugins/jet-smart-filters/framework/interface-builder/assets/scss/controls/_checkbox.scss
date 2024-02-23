@@ -1,0 +1,77 @@
+.cx-checkbox-item-wrap {
+	margin-bottom: 10px;
+}
+
+.cx-checkbox-item{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: $border_radius_extra_small;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	position: relative;
+	background-color: $grey_color_3;
+	user-select: none;
+	transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+	flex-shrink: 0;
+
+	.rtl & {
+		margin: 0 0 0 10px;
+	}
+
+	.marker{
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 0;
+		left: 0;
+		color: #fff;
+		font-size: 20px;
+		transition:inherit;
+		transform: scale(0);
+
+		&:before{
+			transition:inherit;
+			position: relative;
+			left: -1px;
+		}
+	}
+}
+.cx-label-content {
+	display: flex;
+	align-items: center;
+}
+
+.cx-checkbox-input{
+	&[checked]{
+		&+.cx-checkbox-item{
+			background-color: $green_color;
+			.marker{
+				transform: scale(1);
+			}
+		}
+	}
+
+	&:not([checked]) ~ .cx-checkbox-label .cx-checkbox-custom-value {
+		pointer-events: none;
+	}
+}
+.cx-checkbox-label{
+	font-size: 12px;
+	line-height: 20px;
+	color: $dark_color_1;
+	user-select: none;
+	&:focus{
+		outline: 1px solid rgba(41, 143, 252, .6);
+		box-shadow: 0 0 2px rgba(41,143,252,0.6);
+	}
+}
+
+.cx-checkbox-add-button {
+	@include link();
+	@include link_icon_before( '\f132' );
+
+	.cx-check-radio-group--horizontal & {
+		grid-column-start: 1;
+	}
+}

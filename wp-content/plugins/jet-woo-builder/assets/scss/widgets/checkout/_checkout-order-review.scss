@@ -1,0 +1,24 @@
+.woocommerce .elementor-jet-checkout-order-review {
+	#order_review_heading,
+	#order_review {
+		float: none;
+		width: 100%;
+
+		.product-quantity {
+			color: inherit;
+			font-weight: inherit;
+		}
+	}
+
+	#order_review {
+		.shop_table {
+			border: none;
+			border-collapse: collapse;
+			margin: 0;
+
+			#shipping_method li {
+				margin: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"name": "jet-search/search-suggestions",
+	"title": "Search Suggestions",
+	"category": "widgets",
+	"keywords": [
+		"jet search",
+		"search",
+		"suggestions",
+		"search suggestions"
+	],
+	"attributes": {
+		"search_placeholder_text": {
+			"type": "string",
+			"default": "Search ..."
+		},
+		"show_search_suggestions_list_on_focus_preloader" : {
+			"type": "boolean",
+			"default": false
+		},
+		"highlight_searched_text" : {
+			"type": "boolean",
+			"default": false
+		},
+		"search_suggestions_quantity_limit" : {
+			"type": "number",
+			"default": 10
+		},
+		"show_search_submit": {
+			"type": "boolean",
+			"default": true
+		},
+		"search_submit_label": {
+			"type": "string",
+			"default": ""
+		},
+		"selected_search_submit_icon": {
+			"type": "object",
+			"default": {
+				"src": "\u003csvg xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 height=\u002224\u0022 viewBox=\u00220 0 24 24\u0022\u003e\u003cpath d=\u0022M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z\u0022/\u003e\u003c/svg\u003e"
+			}
+		},
+		"show_search_category_list": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_taxonomy": {
+			"type": "string",
+			"default": "category"
+		},
+		"search_category_select_placeholder": {
+			"type": "string",
+			"default": "All Categories"
+		},
+		"show_search_suggestions_list_inline": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_suggestions_list_inline": {
+			"type": "string",
+			"default": "popular"
+		},
+		"search_suggestions_list_inline_quantity": {
+			"type": "number",
+			"default": 10
+		},
+		"search_suggestions_list_inline_manual": {
+			"type": "string",
+			"default": ""
+		},
+		"show_search_suggestions_list_on_focus": {
+			"type": "boolean",
+			"default": false
+		},
+		"search_suggestions_list_on_focus": {
+			"type": "string",
+			"default": "popular"
+		},
+		"search_suggestions_list_on_focus_quantity": {
+			"type": "number",
+			"default": 10
+		},
+		"search_suggestions_list_on_focus_manual": {
+			"type": "string",
+			"default": ""
+		},
+		"is_product_search" : {
+			"type": "boolean",
+			"default": false
+		},
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"editorScript": "jet-search-block",
+	"editorStyle": "jet-search",
+	"style": "jet-search",
+	"script": "jet-search"
+}

@@ -1,0 +1,840 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Croatian
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-15 09:02:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: hr\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:211
+msgid "Please enter a new key or <a href=\"%s\" target=\"_blank\">contact Akismet support</a>."
+msgstr "Unesite novi ključ ili <a href=\"%s\" target=\"_blank\">kontaktirajte podršku za Akismet </a>."
+
+#: views/notice.php:205
+msgid "Your API key is no longer valid."
+msgstr "Vaš API ključ više nije valjan."
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:429
+msgid "Checking for Spam (%1$s%)"
+msgstr "Provjera neželjenih komentara (%1$s%)"
+
+#: class.akismet-admin.php:716
+msgid "No comment history."
+msgstr "Nema povijesti komentara."
+
+#: class.akismet-admin.php:667
+msgid "Akismet was unable to recheck this comment."
+msgstr "Akismet nije mogao ponovo provjeriti ovaj komentar."
+
+#: class.akismet-admin.php:659
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Akismet nije mogao provjeriti ovaj komentar, ali automatski će ponovno pokušati kasnije."
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:628
+msgid "Comment was caught by %s."
+msgstr "Komentar je uhvatio %s."
+
+#: class.akismet.php:724
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "Akismet nije konfiguriran. Unesite ključ API-ja."
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "Unesite API ključ"
+
+#: views/connect-jp.php:92
+msgid "Set up a different account"
+msgstr "Postavi drugi račun"
+
+#: views/setup.php:2
+msgid "Set up your Akismet account to enable spam filtering on this site."
+msgstr "Postavite Akismet račun kako bi uključili filtriranje spama na web-stranici."
+
+#: class.akismet-admin.php:1174
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Akismet nije u mogućnosti provjerit spam komentare."
+
+#: class.akismet-cli.php:166
+msgid "Stats response could not be decoded."
+msgstr "Nije moguće dekodirati status Statistike."
+
+#: class.akismet-cli.php:160
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "Trenutno nije moguće dohvatiti statistiku. Pokušajte ponovno."
+
+#: class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr "API ključ mora biti postavljen kako bi se dohvatila statistika."
+
+#: views/config.php:227
+msgid "Do not display privacy notice."
+msgstr "Ne prikazuj obavijest o privatnosti."
+
+#: views/config.php:219
+msgid "Display a privacy notice under your comment forms."
+msgstr "Prikaži obavijest o privatnosti ispod forme za komentare."
+
+#: views/config.php:213
+msgid "Akismet privacy notice"
+msgstr "Akismet pravila privatnosti"
+
+#: views/config.php:208
+msgid "Privacy"
+msgstr "Privatnost"
+
+#: class.akismet.php:1847
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr "Ova web-stranica koristi Akismet za zaštitu protiv spama. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Saznajte kako se obrađuju podaci komentara</a>."
+
+#: class.akismet.php:357
+msgid "Comment discarded."
+msgstr "Komentar je odbačen."
+
+#: class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "API ključ ove web-stranice je nepromjenjiv (hardcoded) i ne može biti obrisan."
+
+#: class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr "Unos nije valjani registriran API ključ."
+
+#: class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "API ključ ove web-stranice je nepromjenjiv (hardcoded) i ne može biti promijenjen koristeći API."
+
+#: class.akismet-rest-api.php:71 class.akismet-rest-api.php:80
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "Vremenski period za dohvaćanje statistike. Opcije: 60 dana, 6 mjeseci, sve"
+
+#: class.akismet-rest-api.php:56
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "Ako je točno, prikaži broj odobrenih komentara pokraj svakog autora komentara na stranici liste komentara."
+
+#: class.akismet-rest-api.php:51
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "Ako je točno, Akismet će automatski odbaciti najgori spam, bolje nego da ga smješta u spam mapu."
+
+#: class.akismet-rest-api.php:27 class.akismet-rest-api.php:101
+#: class.akismet-rest-api.php:114 class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr "Akismet API ključ sadrži 12 znakova. Dostupan je na akismet.com/get/"
+
+#: views/notice.php:88
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "Vaša web-stranica se ne može spojiti s Akismet poslužiteljima."
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "Akismet API ključ je definiran u %s datoteci za ovu web-stranicu."
+
+#: views/predefined.php:2
+msgid "Manual Configuration"
+msgstr "Manualna konfiguracija"
+
+#: class.akismet-admin.php:247
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "Na ovoj stranici možete ažurirati vaše postavke Akismeta i vidjeti spam statistiku."
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "Spoji s API ključem"
+
+#. translators: %s is the WordPress.com username
+#: views/connect-jp.php:25 views/connect-jp.php:79
+msgid "You are connected as %s."
+msgstr "Spojeni ste kao %s."
+
+#: views/connect-jp.php:10 views/connect-jp.php:18 views/connect-jp.php:38
+#: views/connect-jp.php:72 views/connect-jp.php:91
+msgid "Connect with Jetpack"
+msgstr "Spoji s Jetpackom."
+
+#: views/connect-jp.php:12 views/connect-jp.php:32 views/connect-jp.php:67
+msgid "Use your Jetpack connection to set up Akismet."
+msgstr "Upotrijebite Jetpack konekciju kako bi aktivirali Akismet."
+
+#: views/title.php:2
+msgid "Eliminate spam from your site"
+msgstr "Eliminirajte spam s vaše web-stranice."
+
+#. translators: The placeholder is a URL for checking pending comments.
+#: views/notice.php:188
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr "Želite li <a href=\"%s\">provjeriti komentare na čekanju</a>?"
+
+#: views/notice.php:24 views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr "Postavite svoj Akismet račun"
+
+#: views/config.php:30
+msgid "Statistics"
+msgstr "Statistika"
+
+#: class.akismet-admin.php:1278
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "Korišten od strane milijuna korisnika, Akismet je vjerojatno najbolji način  <strong>zaštite vašeg bloga od spama</strong>. Štiti vašu web-stranicu čak i dok spavate. Kako bi započeli otvorite <a href=\"admin.php?page=akismet-key-config\">konfiguracijski zaslon Akismeta</a> kako bi postavili svoj API ključ."
+
+#: class.akismet-admin.php:1275
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "Korišten od strane milijuna korisnika, Akismet je vjerojatno najbolji način <strong>zaštite vašeg bloga od spama</strong>. Vaša web-stranica je u potpunosti kofigurirana i zaštićena, čak i dok spavate."
+
+#: class.akismet-admin.php:1167
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%s komentar je uhvaćen kao spam."
+msgstr[1] "%s komentara su uhvaćena kao spam."
+msgstr[2] "%s komentara je uhvaćeno kao spam."
+
+#: class.akismet-admin.php:1164
+msgid "No comments were caught as spam."
+msgstr "Nijedan komentar nije uhvaćen kao spam."
+
+#: class.akismet-admin.php:1160
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismet je provjerio %s komentar."
+msgstr[1] "Akismet je provjerio %s komentara."
+msgstr[2] "Akismet je provjerio %s komentara."
+
+#: class.akismet-admin.php:1157
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "Nema komentara za provjeru. Akismet će provjeriti samo komentare koji su na Čekanju."
+
+#: class.akismet.php:730
+msgid "Comment not found."
+msgstr "Komentar nije pronađen."
+
+#: class.akismet-cli.php:88
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%d komentar nije moguće provjeriti."
+msgstr[1] "%d komentara nije moguće provjeriti."
+msgstr[2] "%d komentara nije moguće provjeriti."
+
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%d komentar premješten u Spam."
+msgstr[1] "%d komentara premješteno u Spam."
+msgstr[2] "%d komentara premješteno u Spam."
+
+#: class.akismet-cli.php:84
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "Procesiran %d komentar."
+msgstr[1] "Procesirano %d komentara."
+msgstr[2] "Procesirano %d komentara."
+
+#: class.akismet-cli.php:46
+msgid "Comment #%d could not be checked."
+msgstr "Nije moguće provjeriti komentar #%d."
+
+#: class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr "Neuspjelo spajanje s Akismetom."
+
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "Komentar #%d nije spam."
+
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "Komentar #%d je spam."
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:65
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%s lažni pozitiv"
+msgstr[1] "%s lažna pozitiva"
+msgstr[2] "%s lažnih pozitiva"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:63
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%s propušteni spam"
+msgstr[1] "%s propuštena spama"
+msgstr[2] "%s propuštenih spamova"
+
+#: views/notice.php:154
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "Vi nemate Akismet plan."
+
+#: views/notice.php:121
+msgid "Your Akismet subscription is suspended."
+msgstr "Vaša Akismet pretplata je suspendirana."
+
+#: views/notice.php:110
+msgid "Your Akismet plan has been cancelled."
+msgstr "Vaš Akismet pretplata je otkazana."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:103
+msgid "We cannot process your payment. Please <a href=\"%s\" target=\"_blank\">update your payment details</a>."
+msgstr "Ne možemo procesuirati Vašu uplatu. Molimo <a href=\"%s\" target=\"_blank\"> ažurirate vaše podatke za uplatu</a>."
+
+#: views/notice.php:99
+msgid "Please update your payment information."
+msgstr "Molimo ažurirajte vaše informacija za uplatu."
+
+#: views/notice.php:30
+msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr "<strong>Još malo pa gotovo</strong> - konfigurirajte Akismet i pozdravite se sa spamom."
+
+#: class.akismet-admin.php:1084
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet vam je uštedio %d minutu!"
+msgstr[1] "Akismet vam je uštedio %d minute!"
+msgstr[2] "Akismet vam je uštedio %d minuta!"
+
+#: class.akismet-admin.php:1082
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet vam je uštedio %d sat!"
+msgstr[1] "Akismet vam je uštedio %d sata!"
+msgstr[2] "Akismet vam je uštedio %d sati!"
+
+#: class.akismet-admin.php:1080
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet vam je uštedio %s dan!"
+msgstr[1] "Akismet vam je uštedio %s dana!"
+msgstr[2] "Akismet vam je uštedio %s dana!"
+
+#: class.akismet-admin.php:195 class.akismet-admin.php:233
+#: class.akismet-admin.php:246
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet filtrira spam, kako bi se vi mogli fokusirati na važnije stvari."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:228
+msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
+msgstr "Veza sa akismet.com nije mogla biti uspostavljena. Molimo vas da pogledate <a href=\"%s\" target=\"_blank\">naš vodič o vatrozidovima</a>, a potom provjerite konfiguraciju vašeg servera."
+
+#: views/notice.php:222
+msgid "The API key you entered could not be verified."
+msgstr "API ključ koji ste upisali nije moguće verificirati."
+
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:163
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Molimo <a href=\"%s\" target=\"_blank\">kontaktirajte naš tim za podršku</a> sa bilo kojim pitanjem."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:158
+msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Od 2012. Akismet je počeo koristiti pretplatu za sve račune (čak i besplatne). Izgleda da vašem računu nije pridodana nikakva pretplata, i cijenili bi ako bi ste se <a href=\"%s\" target=\"_blank\">prijavili na vaš račun</a> i odabrali pretplatu."
+
+#: views/config.php:123
+msgid "All systems functional."
+msgstr "Svi sistemi su funkcionalni."
+
+#: views/config.php:122
+msgid "Enabled."
+msgstr "Omogućeno."
+
+#: views/config.php:120
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Akismet je naišao na problem prilikom prethodnog SSL zahtjeva i privremeno ga je onemogućio. Za par trenutaka ponovo će početi sa korištenjem SSL-a za zahtjeve."
+
+#: views/config.php:119
+msgid "Temporarily disabled."
+msgstr "Privremeno onemogućeno."
+
+#: views/config.php:114
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "Vaš web server ne može kreirati SSL zahtjeve; kontaktirajte vaš web hosting i pitajte ih da dodaju podršku za SSL zahtjeve."
+
+#: views/config.php:113
+msgid "Disabled."
+msgstr "Onemogućeo."
+
+#: class.akismet-admin.php:645
+msgid "This comment was reported as not spam."
+msgstr "Ovaj komentar je prijavljen da nije spam."
+
+#: class.akismet-admin.php:637
+msgid "This comment was reported as spam."
+msgstr "Ovaj komentar je prijavljen kao spam."
+
+#. Author URI of the plugin
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#. Plugin URI of the plugin
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "Ručno unesi API ključ"
+
+#: views/connect-jp.php:53
+msgid "Contact Akismet support"
+msgstr "Kontaktiraj Aksimet podršku"
+
+#: views/connect-jp.php:64
+msgid "No worries! Get in touch and we&#8217;ll sort this out."
+msgstr "Bez brige! Kontaktirajte nas i pomoći ćemo riješiti ovo."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:60
+msgid "Your subscription for %s is suspended."
+msgstr "Vaša pretplata za %s je suspendirana."
+
+#. translators: %s is the WordPress.com email address
+#: views/connect-jp.php:45
+msgid "Your subscription for %s is cancelled."
+msgstr "Vaša pretplata za %s je otkazana."
+
+#: views/notice.php:200
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Ključ koji ste unijeli nije ispravan. Molim provjerite još jednom."
+
+#: views/notice.php:143
+msgid "There is a problem with your API key."
+msgstr "Postoji problem s vašim API ključem."
+
+#. translators: the placeholder is a clickable URL to the Akismet account
+#. upgrade page.
+#: views/notice.php:136
+msgid "You can help us fight spam and upgrade your account by <a href=\"%s\" target=\"_blank\">contributing a token amount</a>."
+msgstr "Možete nam pomoći u borbi protiv spama i nadograditi vaš račun s <a href=\"%s\" target=\"_blank\">plaćanjem simboličnog novčanog iznosa</a>."
+
+#. translators: The placeholder is a URL.
+#. translators: The placeholder is a URL to the Akismet contact form.
+#: views/notice.php:125 views/notice.php:147
+msgid "Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for assistance."
+msgstr "Molimo kontaktirajte <a href=\"%s\" target=\"_blank\">Akismet podršku</a> za pomoć."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:114
+msgid "Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> to reactivate your subscription."
+msgstr "Molimo posjetite stranicu <a href=\"%s\" target=\"_blank\">vašeg Akismet računa</a> kako bi reaktivirali vašu pretplatu."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:92
+msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a>."
+msgstr "Moguće je da vaš vatrozid blokira Akismet. Molimo kontaktirajte vaš host i uputite ih na <a href=\"%s\" target=\"_blank\">naš vodič o vatrozidovima</a>.."
+
+#. translators: The placeholder is a URL.
+#: views/notice.php:81
+msgid "Your web host or server administrator has disabled PHP&#8217;s <code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet&#8217;s system requirements</a>."
+msgstr "Vaš web host ili server administrator je onemogućio PHP funkciju <code>gethostbynamel</code>. <strong>Akismet ne može ispravno funkcionirati dok se ovo ne popravi</strong>. Molim kontaktirajte vaš web host ili administratora vatrozida i dajte im <a href=\"%s\" target=\"_blank\">ovu informaciju o sistemskim zahtjevima Akismeta</a>."
+
+#: views/notice.php:77
+msgid "Network functions are disabled."
+msgstr "Mrežne funkcije su onesposobljene."
+
+#. translators: the placeholder is a clickable URL that leads to more
+#. information regarding an error code.
+#: views/notice.php:62
+msgid "For more information: %s"
+msgstr "Za više informacija: %s"
+
+#: views/notice.php:42
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Neki komentare Akismet još nije provjerio za spam. Privremeno su zadržani za moderaciju i kasnije će automatski biti provjereni."
+
+#: views/notice.php:41 views/notice.php:50
+msgid "Akismet has detected a problem."
+msgstr "Akismet je detektirao problem."
+
+#: views/config.php:314
+msgid "Change"
+msgstr "Promijeni"
+
+#: views/config.php:314
+msgid "Upgrade"
+msgstr "Nadogradi"
+
+#: views/config.php:288
+msgid "Active"
+msgstr "Aktivno"
+
+#: views/config.php:284
+msgid "Missing"
+msgstr "Nedostaje"
+
+#: views/config.php:282
+msgid "Suspended"
+msgstr "Suspendirano"
+
+#: views/config.php:280
+msgid "Cancelled"
+msgstr "Otkazano"
+
+#: views/config.php:243
+msgid "Disconnect this account"
+msgstr "Odspoji ovaj račun"
+
+#: views/config.php:182
+msgid "Note:"
+msgstr "Bilješka:"
+
+#: views/config.php:175
+msgid "Always put spam in the Spam folder for review."
+msgstr "Uvijek smjesti spam u spam mapu za provjeru."
+
+#: views/config.php:167
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Potiho ukloni najgori i najupornij spam tako da ga nikad ne vidim."
+
+#: views/config.php:58
+msgid "Accuracy"
+msgstr "Preciznost"
+
+#: views/config.php:53
+msgid "All time"
+msgstr "Svo vrijeme"
+
+#: views/config.php:50 views/config.php:55
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Blokiran spam"
+msgstr[1] ""
+msgstr[2] ""
+
+#: views/config.php:48
+msgid "Past six months"
+msgstr "Prošlih šest mjeseci"
+
+#: class.akismet.php:1605
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Molimo <a href=\"%1$s\">nadogradite WordPress</a> na aktualnu inačicu, ili <a href=\"%2$s\">degradirajte na inačicu 2.4 Akismet dodatka</a>."
+
+#: class.akismet.php:1605
+msgid "Akismet %s requires WordPress %s or higher."
+msgstr "Akismet %s zahtijeva WordPress %s ili noviji."
+
+#: class.akismet-admin.php:652
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet je odobrio ovaj komentar prilikom automatske ponovne provjere."
+
+#: class.akismet-admin.php:649
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet je uhvatio ovaj komentar kao spam tijekom automatske ponovne provjere."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:643
+msgid "%s reported this comment as not spam."
+msgstr "%s prijavio da ovaj komentar nije spam."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:635
+msgid "%s reported this comment as spam."
+msgstr "%s prijavio komentar kao spam."
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:682
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s promijenio status komentara u %2$s."
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:657
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet nije mogao provjeriti ovaj komentar (odgovor: %s), ali će automatski ponovno pokušati kasnije."
+
+#: class.akismet-admin.php:622
+msgid "Akismet cleared this comment."
+msgstr "Akismet je odobrio ovaj komentar."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:676
+msgid "Comment status was changed to %s"
+msgstr "Status komentara je promijenjen u %s"
+
+#: class.akismet-admin.php:616
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet je uhvatio ovaj komentar kao spam."
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:109
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s spam</strong> blokirao <strong>Akismet</strong>"
+msgstr[1] "<strong class=\"count\">%1$s spam</strong> blokirao <strong>Akismet</strong>"
+msgstr[2] "<strong class=\"count\">%1$s spam</strong> blokirao <strong>Akismet</strong>"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "Naslov:"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:91
+msgid "Spam Blocked"
+msgstr "Spam blokiran"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Prikaži broj spam komentara koje je Akismet uhvatio"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "Akismet widget"
+
+#: class.akismet-admin.php:1077
+msgid "Cleaning up spam takes time."
+msgstr "Čišćenje spama zahtijeva vremena."
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:969
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Molim provjerite vašu <a href=\"%s\">Akismet konfiguraciju</a> i kontaktirajte vaš web host ako se problemi nastave."
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:696
+msgid "%s ago"
+msgstr "Prije %s"
+
+#: class.akismet-admin.php:589
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s odobren"
+msgstr[1] "%s odobrena"
+msgstr[2] "%s odobrenih"
+
+#: class.akismet-admin.php:566
+msgid "History"
+msgstr "Povijest"
+
+#: class.akismet-admin.php:566 class.akismet-admin.php:574
+msgid "View comment history"
+msgstr "Pregledaj povijest komentara"
+
+#: class.akismet-admin.php:554
+msgid "Un-spammed by %s"
+msgstr "Od-spamirao %s"
+
+#: class.akismet-admin.php:552
+msgid "Flagged as spam by %s"
+msgstr "Označio kao spam %s"
+
+#: class.akismet-admin.php:548
+msgid "Cleared by Akismet"
+msgstr "Očistio Akismet"
+
+#: class.akismet-admin.php:546
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet je označio kao spam"
+
+#: class.akismet-admin.php:542
+msgid "Awaiting spam check"
+msgstr "Čeka na spam provjeru"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:665
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet nije mogao ponovno provjeriti ovaj komentar (odgovor: %s)."
+
+#: class.akismet-admin.php:619
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Akismet je ponovno provjerio i odobrio ovaj komentar,"
+
+#: class.akismet-admin.php:613
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Akismet je ponovno provjerio i uhvatio ovaj komentar kao spam."
+
+#: class.akismet-admin.php:435
+msgid "Check for Spam"
+msgstr "Provjeri za spam"
+
+#: class.akismet-admin.php:388
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Trenutno nema ničega u <a href='%s'>spam obradi</a>."
+
+#: class.akismet-admin.php:382
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Trenutno se <a href=\"%2$s\">%1$s komentar</a> nalazi u spam obradi."
+msgstr[1] "Trenutno se <a href=\"%2$s\">%1$s komentara</a> nalazi u spam obradi."
+msgstr[2] "Trenutno se <a href=\"%2$s\">%1$s komentara</a> nalazi u spam obradi."
+
+#: class.akismet-admin.php:376
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> blokira pristup spamu vašoj web-stranici. "
+
+#: class.akismet-admin.php:370
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu web-stranicu od %2$s spam komentara."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu web-stranicu od %2$s spam komentara."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu web-stranicu od %2$s spam komentara."
+
+#: class.akismet-admin.php:360
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu web-stranicu od <a href=\"%2$s\">%3$s spam komentara</a>."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu web-stranicu od <a href=\"%2$s\">%3$s spam komentara</a>."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu web-stranicu od <a href=\"%2$s\">%3$s spam komentara</a>."
+
+#: class.akismet-admin.php:358
+msgctxt "comments"
+msgid "Spam"
+msgstr "Spam"
+
+#: class.akismet-admin.php:288
+msgid "Cheatin&#8217; uh?"
+msgstr "Malo varamo, ha?"
+
+#: class.akismet-admin.php:282
+msgid "Akismet Support"
+msgstr "Akismet podrška"
+
+#: class.akismet-admin.php:281
+msgid "Akismet FAQ"
+msgstr "Akismet FAQ"
+
+#: class.akismet-admin.php:280
+msgid "For more information:"
+msgstr "Za više informacija:"
+
+#: class.akismet-admin.php:271
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Status pretplate - aktivan, otkazan ili suspendiran"
+
+#: class.akismet-admin.php:271 views/config.php:276
+msgid "Status"
+msgstr "Status"
+
+#: class.akismet-admin.php:270
+msgid "The Akismet subscription plan"
+msgstr "Plan Aksimet pretplate"
+
+#: class.akismet-admin.php:270
+msgid "Subscription Type"
+msgstr "Vrsta pretplate"
+
+#: class.akismet-admin.php:267 views/config.php:262
+msgid "Account"
+msgstr "Račun"
+
+#: class.akismet-admin.php:259
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Odaberite želite li se automatski riješiti najgoreg spama ili da se spam uvijek smjesti u spam mapu."
+
+#: class.akismet-admin.php:259
+msgid "Strictness"
+msgstr "Kriterij"
+
+#: class.akismet-admin.php:258
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Prikaz broja odobrenih komentara pokraj svakog autora komentara na stranici liste komentara."
+
+#: class.akismet-admin.php:258 views/config.php:133
+msgid "Comments"
+msgstr "Komentari"
+
+#: class.akismet-admin.php:257
+msgid "Enter/remove an API key."
+msgstr "Unos/uklanjanje API ključa."
+
+#: class.akismet-admin.php:257
+msgid "API Key"
+msgstr "API ključ"
+
+#: class.akismet-admin.php:245 class.akismet-admin.php:256
+#: class.akismet-admin.php:269
+msgid "Akismet Configuration"
+msgstr "Konfiguracija Akismeta"
+
+#: class.akismet-admin.php:234
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Na ovoj stranici, možete vidjeti statistiku o filtriranom spamu na vašoj web-stranici."
+
+#: class.akismet-admin.php:232
+msgid "Akismet Stats"
+msgstr "Akismet statistika"
+
+#: class.akismet-admin.php:220
+msgid "Click the Use this Key button."
+msgstr "Kliknite gumb Upotrijebi ovaj ključ."
+
+#: class.akismet-admin.php:219
+msgid "Copy and paste the API key into the text field."
+msgstr "Kopirajte i zalijepite API ključ u tekstualno polje ispod."
+
+#: class.akismet-admin.php:217
+msgid "If you already have an API key"
+msgstr "Ako već imate API ključ"
+
+#: class.akismet-admin.php:214
+msgid "Enter an API Key"
+msgstr "Unesite API ključ"
+
+#: class.akismet-admin.php:207
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "Registrirajte račun na %s kako bi dobili API ključ."
+
+#: class.akismet-admin.php:206
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Trebate unijeti API ključ kako bi aktivirali Akismet servis na vašoj web-stranici."
+
+#: class.akismet-admin.php:203
+msgid "New to Akismet"
+msgstr "Novi u Aksimetu"
+
+#: class.akismet-admin.php:196
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Na ovoj stranici možete podesiti Aksimet dodatak."
+
+#: class.akismet-admin.php:194 class.akismet-admin.php:205
+#: class.akismet-admin.php:216
+msgid "Akismet Setup"
+msgstr "Akismet postavljanje"
+
+#: class.akismet-admin.php:192 class.akismet-admin.php:230
+#: class.akismet-admin.php:243
+msgid "Overview"
+msgstr "Pregled"
+
+#: class.akismet-admin.php:161
+msgid "Re-adding..."
+msgstr "Ponovno dodavanje..."
+
+#: class.akismet-admin.php:160
+msgid "(undo)"
+msgstr "(poništi)"
+
+#: class.akismet-admin.php:159
+msgid "URL removed"
+msgstr "URL uklonjen"
+
+#: class.akismet-admin.php:158
+msgid "Removing..."
+msgstr "Uklanjanje..."
+
+#: class.akismet-admin.php:157
+msgid "Remove this URL"
+msgstr "Ukloni ovaj URL"
+
+#: class.akismet-admin.php:87 class.akismet-admin.php:1293
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:254
+#: class.akismet-admin.php:723 views/config.php:85
+msgid "Settings"
+msgstr "Postavke"
+
+#: class.akismet-admin.php:83
+msgid "Comment History"
+msgstr "Povijest komentara"

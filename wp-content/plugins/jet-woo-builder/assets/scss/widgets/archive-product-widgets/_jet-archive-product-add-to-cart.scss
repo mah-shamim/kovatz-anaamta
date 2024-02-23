@@ -1,0 +1,15 @@
+.jet-woo-builder-archive-add-to-cart {
+	a.wc-forward {
+		display: none!important;
+	}
+
+	form {
+		.quantity, button {
+			float: none !important;
+		}
+
+		input.qty {
+			width: 100% !important;
+		}
+	}
+}

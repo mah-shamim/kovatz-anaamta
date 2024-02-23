@@ -1,0 +1,155 @@
+.woocommerce_options_panel,
+.woocommerce_variation {
+	.cx-control {
+		& + .cx-control {
+			border: none;
+		}
+
+		&__info {
+			flex: 0 1 150px;
+			padding: 0;
+		}
+
+		&__title {
+			margin: 0;
+		}
+
+		&__content {
+			flex: 1 1 auto;
+		}
+
+		.cx-ui-stepper,
+		&-stepper input {
+			max-width: 100%;
+			width: 100%;
+		}
+
+		input,
+		textarea,
+		select,
+		input[type=number] {
+			background-color: #fff;
+			border: 1px solid #8c8f94;
+			border-radius: 4px;
+			box-shadow: 0 0 0 transparent;
+			color: #2c3338;
+			font-size: 14px;
+			line-height: 2;
+			padding: 0 8px;
+		}
+
+		.select2-container--default,
+		.select2-selection--multiple {
+			background-color: #fff;
+			border: 1px solid #aaa;
+		}
+
+		.select2 .selection .select2-selection.select2-selection--single {
+			height: 30px;
+		}
+	}
+}
+
+.woocommerce_options_panel {
+	.jet-engine-meta-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		justify-content: flex-end;
+
+		a.jet-engine-edit-box-link {
+			margin: 10px 10px 0 0;
+			position: static;
+			text-decoration: none;
+		}
+
+		label {
+			float: none;
+			margin: unset;
+			padding: unset;
+			width: auto;
+		}
+
+		input,
+		select,
+		textarea,
+		.select2 {
+			float: none !important;
+			width: 50% !important;
+		}
+
+		.cx-control {
+			margin: 9px 0;
+			padding: 5px 12px;
+			max-width: 100%;
+			flex: 0 0 100%;
+			box-sizing: border-box;
+
+			.cx-ui-select-clear {
+				margin: 0 5px;
+			}
+
+			.wp-picker-input-wrap {
+				.wp-color-picker {
+					float: left !important;
+					width: 80px !important;
+				}
+
+				.wp-picker-clear {
+					width: auto !important;
+				}
+			}
+
+			.iconpicker-container {
+				max-width: 100%;
+			}
+
+			&__title {
+				font-size: 12px;
+				line-height: 2;
+			}
+
+			.cx-ui-iconpicker {
+				padding: 0 0 0 35px;
+			}
+
+			.input-group-addon {
+				background-color: #fff;
+				height: 28px;
+				width: 28px;
+				line-height: 28px;
+				margin: 1px;
+			}
+		}
+	}
+}
+
+.woocommerce_variation {
+	.jet-engine-meta-box-link-wrapper {
+		clear: both;
+		text-align: end;
+
+		.jet-engine-edit-box-link {
+			margin-right: -2px;
+			text-decoration: none;
+		}
+	}
+	
+	.cx-control {
+		margin: 1em 0;
+		padding: 0;
+		clear: both;
+
+		.woocommerce-help-tip {
+			font-size: 1.4em;
+		}
+
+		input,
+		textarea,
+		select,
+		input[type=number] {
+			margin: 2px 0 0;
+			padding: 5px;
+		}
+	}
+}

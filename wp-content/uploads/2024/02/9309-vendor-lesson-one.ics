@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 2.0.5//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:
+X-ORIGINAL-URL:https://anaamta.com/new/
+X-WR-CALDESC:Bookings from
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTEND:20240221T113000
+UID:wc_bookings_9309
+DTSTAMP:20240220T201606
+LOCATION:
+DESCRIPTION:Resource #7909 - Basic\n\nBooking description:\nThis template is set up for multiple stylist to be booked with optional services for 1 hour on a set schedule\, Monday through Friday.
+URL;VALUE=URI:https://anaamta.com/new/my-account/view-order/9310/
+SUMMARY:#9309 - Vendor Lesson One
+DTSTART:20240221T110000
+END:VEVENT
+END:VCALENDAR
