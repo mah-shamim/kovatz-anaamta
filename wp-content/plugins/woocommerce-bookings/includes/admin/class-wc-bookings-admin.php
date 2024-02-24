@@ -733,7 +733,7 @@ class WC_Bookings_Admin {
 					'wrapper_class' => 'show_if_booking',
 					'label'         => __( 'Has Packages', 'woocommerce-bookings' ),
 					'description'   => __( 'Enable this if Instructors has multiple bookable packages, for example Basic, Intermediate, Advanced types.', 'woocommerce-bookings' ),
-					'default'       => 'Yes',
+					'default'       => 'yes', //TODO change Yes to yes
 				),
 			)
 		);
